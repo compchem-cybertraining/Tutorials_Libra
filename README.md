@@ -26,3 +26,25 @@ Working with version v4.8.1
   - [line search using DIIS](Tutorials_4_Optimization/Tutorial2_DIIS.ipynb)
 
 
+5. [Electronic Structure Calculations with Libra](Tutorials_5_Electronic_Structure)
+
+  - [Extended Huckel Theory, EHT](Tutorials_5_Electronic_Structure/1_EHT/Tutorial_1.ipynb)
+
+
+
+_______________________________
+
+## What you want to do:
+
+* [Visualization of .cube files with py3Dmol](Tutorials_5_Electronic_Structure/1_EHT/Tutorial_1.ipynb)
+
+* [Computing molecular orbitals and pDOS with Libra at the EHT level](Tutorials_5_Electronic_Structure/1_EHT/Tutorial_1.ipynb)
+
+
+
+
+
+
+
+
+
