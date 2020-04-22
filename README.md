@@ -31,9 +31,9 @@ Working with version v4.8.1
   - [Extended Huckel Theory, EHT](Tutorials_5_Electronic_Structure/1_EHT/Tutorial_1.ipynb)
 
 
-6. [Trajectory Ensemble Dynamics with Libra](Tutorials_6_Ensemble_Dynamics)
+6. [Dynamics with Libra](Tutorials_6_Dynamics)
 
-  - [NVE Dynamics](Tutorials_6_Ensemble_Dynamics/Tutorial1_NVE_Dynamics.ipynb)
+  - [Dynamics](Tutorials_6_Dynamics/Tutorial1_NVE_Dynamics.ipynb)
 
 
 _______________________________
