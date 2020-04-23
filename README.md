@@ -36,6 +36,14 @@ Working with version v4.8.1
   - [Dynamics](Tutorials_6_Dynamics/Tutorial1_NVE_Dynamics.ipynb)
 
 
+7. [Special Functions](Tutorials_7_Special_functions)
+
+  - [Sorting](Tutorials_7_Special_functions/Tutorial-1-special-functions/Special_functions.ipynb)
+
+  - [Matrix averaging, deviations, covariance](Tutorials_7_Special_functions/Tutorial-1-special-functions/Special_functions.ipynb)
+
+
+
 _______________________________
 
 ## What you want to do:
@@ -47,8 +55,10 @@ _______________________________
 
 
 
+_______________________________
 
 
+## Functions in alphabetical order:
 
 
 
