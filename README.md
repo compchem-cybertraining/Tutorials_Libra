@@ -35,6 +35,7 @@ Working with version v4.8.1
 
  * 6.2. [Quantum-classical, neglect-of-back-reaction trajectory workflows](6_dynamics/2_nbra_workflows)
     * 6.2.1. [step 1 with DFTB+](6_dynamics/2_nbra_workflows/1_step1_dftb)
+    * 6.2.2. [step 1 with QE](6_dynamics/2_nbra_workflows/1_step1_qe)
 
  * 6.3. [Hierarchical equations of motion, HEOM](6_dynamics/3_heom)
 
