@@ -33,7 +33,15 @@ Working with version v4.8.1
 
 6. [Dynamics with Libra](Tutorials_6_Dynamics)
 
-  - [Dynamics](Tutorials_6_Dynamics/Tutorial1_NVE_Dynamics.ipynb)
+  - [Quantum-classical Dynamics](Tutorials_6_Dynamics/1_Trajectory_based)
+
+  - [DVR, on the grid wavepackets](Tutorials_6_Dynamics/2_Wavepacket)
+
+  - [Hierarchical Equations of Motion](Tutorials_6_Dynamics/3_HEOM)
+
+  - [NBRA workflows](Tutorials_6_Dynamics/4_nbra_workflows/README.md)
+
+  - [Fermi Golden Rule](Tutorials_6_Dynamics/5_FGR)
 
 
 7. [Special Functions](Tutorials_7_Special_functions)

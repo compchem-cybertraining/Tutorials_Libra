@@ -1,0 +1,11 @@
+.ipynb_checkpoints
+*.txt
+*.tag
+*.bin
+*.out
+*.xyz
+
+dftb_pin.hsd
+md.gen
+step0.gen
+steps0-1.gen
