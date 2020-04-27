@@ -30,42 +30,47 @@ Working with version v4.8.1
 
     5.1. [Extended Huckel Theory, EHT](5_electronic_structure/1_eht)
 
-        5.1.1. [Compact version](5_electronic_structure/1_eht/1_compact)
+       5.1.1. [Compact version](5_electronic_structure/1_eht/1_compact)
 
-        5.1.2. [Detailed version](5_electronic_structure/1_eht/2_detailed)
+       5.1.2. [Detailed version](5_electronic_structure/1_eht/2_detailed)
 
     5.2. [Incomplete Neglect of Differential Overlap, INDO](5_electronic_structure/2_indo)
 
-        5.2.1. [Compact version](5_electronic_structure/2_indo/1_compact)
+       5.2.1. [Compact version](5_electronic_structure/2_indo/1_compact)
 
 
 6. Dynamics with Libra
 
     6.1. [Quantum-classical, trajectory methods](6_dynamics/1_trajectory_based)
 
-        6.1.1. [Model, adiabatic MD](6_dynamics/1_trajectory_based/1_model_adiabatic)
+       6.1.1. [Model, adiabatic MD](6_dynamics/1_trajectory_based/1_model_adiabatic)
+       
+         6.1.1.1. [NVE ensemble](6_dynamics/1_trajectory_based/1_model_adiabatic/1_nve)
 
-            6.1.1.1. [NVE ensemble](6_dynamics/1_trajectory_based/1_model_adiabatic/1_nve)
-
-            6.1.1.2. [NVT ensemble](6_dynamics/1_trajectory_based/1_model_adiabatic/1_nvt)
+         6.1.1.2. [NVT ensemble](6_dynamics/1_trajectory_based/1_model_adiabatic/1_nvt)
 
 
-        6.1.2. [Model, common approach to adiabatic, Ehrenfest, and TSH](6_dynamics/1_trajectory_based/2_model_adiabatic)
+       6.1.2. [Model, common approach to adiabatic, Ehrenfest, and TSH](6_dynamics/1_trajectory_based/2_model_adiabatic)
 
-        6.1.3. [Model, Ehrenfest recipes](6_dynamics/1_trajectory_based/3_model_ehrenfest_recipes)
+       6.1.3. [Model, Ehrenfest recipes](6_dynamics/1_trajectory_based/3_model_ehrenfest_recipes)
+
 
     6.2. [Quantum-classical, neglect-of-back-reaction trajectory workflows](6_dynamics/2_nbra_workflows)
 
-        6.2.1. [step 1 with DFTB+](6_dynamics/2_nbra_workflows/1_step1_dftb)
+       6.2.1. [step 1 with DFTB+](6_dynamics/2_nbra_workflows/1_step1_dftb)
+
 
     6.3. [Hierarchical equations of motion, HEOM](6_dynamics/3_heom)
 
+
     6.4. [DVR, on-the-grid wavepackets](6_dynamics/4_wavepackets)
+
 
     6.5. [Fermi Golden Rule rates, FGR](6_dynamics/5_fgr)
 
 
 7. Special Functions
+
     7.1. [Sorting, matrix statistics](7_special_functions/1_sorting_matrix_statistics)
 
 
