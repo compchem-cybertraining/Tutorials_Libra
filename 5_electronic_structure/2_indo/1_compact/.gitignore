@@ -1,0 +1,5 @@
+.ipynb_checkpoints
+_res_*
+out
+*.bin
+energy.txt
