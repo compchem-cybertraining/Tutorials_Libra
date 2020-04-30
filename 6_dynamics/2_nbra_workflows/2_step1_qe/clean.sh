@@ -1,0 +1,9 @@
+rm -r x0.o*
+rm -r x0.w*
+rm -r sl*
+rm -r x0.md
+rm -r x0.msd*
+rm -r x0.save
+rm -r x0.r*
+rm -r x0.u*
+rm -r CR*
