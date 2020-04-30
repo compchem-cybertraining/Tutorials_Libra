@@ -2,21 +2,21 @@
 
 **Required files**
 
-* 'x0.md.out'
+* `x0.md.out`
 
 
 **Generated files**
 
-* 'x0.scf.in'
+* `x0.scf.in`
 
-* 'x0.exp.in'
+* `x0.exp.in`
 
-* 'submit_templ.slm'
+* `submit_templ.slm`
 
 
 **Generated Folders**
 
-* 'res'
+* `res`
 
-* 'wd'
+* `wd`
 
