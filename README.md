@@ -3,6 +3,7 @@ Tutorials showcasing various capabilities of Libra
 
 Working with version v4.8.1
 
+## TOC
 
 1. Rigid body
  * 1.1. [Construct & describe properties of rigid bodies](1_rigid_body/1_setup)
@@ -52,24 +53,88 @@ Working with version v4.8.1
 
 _______________________________
 
-## What you want to do:
+## Use cases
 
-1. Visualization of .cube files with py3Dmol:
-    * [Example 1](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
-    * [Example 2](5_electronic_structure/2_indo/1_compact/tutorial.ipynb)
+1. Create a chemical system
+  * [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+  
+2. EHT calculations with Libra
+  * [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
 
-2. Computing molecular orbitals and pDOS with Libra:
-    * [Example 1](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
-    * [Example 2](5_electronic_structure/2_indo/1_compact/tutorial.ipynb)
+3. INDO calculations with Libra
+  * [5.2.1.](5_electronic_structure/2_indo/1_compact/tutorial.ipynb)
 
-3. Visualize MD trajectory with py3Dmol:
-    * [Example 1](6_dynamics/2_nbra_workflows/1_step1_dftb/turorial.ipynb)
+4. Compute .cube files from orbitals computed with Libra
+  * [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+  * [5.2.1.](5_electronic_structure/2_indo/1_compact/tutorial.ipynb)
+
+5. Visualize the MOs from .cube files
+  * [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+  * [5.2.1.](5_electronic_structure/2_eht/1_compact/tutorial.ipynb)
+
+6. Compute pDOS from built-in electronic structure calculations in Libra
+  * [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+
+7. Plot pDOS computed with Libra
+  * [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+
+8. Visualize MD trajectory with py3Dmol:
+  * [6.2.1.](6_dynamics/2_nbra_workflows/1_step1_dftb/tutorial.ipynb)
 
 
 _______________________________
 
 
-## Functions in alphabetical order:
+## Functions
+
+- `liblibra::libqm_tools`
+  - `charge_density` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+  - `compute_dos` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
 
 
+- `libra_py`
+  - `LoadMolecule`
+    - `Load_Molecule` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+   
+   
+  - `LoadPT`
+    - `Load_PT` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+    
+  - `pdos`
+    - `libra_pdos` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+
+
+
+_______________________________
+
+
+## Classes and class members
+
+- `liblibra::libcontrol_parameters::Control_Parameters` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+
+
+- `liblibra::libchemobjects`
+  - `libchemsys::System`
+    - `Number_of_atoms` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+    - `get_xyz` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+        
+    
+  - `libuniverse::Universe` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+
+
+- `liblibra::libhamiltonian::libhamiltonian_atomistic::libhamiltonian_qm`
+  - `listHamiltonian_QM`
+    - `compute_scf` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+    - `get_electronic_structure` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+    - `basis_ao` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+    - `atom_to_ao_map` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+
+
+  - `Electronic_Structure`
+    - `Nelec` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+    - `Norb` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+    - `get_bands_alp` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+    - `get_bands_bet` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+    - `get_occ_alp` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+    - `get_occ_bet` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
 
