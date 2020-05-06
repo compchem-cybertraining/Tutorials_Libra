@@ -81,13 +81,13 @@ _______________________________
 8. Visualize MD trajectory with py3Dmol:
   * [6.2.1.](6_dynamics/2_nbra_workflows/1_step1_dftb/tutorial.ipynb)
 
-9. Use Quantum Espresso to compute vibronic Hamiltonian using a Quantum Espresso MD trajectory:
+9. Constructing the vibronic Hamiltonian from the QE MD calculations:
   * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
 
-10. Extract the properties of the vibronic Hamiltonian:
+10. Reading the vibronic Hamiltonian data files to obtain its properties:
   * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
 
-11. Compute statistics of the vibronic Hamiltonian data:
+11. Compute the time-averaged nonadiabatic couplings of the vibronic Hamiltonian:
   * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
 _______________________________
 
