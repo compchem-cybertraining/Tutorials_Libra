@@ -81,7 +81,14 @@ _______________________________
 8. Visualize MD trajectory with py3Dmol:
   * [6.2.1.](6_dynamics/2_nbra_workflows/1_step1_dftb/tutorial.ipynb)
 
+9. Use Quantum Espresso to compute vibronic Hamiltonian using a Quantum Espresso MD trajectory:
+  * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
 
+10. Extract the properties of the vibronic Hamiltonian:
+  * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
+
+11. Compute statistics of the vibronic Hamiltonian data:
+  * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
 _______________________________
 
 
@@ -96,15 +103,28 @@ _______________________________
   - `LoadMolecule`
     - `Load_Molecule` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
    
-   
   - `LoadPT`
     - `Load_PT` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
     
   - `pdos`
     - `libra_pdos` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
 
+  - `workflows`
+    - `nbra`
+      - `step2`
+        - `run` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
+        
+  - `QE_methods`
+    - [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
 
+  - `hpc_utils`
+    - [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
 
+  - `data_read`
+    - [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
+
+  - `data_stat`
+    - [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
 _______________________________
 
 
