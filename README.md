@@ -81,7 +81,14 @@ _______________________________
 8. Visualize MD trajectory with py3Dmol:
   * [6.2.1.](6_dynamics/2_nbra_workflows/1_step1_dftb/tutorial.ipynb)
 
+9. Constructing the vibronic Hamiltonian from the QE MD calculations:
+  * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
 
+10. Reading the vibronic Hamiltonian data files to obtain its properties:
+  * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
+
+11. Compute the time-averaged nonadiabatic couplings of the vibronic Hamiltonian:
+  * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
 _______________________________
 
 
@@ -96,15 +103,28 @@ _______________________________
   - `LoadMolecule`
     - `Load_Molecule` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
    
-   
   - `LoadPT`
     - `Load_PT` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
     
   - `pdos`
     - `libra_pdos` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
 
+  - `workflows`
+    - `nbra`
+      - `step2`
+        - `run` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
+        
+  - `QE_methods`
+    - [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
 
+  - `hpc_utils`
+    - [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
 
+  - `data_read`
+    - [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
+
+  - `data_stat`
+    - [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
 _______________________________
 
 
