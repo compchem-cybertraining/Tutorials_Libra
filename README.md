@@ -40,7 +40,7 @@ Working with version v4.8.1
     * 6.2.2. [step 1 with QE](6_dynamics/2_nbra_workflows/2_step1_qe)
     * 6.2.3. [step 2 with QE](6_dynamics/2_nbra_workflows/3_step2_qe)
     * 6.2.4. [step 3](6_dynamics/2_nbra_workflows/4_step3)  
-      * 6.2.1.4.1 [build_SD_basis](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis)    
+      * 6.2.4.1 [build_SD_basis](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis)    
 
  * 6.3. [Hierarchical equations of motion, HEOM](6_dynamics/3_heom)
 
