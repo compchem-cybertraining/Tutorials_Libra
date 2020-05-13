@@ -39,13 +39,14 @@ Working with version v4.8.1
     * 6.2.1. [step 1 with DFTB+](6_dynamics/2_nbra_workflows/1_step1_dftb)
     * 6.2.2. [step 1 with QE](6_dynamics/2_nbra_workflows/2_step1_qe)
     * 6.2.3. [step 2 with QE](6_dynamics/2_nbra_workflows/3_step2_qe)
+    * 6.2.4. [step 3](6_dynamics/2_nbra_workflows/4_step3)  
+      * 6.2.4.1 [build_SD_basis](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis)    
 
  * 6.3. [Hierarchical equations of motion, HEOM](6_dynamics/3_heom)
 
  * 6.4. [DVR, on-the-grid wavepackets](6_dynamics/4_wavepackets)
 
  * 6.5. [Fermi Golden Rule rates, FGR](6_dynamics/5_fgr)
-
 
 7. Special Functions
  * 7.1. [Sorting, matrix statistics](7_special_functions/1_sorting_matrix_statistics)
@@ -86,9 +87,22 @@ _______________________________
 
 10. Reading the vibronic Hamiltonian data files to obtain its properties:
   * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
+  * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step2_qe/tutorial.ipynb)
 
 11. Compute the time-averaged nonadiabatic couplings of the vibronic Hamiltonian:
   * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
+  * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/build_SD_basis/tutorial.ipynb)
+
+12. Manually construct a Slater Determinant basis:
+  * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/build_SD_basis/tutorial.ipynb)
+
+13. Using Libra to auto-generate a Slater Determinant basis:
+  * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/build_SD_basis/tutorial.ipynb)
+
+14. Compute the energies and nonadiabatic couplings in the SD basis:
+  * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/build_SD_basis/tutorial.ipynb)
+
+
 _______________________________
 
 
@@ -113,7 +127,10 @@ _______________________________
     - `nbra`
       - `step2`
         - `run` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
-        
+      - `step3`
+        - `build_SD_basis` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/build_SD_basis/tutorial.ipynb)
+        - `run` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/build_SD_basis/tutorial.ipynb)       
+
   - `QE_methods`
     - `out2inp` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
 
