@@ -102,7 +102,11 @@ _______________________________
 14. Compute the energies and nonadiabatic couplings in the SD basis:
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/build_SD_basis/tutorial.ipynb)
 
-
+15. Calculate population and coherence dynamics of a quantum system embedded in a bath
+   * [6.3.1.](6_dynamics/1_dynamics_and_lineshapes/3_heom/tutorial.ipynb)
+   
+16. Calculate absorbance spectral lineshapes of a quantum system embedded in a bath
+   * [6.3.1.](6_dynamics/3_heom/1_dynamics_and_lineshapes/tutorial.ipynb)
 _______________________________
 
 
@@ -142,6 +146,15 @@ _______________________________
 
   - `data_stat`
     - `cmat_stat2` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
+    
+  - `dynamics`
+    - `heom`
+      - `compute` 
+        - `run_dynamics`[6.3.1.](6_dynamics/3_heom/1_dynamics_and_lineshapes/tutorial.ipynb)
+        
+  - `ft`
+    - `ft2`[6.3.1.](6_dynamics/3_heom/1_dynamics_and_lineshapes/tutorial.ipynb)
+        
 _______________________________
 
 
