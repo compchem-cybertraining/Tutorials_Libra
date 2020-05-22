@@ -43,6 +43,7 @@ Working with version v4.8.1
       * 6.2.4.1 [build_SD_basis](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis)    
 
  * 6.3. [Hierarchical equations of motion, HEOM](6_dynamics/3_heom)
+    * 6.3.1. [Computing population dynamics and lineshapes](6_dynamics/3_heom/1_dynamics_and_lineshapes)
 
  * 6.4. [DVR, on-the-grid wavepackets](6_dynamics/4_wavepackets)
     * 6.4.1. [Gaussian wavepackets](6_dynamics/4_wavepackets/1_gaussian)
