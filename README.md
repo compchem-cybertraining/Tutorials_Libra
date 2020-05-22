@@ -45,11 +45,14 @@ Working with version v4.8.1
  * 6.3. [Hierarchical equations of motion, HEOM](6_dynamics/3_heom)
 
  * 6.4. [DVR, on-the-grid wavepackets](6_dynamics/4_wavepackets)
+    * 6.4.1. [Gaussian wavepackets](6_dynamics/4_wavepackets/1_gaussian)
+      * 6.4.1.1. [Computing matrix elements](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements)
 
  * 6.5. [Fermi Golden Rule rates, FGR](6_dynamics/5_fgr)
 
 7. Special Functions
  * 7.1. [Sorting, matrix statistics](7_special_functions/1_sorting_matrix_statistics)
+
 
 
 _______________________________
@@ -103,14 +106,29 @@ _______________________________
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/build_SD_basis/tutorial.ipynb)
 
 15. Calculate population and coherence dynamics of a quantum system embedded in a bath
-   * [6.3.1.](6_dynamics/1_dynamics_and_lineshapes/3_heom/tutorial.ipynb)
+  * [6.3.1.](6_dynamics/1_dynamics_and_lineshapes/3_heom/tutorial.ipynb)
    
 16. Calculate absorbance spectral lineshapes of a quantum system embedded in a bath
-   * [6.3.1.](6_dynamics/3_heom/1_dynamics_and_lineshapes/tutorial.ipynb)
+  * [6.3.1.](6_dynamics/3_heom/1_dynamics_and_lineshapes/tutorial.ipynb)
+
+17. Constructing and plotting Heller's wavepackets
+  * [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
+
+18. Computing matrix elements of various operators with Heller's wavepackets
+  * [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
+
 _______________________________
 
 
 ## Functions
+
+- `liblibra::libdyn::libgwp`
+  - `gwp_coupling` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
+  - `gwp_dipole` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
+  - `gwp_kinetic` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
+  - `gwp_overlap` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
+  - `gwp_value` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
+
 
 - `liblibra::libqm_tools`
   - `charge_density` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
@@ -118,6 +136,9 @@ _______________________________
 
 
 - `libra_py`
+  - `data_visualize`
+   - `plot_map` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
+
   - `LoadMolecule`
     - `Load_Molecule` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
    
