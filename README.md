@@ -11,14 +11,14 @@ Working with version v4.8.1
 2. Integrators
  * 2.1. [Runge-Kutta 4-th order](2_integrators/1_runge_kutta_4th_order)
 
-3. Linear Algebra
+3. Linear algebra
  * 3.1. [operations with VECTOR, MATRIX, and CMATRIX data types](3_linear_algebra/1_vector_matrix_cmatrix_basics)
 
 4. Optimization
  * 4.1. [Gradient descent optimizer](4_optimization/1_gradient_descent)
  * 4.2. [line search using DIIS](4_optimization/2_diis)
 
-5. Electronic Structure Calculations in Libra
+5. Electronic structure calculations in Libra
  * 5.1. [Extended Huckel Theory, EHT](5_electronic_structure/1_eht)
     * 5.1.1. [Compact version](5_electronic_structure/1_eht/1_compact)
     * 5.1.2. [Detailed version](5_electronic_structure/1_eht/2_detailed)
@@ -51,10 +51,11 @@ Working with version v4.8.1
 
  * 6.5. [Fermi Golden Rule rates, FGR](6_dynamics/5_fgr)
 
-7. Special Functions
+7. Special functions
  * 7.1. [Sorting, matrix statistics](7_special_functions/1_sorting_matrix_statistics)
 
-
+8. Model Hamiltonians
+ * 8.1. [Define and plotting](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
 
 _______________________________
 
@@ -118,6 +119,24 @@ _______________________________
 18. Computing matrix elements of various operators with Heller's wavepackets
   * [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
 
+19. Define diabatic abstract model Hamiltonian 
+  * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
+
+20. Define adiabatic abstract model Hamiltonian
+  * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
+
+21. Define adiabatic file-based model Hamiltonian
+  * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
+
+22. Plotting 1D PES 
+  * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
+
+23. Plotting diabatic-to-adiabatic transformaitons vs. coordinate in 1D
+  * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
+
+24. Plotting 1D PES vs. time
+  * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
+
 _______________________________
 
 
@@ -139,6 +158,10 @@ _______________________________
 - `libra_py`
   - `data_visualize`
    - `plot_map` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
+
+  - `dynamics_plotting`
+   - `plot_pes_properties` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
+   - `plot_surfaces` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
 
   - `LoadMolecule`
     - `Load_Molecule` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
@@ -209,4 +232,13 @@ _______________________________
     - `get_bands_bet` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
     - `get_occ_alp` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
     - `get_occ_bet` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+
+
+- `libra_py`
+  - `data_savers`
+   - `hdf5_saver`
+     - `set_compression_level` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
+     - `add_dataset` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
+     - `save_matrix` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
+     - `hdf5_saver` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
 
