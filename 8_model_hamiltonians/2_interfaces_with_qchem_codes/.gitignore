@@ -1,0 +1,10 @@
+.ipynb_checkpoints
+*.out
+*.bin
+*.txt
+dftb_in.hsd
+dftb_pin.hsd
+EXC.DAT
+timer.dat
+tmp.*
+halorg-0-1
