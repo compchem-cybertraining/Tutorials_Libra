@@ -1,0 +1,51 @@
+#
+Geometry = GenFormat {
+   <<< "input_name,gen"
+}
+
+Driver = {}	       			
+
+Hamiltonian = DFTB {
+
+  SCC = Yes
+  SCCTolerance = 1e-8
+  SlaterKosterFiles = Type2FileNames {
+    Prefix = "halorg-0-1/"
+    Separator = "-"
+    Suffix = ".skf"
+  }
+  MaxAngularMomentum = {
+    H = "s"
+    F = "p"
+    C = "p"
+    O = "p"
+  }
+  Dispersion = LennardJones {
+    Parameters = UFFParameters {}
+ }
+  Filling = Fermi {
+    Temperature [K] = 0.00
+  }
+}
+
+ExcitedState {
+  Casida {
+    NrOfExcitations    = 5
+    StateOfInterest    = some_state_index_here
+    Symmetry           = singlet
+    EnergyWindow [eV]  = 20.0
+    ExcitedStateForces = yes
+  }
+}
+
+Options = {
+}
+
+Analysis = {
+  CalculateForces = yes
+}
+
+ParserOptions = {
+  ParserVersion = 4
+}
+

@@ -1,0 +1,12 @@
+.ipynb_checkpoints
+halorg-0-1
+hfco-ex1
+out
+*.out
+*.bin
+dftb_in.hsd
+dftb_pin.hsd
+*.DAT
+*.dat
+*.gen
+*.xyz
