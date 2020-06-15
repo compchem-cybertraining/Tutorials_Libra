@@ -219,10 +219,10 @@ _______________________________
         - `build_SD_basis` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/build_SD_basis/tutorial.ipynb)
         - `run` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/build_SD_basis/tutorial.ipynb)
       - `step4`
-        - [`get_Hvib2`] [6.2.3.](/6_dynamics/2_nbra_workflows/5_step4/initialize_data/tutorial.ipynb)
+        - [`get_Hvib2`] [6.2.3.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
       - `decoherence_times`
-        - [`decoherence_times_ave`] [6.2.3.](/6_dynamics/2_nbra_workflows/5_step4/initialize_data/tutorial.ipynb)
-        - [`energy_gaps_ave`] [6.2.3.](/6_dynamics/2_nbra_workflows/5_step4/initialize_data/tutorial.ipynb)
+        - [`decoherence_times_ave`] [6.2.3.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
+        - [`energy_gaps_ave`] [6.2.3.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
 
 
   - `data_conv`
