@@ -42,6 +42,8 @@ Working with version v4.8.1
     * 6.2.3. [step 2 with QE](6_dynamics/2_nbra_workflows/3_step2_qe)
     * 6.2.4. [step 3](6_dynamics/2_nbra_workflows/4_step3)
       * 6.2.4.1 [build_SD_basis](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis)
+    * 6.2.5. [step 4](6_dynamics/2_nbra_workflows/5_step4)
+      * 6.2.5.1 [Initialze_data](6_dynamics/2_nbra_workflows/5_step4/1_initialze_data)
 
  * 6.3. [Hierarchical equations of motion, HEOM](6_dynamics/3_heom)
     * 6.3.1. [Computing population dynamics and lineshapes](6_dynamics/3_heom/1_dynamics_and_lineshapes)
@@ -170,6 +172,12 @@ _______________________________
 33. Generate XYZ trajectory from HDF5 files
  * [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
 
+34. Comuting trajectory averaged decoherence times
+  * [6.2.5.1](6_dynamics/2_nbra_workflows/5_step4/initialize_data)
+
+35. Generate trajectory averaged energy gaps
+  * [6.2.5.1](6_dynamics/2_nbra_workflows/5_step4/initialize_data)
+
 _______________________________
 
 
@@ -210,6 +218,12 @@ _______________________________
       - `step3`
         - `build_SD_basis` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/build_SD_basis/tutorial.ipynb)
         - `run` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/build_SD_basis/tutorial.ipynb)
+      - `step4`
+        - [`get_Hvib2`] [6.2.3.](/6_dynamics/2_nbra_workflows/5_step4/initialize_data/tutorial.ipynb)
+      - `decoherence_times`
+        - [`decoherence_times_ave`] [6.2.3.](/6_dynamics/2_nbra_workflows/5_step4/initialize_data/tutorial.ipynb)
+        - [`energy_gaps_ave`] [6.2.3.](/6_dynamics/2_nbra_workflows/5_step4/initialize_data/tutorial.ipynb)
+
 
   - `data_conv`
     - `make_list` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
