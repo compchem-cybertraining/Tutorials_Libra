@@ -54,6 +54,7 @@ Working with version v4.8.1
 
 7. Special functions
  * 7.1. [Sorting, matrix statistics](7_special_functions/1_sorting_matrix_statistics)
+ * 7.2. [Fitting distributions to a superposition of Gaussians](7_special_functions/2_gaussian_kernel_algorithm)
 
 8. Model Hamiltonians
  * 8.1. [Define model Hamiltonians and plot PES](8_model_hamiltonians/1_pes_plotting)
@@ -91,24 +92,24 @@ _______________________________
   * [6.2.1.](6_dynamics/2_nbra_workflows/1_step1_dftb/tutorial.ipynb)
   * [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
 
-9. Constructing the vibronic Hamiltonian from the QE MD calculations:
+9. Construct the vibronic Hamiltonian from the QE MD calculations
   * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
 
-10. Reading the vibronic Hamiltonian data files to obtain its properties:
+10. Read the vibronic Hamiltonian data files to obtain its properties
   * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step2_qe/tutorial.ipynb)
 
-11. Compute the time-averaged nonadiabatic couplings of the vibronic Hamiltonian:
+11. Compute the time-averaged nonadiabatic couplings of the vibronic Hamiltonian
   * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/build_SD_basis/tutorial.ipynb)
 
-12. Manually construct a Slater Determinant basis:
+12. Manually construct a Slater Determinant basis
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/build_SD_basis/tutorial.ipynb)
 
-13. Using Libra to auto-generate a Slater Determinant basis:
+13. Auto-generate a Slater Determinant basis
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/build_SD_basis/tutorial.ipynb)
 
-14. Compute the energies and nonadiabatic couplings in the SD basis:
+14. Compute the energies and nonadiabatic couplings in the SD basis
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/build_SD_basis/tutorial.ipynb)
 
 15. Calculate population and coherence dynamics of a quantum system embedded in a bath
@@ -117,10 +118,10 @@ _______________________________
 16. Calculate absorbance spectral lineshapes of a quantum system embedded in a bath
   * [6.3.1.](6_dynamics/3_heom/1_dynamics_and_lineshapes/tutorial.ipynb)
 
-17. Constructing and plotting Heller's wavepackets
+17. Construct and plot the Heller's wavepackets
   * [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
 
-18. Computing matrix elements of various operators with Heller's wavepackets
+18. Compute the matrix elements of various operators with Heller's wavepackets
   * [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
 
 19. Define diabatic abstract model Hamiltonian 
@@ -132,14 +133,14 @@ _______________________________
 21. Define adiabatic file-based model Hamiltonian
   * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
 
-22. Plotting 1D PES 
+22. Plot 1D PES 
   * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
   * [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
 
-23. Plotting diabatic-to-adiabatic transformaitons vs. coordinate in 1D
+23. Plot diabatic-to-adiabatic transformaitons vs. coordinate in 1D
   * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
 
-24. Plotting 1D PES vs. time
+24. Plot 1D PES vs. time
   * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
 
 25. Define Libra/Psi4 intraface Hamiltonian 
@@ -149,26 +150,29 @@ _______________________________
   * [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
   * [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
 
-27. Plotting LiH EOM-CCSD/sto-3G PES
+27. Plot the PES of LiH at the EOM-CCSD/sto-3G level computed via interface of Libra with Psi4
   * [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
 
-28. Plotting HFCO TD-DFTB mapped 1D PES
+28. Plot the 1D PES of HFCO at the TD-DFTB level compute with interface of Libra with DFTB+
   * [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
 
 29. Generate XYZ trajectory from a list of matrices
   * [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
 
-30. Ground state adiabatic MD 
+30. Perform a ground state adiabatic MD with Libra
   * [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
 
-31. Excited state adiabatic MD 
+31. Perform an excited state adiabatic MD with Libra
   * [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
 
-32. MD with DFTB+
+32. Compute MD with DFTB+ via Libra
   * [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
 
 33. Generate XYZ trajectory from HDF5 files
  * [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
+
+34. Fit the probability density of randomly distributed point with Gaussian density kernel functions
+ * [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
 
 _______________________________
 
@@ -225,6 +229,7 @@ _______________________________
     - `cmat_stat2` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
 
   - `data_visualize`
+   - `colors` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
    - `plot_map` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
 
   - `DFTB_methods`
@@ -239,6 +244,12 @@ _______________________________
 
   - `ft`
     - `ft2`[6.3.1.](6_dynamics/3_heom/1_dynamics_and_lineshapes/tutorial.ipynb)
+
+  - `gaussian_kernel_algorithm`
+    - `compute_apriory_prob_densities_1D` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
+    - `compute_widths_1D` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
+    - `gaussian_density_estimator_1D` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
+    - `gaussian_kernel_algorithm_iteration_1D` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
 
   - `hpc_utils`
     - `distribute` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
@@ -296,6 +307,10 @@ _______________________________
     - `get_occ_alp` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
     - `get_occ_bet` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
 
+
+- `liblibra::librandom`
+  - `Random`
+    - `normal` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
 
 - `libra_py`
   - `data_savers`
