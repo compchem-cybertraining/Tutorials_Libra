@@ -42,6 +42,8 @@ Tutorials showcasing various capabilities of Libra
       * 6.2.4.1 [build_SD_basis](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis)
     * 6.2.5. [step 4](6_dynamics/2_nbra_workflows/5_step4)
       * 6.2.5.1 [Initialze_data](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data)
+    * 6.2.6. [step 4](6_dynamics/2_nbra_workflows/5_step4)
+      * 6.2.6.1 [Dynamics](6_dynamics/2_nbra_workflows/5_step4/2_dynamics)
 
  * 6.3. [Hierarchical equations of motion, HEOM](6_dynamics/3_heom)
     * 6.3.1. [Computing population dynamics and lineshapes](6_dynamics/3_heom/1_dynamics_and_lineshapes)
@@ -183,6 +185,10 @@ _______________________________
 37. Fit the probability density of randomly distributed point with Gaussian density kernel functions
  * [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
 
+38. Compute nonadiabatic dynamics in the Ks basis
+  * [6.2.5.1.](6_dynamics/2_nbra_workflows/5_step4/2_dynamics/tutorial.ipynb)
+
+
 _______________________________
 
 
@@ -288,6 +294,7 @@ _______________________________
         - `run` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
       - `step4`
         - `get_Hvib2` [6.2.3.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
+        - `run` [6.2.5.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
 
 
 _______________________________
