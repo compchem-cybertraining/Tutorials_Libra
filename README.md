@@ -33,6 +33,7 @@ Tutorials showcasing various capabilities of Libra
     * 6.1.2. [Model, common approach to adiabatic, Ehrenfest, and TSH](6_dynamics/1_trajectory_based/2_model_adiabatic)
     * 6.1.3. [Model, Ehrenfest recipes](6_dynamics/1_trajectory_based/3_model_ehrenfest_recipes)
     * 6.1.5. [Atomistic, adiabatic dynamics, ground/excited](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states)
+    * 6.1.6. [NBRA and non-NBRA with model Hamiltonians](6_dynamics/1_trajectory_based/6_model_nbra)
 
  * 6.2. [Quantum-classical, neglect-of-back-reaction trajectory workflows](6_dynamics/2_nbra_workflows)
     * 6.2.1. [step 1 with DFTB+](6_dynamics/2_nbra_workflows/1_step1_dftb)
@@ -98,6 +99,7 @@ _______________________________
 10. Read the vibronic Hamiltonian data files to obtain its properties
   * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step2_qe/tutorial.ipynb)
+  * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
 
 11. Compute the time-averaged nonadiabatic couplings of the vibronic Hamiltonian
   * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
@@ -132,16 +134,19 @@ _______________________________
 
 21. Define adiabatic file-based model Hamiltonian
   * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
+  * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
 
 22. Plot 1D PES 
   * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
   * [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
+  * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
 
 23. Plot diabatic-to-adiabatic transformaitons vs. coordinate in 1D
   * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
 
 24. Plot 1D PES vs. time
   * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
+  * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
 
 25. Define Libra/Psi4 intraface Hamiltonian 
   * [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
@@ -161,9 +166,11 @@ _______________________________
 
 30. Perform a ground state adiabatic MD with Libra
   * [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
+  * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
 
 31. Perform an excited state adiabatic MD with Libra
   * [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
+  * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
 
 32. Compute MD with DFTB+ via Libra
   * [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
@@ -182,6 +189,12 @@ _______________________________
 
 37. Fit the probability density of randomly distributed point with Gaussian density kernel functions
  * [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
+
+38. Read the HDF5 files to setup Hamiltonians
+  * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
+
+39. Read the HDF5 files to plot results of dynamical calculations
+  * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
 
 _______________________________
 
@@ -207,12 +220,23 @@ _______________________________
         - `run_dynamics` [6.3.1.](6_dynamics/3_heom/1_dynamics_and_lineshapes/tutorial.ipynb)
     - `tsh`
       - `compute`
-        - `init_electronic_dyn_var` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
+        - `generic_recipe` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
+        - `init_electronic_dyn_var` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) |
+            [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
         - `init_nuclear_dyn_var` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
         - `run_dynamics` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
       - `plot`
+        - `add_basis_transform` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
+        - `add_coordinates_vs_t` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
+        - `add_energies` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
+        - `add_momentum_vs_t` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
+        - `add_phase_space` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
+        - `add_populations` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
+        - `add_time_overlap_projectors` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
+        - `add_trajectory_resolved_ham_property` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
         - `hdf2xyz` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
         - `plot_dyn` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
+        - `plot_dynamics` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
       - `recipes`
         - `adiabatic_md_interfaces_params` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
 
