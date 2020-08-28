@@ -33,7 +33,8 @@ Tutorials showcasing various capabilities of Libra
     * 6.1.2. [Model, common approach to adiabatic, Ehrenfest, and TSH](6_dynamics/1_trajectory_based/2_model_adiabatic)
     * 6.1.3. [Model, Ehrenfest recipes](6_dynamics/1_trajectory_based/3_model_ehrenfest_recipes)
     * 6.1.5. [Atomistic, adiabatic dynamics, ground/excited](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states)
-    * 6.1.6. [NBRA and non-NBRA with model Hamiltonians](6_dynamics/1_trajectory_based/6_model_nbra)
+    * 6.1.6. [Model, NBRA and non-NBRA](6_dynamics/1_trajectory_based/6_model_nbra)
+    * 6.1.7. [Model, TSH with thermostat, quantum-vs-classical partitioning of DOFs, and constrining](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath)
 
  * 6.2. [Quantum-classical, neglect-of-back-reaction trajectory workflows](6_dynamics/2_nbra_workflows)
     * 6.2.1. [step 1 with DFTB+](6_dynamics/2_nbra_workflows/1_step1_dftb)
@@ -102,6 +103,7 @@ _______________________________
   * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
   * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
+  * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
 
 11. Compute the time-averaged nonadiabatic couplings of the vibronic Hamiltonian
   * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
@@ -130,6 +132,7 @@ _______________________________
 
 19. Define diabatic abstract model Hamiltonian 
   * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
+  * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
 
 20. Define adiabatic abstract model Hamiltonian
   * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
@@ -142,6 +145,7 @@ _______________________________
   * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
   * [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
   * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
+  * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
 
 23. Plot diabatic-to-adiabatic transformaitons vs. coordinate in 1D
   * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
@@ -149,6 +153,7 @@ _______________________________
 24. Plot 1D PES vs. time
   * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
   * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
+  * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
 
 25. Define Libra/Psi4 intraface Hamiltonian 
   * [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
@@ -197,9 +202,26 @@ _______________________________
 
 39. Read the HDF5 files to plot results of dynamical calculations
   * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
+  * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
 
 40. Compute nonadiabatic dynamics for atomistic systems with NBRA using Kohn-Sham states
   * [6.2.5.1.](6_dynamics/2_nbra_workflows/5_step4/2_dynamics/tutorial.ipynb)
+
+41. Plot the PES profiles with multidimensional model Hamiltonians
+  * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
+
+42. MD and NAMD in the NVT ensemble
+  * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
+
+43. Partitioning quantum and classical DOFs
+  * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
+
+44. Coupling classical DOFs to thermostat
+  * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
+
+45. Constraining DOFs in dynamics
+  * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
+
 
 _______________________________
 
@@ -225,10 +247,12 @@ _______________________________
         - `run_dynamics` [6.3.1.](6_dynamics/3_heom/1_dynamics_and_lineshapes/tutorial.ipynb)
     - `tsh`
       - `compute`
-        - `generic_recipe` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
-        - `init_electronic_dyn_var` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) |
-            [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
-        - `init_nuclear_dyn_var` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
+        - `generic_recipe` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb) | 
+            [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
+        - `init_electronic_dyn_var` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) 
+        - `init_nuclear_dyn_var` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) |
+            [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb) |
+            [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
         - `run_dynamics` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
       - `plot`
         - `add_basis_transform` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
@@ -241,9 +265,30 @@ _______________________________
         - `add_trajectory_resolved_ham_property` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
         - `hdf2xyz` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
         - `plot_dyn` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
-        - `plot_dynamics` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
+        - `plot_dynamics` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb) |
+            [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
       - `recipes`
         - `adiabatic_md_interfaces_params` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
+
+  - `models`
+    - `Holstein`
+      - `Holstein2` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
+    - `Tully`
+      - `chain_potential` [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
+
+  - `workflows`
+    - `nbra`
+      - `decoherence_times`
+        - `energy_gaps_ave` [6.2.3.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
+        - `decoherence_times_ave` [6.2.3.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
+      - `step2`
+        - `run` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
+      - `step3`
+        - `build_SD_basis` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
+        - `run` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
+      - `step4`
+        - `get_Hvib2` [6.2.3.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
+        - `run` [6.2.5.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
 
   - `data_conv`
     - `make_list` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
@@ -272,7 +317,9 @@ _______________________________
 
   - `dynamics_plotting`
     - `plot_pes_properties` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb) | [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
-    - `plot_surfaces` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
+    - `plot_surfaces` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb) | 
+            [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb) |
+            [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
 
   - `ft`
     - `ft2`[6.3.1.](6_dynamics/3_heom/1_dynamics_and_lineshapes/tutorial.ipynb)
@@ -304,20 +351,6 @@ _______________________________
   - `scan`
     - `coords2xyz` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
     - `make_path_xyz2` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
-
-  - `workflows`
-    - `nbra`
-      - `decoherence_times`
-        - `energy_gaps_ave` [6.2.3.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
-        - `decoherence_times_ave` [6.2.3.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
-      - `step2`
-        - `run` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
-      - `step3`
-        - `build_SD_basis` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
-        - `run` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
-      - `step4`
-        - `get_Hvib2` [6.2.3.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
-        - `run` [6.2.5.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
 
 
 _______________________________
