@@ -14,6 +14,7 @@ Tutorials showcasing various capabilities of Libra
 
 3. Linear algebra
  * 3.1. [operations with VECTOR, MATRIX, and CMATRIX data types](3_linear_algebra/1_vector_matrix_cmatrix_basics)
+ * 3.2. [matrix functions, inversion, linear equations](3_linear_algebra/2_matrix_functions)
 
 4. Optimization
  * 4.1. [Gradient descent optimizer](4_optimization/1_gradient_descent)
