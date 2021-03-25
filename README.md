@@ -57,6 +57,7 @@ Tutorials showcasing various capabilities of Libra
  * 6.4. [DVR, on-the-grid wavepackets](6_dynamics/4_wavepackets)
     * 6.4.1. [Gaussian wavepackets](6_dynamics/4_wavepackets/1_gaussian)
       * 6.4.1.1. [Computing matrix elements](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements)
+    * 6.4.2. [DVR basics](6_dynamics/4_wavepackets/2_dvr_basics)
 
  * 6.5. [Fermi Golden Rule rates, FGR](6_dynamics/5_fgr)
 
@@ -226,6 +227,11 @@ _______________________________
 45. Constraining DOFs in dynamics
   * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
 
+46. Numerically exact TD-SE
+  * [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+
+47. DVR calculations
+  * [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
 
 _______________________________
 
@@ -356,6 +362,9 @@ _______________________________
     - `coords2xyz` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
     - `make_path_xyz2` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
 
+- `liblibra::libdyn::libwfcgrid`
+  - `compute_mapping` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+  - `compute_imapping`[6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
 
 _______________________________
 
@@ -403,3 +412,41 @@ _______________________________
       - `save_matrix` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
       - `hdf5_saver` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
 
+- `liblibra::libdyn::libwfcgrid2`
+  - `Wfcgrid2` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `nstates` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `ndof` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `Npts` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `npts` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `rmin` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `rmax` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `dr` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `kmin` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `dk` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `gmap` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `imap` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `PSI_dia` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `reciPSI_dia` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `PSI_adi` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `reciPSI_adi` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `Hdia` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `U` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `add_wfc_Gau` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `add_wfc_HO` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `add_wfc_ARB` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `norm` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `e_kin` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `e_pot` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `e_tot` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `get_pow_q` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `get_pow_p` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `get_den_mat` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `get_pops` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `update_propagator_H` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `update_propagator_K` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `SOFT_propagate` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `update_reciprocal` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `normalize` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `update_Hamiltonian` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `update_adiabatic` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    
