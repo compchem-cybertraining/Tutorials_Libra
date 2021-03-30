@@ -58,6 +58,7 @@ Tutorials showcasing various capabilities of Libra
     * 6.4.1. [Gaussian wavepackets](6_dynamics/4_wavepackets/1_gaussian)
       * 6.4.1.1. [Computing matrix elements](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements)
     * 6.4.2. [DVR basics](6_dynamics/4_wavepackets/2_dvr_basics)
+    * 6.4.3. [SOFT dynamics in 1D and 2D](6_dynamics/4_wavepackets/3_soft_propagation)
 
  * 6.5. [Fermi Golden Rule rates, FGR](6_dynamics/5_fgr)
 
@@ -229,9 +230,14 @@ _______________________________
 
 46. Numerically exact TD-SE
   * [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+  * [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
 
 47. DVR calculations
   * [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+  * [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+
+48. Making animated gifs
+  * [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
 
 _______________________________
 
@@ -282,7 +288,11 @@ _______________________________
 
   - `models`
     - `Holstein`
-      - `Holstein2` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
+      - `Holstein2` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb) | 
+            [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+    - `Martens` 
+      - `model1` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+      - `model2` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
     - `Tully`
       - `chain_potential` [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
 
@@ -309,13 +319,14 @@ _______________________________
 
   - `data_read`
     - `get_data_sets` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
+    - `read_2D_grid` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
 
   - `data_stat`
     - `cmat_stat2` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
 
   - `data_visualize`
     - `colors` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
-    - `plot_map` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
+    - `plot_map` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb) | [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
     - `plot_map_nparray` [6.2.5.1](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data)
     - `plot_MATRIX2nparray` [6.2.5.1](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data)
 
@@ -329,7 +340,8 @@ _______________________________
     - `plot_pes_properties` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb) | [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
     - `plot_surfaces` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb) | 
             [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb) |
-            [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
+            [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb) | 
+            [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
 
   - `ft`
     - `ft2`[6.3.1.](6_dynamics/3_heom/1_dynamics_and_lineshapes/tutorial.ipynb)
@@ -441,12 +453,19 @@ _______________________________
     - `get_pow_q` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
     - `get_pow_p` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
     - `get_den_mat` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `get_pops` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `get_pops` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb) | [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
     - `update_propagator_H` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
     - `update_propagator_K` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
     - `SOFT_propagate` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `update_real` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
     - `update_reciprocal` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
     - `normalize` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
     - `update_Hamiltonian` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
     - `update_adiabatic` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `update_diabatic` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+    - `print_wfc_1D` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+    - `print_reci_wfc_1D` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+    - `print_wfc_2D` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+    - `print_reci_wfc_2D` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+
     
