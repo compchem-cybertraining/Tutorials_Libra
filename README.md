@@ -10,7 +10,8 @@ Tutorials showcasing various capabilities of Libra
  * 1.1. [Construct & describe properties of rigid bodies](1_rigid_body/1_setup)
 
 2. Integrators
- * 2.1. [Runge-Kutta 4-th order](2_integrators/1_runge_kutta_4th_order)
+ * 2.1. [Runge-Kutta 4-th order for Classical Mechanics](2_integrators/1_runge_kutta_4th_order)
+ * 2.2. [Runge-Kutta 4-th order for Quantum Mechanics](2_integrators/2_runge_kutta_4_for_Liouville)
 
 3. Linear algebra
  * 3.1. [operations with VECTOR, MATRIX, and CMATRIX data types](3_linear_algebra/1_vector_matrix_cmatrix_basics)
@@ -248,6 +249,9 @@ _______________________________
 48. Making animated gifs
   * [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
 
+49. Integrating quantum Liouville's equation of motion
+  * [2.2.](2_integrators/2_runge_kutta_4_for_Liouville/tutorial.ipynb)
+
 _______________________________
 
 
@@ -386,6 +390,9 @@ _______________________________
 - `liblibra::libdyn::libwfcgrid`
   - `compute_mapping` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
   - `compute_imapping`[6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+
+- `liblibra::libintegrators`
+  - `RK4` [2.1.](2_integrators/1_runge_kutta_4th_order/tutorial.ipynb) | [2.2.](2_integrators/2_runge_kutta_4_for_Liouville/tutorial.ipynb)
 
 _______________________________
 
