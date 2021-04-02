@@ -57,8 +57,9 @@ Tutorials showcasing various capabilities of Libra
  * 6.4. [DVR, on-the-grid wavepackets](6_dynamics/4_wavepackets)
     * 6.4.1. [Gaussian wavepackets](6_dynamics/4_wavepackets/1_gaussian)
       * 6.4.1.1. [Computing matrix elements](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements)
-    * 6.4.2. [DVR basics](6_dynamics/4_wavepackets/2_dvr_basics)
+    * 6.4.2. [DVR basics](6_dynamics/4_wavepackets/2_dvr_basics) 
     * 6.4.3. [SOFT dynamics in 1D and 2D](6_dynamics/4_wavepackets/3_soft_propagation)
+    * 6.4.4. [More examples of DVR and dynamics](6_dynamics/4_wavepackets/4_more)
 
  * 6.5. [Fermi Golden Rule rates, FGR](6_dynamics/5_fgr)
 
@@ -231,10 +232,18 @@ _______________________________
 46. Numerically exact TD-SE
   * [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
   * [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+  * [6.4.4.](6_dynamics/4_wavepackets/4_more/Tutorial1.ipynb)
+  * [6.4.4.](6_dynamics/4_wavepackets/4_more/Tutorial2.ipynb)
+  * [6.4.4.](6_dynamics/4_wavepackets/4_more/Tutorial3.ipynb)
+  * [6.4.4.](6_dynamics/4_wavepackets/4_more/Tutorial4.ipynb)
 
 47. DVR calculations
   * [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
   * [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+  * [6.4.4.](6_dynamics/4_wavepackets/4_more/Tutorial1.ipynb)
+  * [6.4.4.](6_dynamics/4_wavepackets/4_more/Tutorial2.ipynb)
+  * [6.4.4.](6_dynamics/4_wavepackets/4_more/Tutorial3.ipynb)
+  * [6.4.4.](6_dynamics/4_wavepackets/4_more/Tutorial4.ipynb)
 
 48. Making animated gifs
   * [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
