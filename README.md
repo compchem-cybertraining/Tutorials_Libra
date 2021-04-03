@@ -411,6 +411,32 @@ _______________________________
   - `libuniverse::Universe` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
 
 
+- `liblibra::libdata`
+  - `DATA` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `Data` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `ave` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `var` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `sd` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `se` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `mse` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `mae` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `rmse` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `min_val` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `min_indx` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `max_val` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `max_indx` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `scale_factor` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `shift_amount` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `LinearTransformData` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `invLinearTransformData` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `ScaleData` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `ShiftData` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `NormalizeData` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `Calculate_Estimators` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `Calculate_MiniMax` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `Calculate_Distribution` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+
+
 - `liblibra::libhamiltonian::libhamiltonian_atomistic::libhamiltonian_qm`
   - `listHamiltonian_QM`
     - `compute_scf` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
@@ -430,7 +456,8 @@ _______________________________
 
 - `liblibra::librandom`
   - `Random`
-    - `normal` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
+    - `normal` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb) | [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `uniform` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
 
 - `libra_py`
   - `data_savers`
