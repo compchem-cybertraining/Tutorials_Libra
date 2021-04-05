@@ -257,13 +257,22 @@ _______________________________
 
 ## Functions
 
-- `liblibra::libdyn::libgwp`
-  - `gwp_coupling` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
-  - `gwp_dipole` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
-  - `gwp_kinetic` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
-  - `gwp_overlap` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
-  - `gwp_value` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
+- `liblibra::libdyn`
+  - `libgwp`
+    - `gwp_coupling` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
+    - `gwp_dipole` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
+    - `gwp_kinetic` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
+    - `gwp_overlap` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
+    - `gwp_value` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb)
+  - `libwfcgrid`
+    - `compute_imapping`[6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+    - `compute_mapping` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
 
+- `liblibra::liblinalg`
+  - `pop_submatrix` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+
+- `liblibra::libspecialfunctions`
+  - `randperm` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
 
 - `liblibra::libqm_tools`
   - `charge_density` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
@@ -387,10 +396,6 @@ _______________________________
     - `coords2xyz` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
     - `make_path_xyz2` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
 
-- `liblibra::libdyn::libwfcgrid`
-  - `compute_mapping` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-  - `compute_imapping`[6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-
 - `liblibra::libintegrators`
   - `RK4` [2.1.](2_integrators/1_runge_kutta_4th_order/tutorial.ipynb) | [2.2.](2_integrators/2_runge_kutta_4_for_Liouville/tutorial.ipynb)
 
@@ -398,6 +403,22 @@ _______________________________
 
 
 ## Classes and class members
+
+
+- `liblibra::libann`
+  - `NeuralNetwork` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `Nlayers` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `Npe` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `W` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `dW` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `B` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `dB` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `propagate` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `back_propagate` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `init_weights_biases_uniform` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `init_weights_biases_normal` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `train` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+
 
 - `liblibra::libcontrol_parameters::Control_Parameters` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
 
@@ -456,7 +477,8 @@ _______________________________
 
 - `liblibra::librandom`
   - `Random`
-    - `normal` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb) | [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `normal` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb) | [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb) |
+        [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
     - `uniform` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
 
 - `libra_py`
