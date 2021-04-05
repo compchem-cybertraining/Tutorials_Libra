@@ -73,7 +73,7 @@ Tutorials showcasing various capabilities of Libra
  * 8.2. [Define atomistic Hamiltonians and plot PES](8_model_hamiltonians/2_interfaces_with_qchem_codes)
 
 9. Machine learning
- * 9.1. [Basics of the artificial neural networks, Multilayer Perceptron](9_machine_learning/1_basics_of_mpl)
+ * 9.1. [Basics of the artificial neural networks, Multilayer Perceptron](9_machine_learning/1_basics_of_mlp)
 
 _______________________________
 
@@ -256,10 +256,10 @@ _______________________________
   * [2.2.](2_integrators/2_runge_kutta_4_for_Liouville/tutorial.ipynb)
 
 50. Machine learning with MLP
-  * [9.1.](9_machine_learning/1_basics_of_mpl/tutorial.ipynb)
+  * [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
 
 51. Artificial neural networks (ANN) and error Back Propagation algorithm 
-  * [9.1.](9_machine_learning/1_basics_of_mpl/tutorial.ipynb)
+  * [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
 
 _______________________________
 
