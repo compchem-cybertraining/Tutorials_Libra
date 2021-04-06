@@ -73,7 +73,8 @@ Tutorials showcasing various capabilities of Libra
  * 8.2. [Define atomistic Hamiltonians and plot PES](8_model_hamiltonians/2_interfaces_with_qchem_codes)
 
 9. Machine learning
- * 9.1. [Basics of the artificial neural networks, Multilayer Perceptron](9_machine_learning/1_basics_of_mlp)
+ * 9.1. [Basics of the artificial neural networks (ANNs), Multilayer Perceptron (MLP)](9_machine_learning/1_basics_of_mlp)
+ * 9.2. [Analytical derivatives of the ANNs](9_machine_learning/2_ann_derivatives)
 
 _______________________________
 
@@ -257,9 +258,13 @@ _______________________________
 
 50. Machine learning with MLP
   * [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+  * [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
 
 51. Artificial neural networks (ANN) and error Back Propagation algorithm 
   * [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+
+52. Derivatives of ANNs
+  * [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
 
 _______________________________
 
@@ -344,9 +349,11 @@ _______________________________
   - `data_conv`
     - `make_list` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
     - `matrix2list` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
+    - `MATRIX2nparray` [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
 
   - `data_outs`
-    - `print_matrix` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
+    - `print_matrix` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) |
+        [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
 
   - `data_read`
     - `get_data_sets` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
@@ -357,7 +364,9 @@ _______________________________
 
   - `data_visualize`
     - `colors` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
-    - `plot_map` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb) | [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+    - `plot_map` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb) | 
+      [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb) |
+      [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
     - `plot_map_nparray` [6.2.5.1](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data)
     - `plot_MATRIX2nparray` [6.2.5.1](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data)
 
@@ -415,18 +424,19 @@ _______________________________
 
 
 - `liblibra::libann`
-  - `NeuralNetwork` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+  - `NeuralNetwork` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb) | [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
     - `Nlayers` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
     - `Npe` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
     - `W` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
     - `dW` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
     - `B` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
     - `dB` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
-    - `propagate` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `propagate` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb) | [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
+    - `derivatives` [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
     - `back_propagate` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
-    - `init_weights_biases_uniform` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `init_weights_biases_uniform` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb) | [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
     - `init_weights_biases_normal` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
-    - `train` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `train` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb) | [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
 
 
 - `liblibra::libcontrol_parameters::Control_Parameters` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
