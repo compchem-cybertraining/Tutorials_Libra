@@ -76,6 +76,9 @@ Tutorials showcasing various capabilities of Libra
  * 9.1. [Basics of the artificial neural networks (ANNs), Multilayer Perceptron (MLP)](9_machine_learning/1_basics_of_mlp)
  * 9.2. [Analytical derivatives of the ANNs](9_machine_learning/2_ann_derivatives)
 
+10. Auxiliary functions and data types
+ * 10.1.[Util functions and vectorized Libra types](10_auxiliary_functions/1_util_functions)
+
 _______________________________
 
 ## Use cases
@@ -266,10 +269,31 @@ _______________________________
 52. Derivatives of ANNs
   * [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
 
+53. Convert Libra and Python data types
+  * [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+
+54. Manipulate vectors (lists of data)
+  * [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+
+55. Setup default values of Python dictionary
+  * [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+
+
+
 _______________________________
 
 
 ## Functions
+
+- `liblibra::libconverters`
+  - `Py2Cpp_int` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `Py2Cpp_double` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `Py2Cpp_complex` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `Py2Cpp_string` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `Py2Cpp_VECTOR` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `Py2Cpp_MATRIX` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `Py2Cpp_CMATRIX` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `Cpp2Py` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
 
 - `liblibra::libdyn`
   - `libgwp`
@@ -417,6 +441,20 @@ _______________________________
 - `liblibra::libintegrators`
   - `RK4` [2.1.](2_integrators/1_runge_kutta_4th_order/tutorial.ipynb) | [2.2.](2_integrators/2_runge_kutta_4_for_Liouville/tutorial.ipynb)
 
+- `liblibra::libutil`
+  - `allocate_1D` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `allocate_2D` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `allocate_3D` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `show_vector` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `is_in_vector` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `is_repeating` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `delta` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `split_line` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `is_equal` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `is_included` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `is_present` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `check_input` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+
 _______________________________
 
 
@@ -442,12 +480,22 @@ _______________________________
 - `liblibra::libcontrol_parameters::Control_Parameters` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
 
 
+- `liblibra::libconverters`
+  - `StringList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `StringMap` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `StringDoubleMap` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `StringIntMap` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `StringVDoubleMap` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  
+
 - `liblibra::libchemobjects`
   - `libchemsys::System`
     - `Number_of_atoms` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
     - `get_xyz` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
-        
-    
+  - `libmol`
+    - `AtomList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+    - `GroupList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+    - `MoleculeList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `libuniverse::Universe` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
 
 
@@ -475,14 +523,43 @@ _______________________________
     - `Calculate_Estimators` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
     - `Calculate_MiniMax` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
     - `Calculate_Distribution` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+  - `DATAList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
 
 
-- `liblibra::libhamiltonian::libhamiltonian_atomistic::libhamiltonian_qm`
-  - `listHamiltonian_QM`
-    - `compute_scf` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
-    - `get_electronic_structure` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
-    - `basis_ao` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
-    - `atom_to_ao_map` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+- `liblibra::libdyn`
+  - `libelectronic`
+    - `ElectronicList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `libnuclear`
+    - `NuclearList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `libthermostat`
+    - `ThermostatList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+
+
+- `liblibra::libforcefield`
+  - `Angle_RecordList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `Bond_RecordList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `Dihedral_RecordList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `Fragment_RecordList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+
+
+- `liblibra::libhamiltonian
+  - `libhamiltonian_atomistic`
+    - `libhamiltonian_qm`
+      - `listHamiltonian_QM`
+        - `compute_scf` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+        - `get_electronic_structure` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+        - `basis_ao` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+        - `atom_to_ao_map` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+      - `listHamiltonian_QMList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+      - `listHamiltonian_QMMap` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+    - `Hamiltonian_AtomisticList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `libhamiltonian_extern`
+    - `Hamiltonian_ExternList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `libhamiltonian_generic`
+    - `HamiltonianList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+    - `nHamiltonianList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  -`libhamiltonian_model`
+    - `Hamiltonian_ModelList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
 
 
   - `Electronic_Structure`
@@ -494,11 +571,48 @@ _______________________________
     - `get_occ_bet` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
 
 
+- `liblibra::libqobjects`
+  - `PromitiveGList`  [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `AOList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `SDList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `PWList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+
+
 - `liblibra::librandom`
   - `Random`
     - `normal` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb) | [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb) |
         [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
     - `uniform` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+
+
+- `liblibra::liblinalg`
+  - `intList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `floatList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `doubleList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `complexList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `intList2` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `floatList2` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `doubleList2` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `complexList2` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `intList3` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `floatList3` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `doubleList3` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `complexList3` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `intMap` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `floatMap` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `doubleMap` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `complexMap` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `MATRIXList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `MATRIXMap` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `CMATRIXList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `CMATRIXMap` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `MATRIX3x3List` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `MATRIX3x3Map` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `QUATERNIONList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `QUATERNIONMap` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `VECTORList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `VECTORMap` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+
 
 - `libra_py`
   - `data_savers`
