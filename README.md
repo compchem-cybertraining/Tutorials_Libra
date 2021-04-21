@@ -77,7 +77,11 @@ Tutorials showcasing various capabilities of Libra
  * 9.2. [Analytical derivatives of the ANNs](9_machine_learning/2_ann_derivatives)
 
 10. Auxiliary functions and data types
- * 10.1.[Util functions and vectorized Libra types](10_auxiliary_functions/1_util_functions)
+ * 10.1. [Util functions and vectorized Libra types](10_auxiliary_functions/1_util_functions)
+
+11. Program-specific methods
+ * 11.1. [ErgoSCF methods](11_program_specific_methods/1_ergoscf_methods)
+   * 11.1.1. [Basic methods](11_program_specific_methods/1_ergoscf_methods/1_basics)
 
 _______________________________
 
@@ -278,7 +282,8 @@ _______________________________
 55. Setup default values of Python dictionary
   * [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
 
-
+56. Interfacing ErgoSCF and Libra
+  * [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
 
 _______________________________
 
@@ -377,7 +382,7 @@ _______________________________
 
   - `data_outs`
     - `print_matrix` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) |
-        [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
+        [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb) | [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
 
   - `data_read`
     - `get_data_sets` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
@@ -406,6 +411,13 @@ _______________________________
             [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb) |
             [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb) | 
             [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+
+  - `ERGO_methods`
+    - `get_mtx_matrices` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
+    - `read_mo_restricted` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
+    - `read_mo_unrestricted` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
+    - `read_spectrum_restricted` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
+    - `read_spectrum_unrestricted` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
 
   - `ft`
     - `ft2`[6.3.1.](6_dynamics/3_heom/1_dynamics_and_lineshapes/tutorial.ipynb)
@@ -476,9 +488,7 @@ _______________________________
     - `init_weights_biases_normal` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
     - `train` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb) | [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
 
-
 - `liblibra::libcontrol_parameters::Control_Parameters` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
-
 
 - `liblibra::libconverters`
   - `StringList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
@@ -487,7 +497,6 @@ _______________________________
   - `StringIntMap` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `StringVDoubleMap` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   
-
 - `liblibra::libchemobjects`
   - `libchemsys::System`
     - `Number_of_atoms` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
@@ -497,7 +506,6 @@ _______________________________
     - `GroupList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
     - `MoleculeList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `libuniverse::Universe` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
-
 
 - `liblibra::libdata`
   - `DATA` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
@@ -525,7 +533,6 @@ _______________________________
     - `Calculate_Distribution` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
   - `DATAList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
 
-
 - `liblibra::libdyn`
   - `libelectronic`
     - `ElectronicList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
@@ -534,13 +541,11 @@ _______________________________
   - `libthermostat`
     - `ThermostatList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
 
-
 - `liblibra::libforcefield`
   - `Angle_RecordList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `Bond_RecordList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `Dihedral_RecordList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `Fragment_RecordList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
-
 
 - `liblibra::libhamiltonian
   - `libhamiltonian_atomistic`
@@ -561,7 +566,6 @@ _______________________________
   -`libhamiltonian_model`
     - `Hamiltonian_ModelList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
 
-
   - `Electronic_Structure`
     - `Nelec` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
     - `Norb` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
@@ -570,13 +574,11 @@ _______________________________
     - `get_occ_alp` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
     - `get_occ_bet` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
 
-
 - `liblibra::libqobjects`
   - `PromitiveGList`  [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `AOList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `SDList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `PWList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
-
 
 - `liblibra::librandom`
   - `Random`
@@ -584,8 +586,11 @@ _______________________________
         [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
     - `uniform` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
 
-
 - `liblibra::liblinalg`
+  - `CMATRIX`
+    - `real` [11.1.1](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
+    - `H` [11.1.1](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
+    - `show_matrix` [11.1.1](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
   - `intList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `floatList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `doubleList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
@@ -612,7 +617,6 @@ _______________________________
   - `QUATERNIONMap` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `VECTORList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `VECTORMap` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
-
 
 - `libra_py`
   - `data_savers`

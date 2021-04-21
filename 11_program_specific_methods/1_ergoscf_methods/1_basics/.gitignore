@@ -1,0 +1,10 @@
+.ipynb_checkpoints
+D_matrix*.mtx
+F_matrix*.mtx
+S_matrix*.mtx
+*_coefficient_*.txt
+*_spectrum_*.txt
+density.bin
+ergoscf.out
+gabeditfile.gab
+run_ergoscf.sh
