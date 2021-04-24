@@ -67,6 +67,9 @@ Tutorials showcasing various capabilities of Libra
 7. Special functions
  * 7.1. [Sorting, matrix statistics](7_special_functions/1_sorting_matrix_statistics)
  * 7.2. [Fitting distributions to a superposition of Gaussians](7_special_functions/2_gaussian_kernel_algorithm)
+ * 7.3. [Data statistics](7_special_functions/3_data_statistics)
+ * 7.4. [Random numbers](7_special_functions/4_random_numbers)
+    * 7.4.1. [Basic random number generator, chaotic systems](7_special_functions/4_random_numbers/1_basics)
 
 8. Model Hamiltonians
  * 8.1. [Define model Hamiltonians and plot PES](8_model_hamiltonians/1_pes_plotting)
@@ -284,6 +287,23 @@ _______________________________
 
 56. Interfacing ErgoSCF and Libra
   * [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
+
+57. Sampling random numbers from common distributions
+  * [7.4.1.](7_special_functions/4_random_numbers/1_basics/tutorial.ipynb)
+
+58. Sampling random numbers from arbitrary distributions
+  * [7.4.1.](7_special_functions/4_random_numbers/1_basics/tutorial.ipynb)
+
+59. Computing data probability densities and cumulative distribution functions
+  * [7.4.1.](7_special_functions/4_random_numbers/1_basics/tutorial.ipynb) 
+  * [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb) 
+
+60. Generating (deterministic) quasi-random numbers
+  * [7.4.1.](7_special_functions/4_random_numbers/1_basics/tutorial.ipynb)
+
+61. Dynamical regimes and chaotic systems
+  * [7.4.1.](7_special_functions/4_random_numbers/1_basics/tutorial.ipynb)
+
 
 _______________________________
 
@@ -508,7 +528,7 @@ _______________________________
   - `libuniverse::Universe` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
 
 - `liblibra::libdata`
-  - `DATA` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+  - `DATA` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb) 
     - `Data` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
     - `ave` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
     - `var` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
@@ -530,7 +550,8 @@ _______________________________
     - `NormalizeData` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
     - `Calculate_Estimators` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
     - `Calculate_MiniMax` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
-    - `Calculate_Distribution` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `Calculate_Distribution` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb) |
+                               [7.4.1.](7_special_functions/4_random_numbers/1_basics/tutorial.ipynb)
   - `DATAList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
 
 - `liblibra::libdyn`
@@ -582,9 +603,22 @@ _______________________________
 
 - `liblibra::librandom`
   - `Random`
-    - `normal` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb) | [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb) |
-        [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
-    - `uniform` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `Random` [7.4.1.](7_special_functions/4_random_numbers/1_basics/tutorial.ipynb)
+    - `uniform` [7.4.1.](7_special_functions/4_random_numbers/1_basics/tutorial.ipynb) |
+                [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb)
+    - `p_uniform` [7.4.1.](7_special_functions/4_random_numbers/1_basics/tutorial.ipynb)
+    - `normal` [7.4.1.](7_special_functions/4_random_numbers/1_basics/tutorial.ipynb) | 
+               [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb) | 
+               [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb) |
+               [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `p_normal` [7.4.1.](7_special_functions/4_random_numbers/1_basics/tutorial.ipynb)
+    - `exponential` [7.4.1.](7_special_functions/4_random_numbers/1_basics/tutorial.ipynb)
+    - `exponential` [7.4.1.](7_special_functions/4_random_numbers/1_basics/tutorial.ipynb)
+    - `poiss1` [7.4.1.](7_special_functions/4_random_numbers/1_basics/tutorial.ipynb)
+    - `poiss2` [7.4.1.](7_special_functions/4_random_numbers/1_basics/tutorial.ipynb)
+    - `p_poiss` [7.4.1.](7_special_functions/4_random_numbers/1_basics/tutorial.ipynb)
+    - `gamma` [7.4.1.](7_special_functions/4_random_numbers/1_basics/tutorial.ipynb)
+    - `p_gamma` [7.4.1.](7_special_functions/4_random_numbers/1_basics/tutorial.ipynb)
 
 - `liblibra::liblinalg`
   - `CMATRIX`
