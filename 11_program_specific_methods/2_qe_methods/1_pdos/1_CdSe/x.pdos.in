@@ -1,0 +1,6 @@
+&PROJWFC
+  outdir='./'
+  prefix='x'
+  DeltaE=0.1
+/
+

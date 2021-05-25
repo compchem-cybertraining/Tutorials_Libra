@@ -86,6 +86,8 @@ Tutorials showcasing various capabilities of Libra
 11. Program-specific methods
  * 11.1. [ErgoSCF methods](11_program_specific_methods/1_ergoscf_methods)
    * 11.1.1. [Basic methods](11_program_specific_methods/1_ergoscf_methods/1_basics)
+ * 11.2. [QE methods](11_program_specific_methods/2_qe_methods)
+   * 11.2.1. [pDOS](11_program_specific_methods/2_qe_methods/1_pdos)
 
 _______________________________
 
@@ -108,11 +110,13 @@ _______________________________
   * [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
   * [5.2.1.](5_electronic_structure/2_eht/1_compact/tutorial.ipynb)
 
-6. Compute pDOS from built-in electronic structure calculations in Libra
+6. Compute pDOS
   * [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+  * [11.2.1.1.](11_program_specific_methods/2_qe_methods/1_pdos/1_CdSe/tutorial.ipynb)
 
-7. Plot pDOS computed with Libra
+7. Plot pDOS
   * [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+  * [11.2.1.1.](11_program_specific_methods/2_qe_methods/1_pdos/1_CdSe/tutorial.ipynb)
 
 8. Visualize MD trajectory with py3Dmol:
   * [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
@@ -411,7 +415,8 @@ _______________________________
   - `data_conv`
     - `make_list` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
     - `matrix2list` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
-    - `MATRIX2nparray` [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
+    - `MATRIX2nparray` [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb) |
+        [11.2.1.1.](11_program_specific_methods/2_qe_methods/1_pdos/1_CdSe/tutorial.ipynb)
 
   - `data_outs`
     - `print_matrix` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) |
@@ -472,6 +477,7 @@ _______________________________
     
   - `pdos`
     - `libra_pdos` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+    - `QE_pdos` [11.2.1.1.](11_program_specific_methods/2_qe_methods/1_pdos/1_CdSe/tutorial.ipynb)
 
   - `psi4_methods`
     - `run_psi4_adi` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)

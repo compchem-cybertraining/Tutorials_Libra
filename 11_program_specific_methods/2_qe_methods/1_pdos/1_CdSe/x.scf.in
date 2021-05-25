@@ -1,0 +1,53 @@
+&CONTROL
+  calculation = 'scf',
+  pseudo_dir = 'PP/',
+  outdir = './',
+  prefix = 'x',
+  disk_io = 'low',
+  wf_collect = .true.
+/
+
+&SYSTEM
+  ibrav = 0,
+  nat = 4,
+  ntyp = 2,
+  nspin = 2,
+  starting_magnetization(1) = 0.1,
+  nbnd = 40,
+  ecutwfc = 60,
+  tot_charge = 0.0,
+  occupations = 'smearing',
+  smearing = 'gaussian',
+  degauss = 0.005,
+  nosym = .true.,
+/
+
+&ELECTRONS
+  electron_maxstep = 300,
+  conv_thr = 1.D-5,
+  mixing_beta = 0.45,
+/
+
+&IONS
+/
+
+
+ATOMIC_SPECIES
+ Cd 121.411  Cd.pbe-dn-rrkjus_psl.0.3.1.UPF
+ Se 78.96    Se.pbe-n-rrkjus_psl.0.2.UPF
+
+
+K_POINTS automatic
+ 1 1 1 0 0 0
+
+CELL_PARAMETERS (angstrom)
+   4.716986504  -0.015512615  -0.002400656
+  -2.371926710   4.062829845  -0.000273730
+  -0.002552594  -0.001387965   8.436361230
+
+ATOMIC_POSITIONS (angstrom)
+Cd       0.006121123   2.680479845   8.794623561
+Cd       2.334884262   1.365502032   4.576489723
+Se      -0.009567501   2.701977740   2.888528428
+Se       2.351610810   1.342829304   7.103730186
+
