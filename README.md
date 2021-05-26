@@ -89,6 +89,7 @@ Tutorials showcasing various capabilities of Libra
  * 11.2. [QE methods](11_program_specific_methods/2_qe_methods)
    * 11.2.1. [pDOS](11_program_specific_methods/2_qe_methods/1_pdos)
    * 11.2.2. [MD](11_program_specific_methods/2_qe_methods/2_md)
+   * 11.2.3. [Normal modes](11_program_specific_methods/2_qe_methods/3_normal_modes)
 
 _______________________________
 
@@ -324,6 +325,9 @@ _______________________________
 64. Analyzing MD trajectories
   * [11.2.2.](11_program_specific_methods/2_qe_methods/2_md/1_co2/tutorial.ipynb)
 
+65. Normal modes
+  * [11.2.3.](11_program_specific_methods/2_qe_methods/3_normal_modes/tutorial.ipynb)
+
 
 _______________________________
 
@@ -483,6 +487,9 @@ _______________________________
    
   - `LoadPT`
     - `Load_PT` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+
+  - `normal_modes`
+    - `get_xyz2` [11.2.3.](11_program_specific_methods/2_qe_methods/3_normal_modes/tutorial.ipynb) 
     
   - `pdos`
     - `libra_pdos` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
@@ -495,6 +502,7 @@ _______________________________
     - `out2inp` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
     - `read_md_data` [11.2.2.](11_program_specific_methods/2_qe_methods/2_md/1_co2/tutorial.ipynb)
     - `read_md_data_cell` [11.2.2.](11_program_specific_methods/2_qe_methods/2_md/1_co2/tutorial.ipynb)
+    - `get_QE_normal_modes` [11.2.3.](11_program_specific_methods/2_qe_methods/3_normal_modes/tutorial.ipynb) 
         
   - `scan`
     - `coords2xyz` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)

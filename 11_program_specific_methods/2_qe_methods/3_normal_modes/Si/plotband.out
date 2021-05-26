@@ -1,0 +1,7 @@
+     Input file > silicon.freq    ! Input file: file not found
+     Input file > 0 600           ! Range of the frequencies: file not found
+     Input file > silicon.xmgr    ! Output files (useful): file not found
+     Input file > silicon.ps      ! Output files (visual): file not found
+     Input file > 0               ! Fermi energy (useless, set 0): file not found
+     Input file > 10.0 0          ! The scale for y-axis in .ps file: file not found
+     Input file >      Input file > Fatal error reading file name 

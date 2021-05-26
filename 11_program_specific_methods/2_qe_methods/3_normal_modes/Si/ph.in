@@ -1,0 +1,13 @@
+phonons of Si
+&INPUTPH
+    tr2_ph = 1.0d-14               ! Threshold for self-consistency.
+    prefix = 'silicon'
+    outdir = './'
+    fildyn = 'silicon.dyn'         ! File where the dynamical matrix is written.
+    amass(1) = 28.086              ! Atomic mass [amu] of each atomic type.
+    ldisp = .true.                 ! If .true. the run calculates phonons
+    nq1 = 4                         ! Parameters of the Monkhorst-Pack grid (no offset) used
+    nq2 = 4                         ! when ldisp=.true. Same meaning as for nk1, nk2, nk3
+    nq3 = 4                         ! in the input of pw.x.
+    !recover = .true.
+/

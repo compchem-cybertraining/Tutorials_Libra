@@ -1,0 +1,10 @@
+&input
+    zasr = 'simple'
+    fildyn = 'silicon.dyn'
+    flfrc = 'silicon.fc'
+/
+
+! zasr: previous implementation of the asr used (3 translational asr imposed by correction 
+! of the diagonal elements of the force-constants matrix)
+
+! flfrc: output file containing the IFC in real space (character, must be specified)

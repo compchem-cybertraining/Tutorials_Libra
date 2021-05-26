@@ -1,0 +1,30 @@
+&control
+    calculation = 'scf'
+    prefix = 'silicon'
+    pseudo_dir = 'PP/'
+    outdir = './'
+/
+
+&system
+    ibrav = 2
+    celldm(1) = 10.20
+    nat = 2
+    ntyp = 1
+    ecutwfc = 30.0
+/
+
+&electrons
+    mixing_beta = 0.7
+    conv_thr =  1.0d-8
+/
+
+ATOMIC_SPECIES
+ Si  28.086  Si.pbe-n-kjpaw_psl.0.1.UPF
+
+K_POINTS automatic
+     11 11 11 0 0 0
+
+ATOMIC_POSITIONS (alat)
+ Si 0.00 0.00 0.00
+ Si 0.25 0.25 0.25
+

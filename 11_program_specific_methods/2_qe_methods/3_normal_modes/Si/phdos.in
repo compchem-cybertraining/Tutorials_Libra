@@ -1,0 +1,13 @@
+&input
+    asr = 'simple'
+    flfrc = 'silicon.fc'
+    flfrq = 'silicon.freq'
+    dos = .true.                 ! if .true. calculate phonon Density of States (DOS)
+    fldos = 'phonon.dos'         ! Output file
+    nk1 = 5
+    nk2 = 5
+    nk3 = 5
+    DeltaE = 0.1
+    ndos = 50                    ! Number of energy steps for DOS calculations
+/
+

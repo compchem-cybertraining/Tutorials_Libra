@@ -1,0 +1,7 @@
+silicon.freq    ! Input file
+0 600           ! Range of the frequencies
+silicon.xmgr    ! Output files (useful)
+silicon.ps      ! Output files (visual)
+0               ! Fermi energy (useless, set 0)
+10.0 0          ! The scale for y-axis in .ps file
+

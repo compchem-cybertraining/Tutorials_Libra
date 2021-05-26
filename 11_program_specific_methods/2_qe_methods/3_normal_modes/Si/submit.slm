@@ -1,0 +1,44 @@
+#!/bin/sh
+#SBATCH --partition=valhalla --qos=valhalla
+#SBATCH --clusters=faculty
+#SBATCH --time=01:00:00
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=12
+#SBATCH --mem=48000
+#SBATCH --job-name="Si-phonons"
+###SBATCH --mail-user=alexeyak@buffalo.edu
+
+echo "SLURM_JOBID="$SLURM_JOBID
+echo "SLURM_JOB_NODELIST="$SLURM_JOB_NODELIST
+echo "SLURM_NNODES="$SLURM_NNODES
+echo "SLURMTMPDIR="$SLURMTMPDIR
+echo "working directory="$SLURM_SUBMIT_DIR
+
+NPROCS=`srun --nodes=${SLURM_NNODES} bash -c 'hostname' |wc -l`
+echo NPROCS=$NPROCS
+
+module load qe
+
+#The PMI library is necessary for srun
+export I_MPI_PMI_LIBRARY=/usr/lib64/libpmi.so
+
+
+srun -n $NPROCS pw.x < scf.in > scf.out
+
+# Get the dynamical matrix
+srun -n $NPROCS ph.x < ph.in > ph.out
+
+# Get the force constant matrix with Fourier transfoer
+srun q2r.x < q2r.in > q2r.out
+
+# Get the frequencies from the dynamical matrix
+srun matdyn.x < matdyn.in > matdyn.out
+
+# Phonon band structure
+srun plotband.x < plotband.in > plotband.out
+gnuplot phonons_band_structure.plt
+
+# Phonon density of states
+srun matdyn.x < phdos.in > phdos.out
+gnuplot phonons.plt
+
