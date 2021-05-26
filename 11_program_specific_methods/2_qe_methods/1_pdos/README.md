@@ -6,6 +6,6 @@ Considered systems:
 
 * CdSe
 
-* Cs4PbBr4 perovskite
+* Cs4SnBr6 perovskite
 
 
