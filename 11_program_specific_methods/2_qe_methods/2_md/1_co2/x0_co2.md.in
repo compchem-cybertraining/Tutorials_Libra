@@ -1,0 +1,58 @@
+&CONTROL
+  calculation = 'md',
+  nstep = 500,
+  dt = 20.67055,
+  pseudo_dir = 'PP/',
+  outdir = './',
+  prefix = 'x0_co2',
+  disk_io = 'low',
+  wf_collect = .true.
+/
+
+&SYSTEM
+  ibrav = 0,
+  nat = 3,
+  ntyp = 2,
+  nspin = 1,
+  nbnd = 15,
+  ecutwfc = 40,
+  tot_charge = 0.0,
+  occupations = 'smearing',
+  smearing = 'gaussian',
+  degauss = 0.01,
+  nosym = .true.,
+/
+
+&ELECTRONS
+  electron_maxstep = 300,
+  conv_thr = 1.D-7,
+  mixing_beta = 0.7,
+/
+
+&IONS
+  ion_dynamics = 'verlet',
+  remove_rigid_rot = true,
+  refold_pos = false,
+  tempw = 300.0,
+  nraise = 1,
+/
+
+
+ATOMIC_SPECIES
+ C  12.001   C.pbe-van_bm.UPF
+ O  16.000   O.pbe-van_bm.UPF
+
+
+K_POINTS automatic
+ 1 1 1 0 0 0
+
+CELL_PARAMETERS (angstrom)
+  15.00000000000000 0.000000000000000 0.000000000000000
+  0.000000000000000 15.00000000000000 0.000000000000000
+  0.000000000000000 0.000000000000000 15.00000000000000
+
+ATOMIC_POSITIONS (angstrom)
+C       0.0000000000000000      0.000000000000000    0.000000000000000
+O       1.3000000000000000      0.100000000000000    0.000000000000000
+O      -1.3000000000000000      0.100000000000000    0.000000000000000
+
