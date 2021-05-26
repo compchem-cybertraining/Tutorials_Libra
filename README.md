@@ -113,11 +113,11 @@ _______________________________
 
 6. Compute pDOS
   * [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
-  * [11.2.1.1.](11_program_specific_methods/2_qe_methods/1_pdos/1_CdSe/tutorial.ipynb)
+  * [11.2.1.](11_program_specific_methods/2_qe_methods/1_pdos/tutorial.ipynb)
 
 7. Plot pDOS
   * [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
-  * [11.2.1.1.](11_program_specific_methods/2_qe_methods/1_pdos/1_CdSe/tutorial.ipynb)
+  * [11.2.1.](11_program_specific_methods/2_qe_methods/1_pdos/tutorial.ipynb)
 
 8. Visualize MD trajectory with py3Dmol:
   * [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
@@ -425,7 +425,7 @@ _______________________________
     - `make_list` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
     - `matrix2list` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
     - `MATRIX2nparray` [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb) |
-        [11.2.1.1.](11_program_specific_methods/2_qe_methods/1_pdos/1_CdSe/tutorial.ipynb)
+        [11.2.1.](11_program_specific_methods/2_qe_methods/1_pdos/tutorial.ipynb)
 
   - `data_outs`
     - `print_matrix` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) |
@@ -486,7 +486,7 @@ _______________________________
     
   - `pdos`
     - `libra_pdos` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
-    - `QE_pdos` [11.2.1.1.](11_program_specific_methods/2_qe_methods/1_pdos/1_CdSe/tutorial.ipynb)
+    - `QE_pdos` [11.2.1.](11_program_specific_methods/2_qe_methods/1_pdos/tutorial.ipynb)
 
   - `psi4_methods`
     - `run_psi4_adi` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
