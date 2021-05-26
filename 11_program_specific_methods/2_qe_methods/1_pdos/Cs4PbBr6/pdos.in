@@ -1,0 +1,7 @@
+&PROJWFC
+    prefix = 'Cs4SnBr6_T100'
+    outdir = './'
+    filpdos = 'Cs4SnBr6_T100.pdos'
+    Emin=-22.0, Emax=15.0, DeltaE=0.1,
+    ngauss=0, degauss=0.025
+/
