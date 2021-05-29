@@ -91,12 +91,17 @@ Tutorials showcasing various capabilities of Libra
    * 11.2.2. [MD](11_program_specific_methods/2_qe_methods/2_md)
    * 11.2.3. [Normal modes](11_program_specific_methods/2_qe_methods/3_normal_modes)
 
+12. Molecular builders
+ * 12.1. [Crystal and QD builders](12_molecular_builders/1_crystal_and_qd_builder)
+
+
 _______________________________
 
 ## Use cases
 
 1. Create a chemical system
-  * [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+  * [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb) |
+  * [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
   
 2. EHT calculations with Libra
   * [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
@@ -328,6 +333,15 @@ _______________________________
 65. Normal modes
   * [11.2.3.](11_program_specific_methods/2_qe_methods/3_normal_modes/tutorial.ipynb)
 
+66. Constructing quantum dots
+  * [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
+
+67. Constructing periodic structures
+  * [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
+
+68. Automatically determining connectivity in complex structures
+  * [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
+
 
 _______________________________
 
@@ -369,8 +383,22 @@ _______________________________
   - `compute_dos` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
 
 - `libra_py`
+  - `autoconnect`
+    - `autoconnect` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
+    - `find_undercoordinated_atoms` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
+
   - `build`
     - `make_xyz_mat` [11.2.2.](11_program_specific_methods/2_qe_methods/2_md/1_co2/tutorial.ipynb)
+    - `read_xyz` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
+    - `make_xyz` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
+    - `read_xyz_crystal` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
+    - `generate_replicas_xyz` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
+    - `generate_replicas_xyz2` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
+    - `crop_sphere_xyz` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
+    - `crop_sphere_xyz2` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
+    - `crop_sphere_xyz3` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
+    - `add_atom_to_system` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
+    - `add_atoms_to_system` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
 
   - `dynamics`
     - `heom`
@@ -557,8 +585,13 @@ _______________________________
   
 - `liblibra::libchemobjects`
   - `libchemsys::System`
+    - `System` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
     - `Number_of_atoms` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
-    - `get_xyz` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+    - `get_xyz` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb) | 
+                [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
+    - `init_box` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
+    - `print_ent` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
+    
   - `libmol`
     - `AtomList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
     - `GroupList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
