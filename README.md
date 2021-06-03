@@ -49,8 +49,7 @@ Tutorials showcasing various capabilities of Libra
       * 6.2.4.1 [build_SD_basis](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis)
     * 6.2.5. [step 4](6_dynamics/2_nbra_workflows/5_step4)
       * 6.2.5.1 [Initialze_data](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data)
-    * 6.2.6. [step 4](6_dynamics/2_nbra_workflows/5_step4)
-      * 6.2.6.1 [Dynamics](6_dynamics/2_nbra_workflows/5_step4/2_dynamics)
+      * 6.2.5.2 [Dynamics](6_dynamics/2_nbra_workflows/5_step4/2_dynamics)
 
  * 6.3. [Hierarchical equations of motion, HEOM](6_dynamics/3_heom)
     * 6.3.1. [Computing population dynamics and lineshapes](6_dynamics/3_heom/1_dynamics_and_lineshapes)
@@ -454,14 +453,15 @@ _______________________________
         - `build_SD_basis` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
         - `run` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
       - `step4`
-        - `get_Hvib2` [6.2.3.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
-        - `run` [6.2.5.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
+        - `get_Hvib2` [6.2.5.1.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
+        - `run` [6.2.5.1.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
 
   - `data_conv`
     - `make_list` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
     - `matrix2list` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
     - `MATRIX2nparray` [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb) |
-        [11.2.1.](11_program_specific_methods/2_qe_methods/1_pdos/tutorial.ipynb)
+        [11.2.1.](11_program_specific_methods/2_qe_methods/1_pdos/tutorial.ipynb) | 
+        [6.2.5.1.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
     - `nparray2CMATRIX` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
 
   - `data_outs`
@@ -483,7 +483,6 @@ _______________________________
       [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb) |
       [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
     - `plot_map_nparray` [6.2.5.1](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data)
-    - `plot_MATRIX2nparray` [6.2.5.1](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data)
 
   - `DFTB_methods`
     - `read_dftb_output` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
