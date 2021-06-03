@@ -85,6 +85,7 @@ Tutorials showcasing various capabilities of Libra
 11. Program-specific methods
  * 11.1. [ErgoSCF methods](11_program_specific_methods/1_ergoscf_methods)
    * 11.1.1. [Basic methods](11_program_specific_methods/1_ergoscf_methods/1_basics)
+   * 11.1.2. [Basic methods](11_program_specific_methods/1_ergoscf_methods/2_nac_workflow)
  * 11.2. [QE methods](11_program_specific_methods/2_qe_methods)
    * 11.2.1. [pDOS](11_program_specific_methods/2_qe_methods/1_pdos)
    * 11.2.2. [MD](11_program_specific_methods/2_qe_methods/2_md)
@@ -299,6 +300,7 @@ _______________________________
 
 56. Interfacing ErgoSCF and Libra
   * [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
+  * [11.1.2.](11_program_specific_methods/1_ergoscf_methods/2_nac_workflow/tutorial.ipynb)
 
 57. Sampling random numbers from common distributions
   * [7.4.1.](7_special_functions/4_random_numbers/1_basics/tutorial.ipynb)
@@ -340,6 +342,9 @@ _______________________________
 
 68. Automatically determining connectivity in complex structures
   * [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
+
+69. Computing NACs using ErgoSCF
+  * [11.1.2.](11_program_specific_methods/1_ergoscf_methods/2_nac_workflow/tutorial.ipynb)
 
 
 _______________________________
@@ -440,20 +445,90 @@ _______________________________
 
   - `workflows`
     - `nbra`
+      - `compute_hprime`
+        - `compute_hprime_dia`
+        - `hprime_py`
+      - `compute_properties`
+        - `compute_properties_onekpt`
       - `decoherence_times`
+        - `decoherence_times2rates`
+        - `energy_gaps`
         - `energy_gaps_ave` [6.2.3.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
+        - `decoherence_times`
+        - `decoherence_times_ave_old`
         - `decoherence_times_ave` [6.2.3.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
+      - `lz`
+        - `Belyaev_Lebedev`
+        - `adjust_SD_probabilities`
+        - `run`
+      - `mapping`
+        - `sd2indx`
+        - `energy_arb`
+        - `energy_mat_arb`
+        - `orbs2spinorbs`
+        - `ovlp_arb`
+        - `ovlp_mat_arb`
+      - `qsh`
+        - `compute_freqs`
+        - `compute_qs_Hvib`
+        - `run`
       - `step2`
         - `run` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
+      - `step2_analysis`
+        - `compute_oscillator_strengths`
+        - `compute_spectrum`
+        - `get_step2_mb_sp_properties`
+      - `step2_dftb`
+        - `do_step`
+        - `do_ovlp`
+        - `run_step2`
+        - `run_step2_lz`
+      - `step2_ergoscf`
+        - `do_step`
+        - `do_ovlp`
+        - `clean`
+        - `run_step2` [11.1.2.](11_program_specific_methods/1_ergoscf_methods/2_nac_workflow/tutorial.ipynb)
+      - `step2_many_body`
+        - `curr_and_final_step_job`
+        - `normalize_ci_coefficients`
+        - `get_excitation_analysis_output`
+        - `integrate_cube_set`
+        - `compute_cube_ks_overlaps`
+        - `reindex_cp2k_sd_states`
+        - `form_Hvib_real`
+        - `run_step2_many_body`
       - `step3`
         - `get_step2_data` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
         - `print_SD_basis` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
         - `sort_SD_energies` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
         - `output_sorted_Hvibs` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
         - `build_SD_basis` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
+        - `get_Lowdin`
+        - `apply_normalization`
+        - `get_Lowdin_general`
+        - `apply_orthonormalization_general`
+        - `make_cost_mat`
+        - `apply_state_reordering`
+        - `do_phase_corr`
+        - `apply_phase_correction`
+        - `sac_matrices`
+        - `scale_H_vib`
+        - `compute_Hvib`
         - `run` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
+        - `map_Hvib`
+        - `pyxaid2libra`
+        - `apply_state_reordering_general`
+        - `apply_phase_correction_general`
+        - `sort_unique_SD_basis`
+        - `make_T_matricies`
+        - `compute_ci_energies_midpoint`
       - `step4`
+        - `get_Hvib`
         - `get_Hvib2` [6.2.5.1.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
+        - `traj_statistics`
+        - `traj_statistics2`
+        - `traj_statistics2_fast`
+        - `printout`
         - `run` [6.2.5.1.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
 
   - `data_conv`
