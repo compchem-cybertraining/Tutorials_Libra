@@ -34,7 +34,7 @@ Tutorials showcasing various capabilities of Libra
    * 6.1.1. [Model, adiabatic MD](6_dynamics/1_trajectory_based/1_model_adiabatic)
         * 6.1.1.1. [NVE ensemble](6_dynamics/1_trajectory_based/1_model_adiabatic/1_nve)
         * 6.1.1.2. [NVT ensemble](6_dynamics/1_trajectory_based/1_model_adiabatic/2_nvt)
-             * 6.1.1.2.1 [1 electronic state](6_dynamics/1_trajectory_based/1_model_adiabatic/2_nvt/1_1_state)
+             * 6.1.1.2.1. [1 electronic state](6_dynamics/1_trajectory_based/1_model_adiabatic/2_nvt/1_1_state)
     * 6.1.2. [Model, common approach to adiabatic, Ehrenfest, and TSH](6_dynamics/1_trajectory_based/2_model_adiabatic)
     * 6.1.3. [Model, Ehrenfest recipes](6_dynamics/1_trajectory_based/3_model_ehrenfest_recipes)
     * 6.1.5. [Atomistic, adiabatic dynamics, ground/excited](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states)
@@ -46,10 +46,11 @@ Tutorials showcasing various capabilities of Libra
     * 6.2.2. [step 1 with QE](6_dynamics/2_nbra_workflows/2_step1_qe)
     * 6.2.3. [step 2 with QE](6_dynamics/2_nbra_workflows/3_step2_qe)
     * 6.2.4. [step 3](6_dynamics/2_nbra_workflows/4_step3)
-      * 6.2.4.1 [build_SD_basis](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis)
+      * 6.2.4.1. [Compute single-particle NACs](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis)
+      * 6.2.4.2. [Compute many-body NACs](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis)
     * 6.2.5. [step 4](6_dynamics/2_nbra_workflows/5_step4)
-      * 6.2.5.1 [Initialze_data](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data)
-      * 6.2.5.2 [Dynamics](6_dynamics/2_nbra_workflows/5_step4/2_dynamics)
+      * 6.2.5.1. [Initialze_data](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data)
+      * 6.2.5.2. [Dynamics](6_dynamics/2_nbra_workflows/5_step4/2_dynamics)
 
  * 6.3. [Hierarchical equations of motion, HEOM](6_dynamics/3_heom)
     * 6.3.1. [Computing population dynamics and lineshapes](6_dynamics/3_heom/1_dynamics_and_lineshapes)
@@ -143,6 +144,7 @@ _______________________________
 11. Compute the time-averaged nonadiabatic couplings of the vibronic Hamiltonian
   * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
+  * [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
 
 12. Manually construct a Slater Determinant basis
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
@@ -152,6 +154,7 @@ _______________________________
 
 14. Compute the energies and nonadiabatic couplings in the SD basis
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
+  * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
 
 15. Calculate population and coherence dynamics of a quantum system embedded in a bath
   * [6.3.1.](6_dynamics/1_dynamics_and_lineshapes/3_heom/tutorial.ipynb)
@@ -196,6 +199,7 @@ _______________________________
 26. Define Libra/DFTB+ intraface Hamiltonian
   * [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
   * [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
+  * [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
 
 27. Plot the PES of LiH at the EOM-CCSD/sto-3G level computed via interface of Libra with Psi4
   * [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
@@ -343,8 +347,26 @@ _______________________________
 68. Automatically determining connectivity in complex structures
   * [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
 
-69. Computing NACs using ErgoSCF
+69. Computing NACs using ErgoSCF/Libra
   * [11.1.2.](11_program_specific_methods/1_ergoscf_methods/2_nac_workflow/tutorial.ipynb)
+
+70. Computing NACs using DFTB+/Libra
+  * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SP_basis/tutorial.ipynb)
+  * [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+
+71. Computing NACs using CP2K/Libra
+  * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SP_basis/tutorial.ipynb)
+  * [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+
+72. Computing single-particle (KS-DFT, HF, semiempirical) NACs 
+  * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
+  * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SP_basis/tutorial.ipynb)
+  * [11.1.2.](11_program_specific_methods/1_ergoscf_methods/2_nac_workflow/tutorial.ipynb)
+
+73. Computing many-body (TD-DFT, TD-DFTB, CI) NACs 
+  * [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+
+
 
 
 _______________________________
@@ -467,7 +489,7 @@ _______________________________
         - `energy_mat_arb`
         - `orbs2spinorbs`
         - `ovlp_arb`
-        - `ovlp_mat_arb`
+        - `ovlp_mat_arb` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
       - `qsh`
         - `compute_freqs`
         - `compute_qs_Hvib`
@@ -494,21 +516,22 @@ _______________________________
         - `get_excitation_analysis_output`
         - `integrate_cube_set`
         - `compute_cube_ks_overlaps`
-        - `reindex_cp2k_sd_states`
+        - `reindex_cp2k_sd_states` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
         - `form_Hvib_real`
         - `run_step2_many_body`
       - `step3`
-        - `get_step2_data` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
+        - `get_step2_data` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb) |
+                           [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
         - `print_SD_basis` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
         - `sort_SD_energies` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
         - `output_sorted_Hvibs` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
         - `build_SD_basis` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
         - `get_Lowdin`
-        - `apply_normalization`
+        - `apply_normalization` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
         - `get_Lowdin_general`
-        - `apply_orthonormalization_general`
+        - `apply_orthonormalization_general` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
         - `make_cost_mat`
-        - `apply_state_reordering`
+        - `apply_state_reordering` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
         - `do_phase_corr`
         - `apply_phase_correction`
         - `sac_matrices`
@@ -517,11 +540,14 @@ _______________________________
         - `run` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
         - `map_Hvib`
         - `pyxaid2libra`
-        - `apply_state_reordering_general`
-        - `apply_phase_correction_general`
-        - `sort_unique_SD_basis`
-        - `make_T_matricies`
-        - `compute_ci_energies_midpoint`
+        - `apply_state_reordering_general` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+        - `apply_phase_correction_general` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+        - `sort_unique_SD_basis` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+      - `step3_many_body`
+        - `get_step2_mb_sp_properties` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+        - `compute_ci_energies_midpoint` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+        - `make_T_matrices` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+        - `run` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
       - `step4`
         - `get_Hvib`
         - `get_Hvib2` [6.2.5.1.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
@@ -550,7 +576,8 @@ _______________________________
 
   - `data_stat`
     - `cmat_stat2` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb) |
-         [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
+         [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb) |
+         [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
 
   - `data_visualize`
     - `colors` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
