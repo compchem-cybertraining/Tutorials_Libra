@@ -15,4 +15,7 @@
  4. [Libra Tutorial 4: Libra/cp2k or Libra/DFTB+](https://ub.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=d9dfd5f1-4859-4a75-9296-ac850120b4e7&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all)
     NA-MD calculation in single-particle (e.g. Kohn-Sham) basis, manual definition of the basis of excited Slater determinants, using spin adapted functions
 
+ 5. [Comprehensive Libra/cp2k workflow](https://ub.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0d9e4ebc-5cc6-4f0f-a6f9-ad6c015e7dee)
+    This tutorial presents a workflow of studying any atomistic system (in my case, monolayer black phosphorus) starting from
+    the MD and going all the way to the NA-MD. The associated Jupyter notebooks and scripts used in this tutorial will be published soon.
 
