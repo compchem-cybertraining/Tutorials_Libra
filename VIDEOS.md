@@ -19,3 +19,8 @@
     This tutorial presents a workflow of studying any atomistic system (in my case, monolayer black phosphorus) starting from
     the MD and going all the way to the NA-MD. The associated Jupyter notebooks and scripts used in this tutorial will be published soon.
 
+ 6. [New NBRA workflow tutorial](https://ub.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=463c185e-3adf-4f35-8ee8-ad7c01005266)
+    This is a partial repetition of the tutorial above, but it also introduces a new way of doing the NBRA calculations using the C++
+    implementation of the dynamics functions. This tutorial is based on a recent study of monolayer black phosphorus (submitted to JCP).
+    The corresponding files can be found [here](https://github.com/AkimovLab/Project_ML-BP)
+
