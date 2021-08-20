@@ -366,7 +366,8 @@ _______________________________
 73. Computing many-body (TD-DFT, TD-DFTB, CI) NACs 
   * [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
 
-
+74. Saving ANNs to files and creating ANNs from XML files
+  * [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
 
 
 _______________________________
@@ -673,14 +674,23 @@ _______________________________
     - `Npe` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
     - `W` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
     - `dW` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `dWold` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `grad_w` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `grad_w_old` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
     - `B` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
     - `dB` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `dBold` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `grad_b` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `grad_b_old` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
     - `propagate` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb) | [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
     - `derivatives` [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
     - `back_propagate` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
     - `init_weights_biases_uniform` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb) | [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
     - `init_weights_biases_normal` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
     - `train` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb) | [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
+    - `load` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `save` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `error` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
 
 - `liblibra::libcontrol_parameters::Control_Parameters` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
 
