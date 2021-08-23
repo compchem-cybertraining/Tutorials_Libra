@@ -79,6 +79,7 @@ Tutorials showcasing various capabilities of Libra
 9. Machine learning
  * 9.1. [Basics of the artificial neural networks (ANNs), Multilayer Perceptron (MLP)](9_machine_learning/1_basics_of_mlp)
  * 9.2. [Analytical derivatives of the ANNs](9_machine_learning/2_ann_derivatives)
+ * 9.3. [Advanced ANN training algorithms](9_machine_learning/3_advanced_ann)
 
 10. Auxiliary functions and data types
  * 10.1. [Util functions and vectorized Libra types](10_auxiliary_functions/1_util_functions)
@@ -286,9 +287,11 @@ _______________________________
 50. Machine learning with MLP
   * [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
   * [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
+  * [9.3.](9_machine_learning/3_advanced_ann/tutorial.ipynb)
 
 51. Artificial neural networks (ANN) and error Back Propagation algorithm 
   * [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+  * [9.3.](9_machine_learning/3_advanced_ann/tutorial.ipynb)
 
 52. Derivatives of ANNs
   * [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
@@ -368,6 +371,17 @@ _______________________________
 
 74. Saving ANNs to files and creating ANNs from XML files
   * [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+  * [9.3.](9_machine_learning/3_advanced_ann/tutorial.ipynb)
+
+75. Rprop algorithm for ANN training 
+  * [9.3.](9_machine_learning/3_advanced_ann/tutorial.ipynb)
+
+76. Momentum algorithm in the ANN training 
+  * [9.3.](9_machine_learning/3_advanced_ann/tutorial.ipynb)
+
+77. Weight decay in the ANN training 
+  * [9.3.](9_machine_learning/3_advanced_ann/tutorial.ipynb)
+
 
 
 _______________________________
@@ -584,7 +598,8 @@ _______________________________
     - `colors` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
     - `plot_map` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb) | 
       [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb) |
-      [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
+      [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb) |
+      [9.3.](9_machine_learning/3_advanced_ann/tutorial.ipynb)
     - `plot_map_nparray` [6.2.5.1](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data)
 
   - `DFTB_methods`
@@ -669,7 +684,7 @@ _______________________________
 
 
 - `liblibra::libann`
-  - `NeuralNetwork` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb) | [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
+  - `NeuralNetwork` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb) | [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb) | [9.3.](9_machine_learning/3_advanced_ann/tutorial.ipynb)
     - `Nlayers` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
     - `Npe` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
     - `W` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
@@ -682,14 +697,14 @@ _______________________________
     - `dBold` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
     - `grad_b` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
     - `grad_b_old` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
-    - `propagate` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb) | [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
+    - `propagate` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb) | [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb) | [9.3.](9_machine_learning/3_advanced_ann/tutorial.ipynb)
     - `derivatives` [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
     - `back_propagate` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
-    - `init_weights_biases_uniform` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb) | [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
+    - `init_weights_biases_uniform` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb) | [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb) | [9.3.](9_machine_learning/3_advanced_ann/tutorial.ipynb)
     - `init_weights_biases_normal` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
-    - `train` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb) | [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb)
+    - `train` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb) | [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb) | [9.3.](9_machine_learning/3_advanced_ann/tutorial.ipynb)
     - `load` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
-    - `save` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
+    - `save` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb) | [9.3.](9_machine_learning/3_advanced_ann/tutorial.ipynb)
     - `error` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
 
 - `liblibra::libcontrol_parameters::Control_Parameters` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
