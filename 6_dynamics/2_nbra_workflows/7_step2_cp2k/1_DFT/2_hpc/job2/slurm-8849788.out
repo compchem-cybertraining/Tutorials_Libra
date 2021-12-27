@@ -1,0 +1,3338 @@
+SLURM_JOBID=8849788
+SLURM_JOB_NODELIST=cpn-p27-16
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/8849788
+working directory=/panfs/panfs.cbls.ccr.buffalo.edu/scratch/grp-alexeyak/mohammad/my_repositories/Tutorials_Libra/6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/2_hpc/job2
+ The Intel 20.2 compilers are in your path. This is adequate for compiling and
+running most codes. Source compilervars.sh for more features including the
+debugger. 
+ The Intel MPI 2020.2 is in your path. This is adequate for compiling and
+running most codes. Run "source
+/util/academic/intel/20.2/compilers_and_libraries_2020.2.254/linux/mpi/intel64/bin/mpivars.sh"
+for more features including the debugger. 
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+The translational vectors for the current periodic system are:
+
+[[-2 -2 -2]
+ [-2 -2 -1]
+ [-2 -2  0]
+ [-2 -2  1]
+ [-2 -2  2]
+ [-2 -1 -2]
+ [-2 -1 -1]
+ [-2 -1  0]
+ [-2 -1  1]
+ [-2 -1  2]
+ [-2  0 -2]
+ [-2  0 -1]
+ [-2  0  0]
+ [-2  0  1]
+ [-2  0  2]
+ [-2  1 -2]
+ [-2  1 -1]
+ [-2  1  0]
+ [-2  1  1]
+ [-2  1  2]
+ [-2  2 -2]
+ [-2  2 -1]
+ [-2  2  0]
+ [-2  2  1]
+ [-2  2  2]
+ [-1 -2 -2]
+ [-1 -2 -1]
+ [-1 -2  0]
+ [-1 -2  1]
+ [-1 -2  2]
+ [-1 -1 -2]
+ [-1 -1 -1]
+ [-1 -1  0]
+ [-1 -1  1]
+ [-1 -1  2]
+ [-1  0 -2]
+ [-1  0 -1]
+ [-1  0  0]
+ [-1  0  1]
+ [-1  0  2]
+ [-1  1 -2]
+ [-1  1 -1]
+ [-1  1  0]
+ [-1  1  1]
+ [-1  1  2]
+ [-1  2 -2]
+ [-1  2 -1]
+ [-1  2  0]
+ [-1  2  1]
+ [-1  2  2]
+ [ 0 -2 -2]
+ [ 0 -2 -1]
+ [ 0 -2  0]
+ [ 0 -2  1]
+ [ 0 -2  2]
+ [ 0 -1 -2]
+ [ 0 -1 -1]
+ [ 0 -1  0]
+ [ 0 -1  1]
+ [ 0 -1  2]
+ [ 0  0 -2]
+ [ 0  0 -1]
+ [ 0  0  1]
+ [ 0  0  2]
+ [ 0  1 -2]
+ [ 0  1 -1]
+ [ 0  1  0]
+ [ 0  1  1]
+ [ 0  1  2]
+ [ 0  2 -2]
+ [ 0  2 -1]
+ [ 0  2  0]
+ [ 0  2  1]
+ [ 0  2  2]
+ [ 1 -2 -2]
+ [ 1 -2 -1]
+ [ 1 -2  0]
+ [ 1 -2  1]
+ [ 1 -2  2]
+ [ 1 -1 -2]
+ [ 1 -1 -1]
+ [ 1 -1  0]
+ [ 1 -1  1]
+ [ 1 -1  2]
+ [ 1  0 -2]
+ [ 1  0 -1]
+ [ 1  0  0]
+ [ 1  0  1]
+ [ 1  0  2]
+ [ 1  1 -2]
+ [ 1  1 -1]
+ [ 1  1  0]
+ [ 1  1  1]
+ [ 1  1  2]
+ [ 1  2 -2]
+ [ 1  2 -1]
+ [ 1  2  0]
+ [ 1  2  1]
+ [ 1  2  2]
+ [ 2 -2 -2]
+ [ 2 -2 -1]
+ [ 2 -2  0]
+ [ 2 -2  1]
+ [ 2 -2  2]
+ [ 2 -1 -2]
+ [ 2 -1 -1]
+ [ 2 -1  0]
+ [ 2 -1  1]
+ [ 2 -1  2]
+ [ 2  0 -2]
+ [ 2  0 -1]
+ [ 2  0  0]
+ [ 2  0  1]
+ [ 2  0  2]
+ [ 2  1 -2]
+ [ 2  1 -1]
+ [ 2  1  0]
+ [ 2  1  1]
+ [ 2  1  2]
+ [ 2  2 -2]
+ [ 2  2 -1]
+ [ 2  2  0]
+ [ 2  2  1]
+ [ 2  2  2]]
+Will compute the S^AO between R(0,0,0) and 125 translational vectors
+-----------------------Start-----------------------
+-----------------------Step 4-----------------------
+Done with step 4 Elapsed time: 70.68768358230591
+Creating shell...
+Done with creating shell. Elapsed time: 0.012609481811523438
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.04536747932434082
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-2,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,2) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(0,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,0,1) and R(0,0,0)
+Computing the AO overlaps between R(0,0,2) and R(0,0,0)
+Computing the AO overlaps between R(0,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,1) and R(0,0,0)
+Computing the AO overlaps between R(0,1,2) and R(0,0,0)
+Computing the AO overlaps between R(0,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,2,0) and R(0,0,0)
+Computing the AO overlaps between R(0,2,1) and R(0,0,0)
+Computing the AO overlaps between R(0,2,2) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(1,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,1) and R(0,0,0)
+Computing the AO overlaps between R(1,0,2) and R(0,0,0)
+Computing the AO overlaps between R(1,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,1) and R(0,0,0)
+Computing the AO overlaps between R(1,1,2) and R(0,0,0)
+Computing the AO overlaps between R(1,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,2,0) and R(0,0,0)
+Computing the AO overlaps between R(1,2,1) and R(0,0,0)
+Computing the AO overlaps between R(1,2,2) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,1) and R(0,0,0)
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+Computing the AO overlaps between R(2,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(2,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,0,0) and R(0,0,0)
+Computing the AO overlaps between R(2,0,1) and R(0,0,0)
+Computing the AO overlaps between R(2,0,2) and R(0,0,0)
+Computing the AO overlaps between R(2,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,1,0) and R(0,0,0)
+Computing the AO overlaps between R(2,1,1) and R(0,0,0)
+Computing the AO overlaps between R(2,1,2) and R(0,0,0)
+Computing the AO overlaps between R(2,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,2,0) and R(0,0,0)
+Computing the AO overlaps between R(2,2,1) and R(0,0,0)
+Computing the AO overlaps between R(2,2,2) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.8042571544647217
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.005967378616333008
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.0010287761688232422
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.09187650680541992
+Done with step 4. Elapsed time: 71.6489405632019
+-----------------------Step 5-----------------------
+Done with step 5 Elapsed time: 64.5997416973114
+Creating shell...
+Done with creating shell. Elapsed time: 0.009830951690673828
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.03541445732116699
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-2,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,2) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(0,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,0,1) and R(0,0,0)
+Computing the AO overlaps between R(0,0,2) and R(0,0,0)
+Computing the AO overlaps between R(0,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,1) and R(0,0,0)
+Computing the AO overlaps between R(0,1,2) and R(0,0,0)
+Computing the AO overlaps between R(0,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,2,0) and R(0,0,0)
+Computing the AO overlaps between R(0,2,1) and R(0,0,0)
+Computing the AO overlaps between R(0,2,2) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(1,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,1) and R(0,0,0)
+Computing the AO overlaps between R(1,0,2) and R(0,0,0)
+Computing the AO overlaps between R(1,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,1) and R(0,0,0)
+Computing the AO overlaps between R(1,1,2) and R(0,0,0)
+Computing the AO overlaps between R(1,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,2,0) and R(0,0,0)
+Computing the AO overlaps between R(1,2,1) and R(0,0,0)
+Computing the AO overlaps between R(1,2,2) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(2,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,0,0) and R(0,0,0)
+Computing the AO overlaps between R(2,0,1) and R(0,0,0)
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+Computing the AO overlaps between R(2,0,2) and R(0,0,0)
+Computing the AO overlaps between R(2,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,1,0) and R(0,0,0)
+Computing the AO overlaps between R(2,1,1) and R(0,0,0)
+Computing the AO overlaps between R(2,1,2) and R(0,0,0)
+Computing the AO overlaps between R(2,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,2,0) and R(0,0,0)
+Computing the AO overlaps between R(2,2,1) and R(0,0,0)
+Computing the AO overlaps between R(2,2,2) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.8102231025695801
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.01187443733215332
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.001028299331665039
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.05255556106567383
+Done with step 5. Elapsed time: 65.5675675868988
+-----------------------Step 6-----------------------
+Done with step 6 Elapsed time: 58.86079406738281
+Creating shell...
+Done with creating shell. Elapsed time: 0.005838155746459961
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.021832942962646484
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-2,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,2) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(0,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,0,1) and R(0,0,0)
+Computing the AO overlaps between R(0,0,2) and R(0,0,0)
+Computing the AO overlaps between R(0,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,1) and R(0,0,0)
+Computing the AO overlaps between R(0,1,2) and R(0,0,0)
+Computing the AO overlaps between R(0,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,2,0) and R(0,0,0)
+Computing the AO overlaps between R(0,2,1) and R(0,0,0)
+Computing the AO overlaps between R(0,2,2) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(1,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,1) and R(0,0,0)
+Computing the AO overlaps between R(1,0,2) and R(0,0,0)
+Computing the AO overlaps between R(1,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,1) and R(0,0,0)
+Computing the AO overlaps between R(1,1,2) and R(0,0,0)
+Computing the AO overlaps between R(1,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,2,0) and R(0,0,0)
+Computing the AO overlaps between R(1,2,1) and R(0,0,0)
+Computing the AO overlaps between R(1,2,2) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(2,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,0,0) and R(0,0,0)
+Computing the AO overlaps between R(2,0,1) and R(0,0,0)
+Computing the AO overlaps between R(2,0,2) and R(0,0,0)
+Computing the AO overlaps between R(2,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,1,0) and R(0,0,0)
+Computing the AO overlaps between R(2,1,1) and R(0,0,0)
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+/panasas/scratch/grp-alexeyak/mohammad/softwares/miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+/panasas/scratch/grp-alexeyak/mohammad/softwares/miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for boost::python::detail::container_element<std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >, unsigned long, boost::python::detail::final_vector_derived_policies<std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >, false> > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+/panasas/scratch/grp-alexeyak/mohammad/softwares/miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+/panasas/scratch/grp-alexeyak/mohammad/softwares/miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for boost::python::detail::container_element<std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >, unsigned long, boost::python::detail::final_vector_derived_policies<std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >, false> > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+/panasas/scratch/grp-alexeyak/mohammad/softwares/miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+/panasas/scratch/grp-alexeyak/mohammad/softwares/miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for boost::python::detail::container_element<std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >, unsigned long, boost::python::detail::final_vector_derived_policies<std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >, false> > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+/panasas/scratch/grp-alexeyak/mohammad/softwares/miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > >, std::allocator<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+/panasas/scratch/grp-alexeyak/mohammad/softwares/miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for boost::python::detail::container_element<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > >, std::allocator<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >, unsigned long, boost::python::detail::final_vector_derived_policies<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > >, std::allocator<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >, false> > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+
+Computing the AO overlaps between R(2,1,2) and R(0,0,0)
+Computing the AO overlaps between R(2,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,2,0) and R(0,0,0)
+Computing the AO overlaps between R(2,2,1) and R(0,0,0)
+Computing the AO overlaps between R(2,2,2) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.8082125186920166
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.011831283569335938
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.0010251998901367188
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.04809880256652832
+Done with step 6. Elapsed time: 59.79560446739197
+-----------------------Step 7-----------------------
+Done with step 7 Elapsed time: 55.24855399131775
+Creating shell...
+Done with creating shell. Elapsed time: 0.0059206485748291016
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.02167487144470215
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-2,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,2) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(0,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,0,1) and R(0,0,0)
+Computing the AO overlaps between R(0,0,2) and R(0,0,0)
+Computing the AO overlaps between R(0,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,1) and R(0,0,0)
+Computing the AO overlaps between R(0,1,2) and R(0,0,0)
+Computing the AO overlaps between R(0,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,2,0) and R(0,0,0)
+Computing the AO overlaps between R(0,2,1) and R(0,0,0)
+Computing the AO overlaps between R(0,2,2) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(1,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,1) and R(0,0,0)
+Computing the AO overlaps between R(1,0,2) and R(0,0,0)
+Computing the AO overlaps between R(1,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,1) and R(0,0,0)
+Computing the AO overlaps between R(1,1,2) and R(0,0,0)
+Computing the AO overlaps between R(1,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,2,0) and R(0,0,0)
+Computing the AO overlaps between R(1,2,1) and R(0,0,0)
+Computing the AO overlaps between R(1,2,2) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(2,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,0,0) and R(0,0,0)
+Computing the AO overlaps between R(2,0,1) and R(0,0,0)
+Computing the AO overlaps between R(2,0,2) and R(0,0,0)
+Computing the AO overlaps between R(2,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,1,0) and R(0,0,0)
+Computing the AO overlaps between R(2,1,1) and R(0,0,0)
+Computing the AO overlaps between R(2,1,2) and R(0,0,0)
+Computing the AO overlaps between R(2,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,2,0) and R(0,0,0)
+Computing the AO overlaps between R(2,2,1) and R(0,0,0)
+Computing the AO overlaps between R(2,2,2) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.8271067142486572
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.011856317520141602
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.0010416507720947266
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.04373598098754883
+Done with step 7. Elapsed time: 56.188687801361084
+Done with the job!!!
+
+	Finished computing overlap integral
