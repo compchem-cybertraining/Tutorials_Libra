@@ -12,8 +12,8 @@ params['nprocs'] = 12
 params['istep'] = 
 params['fstep'] = 
 # Lowest and highest orbital, Here HOMO is 24
-params['init_state'] = 24-10
-params['final_state'] = 24+11
+params['lowest_orbital'] = 24-10
+params['highest_orbital'] = 24+11
 # extended tight-binding calculation type
 params['isxTB'] = False
 # DFT calculation type
