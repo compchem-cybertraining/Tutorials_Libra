@@ -65,6 +65,11 @@ There are different ways of defining the excited states SDs (the single-particle
 defining the `num_occ_states` and `num_unocc_states` in which Libra
 will start making the SDs from all of the occupied states (starting from `HOMO-num_occ_states+1`) to all of the unoccupied states (ends
 to `LUMO+num_unocc_states-1`). Also, if the unrestricted spin calculation flag is set to `True`, the SDs will be made for both alpha and beta spin channels. 
+
+For example, if you want to build the electron-only excitation basis, you need to set `params['num_occ_states'] = 1` and set `params['num_unocc_states']`
+to a value less than the number of unoccupied orbitals that was considered in the computation of overlaps. This will generate all the electron-only
+excitation from HOMO to unoccupied states.
+
 If the TD-DFT calculations has been done, then Libra will go over all log files and 
 generate all the SDs used for all the steps and therefore the definition of these SDs is automatic and Libra will replace the `num_occ_states` and
 `num_unocc_states` itself based on the SDs that were generated from the TD-DFT log files. 
@@ -87,6 +92,7 @@ calculations.
 `params['verbosity']`: An integer value showing the printing level. The default is set to 0. Higher values will print more data on terminal.
 
 `params['sorting_type']`: After defining the SDs, Libra will sort them either based on `'energy'` or `'identity'`.
+
 
 
 
