@@ -389,7 +389,7 @@ _______________________________
   * [9.3.](9_machine_learning/3_advanced_ann/tutorial.ipynb)
 
 78. Rotating and translating molecular fragments
-  * [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
+  * [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
   * [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
 
 _______________________________
@@ -398,32 +398,34 @@ _______________________________
 ## Functions
 
 - `liblibra::libchemobjects`
-  - `libchemsys::System` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
-    - `System` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb) | [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
-    - `CREATE_ATOM` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
-    - `determine_functional_groups` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb) | 
+  - `libchemsys::System` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `System` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb) | [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `CREATE_ATOM` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `determine_functional_groups` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | 
                                     [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `GROUP_ATOMS` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb) |
+    - `GROUP_ATOMS` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
                     [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
     - `get_xyz` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb) 
                 [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
-    - `init_box` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb) | [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
-    - `init_fragments` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb) |
+    - `init_box` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb) | 
+                 [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `init_fragments` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
                        [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `LINK_ATOMS` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
-    - `print_ent` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb) | [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
-    - `print_xyz` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
-    - `ROTATE_FRAGMENT` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb) |
+    - `LINK_ATOMS` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `print_ent` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb) | 
+                  [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `print_xyz` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `ROTATE_FRAGMENT` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
                         [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `show_atoms` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
-    - `show_bonds` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
-    - `show_fragments` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
-    - `show_molecules` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
-    - `show_rings` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
-    - `TRANSLATE_FRAGMENT` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
+    - `show_atoms` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `show_bonds` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `show_fragments` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `show_molecules` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `show_rings` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `TRANSLATE_FRAGMENT` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
 
   - `libuniverse::Universe` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb) | 
-                            [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb) |
+                            [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
                             [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
 
 - `liblibra::libconverters`
@@ -673,12 +675,12 @@ _______________________________
 
   - `LoadMolecule`
     - `Load_Molecule` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb) | 
-                      [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb) |
+                      [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
                       [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
    
   - `LoadPT`
     - `Load_PT` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb) | 
-                [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb) |
+                [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
                 [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
 
   - `normal_modes`
@@ -706,10 +708,10 @@ _______________________________
 
 - `liblibra::libchemobjects`
   - `libmol`
-    - `Atom` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
-      - `Atom` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
-      - `save` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
-      - `show_info`[12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
+    - `Atom` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+      - `Atom` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+      - `save` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+      - `show_info`[12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
 
 - `liblibra::libutil`
   - `allocate_1D` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
@@ -767,24 +769,25 @@ _______________________________
 - `liblibra::libchemobjects`
   - `libchemsys::System`
     - `System` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
-    - `Number_of_atoms` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb) | [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `Atoms` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb) | [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `Fragments` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb) | [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `Number_of_atoms` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb) | [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `Number_of_angles` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb) | [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `Number_of_bonds` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb) | [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `Number_of_dihedrals` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb) | [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `Number_of_fragments` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb) | [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `Number_of_impropers` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb) |[12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
+    - `Number_of_atoms` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb) | 
+                        [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
+    - `Atoms` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
+    - `Fragments` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
+    - `Number_of_atoms` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
+    - `Number_of_angles` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
+    - `Number_of_bonds` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
+    - `Number_of_dihedrals` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
+    - `Number_of_fragments` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
+    - `Number_of_impropers` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |[12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
   - `libmol`
     - `AtomList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
     - `GroupList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
     - `MoleculeList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
-    - `Atom` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
-      - `Atom` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
-      - `Atom_id` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
-      - `Atom_RB` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
-      - `globAtom_Index` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
+    - `Atom` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+      - `Atom` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+      - `Atom_id` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+      - `Atom_RB` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+      - `globAtom_Index` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
   - `libuniverse::Universe` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
 
 - `liblibra::libdata`
