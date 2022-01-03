@@ -99,6 +99,8 @@ Tutorials showcasing various capabilities of Libra
    * 12.2.1. [Basic methods](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton)
    * 12.2.2. [Rotations & Translations](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation)
 
+13. Force fields and classical MD (outside the dynamics module)
+  * 13.1. [Force field basics](13_force_fields_and_classical_md/1_force_field_basics)
 
 _______________________________
 
@@ -392,6 +394,10 @@ _______________________________
   * [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
   * [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
 
+79. Creating classical force fields 
+  * [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+
+
 _______________________________
 
 
@@ -423,7 +429,11 @@ _______________________________
     - `show_molecules` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
     - `show_rings` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
     - `TRANSLATE_FRAGMENT` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
-
+  - `libmol`
+    - `Atom` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+      - `Atom` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+      - `save` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+      - `show_info`[12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
   - `libuniverse::Universe` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb) | 
                             [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
                             [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
@@ -449,6 +459,9 @@ _______________________________
     - `compute_imapping`[6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
     - `compute_mapping` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
 
+- `liblibra::libintegrators`
+  - `RK4` [2.1.](2_integrators/1_runge_kutta_4th_order/tutorial.ipynb) | [2.2.](2_integrators/2_runge_kutta_4_for_Liouville/tutorial.ipynb)
+
 - `liblibra::liblinalg`
   - `pop_submatrix` [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
 
@@ -461,6 +474,36 @@ _______________________________
 - `liblibra::libqm_tools`
   - `charge_density` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
   - `compute_dos` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+
+- `liblibra::libpot`
+  - `Angle_Cubic` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `Angle_Fourier` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `Angle_Fourier_General` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `Angle_Fourier_Special` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `Angle_Harmonic` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `Angle_Harmonic_Cos` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `Angle_Harmonic_Cos_General` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `Bond_Harmonic` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `Bond_Quartic` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `Bond_Morse` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `Dihedral_Fourier` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `Dihedral_General` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `Elec_Coulomb` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `Elec_Ewald3D` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `Gay_Berne` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `Girifalco12_6` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `LJ_Coulomb` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `OOP_Fourier` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `OOP_Harmonic` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `OOP_Wilson` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `Stretch_Bend_Harmonic` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `Vdw_Buffered14_7` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `VdW_Ewald3D` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `Vdw_LJ` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `Vdw_LJ1` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `Vdw_LJ2_excl` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `Vdw_LJ2_no_excl` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  - `Vdw_Morse` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
 
 - `libra_py`
   - `autoconnect`
@@ -673,6 +716,12 @@ _______________________________
   - `hpc_utils`
     - `distribute` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
 
+  - `LoadGAFF`
+    - `Load_GAFF` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+
+  - `LoadGAFF`
+    - `Load_MMFF94` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+
   - `LoadMolecule`
     - `Load_Molecule` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb) | 
                       [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
@@ -682,6 +731,12 @@ _______________________________
     - `Load_PT` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb) | 
                 [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
                 [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
+
+  - `LoadTRIPOS`
+    - `Load_TRIPOS` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+
+  - `LoadUFF`
+    - `Load_UFF` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
 
   - `normal_modes`
     - `get_xyz2` [11.2.3.](11_program_specific_methods/2_qe_methods/3_normal_modes/tutorial.ipynb) 
@@ -702,16 +757,6 @@ _______________________________
   - `scan`
     - `coords2xyz` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
     - `make_path_xyz2` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
-
-- `liblibra::libintegrators`
-  - `RK4` [2.1.](2_integrators/1_runge_kutta_4th_order/tutorial.ipynb) | [2.2.](2_integrators/2_runge_kutta_4_for_Liouville/tutorial.ipynb)
-
-- `liblibra::libchemobjects`
-  - `libmol`
-    - `Atom` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
-      - `Atom` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
-      - `save` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
-      - `show_info`[12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
 
 - `liblibra::libutil`
   - `allocate_1D` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
@@ -830,9 +875,41 @@ _______________________________
     - `ThermostatList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
 
 - `liblibra::libforcefield`
+  - `Angle_Record`
+    - `Angle_Record` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `Atom1_ff_type` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `Atom2_ff_type` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `Atom3_ff_type` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `Angle_k_theta` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `Angle_theta_eq` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `set` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `show_info` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
   - `Angle_RecordList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `Atom_Record`
+    - `Atom_Record` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `Atom_ff_int_type` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `Atom_ff_type` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `set` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `show_info` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
   - `Bond_RecordList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `Dihedral_RecordList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `ForceField`
+    - `Add_Angle_Record` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `Add_Atom_Record` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `ForceField` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `bond_functional` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `angle_functional` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `dihedral_functional` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `oop_functional` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `vdw_functional` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `elec_functional` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `mb_functional` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `cg_functional` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `mb_excl_functional` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `set_functionals` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `show_angle_records` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `show_atom_records` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `show_info` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
   - `Fragment_RecordList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
 
 - `liblibra::libhamiltonian
