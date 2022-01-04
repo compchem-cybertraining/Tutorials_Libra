@@ -1,4 +1,4 @@
-[Go back to TOC](../../../README.md)
+[Go back to TOC](../../README.md)
 
 This tutorial provides a comprehensive overview of the molecular mechanics potentials implemented in Libra.
 
