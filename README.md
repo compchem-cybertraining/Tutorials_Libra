@@ -101,6 +101,7 @@ Tutorials showcasing various capabilities of Libra
 
 13. Force fields and classical MD (outside the dynamics module)
   * 13.1. [Force field basics](13_force_fields_and_classical_md/1_force_field_basics)
+  * 13.2. [Basics of MM calculations with Libra](13_force_fields_and_classical_md/2_atomistic_Hamiltonian)
 
 _______________________________
 
@@ -221,6 +222,7 @@ _______________________________
 30. Perform a ground state adiabatic MD with Libra
   * [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
   * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
+  * [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
 
 31. Perform an excited state adiabatic MD with Libra
   * [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
@@ -242,7 +244,7 @@ _______________________________
   * [6.2.5.1](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data)
 
 37. Fit the probability density of randomly distributed point with Gaussian density kernel functions
- * [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
+  * [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
 
 38. Read the HDF5 files to setup Hamiltonians
   * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
@@ -396,47 +398,22 @@ _______________________________
 
 79. Creating classical force fields 
   * [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+  * [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+
+80. Molecular mechanics calculations (Hamiltonian_Atomistic)
+  * [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+
+81. Mixing force fields
+  * [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+
+82. NVE ensemble MD with force fields
+  * [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
 
 
 _______________________________
 
 
 ## Functions
-
-- `liblibra::libchemobjects`
-  - `libchemsys::System` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
-    - `System` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb) | [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
-    - `CREATE_ATOM` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
-    - `determine_functional_groups` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | 
-                                    [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `GROUP_ATOMS` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
-                    [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `get_xyz` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb) 
-                [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
-    - `init_box` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb) | 
-                 [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
-    - `init_fragments` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
-                       [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `LINK_ATOMS` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
-    - `print_ent` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb) | 
-                  [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
-    - `print_xyz` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
-    - `ROTATE_FRAGMENT` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
-                        [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `show_atoms` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
-    - `show_bonds` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
-    - `show_fragments` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
-    - `show_molecules` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
-    - `show_rings` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
-    - `TRANSLATE_FRAGMENT` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
-  - `libmol`
-    - `Atom` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
-      - `Atom` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
-      - `save` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
-      - `show_info`[12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
-  - `libuniverse::Universe` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb) | 
-                            [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
-                            [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
 
 - `liblibra::libconverters`
   - `Py2Cpp_int` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
@@ -740,6 +717,10 @@ _______________________________
 
   - `normal_modes`
     - `get_xyz2` [11.2.3.](11_program_specific_methods/2_qe_methods/3_normal_modes/tutorial.ipynb) 
+
+  - `nve_md`
+    - `nve_md_init` [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+    - `nve_md_step` [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
     
   - `pdos`
     - `libra_pdos` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
@@ -810,30 +791,66 @@ _______________________________
   - `StringDoubleMap` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `StringIntMap` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `StringVDoubleMap` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
-  
+
 - `liblibra::libchemobjects`
-  - `libchemsys::System`
-    - `System` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
-    - `Number_of_atoms` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb) | 
+  - `libchemsys::System` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `Atoms` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | 
+              [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
+    - `CREATE_ATOM` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `determine_functional_groups` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | 
+                                    [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
+    - `Fragments` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | 
+                  [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
+    - `GROUP_ATOMS` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
+                    [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
+    - `get_xyz` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb) 
+                [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
+    - `init_box` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb) | 
+                 [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `init_atom_velocities` [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+    - `init_fragments` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
+                       [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
+    - `LINK_ATOMS` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `Number_of_atoms` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | 
+                        [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb) |
+                        [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+    - `Number_of_angles` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | 
+                         [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
+    - `Number_of_bonds` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | 
                         [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `Atoms` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `Fragments` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `Number_of_atoms` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `Number_of_angles` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `Number_of_bonds` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `Number_of_dihedrals` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `Number_of_fragments` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `Number_of_impropers` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |[12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
+    - `Number_of_dihedrals` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | 
+                            [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
+    - `Number_of_fragments` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | 
+                            [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
+    - `Number_of_impropers` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | 
+                            [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
+    - `print_ent` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb) | 
+                  [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `print_xyz` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `ROTATE_FRAGMENT` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
+                        [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
+    - `set_atomic_q` [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+    - `show_atoms` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `show_bonds` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `show_fragments` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `show_molecules` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `show_rings` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `System` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb) | [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `TRANSLATE_FRAGMENT` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
   - `libmol`
-    - `AtomList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
-    - `GroupList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
-    - `MoleculeList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
     - `Atom` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
       - `Atom` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
       - `Atom_id` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
       - `Atom_RB` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
       - `globAtom_Index` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
-  - `libuniverse::Universe` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+      - `save` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+      - `show_info`[12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `AtomList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+    - `GroupList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+    - `MoleculeList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `libuniverse::Universe` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb) | 
+                            [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
+                            [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)  
 
 - `liblibra::libdata`
   - `DATA` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb) | [7.4.2.](7_special_functions/4_random_numbers/2_metropolis/tutorial.ipynb)
@@ -868,35 +885,56 @@ _______________________________
 
 - `liblibra::libdyn`
   - `libelectronic`
+    - `Electronic`
+      - `Electronic` [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
     - `ElectronicList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `libnuclear`
+    - `Nuclear`
+      - `q` [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+      - `Nuclear` [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
     - `NuclearList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `libthermostat`
     - `ThermostatList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
 
 - `liblibra::libforcefield`
   - `Angle_Record`
-    - `Angle_Record` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
-    - `Atom1_ff_type` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
-    - `Atom2_ff_type` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
-    - `Atom3_ff_type` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
-    - `Angle_k_theta` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
-    - `Angle_theta_eq` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
-    - `set` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
-    - `show_info` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `Angle_Record` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb) |
+                     [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+    - `Atom1_ff_type` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb) |
+                      [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+    - `Atom2_ff_type` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb) | 
+                      [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+    - `Atom3_ff_type` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb) |
+                      [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+    - `Angle_k_theta` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb) |
+                      [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+    - `Angle_theta_eq` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb) |
+                       [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+    - `set` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb) |
+            [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+    - `show_info` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb) |
+                  [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
   - `Angle_RecordList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `Atom_Record`
-    - `Atom_Record` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
-    - `Atom_ff_int_type` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
-    - `Atom_ff_type` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
-    - `set` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
-    - `show_info` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `Atom_Record` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb) |
+                    [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+    - `Atom_ff_int_type` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb) |
+                         [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+    - `Atom_ff_type` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb) |
+                     [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+    - `set` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb) |
+            [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+    - `show_info` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb) |
+                  [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
   - `Bond_RecordList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `Dihedral_RecordList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `ForceField`
-    - `Add_Angle_Record` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
-    - `Add_Atom_Record` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
-    - `ForceField` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+    - `Add_Angle_Record` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb) |
+                         [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+    - `Add_Atom_Record` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb) |
+                        [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+    - `ForceField` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb) |
+                   [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
     - `bond_functional` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
     - `angle_functional` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
     - `dihedral_functional` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
@@ -922,10 +960,31 @@ _______________________________
         - `atom_to_ao_map` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
       - `listHamiltonian_QMList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
       - `listHamiltonian_QMMap` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+    - `Hamiltonian_Atomistic`
+      - `compute` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+      - `Hamiltonian_Atomistic` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+      - `set_Hamiltonian_type` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+      - `set_interactions_for_atoms` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+      - `set_system` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+      - `show_interactions` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+      - `show_interactions_statistics` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
     - `Hamiltonian_AtomisticList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+    - `libhamiltonian_mm`
+      - `Hamiltonian_MM`
+        - `Hamiltonian_MM` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+      - `listHamiltonian_MM`
+        - `active_interactions` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+        - `interactions` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+        - `is_active` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+        - `is_new_interaction` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+        - `listHamiltonian_MM` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
   - `libhamiltonian_extern`
     - `Hamiltonian_ExternList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `libhamiltonian_generic`
+    - `Hamiltonian` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+      - `compute` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+      - `H` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+      - `dHdq` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
     - `HamiltonianList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
     - `nHamiltonianList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   -`libhamiltonian_model`
