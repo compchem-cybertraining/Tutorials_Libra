@@ -1,0 +1,4164 @@
+SLURM_JOBID=8903468
+SLURM_JOB_NODELIST=cpn-p27-17
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/8903468
+working directory=/panfs/panfs.cbls.ccr.buffalo.edu/scratch/grp-alexeyak/mohammad/my_repositories/Tutorials_Libra/6_dynamics/2_nbra_workflows/7_step2_cp2k/2_xTB/2_hpc/job1
+ The Intel 20.2 compilers are in your path. This is adequate for compiling and
+running most codes. Source compilervars.sh for more features including the
+debugger. 
+ The Intel MPI 2020.2 is in your path. This is adequate for compiling and
+running most codes. Run "source
+/util/academic/intel/20.2/compilers_and_libraries_2020.2.254/linux/mpi/intel64/bin/mpivars.sh"
+for more features including the debugger. 
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+The translational vectors for the current periodic system are:
+
+[[-1 -1  0]
+ [-1  0  0]
+ [-1  1  0]
+ [ 0 -1  0]
+ [ 0  1  0]
+ [ 1 -1  0]
+ [ 1  0  0]
+ [ 1  1  0]]
+Will compute the S^AO between R(0,0,0) and 9 translational vectors
+-----------------------Start-----------------------
+-----------------------Step 1-----------------------
+**************** Running CP2K ****************
+Step 1 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.472952365875244
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.7887394428253174
+Done with step 1 Elapsed time: 4.293069839477539
+Creating shell...
+Done with creating shell. Elapsed time: 0.04819226264953613
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.16094660758972168
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.27289724349975586
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.02729344367980957
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004128456115722656
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.05622410774230957
+Done with step 1. Elapsed time: 4.862838268280029
+-----------------------Step 2-----------------------
+**************** Running CP2K ****************
+Step 2 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.059093713760376
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.8721394538879395
+Done with step 2 Elapsed time: 4.000098943710327
+Creating shell...
+Done with creating shell. Elapsed time: 0.04755234718322754
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.1558070182800293
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.29012393951416016
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05489993095397949
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004145383834838867
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.0766139030456543
+Removing unnecessary wfn files...
+Done with step 2. Elapsed time: 4.660764217376709
+-----------------------Step 3-----------------------
+**************** Running CP2K ****************
+Step 3 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 1.9785776138305664
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.8769471645355225
+Done with step 3 Elapsed time: 3.894423723220825
+Creating shell...
+Done with creating shell. Elapsed time: 0.0459752082824707
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15250110626220703
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.261641263961792
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05520439147949219
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.00420379638671875
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.05304455757141113
+Removing unnecessary wfn files...
+Done with step 3. Elapsed time: 4.509218215942383
+-----------------------Step 4-----------------------
+**************** Running CP2K ****************
+Step 4 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.0645058155059814
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.8591029644012451
+Done with step 4 Elapsed time: 3.950411796569824
+Creating shell...
+Done with creating shell. Elapsed time: 0.0470888614654541
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15657711029052734
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.2490978240966797
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05470132827758789
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004143953323364258
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.055017709732055664
+Removing unnecessary wfn files...
+Done with step 4. Elapsed time: 4.55545973777771
+-----------------------Step 5-----------------------
+**************** Running CP2K ****************
+Step 5 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.018415927886963
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.9736642837524414
+Done with step 5 Elapsed time: 4.0216217041015625
+Creating shell...
+Done with creating shell. Elapsed time: 0.04772591590881348
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15744471549987793
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.30092787742614746
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05481743812561035
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004174470901489258
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.07306289672851562
+Removing unnecessary wfn files...
+Done with step 5. Elapsed time: 4.688726186752319
+-----------------------Step 6-----------------------
+**************** Running CP2K ****************
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+Step 6 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.050992965698242
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.8862504959106445
+Done with step 6 Elapsed time: 3.964766502380371
+Creating shell...
+Done with creating shell. Elapsed time: 0.04721808433532715
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15569257736206055
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.24886608123779297
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.054728031158447266
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.0041348934173583984
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.06655097007751465
+Removing unnecessary wfn files...
+Done with step 6. Elapsed time: 4.573495626449585
+-----------------------Step 7-----------------------
+**************** Running CP2K ****************
+Step 7 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.0541458129882812
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.8083038330078125
+Done with step 7 Elapsed time: 3.8883399963378906
+Creating shell...
+Done with creating shell. Elapsed time: 0.04718780517578125
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15654540061950684
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.24988007545471191
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.055504798889160156
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.00428318977355957
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.049683332443237305
+Removing unnecessary wfn files...
+Done with step 7. Elapsed time: 4.4922404289245605
+-----------------------Step 8-----------------------
+**************** Running CP2K ****************
+Step 8 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.0431602001190186
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.9309773445129395
+Done with step 8 Elapsed time: 4.002807855606079
+Creating shell...
+Done with creating shell. Elapsed time: 0.045476436614990234
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15373706817626953
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.24913716316223145
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.054564714431762695
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004117250442504883
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.07698869705200195
+Removing unnecessary wfn files...
+Done with step 8. Elapsed time: 4.616460084915161
+-----------------------Step 9-----------------------
+**************** Running CP2K ****************
+Step 9 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.0025370121002197
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.942162275314331
+Done with step 9 Elapsed time: 3.984503746032715
+Creating shell...
+Done with creating shell. Elapsed time: 0.04528546333312988
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15299367904663086
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.24876999855041504
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.054906606674194336
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.0041370391845703125
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.0472562313079834
+Removing unnecessary wfn files...
+Done with step 9. Elapsed time: 4.56833028793335
+-----------------------Step 10-----------------------
+**************** Running CP2K ****************
+Step 10 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.0654189586639404
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.8123321533203125
+Done with step 10 Elapsed time: 3.9063305854797363
+Creating shell...
+Done with creating shell. Elapsed time: 0.04701590538024902
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.1564178466796875
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.24816417694091797
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.054830312728881836
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004313468933105469
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.04548239707946777
+Removing unnecessary wfn files...
+Done with step 10. Elapsed time: 4.490720748901367
+-----------------------Step 11-----------------------
+**************** Running CP2K ****************
+Step 11 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.0343782901763916
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.9072399139404297
+Done with step 11 Elapsed time: 3.99350905418396
+Creating shell...
+Done with creating shell. Elapsed time:
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+ 0.047005414962768555
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15648818016052246
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.2502129077911377
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.0549626350402832
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004178047180175781
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.05072021484375
+Removing unnecessary wfn files...
+Done with step 11. Elapsed time: 4.586871147155762
+-----------------------Step 12-----------------------
+**************** Running CP2K ****************
+Step 12 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.0452704429626465
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 2.0622689723968506
+Done with step 12 Elapsed time: 4.134627342224121
+Creating shell...
+Done with creating shell. Elapsed time: 0.046941280364990234
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.1582019329071045
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.24937939643859863
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.054560184478759766
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004121065139770508
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.06879210472106934
+Removing unnecessary wfn files...
+Done with step 12. Elapsed time: 4.79767918586731
+-----------------------Step 13-----------------------
+**************** Running CP2K ****************
+Step 13 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.042825222015381
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.847046136856079
+Done with step 13 Elapsed time: 3.917811632156372
+Creating shell...
+Done with creating shell. Elapsed time: 0.046629905700683594
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15694117546081543
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.24791765213012695
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.054689645767211914
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004146575927734375
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.056852102279663086
+Removing unnecessary wfn files...
+Done with step 13. Elapsed time: 4.514836311340332
+-----------------------Step 14-----------------------
+**************** Running CP2K ****************
+Step 14 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.035090208053589
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.8531913757324219
+Done with step 14 Elapsed time: 3.917900562286377
+Creating shell...
+Done with creating shell. Elapsed time: 0.04757189750671387
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15564179420471191
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.24874281883239746
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05469346046447754
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004133701324462891
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.05362057685852051
+Removing unnecessary wfn files...
+Done with step 14. Elapsed time: 4.515951871871948
+-----------------------Step 15-----------------------
+**************** Running CP2K ****************
+Step 15 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.0097594261169434
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.874126672744751
+Done with step 15 Elapsed time: 3.9260315895080566
+Creating shell...
+Done with creating shell. Elapsed time: 0.04730653762817383
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15602445602416992
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.24837040901184082
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05504608154296875
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.0042154788970947266
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.05978035926818848
+Removing unnecessary wfn files...
+Done with step 15. Elapsed time: 4.527332544326782
+-----------------------Step 16-----------------------
+**************** Running CP2K ****************
+Step 16 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 1.9991302490234375
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.8621902465820312
+Done with step 16 Elapsed time: 3.8875367641448975
+Creating shell...
+Done with creating shell. Elapsed time: 0.047611236572265625
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15577197074890137
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.24870967864990234
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05468440055847168
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004142284393310547
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.04716634750366211
+Removing unnecessary wfn files...
+Done with step 16. Elapsed time: 4.475283622741699
+-----------------------Step 17-----------------------
+**************** Running CP2K ****************
+Step 17 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 1.9833993911743164
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.9441566467285156
+Done with step 17 Elapsed time: 3.9681971073150635
+Creating shell...
+Done with creating shell. Elapsed time: 0.046987295150756836
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15500760078430176
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.24962687492370605
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.054788827896118164
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004140615463256836
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.11723542213439941
+Removing unnecessary wfn files...
+Done with step 17. Elapsed time: 4.6312034130096436
+-----------------------Step 18-----------------------
+**************** Running CP2K ****************
+Step 18 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.0442748069763184
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.9691758155822754
+Done with step 18 Elapsed time: 4.055063724517822
+Creating shell...
+Done with creating shell. Elapsed time: 0.04524731636047363
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.1537153720855713
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.29016804695129395
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.054828643798828125
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.0043315887451171875
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.05593514442443848
+Removing unnecessary wfn files...
+Done with step 18. Elapsed time: 4.6965742111206055
+-----------------------Step 19-----------------------
+**************** Running CP2K ****************
+Step 19 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.016362190246582
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.8323142528533936
+Done with step 19 Elapsed time: 3.8835155963897705
+Creating shell...
+Done with creating shell. Elapsed time: 0.04719376564025879
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15689849853515625
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.2916240692138672
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05476880073547363
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004151344299316406
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.05000782012939453
+Removing unnecessary wfn files...
+Done with step 19. Elapsed time: 4.541910886764526
+-----------------------Step 20-----------------------
+**************** Running CP2K ****************
+Step 20 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.0579633712768555
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.8259949684143066
+Done with step 20 Elapsed time: 3.920306444168091
+Creating shell...
+Done with creating shell. Elapsed time: 0.04728388786315918
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15606093406677246
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.24914073944091797
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05476808547973633
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.00414276123046875
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.06140279769897461
+Removing unnecessary wfn files...
+Done with step 20. Elapsed time: 4.532809734344482
+-----------------------Step 21-----------------------
+**************** Running CP2K ****************
+Step 21 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.021298885345459
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.7891929149627686
+Done with step 21 Elapsed time: 3.871551036834717
+Creating shell...
+Done with creating shell. Elapsed time: 0.047611236572265625
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.17223501205444336
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time:
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+ 0.2516021728515625
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05480194091796875
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004215717315673828
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.05061507225036621
+Removing unnecessary wfn files...
+Done with step 21. Elapsed time: 4.488429307937622
+-----------------------Step 22-----------------------
+**************** Running CP2K ****************
+Step 22 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 1.9783132076263428
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.8533835411071777
+Done with step 22 Elapsed time: 3.8662731647491455
+Creating shell...
+Done with creating shell. Elapsed time: 0.04686427116394043
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15653491020202637
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.2597949504852295
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05481886863708496
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.0042247772216796875
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.05366945266723633
+Removing unnecessary wfn files...
+Done with step 22. Elapsed time: 4.479265451431274
+-----------------------Step 23-----------------------
+**************** Running CP2K ****************
+Step 23 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.033141613006592
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.7950809001922607
+Done with step 23 Elapsed time: 3.864755392074585
+Creating shell...
+Done with creating shell. Elapsed time: 0.04701828956604004
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15845131874084473
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.24781179428100586
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.054851531982421875
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.0041387081146240234
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.07422637939453125
+Removing unnecessary wfn files...
+Done with step 23. Elapsed time: 4.487138032913208
+-----------------------Step 24-----------------------
+**************** Running CP2K ****************
+Step 24 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.053170919418335
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.8623442649841309
+Done with step 24 Elapsed time: 3.9428396224975586
+Creating shell...
+Done with creating shell. Elapsed time: 0.04724740982055664
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.17247676849365234
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.26335597038269043
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05468392372131348
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.0042302608489990234
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.05895805358886719
+Removing unnecessary wfn files...
+Done with step 24. Elapsed time: 4.583740472793579
+-----------------------Step 25-----------------------
+**************** Running CP2K ****************
+Step 25 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.065235137939453
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.8649489879608154
+Done with step 25 Elapsed time: 3.9727678298950195
+Creating shell...
+Done with creating shell. Elapsed time: 0.047982215881347656
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15460991859436035
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.24703669548034668
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05469393730163574
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004149913787841797
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.04748177528381348
+Removing unnecessary wfn files...
+Done with step 25. Elapsed time: 4.561840772628784
+-----------------------Step 26-----------------------
+**************** Running CP2K ****************
+Step 26 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.00093936920166
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.879065752029419
+Done with step 26 Elapsed time: 3.909013509750366
+Creating shell...
+Done with creating shell. Elapsed time: 0.045156240463256836
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15377545356750488
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.26378917694091797
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.054856061935424805
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004141569137573242
+Computing and saving molecular orbital overlaps...
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+Done with computing molecular orbital overlaps. Elapsed time: 0.06959056854248047
+Removing unnecessary wfn files...
+Done with step 26. Elapsed time: 4.534954309463501
+-----------------------Step 27-----------------------
+**************** Running CP2K ****************
+Step 27 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.041332483291626
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.8769400119781494
+Done with step 27 Elapsed time: 3.9668679237365723
+Creating shell...
+Done with creating shell. Elapsed time: 0.04683685302734375
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.1554117202758789
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.24894118309020996
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.054882049560546875
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004132270812988281
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.05160999298095703
+Removing unnecessary wfn files...
+Done with step 27. Elapsed time: 4.563604116439819
+-----------------------Step 28-----------------------
+**************** Running CP2K ****************
+Step 28 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.0328781604766846
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.8282113075256348
+Done with step 28 Elapsed time: 3.891542673110962
+Creating shell...
+Done with creating shell. Elapsed time: 0.046918630599975586
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15585947036743164
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.29128217697143555
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05473589897155762
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004269599914550781
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.05391502380371094
+Removing unnecessary wfn files...
+Done with step 28. Elapsed time: 4.53054666519165
+-----------------------Step 29-----------------------
+**************** Running CP2K ****************
+Step 29 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.0245003700256348
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.847132921218872
+Done with step 29 Elapsed time: 3.8987669944763184
+Creating shell...
+Done with creating shell. Elapsed time: 0.047020912170410156
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15758013725280762
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.24688506126403809
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.054944515228271484
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004136085510253906
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.06936383247375488
+Removing unnecessary wfn files...
+Done with step 29. Elapsed time: 4.512368202209473
+-----------------------Step 30-----------------------
+**************** Running CP2K ****************
+Step 30 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.0449931621551514
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.85542893409729
+Done with step 30 Elapsed time: 3.931530475616455
+Creating shell...
+Done with creating shell. Elapsed time: 0.04650092124938965
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15695834159851074
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.2508053779602051
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.054772138595581055
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.0041582584381103516
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.06172013282775879
+Removing unnecessary wfn files...
+Done with step 30. Elapsed time: 4.544796466827393
+-----------------------Step 31-----------------------
+**************** Running CP2K ****************
+Step 31 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.090513229370117
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.877063512802124
+Done with step 31 Elapsed time: 3.995516300201416
+Creating shell...
+Done with creating shell. Elapsed time: 0.04413342475891113
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15444540977478027
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.31177520751953125
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05490255355834961
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004147052764892578
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.06109952926635742
+Removing unnecessary wfn files...
+Done with step 31. Elapsed time: 4.658715486526489
+-----------------------Step 32-----------------------
+**************** Running CP2K ****************
+Step 32 Computing the OT method wfn file...
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+Done with OT wfn. Elapsed time: 2.0432353019714355
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 2.024613618850708
+Done with step 32 Elapsed time: 4.108095645904541
+Creating shell...
+Done with creating shell. Elapsed time: 0.04501795768737793
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.16878533363342285
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.26657867431640625
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05475139617919922
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.0042302608489990234
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.051024675369262695
+Removing unnecessary wfn files...
+Done with step 32. Elapsed time: 4.737981796264648
+-----------------------Step 33-----------------------
+**************** Running CP2K ****************
+Step 33 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.0461368560791016
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.8469688892364502
+Done with step 33 Elapsed time: 3.9395980834960938
+Creating shell...
+Done with creating shell. Elapsed time: 0.044325828552246094
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15291953086853027
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.2549915313720703
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05622386932373047
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.005232810974121094
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.05652141571044922
+Removing unnecessary wfn files...
+Done with step 33. Elapsed time: 4.543332815170288
+-----------------------Step 34-----------------------
+**************** Running CP2K ****************
+Step 34 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.077875852584839
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.8411078453063965
+Done with step 34 Elapsed time: 3.9475982189178467
+Creating shell...
+Done with creating shell. Elapsed time: 0.04703211784362793
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15551447868347168
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.24791193008422852
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.054839372634887695
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004155874252319336
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.060640811920166016
+Removing unnecessary wfn files...
+Done with step 34. Elapsed time: 4.609187841415405
+-----------------------Step 35-----------------------
+**************** Running CP2K ****************
+Step 35 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.0407721996307373
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.9091737270355225
+Done with step 35 Elapsed time: 3.990194082260132
+Creating shell...
+Done with creating shell. Elapsed time: 0.04519176483154297
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.1533515453338623
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.24933910369873047
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.054621219635009766
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.0041849613189697266
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.06211209297180176
+Removing unnecessary wfn files...
+Done with step 35. Elapsed time: 4.59568452835083
+-----------------------Step 36-----------------------
+**************** Running CP2K ****************
+Step 36 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.010502338409424
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.9373106956481934
+Done with step 36 Elapsed time: 3.972590446472168
+Creating shell...
+Done with creating shell. Elapsed time: 0.04387521743774414
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15105891227722168
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.2581827640533447
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05468630790710449
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004132986068725586
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.056409358978271484
+Removing unnecessary wfn files...
+Done with step 36. Elapsed time: 4.577200651168823
+-----------------------Step 37-----------------------
+**************** Running CP2K ****************
+Step 37 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.0402469635009766
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.9391846656799316
+Done with step 37 Elapsed time: 4.006253719329834
+Creating shell...
+Done with creating shell. Elapsed time: 0.0473175048828125
+Reading energies and eigenvectors....
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+Done with reading energies and eigenvectors. Elapsed time: 0.15630626678466797
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.24990224838256836
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.054720163345336914
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004152774810791016
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.06486701965332031
+Removing unnecessary wfn files...
+Done with step 37. Elapsed time: 4.622209072113037
+-----------------------Step 38-----------------------
+**************** Running CP2K ****************
+Step 38 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 1.978708028793335
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.840116262435913
+Done with step 38 Elapsed time: 3.845957040786743
+Creating shell...
+Done with creating shell. Elapsed time: 0.04679465293884277
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.1556994915008545
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.2905547618865967
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05477643013000488
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004212856292724609
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.10294604301452637
+Removing unnecessary wfn files...
+Done with step 38. Elapsed time: 4.552847862243652
+-----------------------Step 39-----------------------
+**************** Running CP2K ****************
+Step 39 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.0235755443573
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.826127290725708
+Done with step 39 Elapsed time: 3.90906023979187
+Creating shell...
+Done with creating shell. Elapsed time: 0.04709744453430176
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.1563124656677246
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.24833321571350098
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05513310432434082
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004172325134277344
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.05381608009338379
+Removing unnecessary wfn files...
+Done with step 39. Elapsed time: 4.515088081359863
+-----------------------Step 40-----------------------
+**************** Running CP2K ****************
+Step 40 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.0640125274658203
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.854875087738037
+Done with step 40 Elapsed time: 3.96758770942688
+Creating shell...
+Done with creating shell. Elapsed time: 0.04438328742980957
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.1528632640838623
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.26291632652282715
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05455660820007324
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004126787185668945
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.06107020378112793
+Removing unnecessary wfn files...
+Done with step 40. Elapsed time: 4.598111629486084
+-----------------------Step 41-----------------------
+**************** Running CP2K ****************
+Step 41 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.0807907581329346
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.8277459144592285
+Done with step 41 Elapsed time: 3.9356555938720703
+Creating shell...
+Done with creating shell. Elapsed time: 0.04909539222717285
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15751314163208008
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.28679656982421875
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05538320541381836
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004191875457763672
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.06673288345336914
+Removing unnecessary wfn files...
+Done with step 41. Elapsed time: 4.590413570404053
+-----------------------Step 42-----------------------
+**************** Running CP2K ****************
+Step 42 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.0493505001068115
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.8081421852111816
+Done with step 42 Elapsed time: 3.8832638263702393
+Creating shell...
+Done with creating shell. Elapsed time: 0.04729032516479492
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15656018257141113
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+
+	Finished computing overlap integral
+Will scale over 12 OpenMP threads
+rm: cannot remove ‘*.tdwfn*’: No such file or directory
+/projects/academic/alexeyak/mohammad/software/miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+/projects/academic/alexeyak/mohammad/software/miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for boost::python::detail::container_element<std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >, unsigned long, boost::python::detail::final_vector_derived_policies<std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >, false> > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+/projects/academic/alexeyak/mohammad/software/miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+/projects/academic/alexeyak/mohammad/software/miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for boost::python::detail::container_element<std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >, unsigned long, boost::python::detail::final_vector_derived_policies<std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >, false> > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+/projects/academic/alexeyak/mohammad/software/miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+/projects/academic/alexeyak/mohammad/software/miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for boost::python::detail::container_element<std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >, unsigned long, boost::python::detail::final_vector_derived_policies<std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >, false> > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+/projects/academic/alexeyak/mohammad/software/miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > >, std::allocator<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+/projects/academic/alexeyak/mohammad/software/miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for boost::python::detail::container_element<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > >, std::allocator<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >, unsigned long, boost::python::detail::final_vector_derived_policies<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > >, std::allocator<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >, false> > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.25006580352783203
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.0546567440032959
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004136800765991211
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.07377886772155762
+Removing unnecessary wfn files...
+Done with step 42. Elapsed time: 4.518794298171997
+-----------------------Step 43-----------------------
+**************** Running CP2K ****************
+Step 43 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.031057834625244
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.813910722732544
+Done with step 43 Elapsed time: 3.907000780105591
+Creating shell...
+Done with creating shell. Elapsed time: 0.044631242752075195
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15377163887023926
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.2536489963531494
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05741000175476074
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.0048024654388427734
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.06796383857727051
+Removing unnecessary wfn files...
+Done with step 43. Elapsed time: 4.529973268508911
+-----------------------Step 44-----------------------
+**************** Running CP2K ****************
+Step 44 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.0307157039642334
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.9090707302093506
+Done with step 44 Elapsed time: 3.968667984008789
+Creating shell...
+Done with creating shell. Elapsed time: 0.0469362735748291
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15622854232788086
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.24822568893432617
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05467581748962402
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004143714904785156
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.09409832954406738
+Removing unnecessary wfn files...
+Done with step 44. Elapsed time: 4.60910177230835
+-----------------------Step 45-----------------------
+**************** Running CP2K ****************
+Step 45 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.012110948562622
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.8110439777374268
+Done with step 45 Elapsed time: 3.8493857383728027
+Creating shell...
+Done with creating shell. Elapsed time: 0.047083139419555664
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15697407722473145
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.24866271018981934
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05500435829162598
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.0041468143463134766
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.06250214576721191
+Removing unnecessary wfn files...
+Done with step 45. Elapsed time: 4.461599111557007
+-----------------------Step 46-----------------------
+**************** Running CP2K ****************
+Step 46 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.009441614151001
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.8873250484466553
+Done with step 46 Elapsed time: 3.9337501525878906
+Creating shell...
+Done with creating shell. Elapsed time: 0.047097206115722656
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15525078773498535
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.2487344741821289
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05452156066894531
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004149436950683594
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.05678749084472656
+Removing unnecessary wfn files...
+Done with step 46. Elapsed time: 4.5507543087005615
+-----------------------Step 47-----------------------
+**************** Running CP2K ****************
+Step 47 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.069222927093506
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.8652548789978027
+Done with step 47 Elapsed time: 3.968839406967163
+Creating shell...
+Done with creating shell. Elapsed time: 0.0475316047668457
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.1555190086364746
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.24831390380859375
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05470633506774902
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004137754440307617
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.04970693588256836
+Removing unnecessary wfn files...
+Done with step 47. Elapsed time: 4.565079212188721
+-----------------------Step 48-----------------------
+**************** Running CP2K ****************
+Step 48 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.0551488399505615
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.7933037281036377
+Done with step 48 Elapsed time: 3.8748533725738525
+Creating shell...
+Done with creating shell. Elapsed time: 0.047583580017089844
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15527081489562988
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.2611262798309326
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05499863624572754
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.00416874885559082
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.08366179466247559
+Removing unnecessary wfn files...
+Done with step 48. Elapsed time: 4.524656772613525
+-----------------------Step 49-----------------------
+**************** Running CP2K ****************
+Step 49 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.0512282848358154
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.863403558731079
+Done with step 49 Elapsed time: 3.9413058757781982
+Creating shell...
+Done with creating shell. Elapsed time: 0.04848122596740723
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15623211860656738
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.25167155265808105
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05570721626281738
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.00429081916809082
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.07502126693725586
+Removing unnecessary wfn files...
+Done with step 49. Elapsed time: 4.573021411895752
+-----------------------Step 50-----------------------
+**************** Running CP2K ****************
+Step 50 Computing the OT method wfn file...
+Done with OT wfn. Elapsed time: 2.062227964401245
+Computing the wfn file using diagonalization method...
+Done with diagonalization. Elapsed time: 1.8902857303619385
+Done with step 50 Elapsed time: 3.9790210723876953
+Creating shell...
+Done with creating shell. Elapsed time: 0.04732823371887207
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.15657305717468262
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.2599365711212158
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.05450177192687988
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.004230976104736328
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.07580137252807617
+Removing unnecessary wfn files...
+Done with step 50. Elapsed time: 4.616470813751221
+Done with the job!!!
+
+	Finished computing overlap integral

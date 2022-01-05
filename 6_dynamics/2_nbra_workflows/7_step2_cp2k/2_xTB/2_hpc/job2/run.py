@@ -7,14 +7,15 @@ from libra_py.workflows.nbra import step2
 path = os.getcwd()
 params = {}
 # number of processors
-
 params['nprocs'] = 12
-params['istep'] = 4
-params['istep'] = 4
-params['fstep'] = 8
+# The mpi executable
+params['mpi_executable'] = 'srun'
+params['istep'] = 50
+params['istep'] = 50
+params['fstep'] = 100
 # Lowest and highest orbital, Here HOMO is 128
-params['init_state'] = 128-20
-params['final_state'] = 128+21
+params['lowest_orbital'] = 128-20
+params['highest_orbital'] = 128+21
 # extended tight-binding calculation type
 params['isxTB'] = True
 # DFT calculation type

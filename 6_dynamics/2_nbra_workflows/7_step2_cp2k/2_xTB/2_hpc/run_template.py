@@ -7,8 +7,9 @@ from libra_py.workflows.nbra import step2
 path = os.getcwd()
 params = {}
 # number of processors
-
 params['nprocs'] = 12
+# The mpi executable
+params['mpi_executable'] = 'srun'
 # The istep and fstep
 params['istep'] = 
 params['fstep'] = 

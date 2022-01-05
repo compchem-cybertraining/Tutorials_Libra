@@ -8,12 +8,14 @@ path = os.getcwd()
 params = {}
 # number of processors
 params['nprocs'] = 12
+# The mpi executable
+params['mpi_executable'] = 'srun'
 # Leave this part for Libra
-params['istep'] = 4
-params['fstep'] = 8
+params['istep'] = 25
+params['fstep'] = 50
 # Lowest and highest orbital, Here HOMO is 24
-params['init_state'] = 24-10
-params['final_state'] = 24+11
+params['lowest_orbital'] = 24-10
+params['highest_orbital'] = 24+11
 # extended tight-binding calculation type
 params['isxTB'] = False
 # DFT calculation type
