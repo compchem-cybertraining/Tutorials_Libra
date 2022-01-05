@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+_*.png
+_*.txt
+*.log
+timer.dat
+*.xyz

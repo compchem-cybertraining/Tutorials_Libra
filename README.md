@@ -102,6 +102,7 @@ Tutorials showcasing various capabilities of Libra
 13. Force fields and classical MD (outside the dynamics module)
   * 13.1. [Force field basics](13_force_fields_and_classical_md/1_force_field_basics)
   * 13.2. [Basics of MM calculations with Libra](13_force_fields_and_classical_md/2_atomistic_Hamiltonian)
+  * 13.3. [Force field molecular structure optimization](13_force_fields_and_classical_md/3_mm_optimization)
 
 _______________________________
 
@@ -111,6 +112,7 @@ _______________________________
   * [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb) |
   * [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
   * [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
+  * [13.3.](13_force_fields_and_classical_md/3_mm_optimization/tutorial.ipynb)
   
 2. EHT calculations with Libra
   * [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
@@ -140,6 +142,7 @@ _______________________________
   * [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
   * [11.2.2.](11_program_specific_methods/2_qe_methods/2_md/1_co2/tutorial.ipynb)
   * [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
+  * [13.3.](13_force_fields_and_classical_md/3_mm_optimization/tutorial.ipynb)
 
 9. Construct the vibronic Hamiltonian from the QE MD calculations
   * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
@@ -402,12 +405,19 @@ _______________________________
 
 80. Molecular mechanics calculations (Hamiltonian_Atomistic)
   * [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+  * [13.3.](13_force_fields_and_classical_md/3_mm_optimization/tutorial.ipynb)
 
 81. Mixing force fields
   * [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
 
 82. NVE ensemble MD with force fields
   * [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+
+83. Simulated annealing
+  * [13.3.](13_force_fields_and_classical_md/3_mm_optimization/tutorial.ipynb)
+
+84. Molecular mechanics molecular structure optimization
+  * [13.3.](13_force_fields_and_classical_md/3_mm_optimization/tutorial.ipynb)
 
 
 _______________________________
@@ -721,6 +731,8 @@ _______________________________
   - `nve_md`
     - `nve_md_init` [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
     - `nve_md_step` [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+    - `optimize_syst` [13.3.](13_force_fields_and_classical_md/3_mm_optimization/tutorial.ipynb)
+    - `syst2xyz` [13.3.](13_force_fields_and_classical_md/3_mm_optimization/tutorial.ipynb)
     
   - `pdos`
     - `libra_pdos` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
@@ -796,7 +808,8 @@ _______________________________
   - `libchemsys::System` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
     - `Atoms` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | 
               [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `CREATE_ATOM` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `CREATE_ATOM` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
+                    [13.3.](13_force_fields_and_classical_md/3_mm_optimization/tutorial.ipynb)
     - `determine_functional_groups` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | 
                                     [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
     - `Fragments` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | 
@@ -810,7 +823,8 @@ _______________________________
     - `init_atom_velocities` [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
     - `init_fragments` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
                        [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-    - `LINK_ATOMS` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb)
+    - `LINK_ATOMS` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
+                   [13.3.](13_force_fields_and_classical_md/3_mm_optimization/tutorial.ipynb)
     - `Number_of_atoms` [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) | 
                         [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb) |
                         [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
