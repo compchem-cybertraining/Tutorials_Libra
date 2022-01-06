@@ -1,0 +1,105 @@
+&FORCE_EVAL
+  &DFT
+    !WFN_RESTART_FILE_NAME p4-RESTART.wfn
+
+    &QS
+      METHOD xTB
+      &xTB
+        DO_EWALD  T
+        CHECK_ATOMIC_CHARGES  T
+        COULOMB_INTERACTION T
+        &PARAMETER
+          DISPERSION_PARAMETER_FILE dftd3.dat
+          PARAM_FILE_NAME xTB_parameters
+        &END PARAMETER
+      &END
+
+      &DISTRIBUTION
+        BASIC_OPTIMIZATION .FALSE.
+        BASIC_SPATIAL_OPTIMIZATION .TRUE.
+      &END
+    &END QS
+
+
+    &POISSON
+      POISSON_SOLVER PERIODIC !MT
+      PERIODIC XYZ !NONE
+    &END
+
+    &SCF
+      SCF_GUESS ATOMIC !MOPAC
+      EPS_SCF 1.e-8
+      &OT
+         PRECONDITIONER FULL_SINGLE_INVERSE
+         MINIMIZER DIIS
+      &END
+!      &OUTER_SCF
+!         MAX_SCF  30
+!         EPS_SCF 1.e-8
+!      &END
+      MAX_SCF  50
+    &END SCF
+  &END DFT
+
+  &SUBSYS
+    &CELL
+      A        14.2415132523         0.0000000000         0.0000000000
+      B         0.0002151559        12.3343009930         0.0000000000
+      C         0.0018975023         0.0028002808        14.9999996186
+      PERIODIC XYZ
+    &END CELL
+
+    &TOPOLOGY
+      COORD_FILE_NAME C3N4_1x1.xyz 
+      COORD_FILE_FORMAT XYZ
+      &CENTER_COORDINATES T
+      &END
+    &END
+   &END SUBSYS
+&END FORCE_EVAL
+
+&GLOBAL
+  PROJECT_NAME c3n4_1x1_MD_xTB
+  RUN_TYPE MD
+  PRINT_LEVEL LOW
+&END GLOBAL
+
+&MOTION
+  &MD
+    ENSEMBLE NVT
+    TEMPERATURE [K] 300
+    TIMESTEP [fs] 1.0
+    STEPS 200
+    COMVEL_TOL 0.0
+
+    &THERMOSTAT
+      REGION GLOBAL
+      TYPE CSVR
+        &CSVR
+          TIMECON 20
+        &END
+    &END THERMOSTAT
+  &END
+
+  &PRINT
+    &TRAJECTORY
+      &EACH
+        MD 1
+      &END EACH
+    &END TRAJECTORY
+
+    &VELOCITIES ON
+    &END VELOCITIES
+
+    &FORCES ON
+    &END FORCES
+
+    &RESTART
+      BACKUP_COPIES 1
+      &EACH
+        MD 1
+      &END EACH
+    &END RESTART
+  &END PRINT
+&END
+
