@@ -9,7 +9,19 @@ Kohn-Sham and excited states. Here, we will present how one can use the current 
 and on an HPC. The latter can be used to distribute jobs and increase the speed of calculations by splitting the trajectory. 
 The files that contain the main parameters are in the `run_template.py` and the `tutorial.ipynb`. 
 
-## 1. Variables
+## 1. Functions 
+
+We use the following functions that are implemented in Libra to compute the MO overlaps:
+
+- `libra_py`
+  - `CP2K_methods`
+    - `distribute_cp2k_libint_jobs`
+  - `workflows`
+    - `nbra`
+      - `step2`
+        - `run_cp2k_libint_step2`
+
+## 2. Variables
 
 The detailed information about 
 the needed parameters to run the main calculations in these files are as follows:
@@ -108,18 +120,6 @@ The calculations are then run using the function `step2.run_cp2k_libint_step2(pa
 _*Note:*_ If you set the `path` to `os.getcwd()` and you want to compute the overlaps by splitting the trajectory into multiple jobs, you will
 need to add one more `../` to the above paths. It is already added in the current files except for the ones run within a notebook. The reason is that the 
 `os.getcwd()` is obtained in a new subdirectory in `job` folders.
-
-## 2. Functions 
-
-We use the following functions that are implemented in Libra:
-
-- `libra_py`
-  - `CP2K_methods`
-    - `distribute_cp2k_libint_jobs`
-  - `workflows`
-    - `nbra`
-      - `step2`
-        - `run_cp2k_libint_step2`
 
 ## 3. Submitting multiple jobs on HPCs for computing MO overlaps
 
