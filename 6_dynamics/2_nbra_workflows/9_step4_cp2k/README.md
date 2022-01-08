@@ -15,6 +15,25 @@ but if one wants to fit with another function the procedure is almost the same. 
 After fitting, we compute the average and the error bars for the computed dynamics and plot them. The fitting are applied to either hot state
 decay or recovery of other states such as the recovery dynamics of the band edge states.
 
+## 1. Functions
+
+We use the following functions in this step:
+
+- `libra_py`
+  - `data_conv`
+  - `data_stat`
+  - `data_outs`
+  - `data_read`
+  - `workflows`
+    - `nbra`
+      - `step4`
+        - `namd_workflow`
+      - `decoherence_times`
+        - `decoherence_times`
+  - `units`
+    - `fs2au`
+
+## 2. Varibales
 
 The list of the paramters used here are as follwos:
 
