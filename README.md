@@ -521,6 +521,30 @@ _______________________________
     - `add_atom_to_system` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
     - `add_atoms_to_system` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
 
+  - `CP2K_methods`
+    - `cp2k_distribute`
+    - `cp2k_find_excitation_energies`
+    - `CP2K_input_static`
+    - `cp2k_xtb_diag_inp`
+    - `cp2k_xtb_ot_inp`
+    - `cube_file_names_cp2k`
+    - `distribute_cp2k_libint_jobs`
+    - `extract_coordinates`
+    - `find_basis_set`
+    - `generate_translational_vectors`
+    - `index_reorder`
+    - `make_shell`
+    - `molog_lvals`
+    - `read_ao_matrices`
+    - `read_cp2k_tddfpt_log_file`
+    - `read_energies_from_cp2k_log_file`
+    - `read_energies_from_cp2k_md_log_file`
+    - `read_homo_index`
+    - `read_molog_file`
+    - `read_trajectory_xyz_file`
+    - `resort_molog_eigenvectors`
+    - `run_cp2k_xtb`
+
   - `dynamics`
     - `heom`
       - `compute` 
@@ -549,6 +573,12 @@ _______________________________
             [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
       - `recipes`
         - `adiabatic_md_interfaces_params` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
+
+  - `molden_methods`
+    - `eigenvectors_molden`
+    - `index_reorder`
+    - `molden_file_to_libint_shell`
+    - `resort_eigenvectors`
 
   - `models`
     - `Holstein`
@@ -591,6 +621,7 @@ _______________________________
         - `run`
       - `step2`
         - `run` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
+        - `run_cp2k_libint_step2` [6.2.7.](6_dynamics/2_nbra_workflows/7_step2_cp2k)
       - `step2_analysis`
         - `compute_oscillator_strengths`
         - `compute_spectrum`
@@ -615,29 +646,37 @@ _______________________________
         - `form_Hvib_real`
         - `run_step2_many_body`
       - `step3`
-        - `get_step2_data` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb) |
-                           [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
-        - `print_SD_basis` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
-        - `sort_SD_energies` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
-        - `output_sorted_Hvibs` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
-        - `build_SD_basis` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
-        - `get_Lowdin`
         - `apply_normalization` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
-        - `get_Lowdin_general`
-        - `apply_orthonormalization_general` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
-        - `make_cost_mat`
-        - `apply_state_reordering` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
-        - `do_phase_corr`
+        - `apply_orthonormalization_general [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+        - `apply_orthonormalization_scipy`
         - `apply_phase_correction`
+        - `apply_phase_correction_general` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+        - `apply_phase_correction_scipy` 
+        - `apply_state_reordering` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+        - `apply_state_reordering_general` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+        - `build_SD_basis` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
+        - `compute_Hvib`
+        - `compute_phase_corrections_scipy`
+        - `do_phase_corr`
+        - `do_phase_corr_scipy`
+        - `get_Lowdin`
+        - `get_Lowdin_general`
+        - `get_Lowdin_scipy`
+        - `get_step2_data` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb) | [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+        - `make_cost_mat`
+        - `map_Hvib`
+        - `orthonormalize_ks_overlaps`
+        - `output_sorted_Hvibs` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
+        - `print_SD_basis` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
+        - `pyxaid2libra`
+        - `run` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
+        - `run_step3_ks_nacs_libint` [6.2.8.](6_dynamics/2_nbra_workflows/8_step3_cp2k)
+        - `run_step3_sd_nacs_libint` [6.2.8.](6_dynamics/2_nbra_workflows/8_step3_cp2k)
         - `sac_matrices`
         - `scale_H_vib`
-        - `compute_Hvib`
-        - `run` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
-        - `map_Hvib`
-        - `pyxaid2libra`
-        - `apply_state_reordering_general` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
-        - `apply_phase_correction_general` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+        - `sort_SD_energies` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
         - `sort_unique_SD_basis` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+        - `sort_unique_SD_basis_scipy`
       - `step3_many_body`
         - `get_step2_mb_sp_properties` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
         - `compute_ci_energies_midpoint` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)

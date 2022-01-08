@@ -1,7 +1,7 @@
 #!/bin/sh
 #SBATCH --partition=valhalla  --qos=valhalla
 #SBATCH --clusters=faculty
-#SBATCH --time=1:00:00
+#SBATCH --time=10:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=12
 #SBATCH --cpus-per-task=1
@@ -20,5 +20,5 @@ module load intel-mpi/2020.2
 export I_MPI_PMI_LIBRARY=/usr/lib64/libpmi.so
 cp2k_exe=/projects/academic/cyberwksp21/Software/cp2k-intel/cp2k-8.2/exe/Linux-x86-64-intelx/cp2k.psmp
 
-mpirun -np 12 $cp2k_exe -i md.inp -o out_md_c3n4_1x1_xtb.log
+srun -n 12 $cp2k_exe -i md.inp -o out_md_c3n4_1x1_xtb.log
 

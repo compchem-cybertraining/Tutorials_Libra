@@ -7,7 +7,7 @@
   METHOD  QS
   &PROPERTIES
     &TDDFPT
-       NSTATES     5             # number of excited states
+       NSTATES     10             # number of excited states
        MAX_ITER    200           # maximum number of Davidson iterations
        CONVERGENCE [eV] 1.0e-5   # convergence on maximum energy change between iterations
        &MGRID

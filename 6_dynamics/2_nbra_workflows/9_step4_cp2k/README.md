@@ -15,6 +15,19 @@ but if one wants to fit with another function the procedure is almost the same. 
 After fitting, we compute the average and the error bars for the computed dynamics and plot them. The fitting are applied to either hot state
 decay or recovery of other states such as the recovery dynamics of the band edge states.
 
+## 1. Functions
+
+The main functions that we use in this step are as follows:
+
+- `libra_py`
+  - `workflows`
+    - `nbra`
+      - `step4`
+        - `namd_workflow`
+      - `decoherence_times`
+        - `decoherence_times`
+
+## 2. Varibales
 
 The list of the paramters used here are as follwos:
 
@@ -203,4 +216,5 @@ acceptance probabilities based on Boltzmann factors. The default value is 300 K.
 
 More details on how to use them are given in the Jupyter notebook files.
 
+_**Note:**_ You can extract the precomputed NA-MD data using `tar xvf data.tar.bz2` command.
 

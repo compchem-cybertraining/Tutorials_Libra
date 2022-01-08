@@ -7,8 +7,20 @@ or many-body excited states. After the computations are done the NACs are stored
 
 ## 1. Kohn-Sham basis
 
+### 1.1. Functions
+
 The `libra_py.workflow.nbra.step3.run_step3_ks_nacs_libint(params)` computes the NACs between pairs of Kohn-Sham states using the molecular orbital 
-overlaps. The paramters for this function are as follows:
+overlaps.
+
+- `libra_py`
+  - `workflows`
+    - `nbra`
+      - `step3`
+        - `run_step3_ks_nacs_libint`
+
+### 1.2. Variables
+
+The paramters for the above function are as follows:
 
 `params['lowest_orbital']`: The lowest orbital considered in the computation of the MO overlaps. This value is exactly the same
 as in the `run_template.py` file in step2.
@@ -60,8 +72,6 @@ TD-DFT calculations. First, we need to compute the overlap between excited state
 between them. For many-body states, the configuration interaction coefficietns will also be used. We will consider both single-particle 
 and many-body for DFT calculations but only single-particle for xTB.
 
-To run the calculations `step3.run_step3_sd_nacs_libint(params)` function will be used. Some parameters are common with the ones used to run `step3.run_step3_ks_nacs_libint(params)`.
-
 There are different ways of defining the excited states SDs (the single-particle excited state basis). The first is through 
 defining the `num_occ_states` and `num_unocc_states` in which Libra
 will start making the SDs from all of the occupied states (starting from `HOMO-num_occ_states+1`) to all of the unoccupied states (ends
@@ -75,7 +85,19 @@ If the TD-DFT calculations has been done, then Libra will go over all log files 
 generate all the SDs used for all the steps and therefore the definition of these SDs is automatic and Libra will replace the `num_occ_states` and
 `num_unocc_states` itself based on the SDs that were generated from the TD-DFT log files. 
 
+### 2.1. Functions
 
+To run the calculations `step3.run_step3_sd_nacs_libint(params)` function will be used. 
+
+- `libra_py`
+  - `workflows`
+    - `nbra`
+      - `step3`
+        - `run_step3_ks_nacs_libint`
+
+### 2.2. Variables
+
+Some parameters are common with the ones used to run `step3.run_step3_ks_nacs_libint(params)` in section 1.2.
 
 Other parameters needed to run the `step3.run_step3_sd_nacs_libint(params)` function are as follows:
 
@@ -95,6 +117,14 @@ calculations.
 `params['sorting_type']`: After defining the SDs, Libra will sort them either based on `'energy'` or `'identity'`.
 
 
+## 3. Plotting properties
+
+Finally, we plot the properties of the data that were obtained for each system. These include:
+
+- NAC probablity distribution plot
+- Average partial density of states
+  - Plot for all angular momentum components of each atom type
+  - Plot for just atom types
 
 
 
