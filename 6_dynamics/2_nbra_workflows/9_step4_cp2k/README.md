@@ -17,7 +17,7 @@ decay or recovery of other states such as the recovery dynamics of the band edge
 
 ## 1. Functions
 
-We use the following functions in this step:
+The main functions that we use in this step are as follows:
 
 - `libra_py`
   - `data_conv`
