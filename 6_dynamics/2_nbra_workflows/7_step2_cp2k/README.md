@@ -7,7 +7,11 @@ structure calculations are for DFT and xTB calculations. The computed MO overlap
 are stored as sparse matrices in `npz` files and will be used in the step3 to compute the nonadiabatic couplings (NACs) between pairs of
 Kohn-Sham and excited states. Here, we will present how one can use the current workflow both on a local desktop computer 
 and on an HPC. The latter can be used to distribute jobs and increase the speed of calculations by splitting the trajectory. 
-The files that contain the main parameters are in the `run_template.py` and the `tutorial.ipynb`. The detailed information about 
+The files that contain the main parameters are in the `run_template.py` and the `tutorial.ipynb`. 
+
+## 1. Variables
+
+The detailed information about 
 the needed parameters to run the main calculations in these files are as follows:
 
 
@@ -105,8 +109,19 @@ _*Note:*_ If you set the `path` to `os.getcwd()` and you want to compute the ove
 need to add one more `../` to the above paths. It is already added in the current files except for the ones run within a notebook. The reason is that the 
 `os.getcwd()` is obtained in a new subdirectory in `job` folders.
 
+## 2. Functions 
 
-# Computing the MO overlaps by submitting multiple jobs on HPCs
+We use the following functions that are implemented in Libra:
+
+- `libra_py`
+  - `CP2K_methods`
+    - `distribute_cp2k_libint_jobs`
+  - `workflows`
+    - `nbra`
+      - `step2`
+        - `run_cp2k_libint_step2`
+
+## 3. Submitting multiple jobs on HPCs for computing MO overlaps
 
 
 If you have more resources on a cluster you can speed up the computation of the MO overlaps by splitting the trajectroy
@@ -141,7 +156,9 @@ calculations on the active session.
 
 Then the function `CP2K_methods.distribute_cp2k_libint_jobs` will distribute and submit the jobs.
 
-Now, the only thing left to do is to run `python distribute_jobs.py`.
+_**Note:**_ If you are using slurm with Intel compilers, it is better to use `export I_MPI_PMI_LIBRARY=/usr/lib64/libpmi.so` in the submit file and use `srun` instead of `mpirun`.
+
+Now, the only thing left to do is to run `python distribute_jobs.py`. We have done this in the Jupyter notebook files and you can find more infromation there.
 
 
 
