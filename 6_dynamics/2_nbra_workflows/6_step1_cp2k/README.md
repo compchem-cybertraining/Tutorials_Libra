@@ -12,4 +12,4 @@ find more information on loading and installation of different libraries
 and CP2K in [this link](https://github.com/compchem-cybertraining/Tutorials_CP2K/blob/master/INSTALLATION.md)
 The MD trajectory of these two structures will be used to compute the MO overlaps and time-overlaps and NACs in other steps of this tutorial. 
 
-_**Note:**_ You can extract the precomputed trajectory for each of the systems using the `tar xvf data.tzr.bz2` command.
+_**Note:**_ You can extract the precomputed trajectory for each of the systems using the `tar xvf data.tzr.bz2` command in each folder.
