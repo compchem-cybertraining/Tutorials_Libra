@@ -161,6 +161,7 @@ _**Note:**_ If you are using slurm with Intel compilers, it is better to use `ex
 Now, the only thing left to do is to run `python distribute_jobs.py`. We have done this in the Jupyter notebook files and you can find more infromation there.
 
 
+_**Note:**_ You can extract the precomputed data using `tar xvf data.tar.bz2` command.
 
 
 

@@ -216,4 +216,5 @@ acceptance probabilities based on Boltzmann factors. The default value is 300 K.
 
 More details on how to use them are given in the Jupyter notebook files.
 
+_**Note:**_ You can extract the precomputed NA-MD data using `tar xvf data.tar.bz2` command.
 
