@@ -13,10 +13,10 @@ The `libra_py.workflow.nbra.step3.run_step3_ks_nacs_libint(params)` computes the
 overlaps.
 
 - `libra_py`
-  -  `workflows`
-      -  `nbra`
-        -  `step3`
-          -  `run_step3_ks_nacs_libint`
+  - `workflows`
+    - `nbra`
+      - `step3`
+        - `run_step3_ks_nacs_libint`
 
 ### 1.2. Variables
 
@@ -90,10 +90,10 @@ generate all the SDs used for all the steps and therefore the definition of thes
 To run the calculations `step3.run_step3_sd_nacs_libint(params)` function will be used. 
 
 - `libra_py`
-  -  `workflows`
-      -  `nbra`
-        -  `step3`
-          -  `run_step3_ks_nacs_libint`
+  - `workflows`
+    - `nbra`
+      - `step3`
+        - `run_step3_ks_nacs_libint`
 
 ### 2.2. Variables
 
