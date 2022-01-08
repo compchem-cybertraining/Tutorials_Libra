@@ -117,6 +117,14 @@ calculations.
 `params['sorting_type']`: After defining the SDs, Libra will sort them either based on `'energy'` or `'identity'`.
 
 
+## 3. Plotting properties
+
+Finally, we plot the properties of the data that were obtained for each system. These include:
+
+- NAC probablity distribution plot
+- Average partial density of states
+  - Plot for all angular momentum components of each atom type
+  - Plot for just atom types
 
 
 
