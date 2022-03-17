@@ -24,3 +24,6 @@
     implementation of the dynamics functions. This tutorial is based on a recent study of monolayer black phosphorus (submitted to JCP).
     The corresponding files can be found [here](https://github.com/AkimovLab/Project_ML-BP)
 
+ 7. [DVR calculations with Libra](https://ub.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=45104ca1-1bf6-46a6-88ab-ae5901181f2b)
+    This is demo on how to conduct exact quantum dynamics calculations for 1D model Hamiltonians using Libra.
+    This demo is a part of CHE 506 class I taught in Spring  2022.
