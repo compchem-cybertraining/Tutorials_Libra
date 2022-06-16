@@ -54,13 +54,22 @@ Tutorials showcasing various capabilities of Libra
       * 6.2.5.2. [Dynamics](6_dynamics/2_nbra_workflows/5_step4/2_dynamics)
     * 6.2.6. [step 1 with CP2K](6_dynamics/2_nbra_workflows/6_step1_cp2k)
       * 6.2.6.1. [Molecular dynamics with DFT](6_dynamics/2_nbra_workflows/6_step1_cp2k/1_DFT)
+        * 6.2.6.1.1. [TiO2](6_dynamics/2_nbra_workflows/6_step1_cp2k/1_DFT/1_example_TiO2)
+        * 6.2.6.1.2. [TiO2](6_dynamics/2_nbra_workflows/6_step1_cp2k/1_DFT/2_example_adamantane_June_2022)
       * 6.2.6.2. [Molecular dynamics with extended tight-binding](6_dynamics/2_nbra_workflows/6_step1_cp2k/2_xTB)
     * 6.2.7. [step 2 with CP2K](6_dynamics/2_nbra_workflows/7_step2_cp2k)
       * 6.2.7.1. [Compute molecular orbital overlaps and time-overlaps in DFT](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT)
+        * 6.2.7.1.1. [On desktop](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/1_desktop)
+        * 6.2.7.1.2. [On HPC](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/2_hpc)
+          * 6.2.7.1.2.1. [TiO2 example](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/2_hpc/1_example_TiO2)
+          * 6.2.7.1.2.2. [Adamantane example](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/2_hpc/2_example_June_2022)
       * 6.2.7.2. [Compute molecular orbital overlaps and time-overlaps in extended tight-binding](6_dynamics/2_nbra_workflows/7_step2_cp2k/2_xTB)
+        * 6.2.7.2.1. [On desktop](6_dynamics/2_nbra_workflows/7_step2_cp2k/2_xTB/1_desktop)
+        * 6.2.7.2.2. [On HPC](6_dynamics/2_nbra_workflows/7_step2_cp2k/2_xTB/2_hpc)
     * 6.2.8. [step 3 with CP2K](6_dynamics/2_nbra_workflows/8_step3_cp2k)
-      * 6.2.8.1. [Computing nonadiabatic couplings in single-particle and many-body bases in DFT](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT)
-      * 6.2.8.2. [Computing nonadiabatic couplings in single-particle basis in extended tight-binding](6_dynamics/2_nbra_workflows/8_step3_cp2k/2_xTB)
+      * 6.2.8.1. [Computing NACs in single-particle and many-body bases in DFT](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT)
+      * 6.2.8.2. [Computing NACs in single-particle basis in extended tight-binding](6_dynamics/2_nbra_workflows/8_step3_cp2k/2_xTB)
+      * 6.2.8.3. [Computing NACs in mixed electron-hole SD excitation bases. Revised](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new)
     * 6.2.9. [step 4 with sparse data files](6_dynamics/2_nbra_workflows/9_step4_cp2k)
 
  * 6.3. [Hierarchical equations of motion, HEOM](6_dynamics/3_heom)
@@ -169,16 +178,23 @@ _______________________________
   * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
   * [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+  * [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
+  * [6.2.8.3.](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new/tutorial.ipynb)
 
 12. Manually construct a Slater Determinant basis
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
 
 13. Auto-generate a Slater Determinant basis
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
+  * [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
+  * [6.2.8.2.](6_dynamics/2_nbra_workflows/8_step3_cp2k/2_xTB/tutorial.ipynb)
+  * [6.2.8.3.](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new/tutorial.ipynb)
 
 14. Compute the energies and nonadiabatic couplings in the SD basis
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+  * [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
+  * [6.2.8.3.](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new/tutorial.ipynb)
 
 15. Calculate population and coherence dynamics of a quantum system embedded in a bath
   * [6.3.1.](6_dynamics/1_dynamics_and_lineshapes/3_heom/tutorial.ipynb)
@@ -272,6 +288,8 @@ _______________________________
 
 40. Compute nonadiabatic dynamics for atomistic systems with NBRA using Kohn-Sham states
   * [6.2.5.1.](6_dynamics/2_nbra_workflows/5_step4/2_dynamics/tutorial.ipynb)
+  * [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
+  * [6.2.8.3.](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new/tutorial.ipynb)
 
 41. Plot the PES profiles with multidimensional model Hamiltonians
   * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
@@ -387,14 +405,19 @@ _______________________________
 71. Computing NACs using CP2K/Libra
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SP_basis/tutorial.ipynb)
   * [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+  * [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
+  * [6.2.8.3.](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new/tutorial.ipynb)
 
 72. Computing single-particle (KS-DFT, HF, semiempirical) NACs 
   * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SP_basis/tutorial.ipynb)
   * [11.1.2.](11_program_specific_methods/1_ergoscf_methods/2_nac_workflow/tutorial.ipynb)
+  * [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
+  * [6.2.8.3.](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new/tutorial.ipynb)
 
 73. Computing many-body (TD-DFT, TD-DFTB, CI) NACs 
   * [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+  * [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
 
 74. Saving ANNs to files and creating ANNs from XML files
   * [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
@@ -655,7 +678,7 @@ _______________________________
         - `run_step2_many_body`
       - `step3`
         - `apply_normalization` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
-        - `apply_orthonormalization_general [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+        - `apply_orthonormalization_general` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
         - `apply_orthonormalization_scipy`
         - `apply_phase_correction`
         - `apply_phase_correction_general` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
@@ -678,8 +701,8 @@ _______________________________
         - `print_SD_basis` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
         - `pyxaid2libra`
         - `run` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
-        - `run_step3_ks_nacs_libint` [6.2.8.](6_dynamics/2_nbra_workflows/8_step3_cp2k)
-        - `run_step3_sd_nacs_libint` [6.2.8.](6_dynamics/2_nbra_workflows/8_step3_cp2k)
+        - `run_step3_ks_nacs_libint` [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb) | [6.2.8.3.](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new/tutorial.ipynb)
+        - `run_step3_sd_nacs_libint` [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb) | [6.2.8.3.](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new/tutorial.ipynb)
         - `sac_matrices`
         - `scale_H_vib`
         - `sort_SD_energies` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
