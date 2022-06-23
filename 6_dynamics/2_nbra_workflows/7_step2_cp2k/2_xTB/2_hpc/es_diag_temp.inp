@@ -17,6 +17,10 @@
         BASIC_SPATIAL_OPTIMIZATION .TRUE.
       &END
     &END QS
+    ! Only for cube visualization
+    &MGRID
+      CUTOFF 200
+    &END
     &POISSON
       POISSON_SOLVER PERIODIC !MT
       PERIODIC XYZ !NONE
@@ -48,6 +52,12 @@
         NDIGITS 8
         GTO_KIND SPHERICAL
       &END 
+      &MO_CUBES
+        NHOMO 1
+        NLUMO 1
+        STRIDE 3 3 3
+        WRITE_CUBE T
+      &END
     &END
   &END DFT
   &SUBSYS
