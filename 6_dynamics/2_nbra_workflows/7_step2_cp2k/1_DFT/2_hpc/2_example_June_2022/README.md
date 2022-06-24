@@ -115,7 +115,7 @@ Detailed information on the files here are given in [this file](../../../README.
 
       params['nprocs'] = 16
 
-    If you use Valhalla nodes, please note that they have only 12 number of cores. In this case, you can use 9 cores or 12 but please set the `NGIRDS` in the `&MGRID` section devisible by the number of processors
+  If you use Valhalla nodes, please note that they have only 12 number of cores. In this case, you can use 9 cores or 12 but please set the `NGIRDS` in the `&MGRID` section devisible by the number of processors
 
       &MGRID
         CUTOFF 300
