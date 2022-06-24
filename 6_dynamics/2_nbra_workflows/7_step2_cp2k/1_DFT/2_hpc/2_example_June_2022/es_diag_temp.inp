@@ -68,6 +68,11 @@
       PERIODIC XYZ
     &END
 
+    &MGRID
+      CUTOFF 300
+      NGRIDS 12
+    &END
+
     &SCF
       &DIAGONALIZATION ON
       &END DIAGONALIZATION
