@@ -108,7 +108,7 @@ only for X and Y directions. The following image shows the periodic cells for th
 
 `params['cp2k_ot_input_template']`: The full path to the CP2K OT input template for xTB calculations. As was mentioned before, we need a good guess 
 for the diagonalization algorithm of the xTB calculations. A good guess can be obtained using the OT method. Libra will ignore this if the 
-`params['isXTB'] = False`. In this case you can set an empty string.
+`params['isXTB'] = False`. In this case you can set an empty string but please note that it should be present in the input file. 
 
 `params['cp2k_diag_input_template']`: The full path to the CP2K diagonalization input template, either for DFT or xTB.
 
@@ -120,6 +120,36 @@ The calculations are then run using the function `step2.run_cp2k_libint_step2(pa
 _*Note:*_ If you set the `path` to `os.getcwd()` and you want to compute the overlaps by splitting the trajectory into multiple jobs, you will
 need to add one more `../` to the above paths. It is already added in the current files except for the ones run within a notebook. The reason is that the 
 `os.getcwd()` is obtained in a new subdirectory in `job` folders.
+
+### Cube visualization
+
+For cube visualization, note that you need to turn the `&MO_CUBES` on in the input file. For producing the cube files you also need to turn on the `&MGRID` section (both for DFT and xTB but it seems that it doesn't work with DFTB type calculations). 
+
+`params['cube_visualization']`: A boolean flag for visualizing the molecular orbitals' cube files using VMD software.
+
+`params['vmd_input_template']`: The VMD input template. This input will be modified by Libra but only the `mol load cube` and rendering line, `render Tachyon ...` will be changed. You can make your own input template by opening the VMD on your computer and from `File` choose `Log Tcl commands to file...` and it will append all the commands for reproducing that image into a file. Then you can use it as your template for that file. Please note that Libra changes two parts in these types of files as mentioned above.
+
+`params['states_to_plot']`: A list containing the state numbers to be plotted. Please note that you specify the `NHOMO` and `NLUMO` correctly in the input file so that CP2K produces these files. 
+
+`params['plot_phase_corrected']`: A boolean falg for plotting the MO images phase corrected.
+
+`params['vmd_exe']`: The full path to VMD executable. After loading it, you can find the path to this executable by running `which vmd` and get the full path to this executable.
+
+The following parameters are used for rendering high-quality images. Libra makes some commands like this:
+
+`render Tachyon Diag_992-WFN_04608_1-1_0 "/util/academic/vmd/1.9.2/lib/vmd/tachyon_LINUXAMD64 -aasamples 12 %s -format TGA -res 2048 2048 -o %s.tga"`
+
+`params['tachyon_exe']`: This is the VMD graphical executable for rendering high quality images. It is usually located where the VMD executable is.
+
+`params['x_pixels']`: The number of pixels in the X direction of the image.
+
+`params['y_pixels']`: The number of pixels in Y direction of the image.
+
+`params['image_format']`: For the Tachyon executable, `tga` and `bmp` are tested. Other image formats like `jpg` or `png` may not be available in Tachyon image processor.
+
+`params['remove_cube']`: A boolean flag for removing the cube files after visualizing them by VMD. Note that these files can overflow the disk space so better to use `True` unless you want to keep them for other purposes like debugging.
+
+`params['all_images']`: The full path to where the images be stored after the computations are done.
 
 ## 3. Submitting multiple jobs on HPCs for computing MO overlaps
 
@@ -154,14 +184,16 @@ calculations on the active session.
 
 `njobs`: Number of jobs.
 
+`submission_exe`: The submission executable. This is specific to those clusters that do not use slurm environment for job submission, such as PBS which uses `qsub`. If it is not specified, Libra will use `sbatch`.
+
 Then the function `CP2K_methods.distribute_cp2k_libint_jobs` will distribute and submit the jobs.
 
-_**Note:**_ If you are using slurm with Intel compilers, it is better to use `export I_MPI_PMI_LIBRARY=/usr/lib64/libpmi.so` in the submit file and use `srun` instead of `mpirun`.
+_**Note:**_ If you are using slurm with Intel compilers, it is better to use `export I_MPI_PMI_LIBRARY=/usr/lib64/libpmi.so` in the submit file and use `srun` instead of `mpirun`. This is for clusters that use slurm environment for job submission.
 
 Now, the only thing left to do is to run `python distribute_jobs.py`. We have done this in the Jupyter notebook files and you can find more infromation there.
 
 
-_**Note:**_ You can extract the precomputed data using `tar xvf data.tar.bz2` command.
+_**Note:**_ You can extract the precomputed data using `tar xvf step2.tar.bz2` command.
 
 
 

@@ -1,0 +1,12 @@
+SLURM_JOBID=8934991
+SLURM_JOB_NODELIST=cpn-p27-16
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/8934991
+working directory=/panfs/panfs.cbls.ccr.buffalo.edu/scratch/grp-alexeyak/mohammad/my_repositories/Tutorials_Libra/6_dynamics/2_nbra_workflows/6_step1_cp2k/2_xTB
+ The Intel 20.2 compilers are in your path. This is adequate for compiling and
+running most codes. Source compilervars.sh for more features including the
+debugger. 
+ The Intel MPI 2020.2 is in your path. This is adequate for compiling and
+running most codes. Run "source
+/util/academic/intel/20.2/compilers_and_libraries_2020.2.254/linux/mpi/intel64/bin/mpivars.sh"
+for more features including the debugger. 
