@@ -62,6 +62,8 @@ index of that system so it can build the active space.
 
 `params['state_reordering_alpha']`: The state-reordering alpha value if the `params['do_state_reordering'] = 2`.
 
+`params['nac_algo']`: selection of a method to compute NACs. `0` is for Hamess-Shiffer-Tully (HST), finite difference (the default) and `1` is Meek-Levine NPI approach.
+
 After setting all the above paramters, the calculations are run using `step3.run_step3_ks_nacs_libint(params)`.
 
 
