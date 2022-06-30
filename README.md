@@ -128,6 +128,10 @@ Tutorials showcasing various capabilities of Libra
   * 13.3. [Force field molecular structure optimization](13_force_fields_and_classical_md/3_mm_optimization)
   * 13.4. [Force field molecular dynamics](13_force_fields_and_classical_md/4_mm_md)  NEEDS MORE WORK
 
+14. Molecular integrals
+  * 14.1. [Libint2 wrappers and auxiliary functions](14_molecular_integrals/1_libint2)
+  * 14.2. [Libra built-in molints](14_molecular_integrals/2_libra_molints)
+
 _______________________________
 
 ## Use cases
