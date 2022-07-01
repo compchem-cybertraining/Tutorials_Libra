@@ -82,7 +82,10 @@ Tutorials showcasing various capabilities of Libra
     * 6.4.3. [SOFT dynamics in 1D and 2D](6_dynamics/4_wavepackets/3_soft_propagation)
     * 6.4.4. [More examples of DVR and dynamics](6_dynamics/4_wavepackets/4_more)
 
- * 6.5. [Fermi Golden Rule rates, FGR](6_dynamics/5_fgr)
+ * 6.5. [Quantum Trajectories with Adaptive Gaussians, QTAG](6_dynamics/5_qtag)
+    * 6.5.1. [Basics](6_dynamics/5_qtag/1_basics)
+
+ * 6.6. [Fermi Golden Rule rates, FGR](6_dynamics/6_fgr)
 
 7. Special functions
  * 7.1. [Sorting, matrix statistics](7_special_functions/1_sorting_matrix_statistics)
@@ -124,6 +127,10 @@ Tutorials showcasing various capabilities of Libra
   * 13.2. [Basics of MM calculations with Libra](13_force_fields_and_classical_md/2_atomistic_Hamiltonian)
   * 13.3. [Force field molecular structure optimization](13_force_fields_and_classical_md/3_mm_optimization)
   * 13.4. [Force field molecular dynamics](13_force_fields_and_classical_md/4_mm_md)  NEEDS MORE WORK
+
+14. Molecular integrals
+  * 14.1. [Libint2 wrappers and auxiliary functions](14_molecular_integrals/1_libint2)
+  * 14.2. [Libra built-in molints](14_molecular_integrals/2_libra_molints)
 
 _______________________________
 
@@ -457,6 +464,8 @@ _______________________________
 84. Molecular mechanics molecular structure optimization
   * [13.3.](13_force_fields_and_classical_md/3_mm_optimization/tutorial.ipynb)
 
+85. Conduct quantum trajectories calculations (QTAG)
+  * [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
 
 _______________________________
 
