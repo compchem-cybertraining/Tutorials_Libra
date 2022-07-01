@@ -406,6 +406,7 @@ _______________________________
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SP_basis/tutorial.ipynb)
   * [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
   * [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
+  * [6.2.8.2.](6_dynamics/2_nbra_workflows/8_step3_cp2k/2_xTB/tutorial.ipynb)
   * [6.2.8.3.](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new/tutorial.ipynb)
 
 72. Computing single-particle (KS-DFT, HF, semiempirical) NACs 
@@ -548,28 +549,11 @@ _______________________________
     - `add_atoms_to_system` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
 
   - `CP2K_methods`
-    - `cp2k_distribute`
-    - `cp2k_find_excitation_energies`
-    - `CP2K_input_static`
-    - `cp2k_xtb_diag_inp`
-    - `cp2k_xtb_ot_inp`
-    - `cube_file_names_cp2k`
-    - `distribute_cp2k_libint_jobs`
-    - `extract_coordinates`
-    - `find_basis_set`
-    - `generate_translational_vectors`
-    - `index_reorder`
-    - `make_shell`
-    - `molog_lvals`
-    - `read_ao_matrices`
-    - `read_cp2k_tddfpt_log_file`
-    - `read_energies_from_cp2k_log_file`
-    - `read_energies_from_cp2k_md_log_file`
-    - `read_homo_index`
-    - `read_molog_file`
-    - `read_trajectory_xyz_file`
-    - `resort_molog_eigenvectors`
-    - `run_cp2k_xtb`
+    - `cp2k_find_excitation_energies` [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
+    - `cp2k_xtb_diag_inp` [6.2.7.1.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/1_desktop/tutorial.ipynb)
+    - `cp2k_xtb_ot_inp` [6.2.7.2.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/2_xTB/1_desktop/tutorial.ipynb)
+    - `distribute_cp2k_libint_jobs` [6.2.7.1.2.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/2_hpc/1_example_TiO2/tutorial.ipynb)
+    - `generate_translational_vectors` [6.2.7.1.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/1_desktop/tutorial.ipynb)
 
   - `dynamics`
     - `heom`
