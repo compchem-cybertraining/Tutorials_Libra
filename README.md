@@ -558,7 +558,7 @@ _______________________________
     - `add_atoms_to_system` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
 
   - `CP2K_methods`
-    - `cp2k_find_excitation_energies` [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/1_desktop/tutorial.ipynb)
+    - `cp2k_find_excitation_energies` [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
     - `cp2k_xtb_diag_inp` [6.2.7.1.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/1_desktop/tutorial.ipynb)
     - `cp2k_xtb_ot_inp` [6.2.7.2.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/2_xTB/1_desktop/tutorial.ipynb)
     - `distribute_cp2k_libint_jobs` [6.2.7.1.2.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/2_hpc/1_example_TiO2/tutorial.ipynb)
