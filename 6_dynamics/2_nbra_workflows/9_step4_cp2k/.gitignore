@@ -1,0 +1,4 @@
+.ipynb_checkpoints
+res-*
+namd_regular
+*.txt
