@@ -87,6 +87,8 @@ Tutorials showcasing various capabilities of Libra
 
  * 6.6. [Fermi Golden Rule rates, FGR](6_dynamics/6_fgr)
 
+ * 6.7. [ETHD](6_dynamics/7_ethd)
+
 7. Special functions
  * 7.1. [Sorting, matrix statistics](7_special_functions/1_sorting_matrix_statistics)
  * 7.2. [Fitting distributions to a superposition of Gaussians](7_special_functions/2_gaussian_kernel_algorithm)
