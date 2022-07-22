@@ -81,6 +81,7 @@ Tutorials showcasing various capabilities of Libra
     * 6.4.2. [DVR basics](6_dynamics/4_wavepackets/2_dvr_basics) 
     * 6.4.3. [SOFT dynamics in 1D and 2D](6_dynamics/4_wavepackets/3_soft_propagation)
     * 6.4.4. [More examples of DVR and dynamics](6_dynamics/4_wavepackets/4_more)
+    * 6.4.5. [Grids and hyperplanes](6_dynamics/4_wavepacket/5_grids_and_hyperplanes)
 
  * 6.5. [Quantum Trajectories with Adaptive Gaussians, QTAG](6_dynamics/5_qtag)
     * 6.5.1. [Basics](6_dynamics/5_qtag/1_basics)
@@ -469,6 +470,18 @@ _______________________________
 85. Conduct quantum trajectories calculations (QTAG)
   * [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
 
+86. Mapping multidimensional vectros of ints to an integer and vice versa
+  * [6.4.2.](6_dynamics/4_wavepacket/2_dvr_basics/tutorial.ipynb)
+  * [6.4.5.](6_dynamics/4_wavepacket/5_grids_and_hyperplanes/tutorial.ipynb)
+
+87. Working with multidimensional grids
+  * [6.4.2.](6_dynamics/4_wavepacket/2_dvr_basics/tutorial.ipynb)
+  * [6.4.5.](6_dynamics/4_wavepacket/5_grids_and_hyperplanes/tutorial.ipynb)
+
+88. Computing hyperplanes of multidimensional grids
+  * [6.4.5.](6_dynamics/4_wavepacket/5_grids_and_hyperplanes/tutorial.ipynb)
+
+
 _______________________________
 
 
@@ -842,6 +855,12 @@ _______________________________
   - `is_included` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `is_present` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `check_input` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+
+- `liblibra::liwfcgrid`
+  - `compute_imapping` [6.4.5.](6_dynamics/4_wavepacket/5_grids_and_hyperplanes/tutorial.ipynb)
+  - `compute_hyperplane` [6.4.5.](6_dynamics/4_wavepacket/5_grids_and_hyperplanes/tutorial.ipynb)
+  - `compute_mapping` [6.4.5.](6_dynamics/4_wavepacket/5_grids_and_hyperplanes/tutorial.ipynb)
+
 
 _______________________________
 
