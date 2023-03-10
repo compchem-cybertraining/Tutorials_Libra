@@ -2,3 +2,4 @@
 *.pyc
 _out.txt
 traj*
+*.txt
