@@ -71,6 +71,7 @@ Tutorials showcasing various capabilities of Libra
       * 6.2.8.2. [Computing NACs in single-particle basis in extended tight-binding](6_dynamics/2_nbra_workflows/8_step3_cp2k/2_xTB)
       * 6.2.8.3. [Computing NACs in mixed electron-hole SD excitation bases. Revised](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new)
     * 6.2.9. [step 4 with sparse data files](6_dynamics/2_nbra_workflows/9_step4_cp2k)
+    * 6.2.10. [NBRA steps 3 and 4, tsh_revision](6_dynamics/2_nbra_workflows/10_generic_step3_4)
 
  * 6.3. [Hierarchical equations of motion, HEOM](6_dynamics/3_heom)
     * 6.3.1. [Computing population dynamics and lineshapes](6_dynamics/3_heom/1_dynamics_and_lineshapes)
@@ -177,12 +178,14 @@ _______________________________
 
 9. Construct the vibronic Hamiltonian from the QE MD calculations
   * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
+  * [6.2.10.](6_dynamics/2_nbra_workflows/10_generic_step3_4/tutorial.ipynb)
 
 10. Read the vibronic Hamiltonian data files to obtain its properties
   * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
   * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
   * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
+  * [6.2.10.](6_dynamics/2_nbra_workflows/10_generic_step3_4/tutorial.ipynb)
 
 11. Compute the time-averaged nonadiabatic couplings of the vibronic Hamiltonian
   * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
@@ -228,6 +231,7 @@ _______________________________
 21. Define adiabatic file-based model Hamiltonian
   * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
   * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
+  * [6.2.10.](6_dynamics/2_nbra_workflows/10_generic_step3_4/tutorial.ipynb)
 
 22. Plot 1D PES 
   * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
@@ -300,6 +304,7 @@ _______________________________
   * [6.2.5.1.](6_dynamics/2_nbra_workflows/5_step4/2_dynamics/tutorial.ipynb)
   * [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
   * [6.2.8.3.](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new/tutorial.ipynb)
+  * [6.2.10.](6_dynamics/2_nbra_workflows/10_generic_step3_4/tutorial.ipynb)
 
 41. Plot the PES profiles with multidimensional model Hamiltonians
   * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
@@ -586,7 +591,8 @@ _______________________________
     - `tsh`
       - `compute`
         - `generic_recipe` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb) | 
-            [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
+            [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb) |
+            [6.2.10.](6_dynamics/2_nbra_workflows/10_generic_step3_4/tutorial.ipynb)
         - `init_electronic_dyn_var` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) 
         - `init_nuclear_dyn_var` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) |
             [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb) |
@@ -604,7 +610,8 @@ _______________________________
         - `hdf2xyz` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
         - `plot_dyn` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
         - `plot_dynamics` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb) |
-            [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
+            [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb) |
+            [6.2.10.](6_dynamics/2_nbra_workflows/10_generic_step3_4/tutorial.ipynb)
       - `recipes`
         - `adiabatic_md_interfaces_params` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
 
@@ -737,7 +744,8 @@ _______________________________
     - `MATRIX2nparray` [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb) |
         [11.2.1.](11_program_specific_methods/2_qe_methods/1_pdos/tutorial.ipynb) | 
         [6.2.5.1.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
-    - `nparray2CMATRIX` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
+    - `nparray2CMATRIX` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb) |
+       [6.2.10.](6_dynamics/2_nbra_workflows/10_generic_step3_4/tutorial.ipynb)
 
   - `data_outs`
     - `print_matrix` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) |
