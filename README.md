@@ -102,6 +102,7 @@ Tutorials showcasing various capabilities of Libra
 8. Model Hamiltonians
  * 8.1. [Define model Hamiltonians and plot PES](8_model_hamiltonians/1_pes_plotting)
  * 8.2. [Define atomistic Hamiltonians and plot PES](8_model_hamiltonians/2_interfaces_with_qchem_codes)
+ * 8.3. [Model Hamiltonians in Libra](8_model_hamiltonians/3_models)
 
 9. Machine learning
  * 9.1. [Basics of the artificial neural networks (ANNs), Multilayer Perceptron (MLP)](9_machine_learning/1_basics_of_mlp)
@@ -238,6 +239,7 @@ _______________________________
   * [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
   * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
   * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
+  * [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
 
 23. Plot diabatic-to-adiabatic transformaitons vs. coordinate in 1D
   * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
@@ -626,15 +628,22 @@ _______________________________
       - `Holstein2` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb) | 
             [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
     - `Martens` 
-      - `model1` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
-      - `model2` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+      - `model1` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb) | [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
+      - `model2` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb) | [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
+    - `SSY`
+      - `SSY` [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
+    - `Subotnik`
+      - `dumbbell_geometry` [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
+      - `double_arch_geometry` [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
     - `Tully`
-      - `Tully1` [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb)
-      - `Tully2` [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb)
-      - `Tully3` [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb)
-      - `chain_potential` [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
+      - `Tully1` [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb) | [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
+      - `Tully2` [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb) | [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
+      - `Tully3` [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb) | [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
+      - `chain_potential` [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb) | [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
     - `Zhu`
-      - `dual_RZD` [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb)
+      - `dual_RZD` [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb) | [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
+      - `dual_LZS` [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
+      - `Renner_Teller` [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
 
   - `workflows`
     - `nbra`
@@ -646,10 +655,10 @@ _______________________________
       - `decoherence_times`
         - `decoherence_times2rates`
         - `energy_gaps`
-        - `energy_gaps_ave` [6.2.3.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
+        - `energy_gaps_ave` [6.2.3.](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
         - `decoherence_times`
         - `decoherence_times_ave_old`
-        - `decoherence_times_ave` [6.2.3.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
+        - `decoherence_times_ave` [6.2.3.](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
       - `lz`
         - `Belyaev_Lebedev`
         - `adjust_SD_probabilities`
@@ -969,7 +978,7 @@ _______________________________
     - `MoleculeList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `libuniverse::Universe` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb) | 
                             [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
-                            [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)  
+                            [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
 
 - `liblibra::libdata`
   - `DATA` [7.3.](7_special_functions/3_data_statistics/tutorial.ipynb) | [7.4.2.](7_special_functions/4_random_numbers/2_metropolis/tutorial.ipynb)
