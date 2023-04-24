@@ -41,6 +41,7 @@ Tutorials showcasing various capabilities of Libra
     * 6.1.6. [Model, NBRA and non-NBRA](6_dynamics/1_trajectory_based/6_model_nbra)
     * 6.1.7. [Model, TSH with thermostat, quantum-vs-classical partitioning of DOFs, and constrining](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath)
     * 6.1.8. [General TSH with multiple recipes, NBRA and not](6_dynamics/1_trajectory_based/8_model_nonadiabatic)
+    * 6.1.9. [Revised, most recent TSH with model Hamiltonians](6_dynamics/1_trajectory_based/9_model_revised)
 
  * 6.2. [Quantum-classical, neglect-of-back-reaction trajectory workflows](6_dynamics/2_nbra_workflows)
     * 6.2.1. [step 1 with DFTB+](6_dynamics/2_nbra_workflows/1_step1_dftb)
@@ -142,7 +143,7 @@ _______________________________
 ## Use cases
 
 1. Create a chemical system
-  * [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb) |
+  * [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
   * [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
   * [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulaiton/tutorial.ipynb)
   * [13.3.](13_force_fields_and_classical_md/3_mm_optimization/tutorial.ipynb)
@@ -235,6 +236,7 @@ _______________________________
   * [6.2.10.](6_dynamics/2_nbra_workflows/10_generic_step3_4/tutorial.ipynb)
 
 22. Plot 1D PES 
+  * [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
   * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
   * [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
   * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
@@ -301,6 +303,7 @@ _______________________________
   * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
   * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
   * [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb)
+  * [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
 
 40. Compute nonadiabatic dynamics for atomistic systems with NBRA using Kohn-Sham states
   * [6.2.5.1.](6_dynamics/2_nbra_workflows/5_step4/2_dynamics/tutorial.ipynb)
@@ -330,6 +333,7 @@ _______________________________
   * [6.4.4.](6_dynamics/4_wavepackets/4_more/Tutorial2.ipynb)
   * [6.4.4.](6_dynamics/4_wavepackets/4_more/Tutorial3.ipynb)
   * [6.4.4.](6_dynamics/4_wavepackets/4_more/Tutorial4.ipynb)
+  * [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
 
 47. DVR calculations
   * [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
@@ -338,6 +342,7 @@ _______________________________
   * [6.4.4.](6_dynamics/4_wavepackets/4_more/Tutorial2.ipynb)
   * [6.4.4.](6_dynamics/4_wavepackets/4_more/Tutorial3.ipynb)
   * [6.4.4.](6_dynamics/4_wavepackets/4_more/Tutorial4.ipynb)
+  * [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
 
 48. Making animated gifs
   * [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
@@ -587,6 +592,12 @@ _______________________________
     - `generate_translational_vectors` [6.2.7.1.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/1_desktop/tutorial.ipynb)
 
   - `dynamics`
+    - `exact`
+      - `compute`
+        - `init_wfc` [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
+        - `run_dynamics`[6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
+      - `save`
+        - `init_tsh_savers`[6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
     - `heom`
       - `compute` 
         - `run_dynamics` [6.3.1.](6_dynamics/3_heom/1_dynamics_and_lineshapes/tutorial.ipynb)
@@ -594,7 +605,8 @@ _______________________________
       - `compute`
         - `generic_recipe` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb) | 
             [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb) |
-            [6.2.10.](6_dynamics/2_nbra_workflows/10_generic_step3_4/tutorial.ipynb)
+            [6.2.10.](6_dynamics/2_nbra_workflows/10_generic_step3_4/tutorial.ipynb) |
+            [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
         - `init_electronic_dyn_var` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) 
         - `init_nuclear_dyn_var` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) |
             [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb) |
@@ -613,7 +625,8 @@ _______________________________
         - `plot_dyn` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
         - `plot_dynamics` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb) |
             [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb) |
-            [6.2.10.](6_dynamics/2_nbra_workflows/10_generic_step3_4/tutorial.ipynb)
+            [6.2.10.](6_dynamics/2_nbra_workflows/10_generic_step3_4/tutorial.ipynb) |
+            [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
       - `recipes`
         - `adiabatic_md_interfaces_params` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
 
@@ -626,7 +639,8 @@ _______________________________
   - `models`
     - `Holstein`
       - `Holstein2` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb) | 
-            [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+            [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb) |
+            [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
     - `Martens` 
       - `model1` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb) | [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
       - `model2` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb) | [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
@@ -790,7 +804,8 @@ _______________________________
     - `plot_surfaces` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb) | 
             [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb) |
             [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb) | 
-            [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+            [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb) |
+            [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
 
   - `ERGO_methods`
     - `get_mtx_matrices` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
