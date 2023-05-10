@@ -298,12 +298,14 @@ _______________________________
 38. Read the HDF5 files to setup Hamiltonians
   * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
   * [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb)
+  * [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
 
 39. Read the HDF5 files to plot results of dynamical calculations
   * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
   * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
   * [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb)
   * [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
+  * [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
 
 40. Compute nonadiabatic dynamics for atomistic systems with NBRA using Kohn-Sham states
   * [6.2.5.1.](6_dynamics/2_nbra_workflows/5_step4/2_dynamics/tutorial.ipynb)
@@ -594,10 +596,13 @@ _______________________________
   - `dynamics`
     - `exact`
       - `compute`
-        - `init_wfc` [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
-        - `run_dynamics`[6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
+        - `init_wfc` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb) |
+           [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
+        - `run_dynamics` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb) |
+           [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
       - `save`
-        - `init_tsh_savers`[6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
+        - `init_tsh_savers` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb) | 
+           [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
     - `heom`
       - `compute` 
         - `run_dynamics` [6.3.1.](6_dynamics/3_heom/1_dynamics_and_lineshapes/tutorial.ipynb)
