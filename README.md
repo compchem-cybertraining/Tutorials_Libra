@@ -596,13 +596,6 @@ _______________________________
     - `add_atom_to_system` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
     - `add_atoms_to_system` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
 
-  - `CP2K_methods`
-    - `cp2k_find_excitation_energies` [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
-    - `cp2k_xtb_diag_inp` [6.2.7.1.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/1_desktop/tutorial.ipynb)
-    - `cp2k_xtb_ot_inp` [6.2.7.2.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/2_xTB/1_desktop/tutorial.ipynb)
-    - `distribute_cp2k_libint_jobs` [6.2.7.1.2.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/2_hpc/1_example_TiO2/tutorial.ipynb)
-    - `generate_translational_vectors` [6.2.7.1.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/1_desktop/tutorial.ipynb)
-
   - `dynamics`
     - `exact`
       - `compute`
@@ -622,11 +615,14 @@ _______________________________
             [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb) |
             [6.2.10.](6_dynamics/2_nbra_workflows/10_generic_step3_4/tutorial.ipynb) |
             [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb) |
-            [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods/tutorial.ipynb)
-        - `init_electronic_dyn_var` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) 
+            [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods/tutorial.ipynb) |
+            [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
+        - `init_electronic_dyn_var` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) |
+            [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
         - `init_nuclear_dyn_var` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) |
             [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb) |
-            [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
+            [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb) |
+            [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
         - `run_dynamics` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
       - `plot`
         - `add_basis_transform` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
@@ -643,7 +639,8 @@ _______________________________
             [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb) |
             [6.2.10.](6_dynamics/2_nbra_workflows/10_generic_step3_4/tutorial.ipynb) |
             [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb) |
-            [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods/tutorial.ipynb)
+            [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods/tutorial.ipynb) |
+            [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
       - `recipes`
         - `adiabatic_md_interfaces_params` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
 
@@ -816,12 +813,6 @@ _______________________________
       [9.3.](9_machine_learning/3_advanced_ann/tutorial.ipynb)
     - `plot_map_nparray` [6.2.5.1](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data)
 
-  - `DFTB_methods`
-    - `read_dftb_output` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
-    - `run_dftb_adi` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb) | 
-       [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
-    - `make_dftb_input` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
-
   - `dynamics_plotting`
     - `plot_pes_properties` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb) | [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
     - `plot_surfaces` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb) | 
@@ -883,12 +874,22 @@ _______________________________
 
   - `packages`
     - `cp2k`
+      - `methods`
+        - `cp2k_find_excitation_energies` [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
+        - `cp2k_xtb_diag_inp` [6.2.7.1.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/1_desktop/tutorial.ipynb)
+        - `cp2k_xtb_ot_inp` [6.2.7.2.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/2_xTB/1_desktop/tutorial.ipynb)
+        - `distribute_cp2k_libint_jobs` [6.2.7.1.2.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/2_hpc/1_example_TiO2/tutorial.ipynb)
+        - `generate_translational_vectors` [6.2.7.1.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/1_desktop/tutorial.ipynb)
     - `dftbplus`
       - `methods`
         - `dftb_traj2xyz_traj` [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
         - `generic_recipe` [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
         - `get_dftb_matrices` [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
         - `get_dftb_ks_energies` [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
+        - `read_dftb_output` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
+        - `run_dftb_adi` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb) | 
+           [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
+        - `make_dftb_input` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
     - `ergo`
     - `gaussian`
     - `lammps`
