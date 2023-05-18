@@ -122,6 +122,11 @@ Tutorials showcasing various capabilities of Libra
    * 11.2.1. [pDOS](11_program_specific_methods/2_qe_methods/1_pdos)
    * 11.2.2. [MD](11_program_specific_methods/2_qe_methods/2_md)
    * 11.2.3. [Normal modes](11_program_specific_methods/2_qe_methods/3_normal_modes)
+ * 11.3. [CP2K methods](11_program_specific_methods/3_cp2k_methods)
+   * 11.3.1. [Input generator](11_program_specific_methods/3_cp2k_methods/1_input_generator)
+ * 11.4. [DFTB+ methods](11_program_specific_methods/4_dftbplus_methods)
+   * 11.4.1. [Input generator](11_program_specific_methods/4_dftbplus_methods/1_basics)
+
 
 12. Molecular builders
  * 12.1. [Crystal and QD builders](12_molecular_builders/1_crystal_and_qd_builder)
@@ -281,6 +286,7 @@ _______________________________
 
 32. Compute MD with DFTB+ via Libra
   * [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
+  * [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
 
 33. Generate XYZ trajectory from HDF5 files
   * [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
@@ -407,6 +413,7 @@ _______________________________
 
 64. Analyzing MD trajectories
   * [11.2.2.](11_program_specific_methods/2_qe_methods/2_md/1_co2/tutorial.ipynb)
+  * [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
 
 65. Normal modes
   * [11.2.3.](11_program_specific_methods/2_qe_methods/3_normal_modes/tutorial.ipynb)
@@ -427,6 +434,7 @@ _______________________________
 70. Computing NACs using DFTB+/Libra
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SP_basis/tutorial.ipynb)
   * [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+  * [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
 
 71. Computing NACs using CP2K/Libra
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SP_basis/tutorial.ipynb)
@@ -872,6 +880,19 @@ _______________________________
     - `nve_md_step` [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
     - `optimize_syst` [13.3.](13_force_fields_and_classical_md/3_mm_optimization/tutorial.ipynb)
     - `syst2xyz` [13.3.](13_force_fields_and_classical_md/3_mm_optimization/tutorial.ipynb)
+
+  - `packages`
+    - `cp2k`
+    - `dftbplus`
+      - `methods`
+        - `dftb_traj2xyz_traj` [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
+        - `generic_recipe` [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
+        - `get_dftb_matrices` [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
+        - `get_dftb_ks_energies` [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
+    - `ergo`
+    - `gaussian`
+    - `lammps`
+    - `qe`
     
   - `pdos`
     - `libra_pdos` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
