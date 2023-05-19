@@ -1,0 +1,10 @@
+*.gen
+calc*
+.ipynb_checkpoints
+*.txt
+res
+*.bin
+*.out
+*.dat
+*.dat_tmp
+*.tag

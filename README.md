@@ -74,6 +74,7 @@ Tutorials showcasing various capabilities of Libra
       * 6.2.8.3. [Computing NACs in mixed electron-hole SD excitation bases. Revised](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new)
     * 6.2.9. [step 4 with sparse data files](6_dynamics/2_nbra_workflows/9_step4_cp2k)
     * 6.2.10. [NBRA steps 3 and 4, tsh_revision](6_dynamics/2_nbra_workflows/10_generic_step3_4)
+    * 6.2.11. [step 2 with DFTB+](6_dynamics/2_nbra_workflows/11_step2_dftb)
 
  * 6.3. [Hierarchical equations of motion, HEOM](6_dynamics/3_heom)
     * 6.3.1. [Computing population dynamics and lineshapes](6_dynamics/3_heom/1_dynamics_and_lineshapes)
@@ -265,6 +266,7 @@ _______________________________
   * [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
   * [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
   * [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+  * [6.2.11.](6_dynamics/2_nbra_workflows/11_step2_dftb/tutorial.ipynb)
 
 27. Plot the PES of LiH at the EOM-CCSD/sto-3G level computed via interface of Libra with Psi4
   * [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
@@ -435,6 +437,7 @@ _______________________________
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SP_basis/tutorial.ipynb)
   * [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
   * [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
+  * [6.2.11.](6_dynamics/2_nbra_workflows/11_step2_dftb/tutorial.ipynb)
 
 71. Computing NACs using CP2K/Libra
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SP_basis/tutorial.ipynb)
@@ -449,6 +452,7 @@ _______________________________
   * [11.1.2.](11_program_specific_methods/1_ergoscf_methods/2_nac_workflow/tutorial.ipynb)
   * [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
   * [6.2.8.3.](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new/tutorial.ipynb)
+  * [6.2.11.](6_dynamics/2_nbra_workflows/11_step2_dftb/tutorial.ipynb)
 
 73. Computing many-body (TD-DFT, TD-DFTB, CI) NACs 
   * [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
@@ -716,9 +720,9 @@ _______________________________
         - `compute_spectrum`
         - `get_step2_mb_sp_properties`
       - `step2_dftb`
-        - `do_step`
-        - `do_ovlp`
-        - `run_step2`
+        - `do_step` [6.2.11.](6_dynamics/2_nbra_workflows/11_step2_dftb/tutorial.ipynb)
+        - `do_ovlp` [6.2.11.](6_dynamics/2_nbra_workflows/11_step2_dftb/tutorial.ipynb)
+        - `run_step2` [6.2.11.](6_dynamics/2_nbra_workflows/11_step2_dftb/tutorial.ipynb)
         - `run_step2_lz`
       - `step2_ergoscf`
         - `do_step`

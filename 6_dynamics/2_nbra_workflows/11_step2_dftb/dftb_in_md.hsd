@@ -1,0 +1,47 @@
+#   This file is to run the MD using DFTB+
+#
+
+Geometry = GenFormat {
+   <<< "x1.gen"
+}
+
+Driver = VelocityVerlet{
+  TimeStep [fs] = 1.0
+  Thermostat = NoseHoover {
+    Temperature [Kelvin] = 300
+    CouplingStrength [cm^-1] = 3200
+  }
+  
+  Steps = 10
+  MovedAtoms = 1:-1
+  MDRestartFrequency = 1
+}
+
+
+Hamiltonian = DFTB {
+  SCC = Yes
+  SlaterKosterFiles = Type2FileNames {
+    Prefix = "/home/alexvakimov/SOFTWARE/dftbplus/dftbplus_22.2/external/slakos/origin/3ob-3-1/"
+    Separator = "-"
+    Suffix = ".skf"
+  }
+  MaxAngularMomentum = {
+    H = "s"
+    C = "p"
+  }
+}
+
+
+Options = {
+  WriteAutotestTag = Yes
+#  WriteHS = Yes
+  WriteEigenvectors = Yes
+}
+
+Analysis = {
+  EigenvectorsAsTxt = Yes
+}
+
+ParserOptions = {
+  ParserVersion = 4
+}
