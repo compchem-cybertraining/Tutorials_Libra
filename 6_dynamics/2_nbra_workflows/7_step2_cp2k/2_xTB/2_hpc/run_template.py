@@ -1,6 +1,6 @@
 import os
 import sys
-from libra_py import CP2K_methods
+import libra_py.packages.cp2k.methods as CP2K_methods
 from libra_py.workflows.nbra import step2
 
 
@@ -21,15 +21,9 @@ params['mpi_executable'] = 'mpirun'
 # dependencies in the "submit" file and not here. Also, note that the Intel compiled version can obly run on specific nodes on UB CCR.
 # Other users need to adapt this based on their own environments.
 
-# CP2K v9.1 compiled with GNU compilers v11.2.0 + Intel MKL v2020.2 + OpenMP v4.1.1, Runs on all general compte and faculty cluster nodes. Other dependencies for this compiled version are:
+# CP2K v23.1 compiled with GNU compilers v11.2.0 + Intel MKL v2020.2 + OpenMP v4.1.1, Runs on all general compte and faculty cluster nodes. Other dependencies for this compiled version are:
 # DFLAGS = -D__parallel  -D__MKL -D__FFTW3  -D__SCALAPACK -D__FFTW3  -D__LIBINT -D__LIBXC -D__HAS_smm_dnn -D__COSMA -D__ELPA  -D__QUIP -D__GSL -D__PLUMED2 -D__HDF5 -D__LIBVDWXC -D__SPGLIB -D__LIBVORI -D__SPFFT -D__SPLA
-params['cp2k_exe'] = '/projects/academic/cyberwksp21/Software/cp2k-gnu/cp2k-9.1/exe/local/cp2k.psmp'
-# Compiled version without ELPA
-#params['cp2k_exe'] = '/projects/academic/cyberwksp21/Software/cp2k-gnu/cp2k-9.1-no-elpa/exe/local/cp2k.psmp'
-
-# CP2K v8.2 and 9.1 compiled with Intel library (with ELPA, Libint and Libxc), runs on Valhalla nodes, cpn-v and cpn-u nodes of Scavenger, cpn-u and cpn-q nodes of General compute node (CPUs with AVX2 instructions)
-#params['cp2k_exe'] = '/projects/academic/cyberwksp21/Software/cp2k-intel/cp2k-9.1/exe/Linux-x86-64-intelx/cp2k.psmp'
-#params['cp2k_exe'] = '/projects/academic/cyberwksp21/Software/cp2k-intel/cp2k-8.2/exe/Linux-x86-64-intelx/cp2k.psmp'
+params['cp2k_exe'] = 'cp2k.psmp'
 
 # The istep and fstep
 params['istep'] = 
