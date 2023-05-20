@@ -6,7 +6,7 @@ This is an example of modeling TiO2 system
 
 ## What is this
 
-  We run calculations with cp2k v8.2  
+  We run calculations with cp2k v23.1
 
   We run MD calculations of TiO2 system using regular PBE functional
 
@@ -37,3 +37,5 @@ This is an example of modeling TiO2 system
 ## Results 
 
   The results are located in the archive `data.tar.bz2`
+
+  More explanation are given in the Jupyter notebook file `tutorials.ipynb`.
