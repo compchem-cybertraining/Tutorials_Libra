@@ -6,7 +6,7 @@
 #SBATCH --ntasks-per-node=12
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=128000
-#SBATCH --mail-user=mshakiba@buffalo.edu
+##SBATCH --mail-user=mshakiba@buffalo.edu
 echo "SLURM_JOBID="$SLURM_JOBID
 echo "SLURM_JOB_NODELIST="$SLURM_JOB_NODELIST
 echo "SLURM_NNODES="$SLURM_NNODES
@@ -14,11 +14,9 @@ echo "SLURMTMPDIR="$SLURMTMPDIR
 echo "working directory="$SLURM_SUBMIT_DIR
 
 # Here load whatever which is needed for running CP2K
-module unload intel-mpi/2020.2
-module load intel/20.2
-module load intel-mpi/2020.2
+module load cp2k_v23
 export I_MPI_PMI_LIBRARY=/usr/lib64/libpmi.so
-cp2k_exe=/projects/academic/cyberwksp21/Software/cp2k-intel/cp2k-8.2/exe/Linux-x86-64-intelx/cp2k.psmp
+export OMP_NUM_THREADS=1
 
-srun -n 12 $cp2k_exe -i md.inp -o out_md_c3n4_1x1_xtb.log
+mpirun -np 12 cp2k.psmp -i md.inp -o out_md_c3n4_1x1_xtb.log
 
