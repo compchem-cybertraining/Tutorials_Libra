@@ -17,17 +17,7 @@ echo "SLURMTMPDIR="$SLURMTMPDIR
 echo "working directory="$SLURM_SUBMIT_DIR
 
 # Here load whatever which is needed for running CP2K
-module unload intel-mpi/2020.2
-
-# For GNU compilers
-source /projects/academic/cyberwksp21/Software/cp2k-intel/avx512-dependencies/cp2k-9.1-avx512/tools/toolchain/build/setup_gcc
-source /projects/academic/cyberwksp21/Software/cp2k-intel/avx512-dependencies/cp2k-9.1-avx512/tools/toolchain/install/setup
-module load mkl/2020.2
-
-# For Intel compilers
-#module load intel-mpi/2020.2
-#module load intel/20.2
-
+module load cp2k_v23
 # Load VMD if cube visualization flag is turned on
 module load cuda/5.5.22 
 module load vmd
