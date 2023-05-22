@@ -159,11 +159,10 @@ into multiple jobs and run them independently.
 We use the `slurm` environment to submit our jobs on UB-CCR cluster. The `submit_template.slm` file is the one which will be submitted and runs the
 `python run.py` where the `run.py` file is the copy of the `run_template.py` file but with the initial and final steps filled
 based on the requested number of jobs and the initial and final step for the trajectory. We need to load all of the dependencies to run the
-CP2K calculations. Here, we use the Intel compilers so we need to load them so that CP2K can run. For example, in the `submit_template.slm` file
+CP2K calculations. We need to load CP2K and its dependent libraries and compilers first. For example, in the `submit_template.slm` file
 we have:
 ```
-module load intel/20.2
-module load intel-mpi/2020.2
+module load cp2k_v23
 ```
 As in the Libra installation manual, one needs to add the full path to `liblibra_core.so` and Libra build folder in the `PYTHONPATH` and `LD_LIBRARY_PATH`
 so that Libra can be loaded when using Python. Also, you will need to activate the `conda` environment as well if it is not set in the `.bashrc` or 
