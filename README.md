@@ -75,6 +75,7 @@ Tutorials showcasing various capabilities of Libra
     * 6.2.9. [step 4 with sparse data files](6_dynamics/2_nbra_workflows/9_step4_cp2k)
     * 6.2.10. [NBRA steps 3 and 4, tsh_revision](6_dynamics/2_nbra_workflows/10_generic_step3_4)
     * 6.2.11. [step 2 with DFTB+](6_dynamics/2_nbra_workflows/11_step2_dftb)
+    * 6.2.12. [step 3: generic mapping](6_dynamics/2_nbra_workflows/12_generic_mapping)
 
  * 6.3. [Hierarchical equations of motion, HEOM](6_dynamics/3_heom)
     * 6.3.1. [Computing population dynamics and lineshapes](6_dynamics/3_heom/1_dynamics_and_lineshapes)
@@ -204,6 +205,7 @@ _______________________________
   * [6.2.8.3.](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new/tutorial.ipynb)
 
 12. Manually construct a Slater Determinant basis
+  * [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb)
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
 
 13. Auto-generate a Slater Determinant basis
@@ -213,6 +215,7 @@ _______________________________
   * [6.2.8.3.](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new/tutorial.ipynb)
 
 14. Compute the energies and nonadiabatic couplings in the SD basis
+  * [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb)
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
   * [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
@@ -708,6 +711,12 @@ _______________________________
         - `orbs2spinorbs`
         - `ovlp_arb`
         - `ovlp_mat_arb` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+      - `mapping2`
+        - `sd2indx` [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb)
+        - `num_of_perms` [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb)
+        - `reduce_determinants` [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb)
+        - `ovlp_arb` [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb)
+        - `ovlp_mat_arb` [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb)
       - `qsh`
         - `compute_freqs`
         - `compute_qs_Hvib`
