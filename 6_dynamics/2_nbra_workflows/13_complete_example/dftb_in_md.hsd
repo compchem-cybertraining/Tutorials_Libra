@@ -1,0 +1,73 @@
+#   This file is to run the MD using DFTB+
+#
+
+Geometry = GenFormat {
+   <<< "x1.gen"
+}
+
+Driver = VelocityVerlet{
+  TimeStep [fs] = 1.0
+  Thermostat = NoseHoover {
+    Temperature [Kelvin] = 300
+    CouplingStrength [cm^-1] = 3200
+  }  
+  Steps = 50
+  MovedAtoms = 1:-1
+  MDRestartFrequency = 1
+}
+
+#REKS = SSR22 {
+#  Energy = {
+#    Functional = { "PPS" "OSS" }
+#  }
+#  TargetState = 1
+#  FonMaxIter = 100
+#  Shift = 1.0
+#  Gradient = ConjugateGradient {
+#    CGmaxIter = 100
+#    Tolerance = 1.0E-8
+#    Preconditioner = Yes
+#    SaveMemory = Yes
+#  }
+#  VerbosityLevel = 1
+#}
+
+Hamiltonian = DFTB {
+  SCC = Yes
+  Charge = -4
+
+#  SpinConstants = {
+#    ShellResolvedSpin = Yes
+#    H = { -0.072 }
+#    C = { -0.031 -0.025 -0.025 -0.023 }
+#    O = { -0.035 -0.030 -0.030 -0.028 }
+#    Ti = { -0.014 -0.012 -0.004    -0.012  -0.014 -0.001  -0.004 -0.001 -0.014 }
+#  }
+
+  SlaterKosterFiles = Type2FileNames {
+    Prefix = "/mnt/d/WORK/BUFFALO/RESEARCH/Mohammad_Shakiba/Project_Oxotitanates/Step1-dftb/matsci-0-3/"
+    Separator = "-"
+    Suffix = ".skf"
+  }
+  MaxAngularMomentum = {
+    Ti = "d"
+    C = "p"
+    O = "p"
+    H = "s"
+  }
+}
+
+
+Options = {
+  WriteAutotestTag = Yes
+#  WriteHS = Yes
+  WriteEigenvectors = Yes
+}
+
+Analysis = {
+  EigenvectorsAsTxt = Yes
+}
+
+ParserOptions = {
+  ParserVersion = 4
+}
