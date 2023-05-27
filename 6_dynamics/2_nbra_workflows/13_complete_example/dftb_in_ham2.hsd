@@ -1,0 +1,49 @@
+#   This file is to generate the Hamiltonian for the previously-converged charge density
+#
+
+Geometry = GenFormat {
+   <<< "x1.gen"
+}
+
+Driver = { }	       			
+
+
+Hamiltonian = DFTB {
+  SCC = No
+  Charge = -4
+
+#  SpinConstants = {
+#    ShellResolvedSpin = Yes
+#    H = { -0.072 }
+#    C = { -0.031 -0.025 -0.025 -0.023 }
+#    O = { -0.035 -0.030 -0.030 -0.028 }
+#    Ti = { -0.014 -0.012 -0.004    -0.012  -0.014 -0.001  -0.004 -0.001 -0.014 }
+#  }
+
+  SlaterKosterFiles = Type2FileNames {
+    Prefix = "/mnt/d/WORK/BUFFALO/RESEARCH/Mohammad_Shakiba/Project_Oxotitanates/Step1-dftb/matsci-0-3/"
+    Separator = "-"
+    Suffix = ".skf"
+  }
+  MaxAngularMomentum = {
+    Ti = "d"
+    C = "p"
+    O = "p"
+    H = "s"
+  }
+}
+
+
+
+Options = {
+#  WriteAutotestTag = Yes
+  WriteHS = Yes
+#  WriteEigenvectors = Yes
+}
+
+Analysis = {
+}
+
+ParserOptions = {
+  ParserVersion = 4
+}
