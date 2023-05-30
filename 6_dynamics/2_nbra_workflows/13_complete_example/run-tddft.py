@@ -9,7 +9,7 @@ from libra_py import units
 from libra_py.packages.dftbplus import methods as DFTB_methods
 import libra_py.workflows.nbra.step2_dftb as step2    
 
-i = 10
+i = 100
 DFTB_methods.xyz_traj2gen_sp("Ti17-md.xyz", "x1.gen", i, "C")
 
 

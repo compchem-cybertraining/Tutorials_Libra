@@ -1,0 +1,16 @@
+ham_sd
+NBRA
+outs
+res
+traj*
+autotest.tag
+band.out
+charges.bin
+detailed.out
+dftb_pin.hsd
+dftb_in.hsd
+eigenvec*
+hamsqr1*
+oversqr*
+*-md.xyz
+*.gen
