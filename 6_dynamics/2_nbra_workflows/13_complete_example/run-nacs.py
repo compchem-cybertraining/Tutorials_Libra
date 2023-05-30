@@ -12,7 +12,7 @@ from libra_py import units
 
 
 params = { "EXE":"/home/alexvakimov/SOFTWARE/dftbplus/dftbplus_22.2/_install/bin/dftb+", 
-           "mo_active_space":list(range(290, 297)), 
+           "mo_active_space":list(range(285, 305)), 
            "md_file":"Ti17-md.xyz",
            "sp_gen_file": "x1.gen",
            "ovlp_gen_file": "x2.gen",
@@ -21,7 +21,8 @@ params = { "EXE":"/home/alexvakimov/SOFTWARE/dftbplus/dftbplus_22.2/_install/bin
            "hs_in_file" : "dftb_in_ham2.hsd",
            "ovlp_in_file" : "dftb_in_overlaps.hsd",
            "do_tddftb": False,
-           "dt":41.0, "isnap":0, "fsnap":50, "out_dir":"res"
+           "dt":0.5*41.0, "isnap":0, "fsnap":25, "out_dir":"res",
+           "tol":0.5
          }
 
 step2.run_step2(params)

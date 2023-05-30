@@ -31,8 +31,8 @@ colors.update({"41": "#2F4F4F"})  # darkslategray
 clrs_index = ["11", "21", "31", "41", "12", "22", "32", "13","23", "14", "24"]
 
 istep = 0    # the first timestep to read
-fstep =48   # the last timestep to read
-dt = 41.0    # integration time-step [a.u. of time]
+fstep =22   # the last timestep to read
+dt = 0.5*41.0   # integration time-step [a.u. of time]
 
 nsteps = fstep - istep
 NSTEPS = nsteps
@@ -100,7 +100,7 @@ model_params = { "timestep":0, "icond":0,  "model0":0, "nstates":NSTATES }
 
 #=============== Some automatic variables, related to the settings above ===================
 
-dyn_general = { "nsteps":NSTEPS, "ntraj":250, "nstates":NSTATES, "dt":dt,                                                 
+dyn_general = { "nsteps":NSTEPS, "ntraj":2500, "nstates":NSTATES, "dt":dt,                                                 
                 "decoherence_rates":MATRIX(NSTATES,NSTATES), "ave_gaps":MATRIX(NSTATES,NSTATES),                
                 "progress_frequency":0.1, "which_adi_states":range(NSTATES), "which_dia_states":range(NSTATES),
                 "mem_output_level":2,
@@ -124,9 +124,9 @@ dyn_general.update( {"electronic_integrator":2} )  # using the local diabatizati
 dyn_general.update({"tsh_method":0 }) # FSSH
 
 #=========== Decoherence options =================
-#dyn_general.update({ "decoherence_algo":-1}) # no (additional) decoherence
+dyn_general.update({ "decoherence_algo":-1}) # no (additional) decoherence
 #dyn_general.update({ "decoherence_algo":0}) # msdm  
-dyn_general.update({ "decoherence_algo":1}) # IDA
+#dyn_general.update({ "decoherence_algo":1}) # IDA
 #dyn_general.update({ "decoherence_algo":2}) # A-FSSH, not yet ready
 #dyn_general.update({ "decoherence_algo":3}) # BCSH
 #dyn_general.update({ "decoherence_algo":4}) # mfsd
