@@ -1,6 +1,6 @@
 import os
 import sys
-from libra_py import CP2K_methods
+import libra_py.packages.cp2k.methods as CP2K_methods
 
 
 run_slurm = True

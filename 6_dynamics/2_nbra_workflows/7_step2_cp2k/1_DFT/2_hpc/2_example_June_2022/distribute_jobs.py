@@ -1,6 +1,6 @@
 import os
 import sys
-from libra_py import CP2K_methods
+import libra_py.packages.cp2k.methods as CP2K_methods
 
 
 run_slurm = True
@@ -8,7 +8,7 @@ submit_template = 'submit_template.slm'
 run_python_file = 'run_template.py'
 istep = 0
 fstep = 101
-njobs = 20
+njobs = 10
 submission_exe = 'sbatch'
 # Removing the previous folders if existed. You can keep them as well 
 # but Libra will overwrite some of the data if their names are the same
