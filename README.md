@@ -896,6 +896,8 @@ _______________________________
 
   - `packages`
     - `cp2k`
+      - `input`
+        - `generate` [11.3.1.](11_program_specific_methods/3_cp2k_methods/1_input_generator/tutorial.ipynb)
       - `methods`
         - `cp2k_find_excitation_energies` [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
         - `cp2k_xtb_diag_inp` [6.2.7.1.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/1_desktop/tutorial.ipynb)
