@@ -74,6 +74,8 @@ Tutorials showcasing various capabilities of Libra
       * 6.2.8.3. [Computing NACs in mixed electron-hole SD excitation bases. Revised](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new)
     * 6.2.9. [step 4 with sparse data files](6_dynamics/2_nbra_workflows/9_step4_cp2k)
     * 6.2.10. [NBRA steps 3 and 4, tsh_revision](6_dynamics/2_nbra_workflows/10_generic_step3_4)
+      * 6.2.10.1. [Example 1: simple example by Alexey Akimov](6_dynamics/2_nbra_workflows/10_generic_step3_4/1_Example1)
+      * 6.2.10.2. [Example 2: extended example by Mohammad Shakiba](6_dynamics/2_nbra_workflows/10_generic_step3_4/2_Example2)
     * 6.2.11. [step 2 with DFTB+](6_dynamics/2_nbra_workflows/11_step2_dftb)
     * 6.2.12. [step 3: generic mapping](6_dynamics/2_nbra_workflows/12_generic_mapping)
 
@@ -774,8 +776,12 @@ _______________________________
         - `print_SD_basis` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
         - `pyxaid2libra`
         - `run` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
-        - `run_step3_ks_nacs_libint` [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb) | [6.2.8.3.](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new/tutorial.ipynb)
-        - `run_step3_sd_nacs_libint` [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb) | [6.2.8.3.](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new/tutorial.ipynb)
+        - `run_step3_ks_nacs_libint` [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb) | 
+                                     [6.2.8.3.](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new/tutorial.ipynb) |
+                                     [6.2.10.2.](6_dynamics/2_nbra_workflows/10_generic_step3_4/2_Example2/tutorial.ipynb)
+        - `run_step3_sd_nacs_libint` [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb) | 
+                                     [6.2.8.3.](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new/tutorial.ipynb) |
+                                     [6.2.10.2.](6_dynamics/2_nbra_workflows/10_generic_step3_4/2_Example2/tutorial.ipynb)
         - `sac_matrices`
         - `scale_H_vib`
         - `sort_SD_energies` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)

@@ -8,3 +8,6 @@ res
 *.dat
 *.dat_tmp
 *.tag
+dftb_in.hsd
+dftb_pin.hsd
+
