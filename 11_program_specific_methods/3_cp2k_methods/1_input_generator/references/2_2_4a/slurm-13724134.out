@@ -1,0 +1,5 @@
+SLURM_JOBID=13724134
+SLURM_JOB_NODELIST=cpn-p27-28
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/13724134
+working directory=/panfs/panfs.cbls.ccr.buffalo.edu/scratch/grp-alexeyak/alexey/run2/2_2_4a
