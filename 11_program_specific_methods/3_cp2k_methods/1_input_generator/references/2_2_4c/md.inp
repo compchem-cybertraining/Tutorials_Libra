@@ -1,0 +1,150 @@
+
+&GLOBAL
+  PROJECT ch2o
+  RUN_TYPE ENERGY
+  PRINT_LEVEL LOW
+&END GLOBAL
+ 
+&FORCE_EVAL
+  
+  &DFT
+    BASIS_SET_FILE_NAME BASIS_MOLOPT
+    BASIS_SET_FILE_NAME BASIS_ADMM
+    BASIS_SET_FILE_NAME BASIS_ADMM_MOLOPT
+    BASIS_SET_FILE_NAME GTH_BASIS_SETS
+    POTENTIAL_FILE_NAME GTH_POTENTIALS
+
+    CHARGE 0
+    MULTIPLICITY 1
+    UKS .FALSE.
+
+    
+    &XC
+      &XC_FUNCTIONAL
+        &HYB_GGA_XC_CAM_B3LYP
+        &END HYB_GGA_XC_CAM_B3LYP
+      &END XC_FUNCTIONAL
+      &HF
+        &SCREENING
+          EPS_SCHWARZ 1.0E-10
+        &END
+        FRACTION 0.20
+      &END HF
+    &END XC
+        
+    
+    
+    &SCF
+      MAX_SCF 100
+      SCF_GUESS RESTART
+      EPS_SCF 1.e-6        
+      
+      &DIAGONALIZATION
+        &DAVIDSON
+          PRECONDITIONER FULL_SINGLE_INVERSE
+          ENERGY_GAP 0.01
+        &END
+      &END DIAGONALIZATION
+        
+      
+      ADDED_MOS 25
+      
+      
+    &END SCF
+    
+    
+    &QS
+      METHOD GPW
+      
+    &END QS
+    
+    
+    &POISSON
+      POISSON_SOLVER PERIODIC
+      PERIODIC XYZ
+    &END POISSON
+    
+    
+    &EXCITED_STATES
+      STATE 1
+    &END
+        
+    
+    &PRINT
+      &MO
+        ENERGIES .TRUE.
+        OCCUPATION_NUMBERS .TRUE.
+        NDIGITS 8
+        &EACH
+          QS_SCF 0
+        &END
+      &END
+    &END
+    
+  &END DFT
+
+    
+  
+  &PROPERTIES
+    &TDDFPT
+      KERNEL FULL
+      NSTATES     6     # number of excited states
+      MAX_ITER    200           # maximum number of Davidson iterations
+      CONVERGENCE [eV] 1.0e-5   # convergence on maximum energy change between iterations
+
+      &MGRID
+        NGRIDS 4
+        CUTOFF 500 # separate cutoff for TDDFPT calc
+      &END
+!        Only in case you have a tdwfn file from previous calculations
+!       RESTART     .TRUE.
+!       WFN_RESTART_FILE_NAME RESTART.tdwfn
+    &END TDDFPT
+  &END PROPERTIES
+    
+  
+  &SUBSYS
+    
+    &CELL
+      A 30.0 0.0 0.0
+      B 0.0 30.0 0.0
+      C 0.0 0.0 30.0
+      PERIODIC XYZ
+    &END CELL
+    
+    
+    &TOPOLOGY   
+      COORD_FILE_NAME ch2o.xyz
+      COORD_FILE_FORMAT XYZ
+      &CENTER_COORDINATES T
+      &END
+    &END    
+    
+    
+    &KIND H
+      ELEMENT H
+      BASIS_SET ORB DZVP-GTH
+      BASIS_SET AUX_FIT cFIT3 
+      POTENTIAL GTH-PBE-q1
+      
+    &END
+        
+    &KIND C
+      ELEMENT C
+      BASIS_SET ORB DZVP-GTH
+      BASIS_SET AUX_FIT cFIT3 
+      POTENTIAL GTH-PBE-q4
+      
+    &END
+        
+    &KIND O
+      ELEMENT O
+      BASIS_SET ORB DZVP-GTH
+      BASIS_SET AUX_FIT cFIT3 
+      POTENTIAL GTH-PBE-q6
+      
+    &END
+        
+  &END SUBSYS
+    
+&END FORCE_EVAL
