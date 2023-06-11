@@ -128,6 +128,9 @@ Tutorials showcasing various capabilities of Libra
    * 11.2.3. [Normal modes](11_program_specific_methods/2_qe_methods/3_normal_modes)
  * 11.3. [CP2K methods](11_program_specific_methods/3_cp2k_methods)
    * 11.3.1. [Input generator](11_program_specific_methods/3_cp2k_methods/1_input_generator)
+   * 11.3.2. [PDOS calculations](11_program_specific_methods/3_cp2k_methods/2_pdos_calculations)
+   * 11.3.3. [Time-resolved energies](11_program_specific_methods/3_cp2k_methods/3_time_resolved_energies)
+   * 11.3.4. [Excitation analysis](11_program_specific_methods/3_cp2k_methods/4_excitation_analysis)
  * 11.4. [DFTB+ methods](11_program_specific_methods/4_dftbplus_methods)
    * 11.4.1. [Input generator](11_program_specific_methods/4_dftbplus_methods/1_basics)
 
