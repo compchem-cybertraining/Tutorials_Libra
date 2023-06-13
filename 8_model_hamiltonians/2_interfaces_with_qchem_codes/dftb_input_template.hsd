@@ -10,7 +10,7 @@ Hamiltonian = DFTB {
   SCC = Yes
   SCCTolerance = 1e-8
   SlaterKosterFiles = Type2FileNames {
-    Prefix = "halorg-0-1/"
+    Prefix = "/home/alexvakimov/SOFTWARE/dftbplus/dftbplus_22.2/external/slakos/origin/3ob-3-1/"
     Separator = "-"
     Suffix = ".skf"
   }
