@@ -241,6 +241,7 @@ _______________________________
 19. Define diabatic abstract model Hamiltonian 
   * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
   * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
+  * [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
 
 20. Define adiabatic abstract model Hamiltonian
   * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
@@ -506,7 +507,7 @@ _______________________________
 85. Conduct quantum trajectories calculations (QTAG)
   * [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
 
-86. Mapping multidimensional vectros of ints to an integer and vice versa
+86. Mapping multidimensional vectors of ints to an integer and vice versa
   * [6.4.2.](6_dynamics/4_wavepacket/2_dvr_basics/tutorial.ipynb)
   * [6.4.5.](6_dynamics/4_wavepacket/5_grids_and_hyperplanes/tutorial.ipynb)
 
@@ -621,6 +622,20 @@ _______________________________
     - `heom`
       - `compute` 
         - `run_dynamics` [6.3.1.](6_dynamics/3_heom/1_dynamics_and_lineshapes/tutorial.ipynb)
+    - `qtag`
+      - `compute`
+        - `wfc_calc_nD` [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
+        - `run_qtag` [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
+      - `initialize`
+        - `gbfs` [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
+        - `wfc_centers` [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
+        - `coeffs` [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
+      - `plot`
+        - `plot_wf_1D` [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
+        - `plot_wf_2D` [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
+        - `wf_plot` [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
+        - `energy_and_pops`[6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
+        - `trajectories` [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
     - `tsh`
       - `compute`
         - `generic_recipe` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb) | 
@@ -665,13 +680,22 @@ _______________________________
     - `resort_eigenvectors`
 
   - `models`
+    - `Beswick_Jortner`
     - `Esch_Levine`
       - `JCP_2020` [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods/tutorial.ipynb)
+    - `Faist_Levine`
+    - `Ferretti`
+      - `Ferretti` [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
+    - `Granucci_Persico`
+    - `Henon_Heiles`
     - `Holstein`
       - `Holstein2` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb) | 
             [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb) |
             [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb) |
             [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods/tutorial.ipynb)
+      - `Holstein5` [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
+    - `LVC`
+    - `Libra`
     - `Martens` 
       - `model1` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb) | [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
       - `model2` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb) | [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
@@ -845,7 +869,8 @@ _______________________________
             [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb) | 
             [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb) |
             [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb) |
-            [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods/tutorial.ipynb)
+            [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods/tutorial.ipynb) |
+            [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
 
   - `ERGO_methods`
     - `get_mtx_matrices` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
