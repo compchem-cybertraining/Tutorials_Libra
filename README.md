@@ -78,6 +78,8 @@ Tutorials showcasing various capabilities of Libra
       * 6.2.10.2. [Example 2: extended example by Mohammad Shakiba](6_dynamics/2_nbra_workflows/10_generic_step3_4/2_Example2)
     * 6.2.11. [step 2 with DFTB+](6_dynamics/2_nbra_workflows/11_step2_dftb)
     * 6.2.12. [step 3: generic mapping](6_dynamics/2_nbra_workflows/12_generic_mapping)
+    * 6.2.13. [complete example with DFTB+](6_dynamics/2_nbra_workflows/13_complete_example)
+    * 6.2.14. [step 4: many recipes](6_dynamics/2_nbra_workflows/14_many_recipes)
 
  * 6.3. [Hierarchical equations of motion, HEOM](6_dynamics/3_heom)
     * 6.3.1. [Computing population dynamics and lineshapes](6_dynamics/3_heom/1_dynamics_and_lineshapes)
@@ -201,6 +203,7 @@ _______________________________
   * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
   * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
   * [6.2.10.](6_dynamics/2_nbra_workflows/10_generic_step3_4/tutorial.ipynb)
+  * [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
 
 11. Compute the time-averaged nonadiabatic couplings of the vibronic Hamiltonian
   * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
@@ -208,6 +211,7 @@ _______________________________
   * [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
   * [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
   * [6.2.8.3.](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new/tutorial.ipynb)
+  * [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
 
 12. Manually construct a Slater Determinant basis
   * [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb)
@@ -250,6 +254,7 @@ _______________________________
   * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
   * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
   * [6.2.10.](6_dynamics/2_nbra_workflows/10_generic_step3_4/tutorial.ipynb)
+  * [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
 
 22. Plot 1D PES 
   * [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
@@ -304,12 +309,15 @@ _______________________________
 
 34. Compute trajectory-averaged dephasing times
   * [6.2.5.1](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data)
+  * [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
 
 35. Compute trajectory-averaged energy gaps
   * [6.2.5.1](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data)
+  * [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
 
 36. Plot trajectory-averaged dephasing times
   * [6.2.5.1](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data)
+  * [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
 
 37. Fit the probability density of randomly distributed point with Gaussian density kernel functions
   * [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
@@ -325,6 +333,7 @@ _______________________________
   * [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb)
   * [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
   * [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+  * [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
 
 40. Compute nonadiabatic dynamics for atomistic systems with NBRA using Kohn-Sham states
   * [6.2.5.1.](6_dynamics/2_nbra_workflows/5_step4/2_dynamics/tutorial.ipynb)
@@ -609,6 +618,10 @@ _______________________________
     - `add_atom_to_system` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
     - `add_atoms_to_system` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
 
+  - `data_visualize`
+    - `colors` [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
+    - `clrs_index` [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
+
   - `dynamics`
     - `exact`
       - `compute`
@@ -644,7 +657,8 @@ _______________________________
             [6.2.10.2.](6_dynamics/2_nbra_workflows/10_generic_step3_4/2_Example2/tutorial.ipynb) |
             [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb) |
             [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods/tutorial.ipynb) |
-            [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
+            [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) | 
+            [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
         - `init_electronic_dyn_var` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) |
             [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
         - `init_nuclear_dyn_var` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) |
@@ -727,10 +741,12 @@ _______________________________
       - `decoherence_times`
         - `decoherence_times2rates`
         - `energy_gaps`
-        - `energy_gaps_ave` [6.2.3.](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
+        - `energy_gaps_ave` [6.2.3.](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb) |
+                            [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
         - `decoherence_times`
         - `decoherence_times_ave_old`
-        - `decoherence_times_ave` [6.2.3.](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
+        - `decoherence_times_ave` [6.2.3.](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb) |
+                                  [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
       - `lz`
         - `Belyaev_Lebedev`
         - `adjust_SD_probabilities`

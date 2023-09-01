@@ -1,0 +1,7 @@
+.ipynb_checkpoints
+*_icond_*
+*.txt
+*.png
+namd_results
+SD_basis_1
+*__pycache__
