@@ -80,6 +80,7 @@ Tutorials showcasing various capabilities of Libra
     * 6.2.12. [step 3: generic mapping](6_dynamics/2_nbra_workflows/12_generic_mapping)
     * 6.2.13. [complete example with DFTB+](6_dynamics/2_nbra_workflows/13_complete_example)
     * 6.2.14. [step 4: many recipes](6_dynamics/2_nbra_workflows/14_many_recipes)
+    * 6.2.15. [step 4 with BLLZ method](6_dynamics/2_nbra_workflows/15_step4_bllz)
 
  * 6.3. [Hierarchical equations of motion, HEOM](6_dynamics/3_heom)
     * 6.3.1. [Computing population dynamics and lineshapes](6_dynamics/3_heom/1_dynamics_and_lineshapes)
@@ -204,6 +205,7 @@ _______________________________
   * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
   * [6.2.10.](6_dynamics/2_nbra_workflows/10_generic_step3_4/tutorial.ipynb)
   * [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
+  * [6.2.15.](6_dynamics/2_nbra_workflows/15_step4_bllz/tutorial.ipynb)
 
 11. Compute the time-averaged nonadiabatic couplings of the vibronic Hamiltonian
   * [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
@@ -750,7 +752,7 @@ _______________________________
       - `lz`
         - `Belyaev_Lebedev`
         - `adjust_SD_probabilities`
-        - `run`
+        - `run` [6.2.15.](6_dynamics/2_nbra_workflows/15_step4_bllz/tutorial.ipynb)
       - `mapping`
         - `sd2indx`
         - `energy_arb`
@@ -837,7 +839,8 @@ _______________________________
         - `run` [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
       - `step4`
         - `get_Hvib`
-        - `get_Hvib2` [6.2.5.1.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
+        - `get_Hvib2` [6.2.5.1.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb) |
+                      [6.2.15.](6_dynamics/2_nbra_workflows/15_step4_bllz/tutorial.ipynb)
         - `namd_workflow` [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb)
         - `traj_statistics`
         - `traj_statistics2`
@@ -849,8 +852,9 @@ _______________________________
     - `make_list` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
     - `matrix2list` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
     - `MATRIX2nparray` [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb) |
-        [11.2.1.](11_program_specific_methods/2_qe_methods/1_pdos/tutorial.ipynb) | 
-        [6.2.5.1.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
+                       [11.2.1.](11_program_specific_methods/2_qe_methods/1_pdos/tutorial.ipynb) | 
+                       [6.2.5.1.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb) |
+                       [6.2.15.](6_dynamics/2_nbra_workflows/15_step4_bllz/tutorial.ipynb)
     - `nparray2CMATRIX` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb) |
        [6.2.10.1.](6_dynamics/2_nbra_workflows/10_generic_step3_4/1_Example1/tutorial.ipynb) |
        [6.2.10.2.](6_dynamics/2_nbra_workflows/10_generic_step3_4/2_Example2/tutorial.ipynb)
