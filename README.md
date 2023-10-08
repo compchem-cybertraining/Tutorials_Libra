@@ -107,6 +107,9 @@ Tutorials showcasing various capabilities of Libra
  * 7.4. [Random numbers](7_special_functions/4_random_numbers)
     * 7.4.1. [Basic random number generator, chaotic systems](7_special_functions/4_random_numbers/1_basics)
     * 7.4.2. [Random number generation using Metropolis Monte Carlo method](7_special_functions/4_random_numbers/2_metropolis)
+ * 7.5. [Autocorrelation function and its Fourier Transform](7_special_functions/5_acf_and_ft)
+    * 7.5.1. [Basics: general functions](7_special_functions/5_acf_and_ft/1_basic)
+    * 7.5.2. [Advanced: recipe-based calculation. Convergence study](7_special_functions/5_acf_and_ft/2_advanced)
 
 8. Model Hamiltonians
  * 8.1. [Define model Hamiltonians and plot PES](8_model_hamiltonians/1_pes_plotting)
@@ -529,6 +532,14 @@ _______________________________
 88. Computing hyperplanes of multidimensional grids
   * [6.4.5.](6_dynamics/4_wavepacket/5_grids_and_hyperplanes/tutorial.ipynb)
 
+89. Compute ACF of data series
+  * [7.5.1.](7_special_functions/5_acf_and_ft/1_basic/tutorial.ipynb)
+  * [7.5.2.](7_special_functions/5_acf_and_ft/2_advanced/tutorial.ipynb)
+
+90. Compute spectra
+  * [7.5.1.](7_special_functions/5_acf_and_ft/1_basic/tutorial.ipynb)
+  * [7.5.2.](7_special_functions/5_acf_and_ft/2_advanced/tutorial.ipynb)
+
 
 _______________________________
 
@@ -603,6 +614,10 @@ _______________________________
   - `Vdw_Morse` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
 
 - `libra_py`
+  - `acf`
+    - `acf_mat` [7.5.1.](7_special_functions/5_acf_and_ft/1_basic/tutorial.ipynb)
+    - `acf_vec` [7.5.1.](7_special_functions/5_acf_and_ft/1_basic/tutorial.ipynb)
+
   - `autoconnect`
     - `autoconnect` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
     - `find_undercoordinated_atoms` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
@@ -900,7 +915,8 @@ _______________________________
     - `read_spectrum_unrestricted` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
 
   - `ft`
-    - `ft2`[6.3.1.](6_dynamics/3_heom/1_dynamics_and_lineshapes/tutorial.ipynb)
+    - `ft2`[6.3.1.](6_dynamics/3_heom/1_dynamics_and_lineshapes/tutorial.ipynb) |
+           [7.5.1.](7_special_functions/5_acf_and_ft/1_basic/tutorial.ipynb)
 
   - `gaussian_kernel_algorithm`
     - `compute_apriory_prob_densities_1D` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
@@ -910,6 +926,9 @@ _______________________________
 
   - `hpc_utils`
     - `distribute` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
+
+  - `influence_spectrum` 
+    - `recipe1` [7.5.2.](7_special_functions/5_acf_and_ft/2_advanced/tutorial.ipynb)
 
   - `LoadGAFF`
     - `Load_GAFF` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
@@ -983,6 +1002,13 @@ _______________________________
   - `scan`
     - `coords2xyz` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
     - `make_path_xyz2` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
+
+  - `units`
+    - `au2wavn` [7.5.1.](7_special_functions/5_acf_and_ft/1_basic/tutorial.ipynb)
+    - `fs2au` [7.5.1.](7_special_functions/5_acf_and_ft/1_basic/tutorial.ipynb) |
+              [7.5.2.](7_special_functions/5_acf_and_ft/2_advanced/tutorial.ipynb)
+    - `inv_cm2Ha` [7.5.1.](7_special_functions/5_acf_and_ft/1_basic/tutorial.ipynb) |
+                  [7.5.2.](7_special_functions/5_acf_and_ft/2_advanced/tutorial.ipynb)
 
 - `liblibra::libutil`
   - `allocate_1D` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
