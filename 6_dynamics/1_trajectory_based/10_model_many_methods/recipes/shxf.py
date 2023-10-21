@@ -79,9 +79,6 @@ def load(dyn_general):
     #=========== Phase correction of SSY =================
     dyn_general.update({"do_ssy":0 }) # do no use it - that's the default
 
-    #=========== XF setting ==============================
-    dyn_general.update({"wp_width":0.3, "coherence_threshold": 0.01 })
-
     #=========== What to integrate ==================
     # solve TD-SE in diabatic representation
     #dyn_general.update({"rep_tdse":0, "electronic_integrator":-1 })   # no propagation
