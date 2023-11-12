@@ -64,20 +64,23 @@ def load(dyn_general):
     #dyn_general.update({ "decoherence_algo":2}) # A-FSSH, not yet ready
     #dyn_general.update({ "decoherence_algo":3}) # BCSH
     #dyn_general.update({ "decoherence_algo":4}) # mfsd
-    dyn_general.update({ "decoherence_algo":5}) # SHXF
+    #dyn_general.update({ "decoherence_algo":5}) # SHXF
     #dyn_general.update({ "decoherence_algo":6}) # MQCXF
-    #dyn_general.update({ "decoherence_algo":7}) # new DISH
-
+    dyn_general.update({ "decoherence_algo":7}) # new DISH
 
     #=========== Decoherence times (for decoherence options 0 or 4) ==================
     A = MATRIX(2,2); A.set(0, 0, 10.0); A.set(1,1, 10.0)
-    dyn_general.update({"decoherence_times_type":-1 }) # No decoherence times, infinite decoherence times
-    #dyn_general.update( { "decoherence_times_type":1, "decoherence_C_param": 1.0, "decoherence_eps_param":0.1 } )  # EDC + default params
+    #dyn_general.update({"decoherence_times_type":-1 }) # No decoherence times, infinite decoherence times
+    dyn_general.update( { "decoherence_times_type":1, "decoherence_C_param": 1.0, "decoherence_eps_param":0.1 } )  # EDC + default params
     #dyn_general.update( { "decoherence_times_type":2, "schwartz_decoherence_inv_alpha":A } ) # Schwartz version 1
     #dyn_general.update( { "decoherence_times_type":3, "schwartz_decoherence_inv_alpha":A } ) # Schwartz version 2
 
     #======= Various decoherence-related parameters =====================
     dyn_general.update( {"dephasing_informed":0, "decoherence_rates":MATRIX(2,2), "ave_gaps":MATRIX(2,2) } )
+
+    #======= DISH-specific ======================
+    #dyn_general.update( {"dish_decoherence_event_option":1} )
+
                                
     #=========== Phase correction of SSY =================
     dyn_general.update({"do_ssy":0 }) # do no use it - that's the default
