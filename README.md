@@ -43,6 +43,7 @@ Tutorials showcasing various capabilities of Libra
     * 6.1.8. [General TSH with multiple recipes, NBRA and not](6_dynamics/1_trajectory_based/8_model_nonadiabatic)
     * 6.1.9. [Revised, most recent TSH with model Hamiltonians](6_dynamics/1_trajectory_based/9_model_revised)
     * 6.1.10. [Ehrefest, FSSH, GFSH, BCSH, MSSH, DISH, SDM, IDA, MFSD, SSY, etc. with model Hamiltonians](6_dynamics/1_trajectory_based/10_model_many_methods)
+    * 6.1.11. [Exact factorization methods with model Hamiltonians](6_dynamics/1_trajectory_based/11_model_xf)
 
  * 6.2. [Quantum-classical, neglect-of-back-reaction trajectory workflows](6_dynamics/2_nbra_workflows)
     * 6.2.1. [step 1 with DFTB+](6_dynamics/2_nbra_workflows/1_step1_dftb)
