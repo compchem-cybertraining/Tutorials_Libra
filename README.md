@@ -43,6 +43,7 @@ Tutorials showcasing various capabilities of Libra
     * 6.1.8. [General TSH with multiple recipes, NBRA and not](6_dynamics/1_trajectory_based/8_model_nonadiabatic)
     * 6.1.9. [Revised, most recent TSH with model Hamiltonians](6_dynamics/1_trajectory_based/9_model_revised)
     * 6.1.10. [Ehrefest, FSSH, GFSH, BCSH, MSSH, DISH, SDM, IDA, MFSD, SSY, etc. with model Hamiltonians](6_dynamics/1_trajectory_based/10_model_many_methods)
+    * 6.1.11. [Exact factorization methods with model Hamiltonians](6_dynamics/1_trajectory_based/11_model_xf)
 
  * 6.2. [Quantum-classical, neglect-of-back-reaction trajectory workflows](6_dynamics/2_nbra_workflows)
     * 6.2.1. [step 1 with DFTB+](6_dynamics/2_nbra_workflows/1_step1_dftb)
@@ -269,6 +270,7 @@ _______________________________
   * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
   * [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
   * [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods)
+  * [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf)
 
 23. Plot diabatic-to-adiabatic transformaitons vs. coordinate in 1D
   * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
@@ -337,6 +339,7 @@ _______________________________
   * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
   * [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb)
   * [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
+  * [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf)
   * [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
   * [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
 
@@ -369,6 +372,7 @@ _______________________________
   * [6.4.4.](6_dynamics/4_wavepackets/4_more/Tutorial3.ipynb)
   * [6.4.4.](6_dynamics/4_wavepackets/4_more/Tutorial4.ipynb)
   * [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
+  * [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf)
 
 47. DVR calculations
   * [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
@@ -378,9 +382,11 @@ _______________________________
   * [6.4.4.](6_dynamics/4_wavepackets/4_more/Tutorial3.ipynb)
   * [6.4.4.](6_dynamics/4_wavepackets/4_more/Tutorial4.ipynb)
   * [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
+  * [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf)
 
 48. Making animated gifs
   * [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+  * [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf)
 
 49. Integrating quantum Liouville's equation of motion
   * [2.2.](2_integrators/2_runge_kutta_4_for_Liouville/tutorial.ipynb)
@@ -674,6 +680,7 @@ _______________________________
             [6.2.10.2.](6_dynamics/2_nbra_workflows/10_generic_step3_4/2_Example2/tutorial.ipynb) |
             [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb) |
             [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods/tutorial.ipynb) |
+            [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf/tutorial.ipynb) |
             [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) | 
             [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
         - `init_electronic_dyn_var` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) |
@@ -700,7 +707,8 @@ _______________________________
             [6.2.10.2.](6_dynamics/2_nbra_workflows/10_generic_step3_4/2_Example2/tutorial.ipynb) |
             [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb) |
             [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods/tutorial.ipynb) |
-            [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
+            [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf/tutorial.ipynb)
+            [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) |
       - `recipes`
         - `adiabatic_md_interfaces_params` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
 
@@ -713,7 +721,7 @@ _______________________________
   - `models`
     - `Beswick_Jortner`
     - `Esch_Levine`
-      - `JCP_2020` [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods/tutorial.ipynb)
+      - `JCP_2020` [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods/tutorial.ipynb) | [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf/tutorial.ipynb)
     - `Faist_Levine`
     - `Ferretti`
       - `Ferretti` [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
@@ -723,7 +731,8 @@ _______________________________
       - `Holstein2` [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb) | 
             [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb) |
             [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb) |
-            [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods/tutorial.ipynb)
+            [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods/tutorial.ipynb) |
+            [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf/tutorial.ipynb)
       - `Holstein5` [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
     - `LVC`
     - `Libra`
@@ -737,11 +746,12 @@ _______________________________
       - `SSY` [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
     - `Subotnik`
       - `dumbbell_geometry` [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
-      - `double_arch_geometry` [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
+      - `double_arch_geometry` [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb) | [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf/tutorial.ipynb)
     - `Tully`
       - `Tully1` [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb) | [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
       - `Tully2` [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb) | [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
-      - `Tully3` [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb) | [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
+      - `Tully3` [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb) | [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb) |
+                 [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf/tutorial.ipynb)
       - `chain_potential` [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb) | [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
     - `Zhu`
       - `dual_RZD` [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb) | [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
@@ -905,6 +915,7 @@ _______________________________
             [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb) |
             [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb) |
             [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods/tutorial.ipynb) |
+            [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf/tutorial.ipynb)
             [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
 
   - `ERGO_methods`
