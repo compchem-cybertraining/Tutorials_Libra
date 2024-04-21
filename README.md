@@ -82,6 +82,8 @@ Tutorials showcasing various capabilities of Libra
     * 6.2.13. [complete example with DFTB+](6_dynamics/2_nbra_workflows/13_complete_example)
     * 6.2.14. [step 4: many recipes](6_dynamics/2_nbra_workflows/14_many_recipes)
     * 6.2.15. [step 4 with BLLZ method](6_dynamics/2_nbra_workflows/15_step4_bllz)
+    * 6.2.16. [Kohn-Sham Hamiltonian mapping with machine-learning](6_dynamics/2_nbra_workflows/16_ml_hamiltonian_mapping)
+      *6.2.16.1 [benzene example](6_dynamics/2_nbra_workflows/16_ml_hamiltonian_mapping/1_benzene)
 
  * 6.3. [Hierarchical equations of motion, HEOM](6_dynamics/3_heom)
     * 6.3.1. [Computing population dynamics and lineshapes](6_dynamics/3_heom/1_dynamics_and_lineshapes)
@@ -774,6 +776,8 @@ _______________________________
         - `decoherence_times_ave_old`
         - `decoherence_times_ave` [6.2.3.](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb) |
                                   [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
+      - `generate_data`
+        - `distribute_jobs` [6.2.16.1.1](6_dynamics/2_nbra_workflows/16_ml_hamiltonian_mapping/1_benzene/1_generate_data)
       - `lz`
         - `Belyaev_Lebedev`
         - `adjust_SD_probabilities`
@@ -791,6 +795,10 @@ _______________________________
         - `reduce_determinants` [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb)
         - `ovlp_arb` [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb)
         - `ovlp_mat_arb` [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb)
+      - `ml_map`
+        - `compute_properties` [6.2.16.1.2](6_dynamics/2_nbra_workflows/16_ml_hamiltonian_mapping/1_benzene/2_ml_step2)
+	- `load_models` [6.2.16.1.2](6_dynamics/2_nbra_workflows/16_ml_hamiltonian_mapping/1_benzene/2_ml_step2)
+        - `train` [6.2.16.1.2](6_dynamics/2_nbra_workflows/16_ml_hamiltonian_mapping/1_benzene/2_ml_step2)
       - `qsh`
         - `compute_freqs`
         - `compute_qs_Hvib`
