@@ -31,4 +31,6 @@ This is run on the UB CCR as of May 20, 2023
 
  The reference results are shown in the archive `step1.tar.gz`. You can uncompress the files using `tar xvf step1.tar.gz`.
 
+## Align the trajectory
 
+ You can remove the translations and rotations by running the script `align_md.py`. The first argument of the function `align_trajectory` is the path to the generated MD trajectory and the second argument is the path to where you want to save the aligned MD trajectory.
