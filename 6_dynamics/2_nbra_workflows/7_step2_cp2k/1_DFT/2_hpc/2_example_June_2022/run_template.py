@@ -81,8 +81,8 @@ params['all_logfiles'] = path + '/../all_logfiles'
 params['cp2k_ot_input_template'] = path + '/../es_ot_temp.inp'
 params['cp2k_diag_input_template'] = path + '/../es_diag_temp.inp'
 # The trajectory xyz file path
-params['trajectory_xyz_filename'] = path + '/../adamantane-pos-1.xyz'
-#params['trajectory_xyz_filename'] = path + '/../../../../../6_step1_cp2k/1_DFT/2_example_adamantane_June_2022/step1/adamantane-pos-1.xyz'
+params['trajectory_xyz_filename'] = path + '/../aligned-adamantane-pos-1.xyz'
+#params['trajectory_xyz_filename'] = path + '/../../../../../6_step1_cp2k/1_DFT/2_example_adamantane_June_2022/step1/aligned-adamantane-pos-1.xyz'
 
 
 step2.run_cp2k_libint_step2(params)
