@@ -8,13 +8,15 @@ params = {}
 params["prefix"] = "benzene"
 # The full path to trajectory xyz file
 params["trajectory_xyz_file"] = os.getcwd()+"/1_ring-pos-aligned.xyz"
+# ======== Geometry selection
+# Since this is an interpolation we recommend to have the 
+# first and final step of the trajectory in the "user_steps"
 # === Equispaced geometries
 params["user_steps"] =  list(range(0,10000,100)) 
 # You can also select random geometries using below line
 # === Random geometries
 # Make sure to turn this into a list type so that json can save the parameters
 # params["user_steps"] = np.random.randint(0, 10000, size=100).tolist() 
-
 # How many jobs for distributing them?
 params["njobs"] = 20
 # Number of processors

@@ -5,10 +5,10 @@
 #SBATCH --partition=general-compute  --qos=general-compute
 #SBATCH --clusters=ub-hpc
 ##SBATCH --partition=scavenger  --qos=scavenger
-#SBATCH --time=12:00:00
+#SBATCH --time=02:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=9
-##SBATCH --constraint=AVX2
+##SBATCH --constraint=AVX512
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10000
 ###SBATCH --mail-user=mshakiba@buffalo.edu
