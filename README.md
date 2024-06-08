@@ -44,6 +44,7 @@ Tutorials showcasing various capabilities of Libra
     * 6.1.9. [Revised, most recent TSH with model Hamiltonians](6_dynamics/1_trajectory_based/9_model_revised)
     * 6.1.10. [Ehrefest, FSSH, GFSH, BCSH, MSSH, DISH, SDM, IDA, MFSD, SSY, etc. with model Hamiltonians](6_dynamics/1_trajectory_based/10_model_many_methods)
     * 6.1.11. [Exact factorization methods with model Hamiltonians](6_dynamics/1_trajectory_based/11_model_xf)
+    * 6.1.12. [NA-MD with Spin-boson/FMO Hamiltonians](6_dynamics/1_trajectory_based/12_model_spin_boson_fmo)
 
  * 6.2. [Quantum-classical, neglect-of-back-reaction trajectory workflows](6_dynamics/2_nbra_workflows)
     * 6.2.1. [step 1 with DFTB+](6_dynamics/2_nbra_workflows/1_step1_dftb)
@@ -440,6 +441,7 @@ _______________________________
 
 62. Wigner sampling
   * [7.4.2.](7_special_functions/4_random_numbers/2_metropolis/tutorial.ipynb)
+  * [6.1.12.](6_dynamics/1_trajectory_based/12_model_spin_boson_fmo/tutorial.ipynb)
 
 63. Canonical and microcanonical enesemble sampling
   * [7.4.2.](7_special_functions/4_random_numbers/2_metropolis/tutorial.ipynb)
@@ -549,7 +551,7 @@ _______________________________
   * [7.5.2.](7_special_functions/5_acf_and_ft/2_advanced/tutorial.ipynb)
 
 
-_______________________________
+___________________________________________________________
 
 
 ## Functions
@@ -683,6 +685,7 @@ _______________________________
             [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb) |
             [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods/tutorial.ipynb) |
             [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf/tutorial.ipynb) |
+            [6.1.12.](6_dynamics/1_trajectory_based/12_model_spin_boson_fmo/tutorial.ipynb) |
             [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) | 
             [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
         - `init_electronic_dyn_var` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) |
@@ -709,7 +712,8 @@ _______________________________
             [6.2.10.2.](6_dynamics/2_nbra_workflows/10_generic_step3_4/2_Example2/tutorial.ipynb) |
             [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb) |
             [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods/tutorial.ipynb) |
-            [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf/tutorial.ipynb)
+            [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf/tutorial.ipynb) |
+            [6.1.12.](6_dynamics/1_trajectory_based/12_model_spin_boson_fmo/tutorial.ipynb) |
             [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) |
       - `recipes`
         - `adiabatic_md_interfaces_params` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
@@ -727,6 +731,14 @@ _______________________________
     - `Faist_Levine`
     - `Ferretti`
       - `Ferretti` [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
+    - `GLVC`
+      - `GLVC` [6.1.12.](6_dynamics/1_trajectory_based/12_model_spin_boson_fmo/tutorial.ipynb)
+      - `get_GLVC_set1` [6.1.12.](6_dynamics/1_trajectory_based/12_model_spin_boson_fmo/tutorial.ipynb)
+      - `get_GLVC_set2` [6.1.12.](6_dynamics/1_trajectory_based/12_model_spin_boson_fmo/tutorial.ipynb)
+      - `get_GLVC_set3` [6.1.12.](6_dynamics/1_trajectory_based/12_model_spin_boson_fmo/tutorial.ipynb)
+      - `get_GLVC_set4` [6.1.12.](6_dynamics/1_trajectory_based/12_model_spin_boson_fmo/tutorial.ipynb)
+      - `get_GLVC_set5` [6.1.12.](6_dynamics/1_trajectory_based/12_model_spin_boson_fmo/tutorial.ipynb)
+      - `get_GLVC_set6` [6.1.12.](6_dynamics/1_trajectory_based/12_model_spin_boson_fmo/tutorial.ipynb)
     - `Granucci_Persico`
     - `Henon_Heiles`
     - `Holstein`
