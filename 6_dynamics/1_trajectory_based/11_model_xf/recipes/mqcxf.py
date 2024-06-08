@@ -76,7 +76,8 @@ def load(dyn_general):
     #dyn_general.update({ "decoherence_algo":7}) # new DISH
 
     #=========== XF setting ==============================
-    dyn_general.update({"wp_width":0.3, "coherence_threshold": 0.01 })
+    WP_W = MATRIX(1,1); WP_W.set(0,0,0.3);
+    dyn_general.update({"wp_width":WP_W, "coherence_threshold": 0.01 })
     dyn_general.update({"project_out_aux": 1})
     dyn_general.update({"use_xf_force": 1 })
 
