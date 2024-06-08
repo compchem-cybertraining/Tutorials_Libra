@@ -41,12 +41,14 @@ def load(dyn_general):
 
     #============ Types of surface hopping acceptance and momenta rescaling opntions =================
     #dyn_general.update({"hop_acceptance_algo":10, "momenta_rescaling_algo":100 })  # accept and rescale based on total energy, do not reverse on frustrated
-    dyn_general.update({"hop_acceptance_algo":10, "momenta_rescaling_algo":101 })  # accept and rescale based on total energy, reverse on frustrated
+    #dyn_general.update({"hop_acceptance_algo":10, "momenta_rescaling_algo":101 })  # accept and rescale based on total energy, reverse on frustrated
     #dyn_general.update({"hop_acceptance_algo":20, "momenta_rescaling_algo":200 })  # accept and rescale based on NAC vectors, do not reverse on frustrated
-    #dyn_general.update({"hop_acceptance_algo":20, "momenta_rescaling_algo":201 })  # accept and rescale based on NAC vectors, reverse on frustrated
+    dyn_general.update({"hop_acceptance_algo":20, "momenta_rescaling_algo":201 })  # accept and rescale based on NAC vectors, reverse on frustrated
     #dyn_general.update({"hop_acceptance_algo":21, "momenta_rescaling_algo":200 })  # accept and rescale based on force differences, do not reverse on frustrated
     #dyn_general.update({"hop_acceptance_algo":21, "momenta_rescaling_algo":201 })  # accept and rescale based on force differences, reverse on frustrated
 
+    #========== Velocity reversal with the Jasper-Truhlar criterion =================
+    dyn_general.update({"use_Jasper_Truhlar_criterion":1}) # this is default anyways
 
     #============ Surface hopping opntions =================
     #dyn_general.update({"tsh_method":-1 }) # adiabatic, no surface hopping
@@ -56,6 +58,9 @@ def load(dyn_general):
     #dyn_general.update({"tsh_method":3, "rep_lz":0 })  # LZ options
     #dyn_general.update({"tsh_method":4, "rep_lz":0 }) # ZN
     #dyn_general.update({"tsh_method":5 }) # DISH, old
+    #dyn_general.update({"tsh_method":6 }) # MASH
+    #dyn_general.update({"tsh_method":7 }) # FSSH2
+    #dyn_general.update({"tsh_method":8 }) # FSSH3
 
     #=========== Decoherence options =================
     #dyn_general.update({ "decoherence_algo":-1}) # no (additional) decoherence
@@ -116,3 +121,7 @@ def load(dyn_general):
     #dyn_general.update({"rep_tdse":3, "electronic_integrator":0 })  # mid-point Ham with the second-point correction of Hvib, using exp_
     #dyn_general.update({"rep_tdse":3, "electronic_integrator":1 })  # using Zhu Liouvillian THIS IS NOT JUST A DIFFERENT INTEGRATOR!!!!
     #dyn_general.update({"rep_tdse":3, "electronic_integrator":10 }) # same as 0 but with rotations
+
+    #=========== Disable state tracking and phase corrections explicitly for the LD integrators ===============
+    # phase correction doesn't matter, if we use the LD integrator
+    dyn_general.update({"state_tracking_algo":-1, "do_phase_correction":1 })

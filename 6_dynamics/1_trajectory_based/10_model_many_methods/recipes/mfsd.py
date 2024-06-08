@@ -56,7 +56,10 @@ def load(dyn_general):
     #dyn_general.update({"tsh_method":2 }) # MSSH
     #dyn_general.update({"tsh_method":3, "rep_lz":0 })  # LZ options
     #dyn_general.update({"tsh_method":4, "rep_lz":0 }) # ZN
-    #dyn_general.update({"tsh_method":5 }) # DISH
+    #dyn_general.update({"tsh_method":5 }) # DISH, old
+    #dyn_general.update({"tsh_method":6 }) # MASH
+    #dyn_general.update({"tsh_method":7 }) # FSSH2
+    #dyn_general.update({"tsh_method":8 }) # FSSH3
 
     #=========== Decoherence options =================
     #dyn_general.update({ "decoherence_algo":-1}) # no (additional) decoherence
@@ -65,6 +68,9 @@ def load(dyn_general):
     #dyn_general.update({ "decoherence_algo":2}) # A-FSSH, not yet ready
     #dyn_general.update({ "decoherence_algo":3}) # BCSH
     dyn_general.update({ "decoherence_algo":4}) # mfsd
+    #dyn_general.update({ "decoherence_algo":5}) # SHXF
+    #dyn_general.update({ "decoherence_algo":6}) # MQCXF
+    #dyn_general.update({ "decoherence_algo":7}) # new DISH
 
     #=========== Decoherence times (for decoherence options 0 or 4) ==================
     A = MATRIX(2,2); A.set(0, 0, 10.0); A.set(1,1, 10.0)
@@ -110,3 +116,8 @@ def load(dyn_general):
     #dyn_general.update({"rep_tdse":3, "electronic_integrator":0 })  # mid-point Ham with the second-point correction of Hvib, using exp_
     #dyn_general.update({"rep_tdse":3, "electronic_integrator":1 })  # using Zhu Liouvillian THIS IS NOT JUST A DIFFERENT INTEGRATOR!!!!
     #dyn_general.update({"rep_tdse":3, "electronic_integrator":10 }) # same as 0 but with rotations
+
+    #=========== Disable state tracking and phase corrections explicitly for the LD integrators ===============
+    # phase correction doesn't matter, if we use the LD integrator
+    dyn_general.update({"state_tracking_algo":-1, "do_phase_correction":1 })
+
