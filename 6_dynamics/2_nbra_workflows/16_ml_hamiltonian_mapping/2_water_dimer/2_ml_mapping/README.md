@@ -186,25 +186,31 @@ plt.savefig('ml_energy_levels.jpg', dpi=600)
 
 ## Trials and errors with partitioning methods 
 
+Here are some trials and errors that is done with different partitioning methods.
 
-For `equal` partitioning:
+* For `equal` partitioning:
 
 `npartition`: 1 
 
+```
 Average MAE for all models: 0.0006977372607982587
 Average MSE for all models: 3.962586874434997e-06
 Average R^2 for all models: 0.9974170865111319
+```
 
 `npartition1: 10
 
+```
 Average MAE for all models: 0.007447090949634428
 Average MSE for all models: 0.0003964626579931684
 Average R^2 for all models: 0.8794368493556999
+```
 
-For `atomic` partitioning:
+* For `atomic` partitioning:
 
+```
 Average MAE for all models: 0.02520863231050299
 Average MSE for all models: 0.002891714835368408
 Average R^2 for all models: 0.6484891268088989
-
+```
 
