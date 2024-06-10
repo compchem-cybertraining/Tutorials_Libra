@@ -64,24 +64,19 @@ def load(dyn_general):
 
     #=========== Decoherence options =================
     #dyn_general.update({ "decoherence_algo":-1}) # no (additional) decoherence
-    #dyn_general.update({ "decoherence_algo":0}) # msdm  
+    dyn_general.update({ "decoherence_algo":0}) # msdm  
     #dyn_general.update({ "decoherence_algo":1}) # IDA
     #dyn_general.update({ "decoherence_algo":2}) # A-FSSH, not yet ready
     #dyn_general.update({ "decoherence_algo":3}) # BCSH
     #dyn_general.update({ "decoherence_algo":4}) # mfsd
-    dyn_general.update({ "decoherence_algo":5}) # SHXF
+    #dyn_general.update({ "decoherence_algo":5}) # SHXF
     #dyn_general.update({ "decoherence_algo":6}) # MQCXF
     #dyn_general.update({ "decoherence_algo":7}) # new DISH
 
-    #=========== XF setting ==============================
-    WP_W = MATRIX(1,1); WP_W.set(0,0,0.3);
-    dyn_general.update({"wp_width":WP_W, "coherence_threshold": 0.01 })
-    dyn_general.update({"project_out_aux": 1})
-
     #=========== Decoherence times (for decoherence options 0 or 4) ==================
     A = MATRIX(2,2); A.set(0, 0, 10.0); A.set(1,1, 10.0)
-    dyn_general.update({"decoherence_times_type":-1 }) # No decoherence times, infinite decoherence times
-    #dyn_general.update( { "decoherence_times_type":1, "decoherence_C_param": 1.0, "decoherence_eps_param":0.1 } )  # EDC + default params
+    #dyn_general.update({"decoherence_times_type":-1 }) # No decoherence times, infinite decoherence times
+    dyn_general.update( { "decoherence_times_type":1, "decoherence_C_param": 1.0, "decoherence_eps_param":0.1 } )  # EDC + default params
     #dyn_general.update( { "decoherence_times_type":2, "schwartz_decoherence_inv_alpha":A } ) # Schwartz version 1
     #dyn_general.update( { "decoherence_times_type":3, "schwartz_decoherence_inv_alpha":A } ) # Schwartz version 2
 

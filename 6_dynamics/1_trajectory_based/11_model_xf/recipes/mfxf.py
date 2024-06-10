@@ -43,9 +43,11 @@ def load(dyn_general):
     #dyn_general.update({"hop_acceptance_algo":10, "momenta_rescaling_algo":100 })  # accept and rescale based on total energy, do not reverse on frustrated
     #dyn_general.update({"hop_acceptance_algo":10, "momenta_rescaling_algo":101 })  # accept and rescale based on total energy, reverse on frustrated
     #dyn_general.update({"hop_acceptance_algo":20, "momenta_rescaling_algo":200 })  # accept and rescale based on NAC vectors, do not reverse on frustrated
-    dyn_general.update({"hop_acceptance_algo":20, "momenta_rescaling_algo":201 })  # accept and rescale based on NAC vectors, reverse on frustrated
+    #dyn_general.update({"hop_acceptance_algo":20, "momenta_rescaling_algo":201 })  # accept and rescale based on NAC vectors, reverse on frustrated
     #dyn_general.update({"hop_acceptance_algo":21, "momenta_rescaling_algo":200 })  # accept and rescale based on force differences, do not reverse on frustrated
     #dyn_general.update({"hop_acceptance_algo":21, "momenta_rescaling_algo":201 })  # accept and rescale based on force differences, reverse on frustrated
+    dyn_general.update({"hop_acceptance_algo":20, "momenta_rescaling_algo":0 })  # accept based on NAC vectors, reverse on frustrated, do not rescale momenta
+
 
     #========== Velocity reversal with the Jasper-Truhlar criterion =================
     dyn_general.update({"use_Jasper_Truhlar_criterion":1}) # this is default anyways
@@ -69,14 +71,15 @@ def load(dyn_general):
     #dyn_general.update({ "decoherence_algo":2}) # A-FSSH, not yet ready
     #dyn_general.update({ "decoherence_algo":3}) # BCSH
     #dyn_general.update({ "decoherence_algo":4}) # mfsd
-    dyn_general.update({ "decoherence_algo":5}) # SHXF
-    #dyn_general.update({ "decoherence_algo":6}) # MQCXF
+    #dyn_general.update({ "decoherence_algo":5}) # SHXF
+    dyn_general.update({ "decoherence_algo":6}) # MQCXF
     #dyn_general.update({ "decoherence_algo":7}) # new DISH
 
     #=========== XF setting ==============================
     WP_W = MATRIX(1,1); WP_W.set(0,0,0.3);
     dyn_general.update({"wp_width":WP_W, "coherence_threshold": 0.01 })
     dyn_general.update({"project_out_aux": 1})
+    dyn_general.update({"use_xf_force": 0 })
 
     #=========== Decoherence times (for decoherence options 0 or 4) ==================
     A = MATRIX(2,2); A.set(0, 0, 10.0); A.set(1,1, 10.0)
