@@ -1,5 +1,5 @@
 #!/bin/sh -l
-#SBATCH --account=alexeyak
+##SBATCH --account=alexeyak
 ##SBATCH --partition=valhalla  --qos=valhalla
 ##SBATCH --clusters=faculty
 #SBATCH --partition=general-compute  --qos=general-compute

@@ -1,7 +1,7 @@
-#!/bin/sh
+#!/bin/sh -l
 #SBATCH --partition=general-compute  --qos=general-compute
 #SBATCH --clusters=ub-hpc
-##SBATCH --partition=valhalla  --qos=
+##SBATCH --partition=valhalla  --qos=valhalla
 ##SBATCH --clusters=
 #SBATCH --time=12:00:00
 #SBATCH --nodes=1
@@ -16,10 +16,8 @@ echo "SLURMTMPDIR="$SLURMTMPDIR
 echo "working directory="$SLURM_SUBMIT_DIR
 
 # Here load whatever which is needed for running CP2K
-module load ccrsoft/legacy
-module load cp2k_v23
-export I_MPI_PMI_LIBRARY=/usr/lib64/libpmi.so
-export OMP_NUM_THREADS=1
+module use /projects/academic/cyberwksp21/MODULES
+module load cp2k/v24/avx512
 
 mpirun -np 12 cp2k.psmp -i md.inp -o md.log
 

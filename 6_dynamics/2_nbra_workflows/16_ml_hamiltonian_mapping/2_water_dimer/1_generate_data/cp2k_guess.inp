@@ -1,0 +1,203 @@
+&GLOBAL
+  PROJECT_NAME benzene
+  RUN_TYPE ENERGY
+  PRINT_LEVEL LOW
+&END GLOBAL
+ 
+&FORCE_EVAL
+  
+  &DFT
+    BASIS_SET_FILE_NAME BASIS_MOLOPT
+    BASIS_SET_FILE_NAME BASIS_ADMM
+    BASIS_SET_FILE_NAME BASIS_ADMM_MOLOPT
+    BASIS_SET_FILE_NAME GTH_BASIS_SETS
+    POTENTIAL_FILE_NAME GTH_POTENTIALS
+    !WFN_RESTART_FILE_NAME c60_999-RESTART.wfn
+    CHARGE 0
+    MULTIPLICITY 1
+    UKS .FALSE.
+
+    &XC
+      &XC_FUNCTIONAL
+        &GGA_X_PBE
+           SCALE 1.0
+        &END
+        &GGA_C_PBE
+           SCALE 1.0
+        &END
+      &END XC_FUNCTIONAL
+      &VDW_POTENTIAL
+         POTENTIAL_TYPE PAIR_POTENTIAL
+         &PAIR_POTENTIAL
+            PARAMETER_FILE_NAME dftd3.dat
+            TYPE DFTD3
+            REFERENCE_FUNCTIONAL PBE
+            R_CUTOFF [angstrom] 16
+         &END
+      &END VDW_POTENTIAL
+    &END XC
+
+    
+    
+    &SCF
+      MAX_SCF 1
+      SCF_GUESS ATOMIC
+      EPS_SCF 1e-06 
+      IGNORE_CONVERGENCE_FAILURE T
+      &DIAGONALIZATION
+        &DAVIDSON
+          PRECONDITIONER FULL_SINGLE_INVERSE
+          ENERGY_GAP 0.01
+        &END
+      &END DIAGONALIZATION
+       &MIXING  T
+         METHOD  BROYDEN_MIXING
+         ALPHA     0.5
+         NBUFFER  8
+       &END MIXING
+      
+      ADDED_MOS 15
+      
+      
+      
+
+    &END SCF
+    
+    
+    &QS
+      METHOD GPW
+      
+      EPS_DEFAULT 1e-16
+    &END QS
+    
+    
+    &POISSON
+      POISSON_SOLVER PERIODIC
+      PERIODIC XYZ
+    &END POISSON
+    
+    
+    
+     &PRINT
+       &AO_MATRICES
+         &EACH
+           QS_SCF 0
+         &END
+!         DENSITY T
+!         OVERLAP T
+         KOHN_SHAM_MATRIX T
+         FILENAME data
+         NDIGITS 10
+       &END
+!      &MO_CUBES
+!         WRITE_CUBE F
+!         NHOMO 2 
+!         NLUMO 2
+!      &END
+!      &PDOS
+!        APPEND T
+!        COMPONENTS T
+!        FILENAME c60
+!      &END
+      &MO
+        ENERGIES .TRUE.
+        COEFFICIENTS .TRUE.
+        OCCUPATION_NUMBERS .TRUE.
+        FILENAME molog
+        NDIGITS 8
+        &EACH
+          QS_SCF 0
+        &END
+     &END
+      &MO_MOLDEN ON
+         FILENAME molden
+         NDIGITS 8
+         GTO_KIND SPHERICAL
+	 &EACH
+	    QS_SCF 0
+	 &END
+      &END
+    &END
+
+  &END DFT
+
+    
+  
+  
+  &SUBSYS
+    
+    &CELL
+      A 15.0 0.0 0.0
+      B 0.0 15.0 0.0
+      C 0.0 0.0 15.0
+      PERIODIC XYZ
+    &END CELL
+    
+    
+    &TOPOLOGY   
+      COORD_FILE_NAME coord-999.xyz
+      COORD_FILE_FORMAT XYZ
+      &CENTER_COORDINATES .TRUE.
+      &END
+    &END    
+    
+    
+    &KIND H
+      ELEMENT H
+      BASIS_SET ORB SZV-MOLOPT-GTH
+      BASIS_SET AUX_FIT cFIT3 
+      POTENTIAL GTH-PBE-q1
+    &END
+        
+    &KIND C
+      ELEMENT C
+      BASIS_SET ORB SZV-MOLOPT-GTH
+      BASIS_SET AUX_FIT cFIT3 
+      POTENTIAL GTH-PBE-q4
+      
+    &END
+        
+    &KIND O
+      ELEMENT O
+      BASIS_SET ORB DZVP-MOLOPT-GTH
+      BASIS_SET AUX_FIT cFIT3 
+      POTENTIAL GTH-PBE-q6
+      
+    &END
+        
+    &KIND Ti
+      ELEMENT Ti
+      BASIS_SET ORB DZVP-MOLOPT-SR-GTH
+      BASIS_SET AUX_FIT cFIT10 
+      POTENTIAL GTH-PBE-q12
+      
+    &END
+        
+    &KIND Fe
+      ELEMENT Fe
+      BASIS_SET ORB DZVP-MOLOPT-SR-GTH
+      BASIS_SET AUX_FIT cFIT10 
+      POTENTIAL GTH-PBE-q16
+      
+    &END
+        
+    &KIND Re
+      ELEMENT Re
+      BASIS_SET ORB DZVP-MOLOPT-SR-GTH
+      BASIS_SET AUX_FIT cFIT10 
+      POTENTIAL GTH-PBE-q15
+      
+    &END
+        
+    &KIND N
+      ELEMENT N
+      BASIS_SET ORB DZVP-MOLOPT-GTH
+      BASIS_SET AUX_FIT cFIT3 
+      POTENTIAL GTH-PBE-q5
+      
+    &END
+        
+  &END SUBSYS
+    
+&END FORCE_EVAL
+  
