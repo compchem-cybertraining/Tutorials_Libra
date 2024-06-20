@@ -34,22 +34,24 @@ def load(dyn_general):
     # This is what we use with any of the TSH-based methods - in all cases here, we would 
     # use "rep_force":1 so that we are guided by the forces derived from the adiabatic surfaces.
     # In Ehrenfest cases though, the forces can be computed using only diabatic properties though 
-    #dyn_general.update( {"force_method":1, "rep_force":1} ) # state-resolved (e.g. TSH) with adiabatic forces
+    dyn_general.update( {"force_method":1, "rep_force":1} ) # state-resolved (e.g. TSH) with adiabatic forces
     #dyn_general.update( {"force_method":2, "rep_force":1} ) # for Ehrenfest in adiabatic rep
-    dyn_general.update( {"force_method":2, "rep_force":0} ) # for Ehrenfest in diabatic rep
+    #dyn_general.update( {"force_method":2, "rep_force":0} ) # for Ehrenfest in diabatic rep
 
 
     #============ Types of surface hopping acceptance and momenta rescaling opntions =================
     #dyn_general.update({"hop_acceptance_algo":10, "momenta_rescaling_algo":100 })  # accept and rescale based on total energy, do not reverse on frustrated
-    dyn_general.update({"hop_acceptance_algo":10, "momenta_rescaling_algo":101 })  # accept and rescale based on total energy, reverse on frustrated
+    #dyn_general.update({"hop_acceptance_algo":10, "momenta_rescaling_algo":101 })  # accept and rescale based on total energy, reverse on frustrated
     #dyn_general.update({"hop_acceptance_algo":20, "momenta_rescaling_algo":200 })  # accept and rescale based on NAC vectors, do not reverse on frustrated
-    #dyn_general.update({"hop_acceptance_algo":20, "momenta_rescaling_algo":201 })  # accept and rescale based on NAC vectors, reverse on frustrated
+    dyn_general.update({"hop_acceptance_algo":20, "momenta_rescaling_algo":201 })  # accept and rescale based on NAC vectors, reverse on frustrated
     #dyn_general.update({"hop_acceptance_algo":21, "momenta_rescaling_algo":200 })  # accept and rescale based on force differences, do not reverse on frustrated
     #dyn_general.update({"hop_acceptance_algo":21, "momenta_rescaling_algo":201 })  # accept and rescale based on force differences, reverse on frustrated
 
+    #========== Velocity reversal with the Jasper-Truhlar criterion =================
+    dyn_general.update({"use_Jasper_Truhlar_criterion":1}) # this is default anyways
 
     #============ Surface hopping opntions =================
-    dyn_general.update({"tsh_method":-1 }) # adiabatic, no surface hopping
+    #dyn_general.update({"tsh_method":-1 }) # adiabatic, no surface hopping
     #dyn_general.update({"tsh_method":0 }) # FSSH
     #dyn_general.update({"tsh_method":1 }) # GFSH
     #dyn_general.update({"tsh_method":2 }) # MSSH
@@ -58,7 +60,13 @@ def load(dyn_general):
     #dyn_general.update({"tsh_method":5 }) # DISH, old
     #dyn_general.update({"tsh_method":6 }) # MASH
     #dyn_general.update({"tsh_method":7 }) # FSSH2
-    #dyn_general.update({"tsh_method":8 }) # FSSH3
+    dyn_general.update({"tsh_method":8 }) # FSSH3
+
+    #============= Method-specific settings =================
+    # Some reasonable setups for the FSSH3
+    dyn_general.update({ "fssh3_dt":0.01, "fssh3_max_steps":1500, "fssh3_err_tol":1e-12 }) 
+    # These are not currently used, but let's set them to what may be the future defaults for this method
+    dyn_general.update({"fssh3_size_option":0, "fssh3_approach_option":1, "fssh3_decomp_option":0} )
 
     #=========== Decoherence options =================
     dyn_general.update({ "decoherence_algo":-1}) # no (additional) decoherence
@@ -87,7 +95,7 @@ def load(dyn_general):
     #=========== What to integrate ==================
     # solve TD-SE in diabatic representation
     #dyn_general.update({"rep_tdse":0, "electronic_integrator":-1 })   # no propagation
-    dyn_general.update({"rep_tdse":0, "electronic_integrator":0 })    # Lowdin exp_ with 2-point Hvib_dia
+    #dyn_general.update({"rep_tdse":0, "electronic_integrator":0 })    # Lowdin exp_ with 2-point Hvib_dia
     #dyn_general.update({"rep_tdse":0, "electronic_integrator":1 })    # based on QTAG propagator
     #dyn_general.update({"rep_tdse":0, "electronic_integrator":2 })    # based on modified QTAG propagator (Z at two times)
     #dyn_general.update({"rep_tdse":0, "electronic_integrator":3 })    # non-Hermitian integrator with 2-point Hvib_dia
@@ -96,7 +104,7 @@ def load(dyn_general):
     #dyn_general.update({"rep_tdse":1, "electronic_integrator":-1 })  # no propagation
     #dyn_general.update({"rep_tdse":1, "electronic_integrator":0 })   # ld, with crude splitting,  with exp_
     #dyn_general.update({"rep_tdse":1, "electronic_integrator":1 })   # ld, with symmetric splitting, with exp_
-    #dyn_general.update({"rep_tdse":1, "electronic_integrator":2 })   # ld, original, with exp_
+    dyn_general.update({"rep_tdse":1, "electronic_integrator":2 })   # ld, original, with exp_
     #dyn_general.update({"rep_tdse":1, "electronic_integrator":3 })   # 1-point, Hvib integration, with exp_
     #dyn_general.update({"rep_tdse":1, "electronic_integrator":4 })   # 2-points, Hvib integration, with exp_
     #dyn_general.update({"rep_tdse":1, "electronic_integrator":5 })   # 2-points, Hvib, integration with the second-point correction of Hvib, with exp_
@@ -115,3 +123,8 @@ def load(dyn_general):
     #dyn_general.update({"rep_tdse":3, "electronic_integrator":0 })  # mid-point Ham with the second-point correction of Hvib, using exp_
     #dyn_general.update({"rep_tdse":3, "electronic_integrator":1 })  # using Zhu Liouvillian THIS IS NOT JUST A DIFFERENT INTEGRATOR!!!!
     #dyn_general.update({"rep_tdse":3, "electronic_integrator":10 }) # same as 0 but with rotations
+
+    #=========== Disable state tracking and phase corrections explicitly for the LD integrators ===============
+    # phase correction doesn't matter, if we use the LD integrator
+    dyn_general.update({"state_tracking_algo":-1, "do_phase_correction":1 })
+
