@@ -1,9 +1,9 @@
-#!/bin/sh
-#SBATCH --account=alexeyak
-#SBATCH --partition=valhalla  --qos=valhalla
-#SBATCH --clusters=faculty
-##SBATCH --partition=general-compute  --qos=general-compute
-##SBATCH --clusters=ub-hpc
+#!/bin/sh -l
+##SBATCH --account=alexeyak
+##SBATCH --partition=valhalla  --qos=valhalla
+##SBATCH --clusters=faculty
+#SBATCH --partition=general-compute  --qos=general-compute
+#SBATCH --clusters=ub-hpc
 ##SBATCH --partition=scavenger  --qos=scavenger
 #SBATCH --time=02:00:00
 #SBATCH --nodes=1
@@ -18,15 +18,9 @@ echo "SLURMTMPDIR="$SLURMTMPDIR
 echo "working directory="$SLURM_SUBMIT_DIR
 
 # Here load whatever which is needed for running CP2K
-module load cp2k_v23
-# Load VMD if cube visualization flag is turned on
-module load cuda/5.5.22 
+module use /projects/academic/cyberwksp21/MODULES
+module load cp2k/v24/avx512
 module load vmd
-
-# For slurm environments
-export I_MPI_PMI_LIBRARY=/usr/lib64/libpmi.so
-export OMP_NUM_THREADS=1
-
 python run.py
 
 

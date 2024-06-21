@@ -3,39 +3,23 @@ import numpy as np
 from libra_py.workflows.nbra.generate_data import distribute_jobs
 
 params = {}
+# =========================== Part 1: General variables
 # Setting the prefix with which the data will be saved
 params["prefix"] = "benzene"
-# Either to do the calculations from scratch or perform 
-# additional reference calculations
-params["scratch"] = True
-params["do_more"] = False
-if params["do_more"]:
-    # When doing more steps please also check 
-    # if njobs<=nsteps/2
-    params["do_more_steps"] = 10
 # The full path to trajectory xyz file
-params["trajectory_xyz_file"] = os.getcwd()+"/benzene-pos-1.xyz"
-# The path to save the data
-params["guess_dir"] = os.getcwd()+"/guess"
-params["reference_dir"] = os.getcwd()+"/ref"
-params["do_guess"] = True
-params["do_ref"] = True
-# The input templates and their corresponding software
-# for both guess and reference calculations
-params["guess_input_template"] = os.getcwd()+"/cp2k_guess.inp"
-params["reference_input_template"] = os.getcwd()+"/cp2k_ref.inp"
-params["guess_software"] = "cp2k"
-params["guess_software_exe"] = "cp2k.psmp"
-params["guess_mpi_exe"] = "mpirun"
-params["reference_software"] = "cp2k"
-params["reference_software_exe"] = "cp2k.psmp"
-params["reference_mpi_exe"] = "mpirun"
-# From which step to which step? How many reference steps?
+params["trajectory_xyz_file"] = os.getcwd()+"/1_ring-pos-aligned.xyz"
+# ======== Geometry selection
+# Since this is an interpolation we recommend to have the 
+# first and final step of the trajectory in the "user_steps"
+# === Equispaced geometries
+params["user_steps"] =  list(range(0,10000,100)) 
+# You can also select random geometries using below line
+# === Random geometries
+# Make sure to turn this into a list type so that json can save the parameters
+# params["user_steps"] = np.random.randint(0, 10000, size=100).tolist() 
 # How many jobs for distributing them?
-params["reference_steps"] = 100
-params["njobs"] = 10
-params["istep"] = 1000
-params["fstep"] = 3000
+params["njobs"] = 20
+# Number of processors
 params["nprocs"] = 9
 # For debugging purpose and if you need any output set to False
 params["remove_raw_outputs"] = True
@@ -55,6 +39,20 @@ export LD_LIBRARY_PATH=/projects/academic/alexeyak/mohammad/software/libra-code-
 # The submission executable, for some HPC environement 
 # is 'qsub' but not tested
 params["submit_exe"] = "sbatch"
-# Distribute the single-point calculations jobs
+# =========================== Part 2: Guess 
+params["do_guess"] = True
+params["guess_dir"] = os.getcwd()+"/guess"
+params["guess_input_template"] = os.getcwd()+"/cp2k_guess.inp"
+params["guess_software"] = "cp2k"
+params["guess_software_exe"] = "cp2k.psmp"
+params["guess_mpi_exe"] = "mpirun"
+# =========================== Part 3: Reference
+params["do_ref"] = True
+params["reference_dir"] = os.getcwd()+"/ref"
+params["reference_input_template"] = os.getcwd()+"/cp2k_ref.inp"
+params["reference_software"] = "cp2k"
+params["reference_software_exe"] = "cp2k.psmp"
+params["reference_mpi_exe"] = "mpirun"
+# =========================== Part 4: Distribute the single-point calculations jobs
 distribute_jobs(params)
 

@@ -1,0 +1,16 @@
+#!/bin/sh -l
+##SBATCH --account=alexeyak
+##SBATCH --partition=valhalla  --qos=valhalla
+##SBATCH --clusters=faculty
+#SBATCH --partition=general-compute  --qos=general-compute
+#SBATCH --clusters=ub-hpc
+##SBATCH --partition=scavenger  --qos=scavenger
+#SBATCH --time=02:00:00 
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=9
+##SBATCH --constraint=AVX512
+#SBATCH -C CPU-Gold-6130
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=20000
+###SBATCH --mail-user=mshakiba@buffalo.edu
+
