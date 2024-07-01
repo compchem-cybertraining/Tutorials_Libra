@@ -20,7 +20,7 @@ echo "working directory="$SLURM_SUBMIT_DIR
 module use /projects/academic/cyberwksp21/MODULES
 module load cp2k/v24/avx512
 module load libra/devel
-module load vmd
+#module load vmd
 
 python run.py
 
