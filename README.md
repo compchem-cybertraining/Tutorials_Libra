@@ -143,7 +143,7 @@ Tutorials showcasing various capabilities of Libra
    * 11.3.4. [Excitation analysis](11_program_specific_methods/3_cp2k_methods/4_excitation_analysis)
  * 11.4. [DFTB+ methods](11_program_specific_methods/4_dftbplus_methods)
    * 11.4.1. [Input generator](11_program_specific_methods/4_dftbplus_methods/1_basics)
-
+ * 11.5. [MOPAC methods](11_program_specific_methods/5_mopac_methods)
 
 12. Molecular builders
  * 12.1. [Crystal and QD builders](12_molecular_builders/1_crystal_and_qd_builder)
@@ -176,6 +176,7 @@ _______________________________
 
 3. INDO calculations with Libra
   * [5.2.1.](5_electronic_structure/2_indo/1_compact/tutorial.ipynb)
+  * [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
 
 4. Compute .cube files from orbitals computed with Libra
   * [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
@@ -225,6 +226,7 @@ _______________________________
 12. Manually construct a Slater Determinant basis
   * [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb)
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
+  * [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
 
 13. Auto-generate a Slater Determinant basis
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
@@ -486,10 +488,12 @@ _______________________________
   * [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
   * [6.2.8.3.](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new/tutorial.ipynb)
   * [6.2.11.](6_dynamics/2_nbra_workflows/11_step2_dftb/tutorial.ipynb)
+  * [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
 
 73. Computing many-body (TD-DFT, TD-DFTB, CI) NACs 
   * [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
   * [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
+  * [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
 
 74. Saving ANNs to files and creating ANNs from XML files
   * [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
@@ -549,6 +553,15 @@ _______________________________
 90. Compute spectra
   * [7.5.1.](7_special_functions/5_acf_and_ft/1_basic/tutorial.ipynb)
   * [7.5.2.](7_special_functions/5_acf_and_ft/2_advanced/tutorial.ipynb)
+
+91. Processing the MOPAC calculations results
+  * [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
+
+92. Computing CI wavefunction time-overlaps with MOPAC
+  * [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
+
+93. Define Libra/MOPAC interface Hamiltonian
+  * [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
 
 
 ___________________________________________________________
@@ -806,7 +819,8 @@ ___________________________________________________________
         - `num_of_perms` [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb)
         - `reduce_determinants` [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb)
         - `ovlp_arb` [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb)
-        - `ovlp_mat_arb` [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb)
+        - `ovlp_mat_arb` [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb) | 
+                         [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
       - `ml_map`
         - `compute_properties` [6.2.16.1.2](6_dynamics/2_nbra_workflows/16_ml_hamiltonian_mapping/1_benzene/2_ml_step2)
 	- `load_models` [6.2.16.1.2](6_dynamics/2_nbra_workflows/16_ml_hamiltonian_mapping/1_benzene/2_ml_step2)
@@ -1002,6 +1016,7 @@ ___________________________________________________________
         - `cp2k_xtb_ot_inp` [6.2.7.2.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/2_xTB/1_desktop/tutorial.ipynb)
         - `distribute_cp2k_libint_jobs` [6.2.7.1.2.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/2_hpc/1_example_TiO2/tutorial.ipynb)
         - `generate_translational_vectors` [6.2.7.1.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/1_desktop/tutorial.ipynb)
+        - `read_trajectory_xyz_file` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
     - `dftbplus`
       - `methods`
         - `dftb_traj2xyz_traj` [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
@@ -1015,6 +1030,14 @@ ___________________________________________________________
     - `ergo`
     - `gaussian`
     - `lammps`
+    - `mopac`
+      - `methods`
+        - `make_mopac_input` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
+        - `run_mopac` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
+        - `make_ref` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
+        - `make_alpha_excitation` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
+        - `read_mopac_orbital_info` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
+        - ` mopac_compute_adi` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
     - `qe`
     
   - `pdos`
