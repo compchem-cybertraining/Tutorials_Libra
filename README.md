@@ -85,6 +85,8 @@ Tutorials showcasing various capabilities of Libra
     * 6.2.15. [step 4 with BLLZ method](6_dynamics/2_nbra_workflows/15_step4_bllz)
     * 6.2.16. [Kohn-Sham Hamiltonian mapping with machine-learning](6_dynamics/2_nbra_workflows/16_ml_hamiltonian_mapping)
       *6.2.16.1 [benzene example](6_dynamics/2_nbra_workflows/16_ml_hamiltonian_mapping/1_benzene)
+    * 6.2.17. [Active state selection](6_dynamics/2_nbra_workflows/17_active_space_selection)
+    * 6.2.18. [Time-resolved spectra calculations and plotting](6_dynamics/2_nbra_workflows/18_plotting_trpes)
 
  * 6.3. [Hierarchical equations of motion, HEOM](6_dynamics/3_heom)
     * 6.3.1. [Computing population dynamics and lineshapes](6_dynamics/3_heom/1_dynamics_and_lineshapes)
@@ -347,6 +349,7 @@ _______________________________
   * [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf)
   * [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
   * [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
+  * [6.2.18.](6_dynamics/2_nbra_workflows/18_plotting_trpes/tutorial.ipynb)
 
 40. Compute nonadiabatic dynamics for atomistic systems with NBRA using Kohn-Sham states
   * [6.2.5.1.](6_dynamics/2_nbra_workflows/5_step4/2_dynamics/tutorial.ipynb)
@@ -553,6 +556,7 @@ _______________________________
 90. Compute spectra
   * [7.5.1.](7_special_functions/5_acf_and_ft/1_basic/tutorial.ipynb)
   * [7.5.2.](7_special_functions/5_acf_and_ft/2_advanced/tutorial.ipynb)
+  * [6.2.18.](6_dynamics/2_nbra_workflows/18_plotting_trpes/tutorial.ipynb)
 
 91. Processing the MOPAC calculations results
   * [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
@@ -562,6 +566,9 @@ _______________________________
 
 93. Define Libra/MOPAC interface Hamiltonian
   * [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
+
+94. Compute time-resolved spectra
+  * [6.2.18.](6_dynamics/2_nbra_workflows/18_plotting_trpes/tutorial.ipynb)
 
 
 ___________________________________________________________
@@ -1056,6 +1063,10 @@ ___________________________________________________________
   - `scan`
     - `coords2xyz` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
     - `make_path_xyz2` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
+
+  - `trpes`
+    - `compute_trpes` [6.2.18.](/6_dynamics/2_nbra_workflows/18_plotting_trpes/tutorial.ipynb)
+    - `plot_trpes` [6.2.18.](/6_dynamics/2_nbra_workflows/18_plotting_trpes/tutorial.ipynb)
 
   - `units`
     - `au2wavn` [7.5.1.](7_special_functions/5_acf_and_ft/1_basic/tutorial.ipynb)
