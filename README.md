@@ -45,6 +45,7 @@ Tutorials showcasing various capabilities of Libra
     * 6.1.10. [Ehrefest, FSSH, GFSH, BCSH, MSSH, DISH, SDM, IDA, MFSD, SSY, etc. with model Hamiltonians](6_dynamics/1_trajectory_based/10_model_many_methods)
     * 6.1.11. [Exact factorization methods with model Hamiltonians](6_dynamics/1_trajectory_based/11_model_xf)
     * 6.1.12. [NA-MD with Spin-boson/FMO Hamiltonians](6_dynamics/1_trajectory_based/12_model_spin_boson_fmo)
+    * 6.1.13. [NA-MD with Shin-Metiu Polaritonic Hamiltonians](6_dynamics/1_trajectory_based/13_polaritonic)
 
  * 6.2. [Quantum-classical, neglect-of-back-reaction trajectory workflows](6_dynamics/2_nbra_workflows)
     * 6.2.1. [step 1 with DFTB+](6_dynamics/2_nbra_workflows/1_step1_dftb)
@@ -346,6 +347,7 @@ _______________________________
 38. Read the HDF5 files to setup Hamiltonians
   * [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb)
   * [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb)
+  * [6.1.13.](6_dynamics/1_trajectory_based/13_polaritonic/tutorial.ipynb)
   * [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
 
 39. Read the HDF5 files to plot results of dynamical calculations
@@ -605,6 +607,9 @@ _______________________________
 100. LDR solution of the TD-SE using PyTorch
   * [6.4.7.](6_dynamics/4_wavepackets/7_ldr_with_pytorch/tutorial.ipynb)
 
+101. Polaritonic dynamics
+  * [6.1.13.](6_dynamics/1_trajectory_based/13_polaritonic/tutorial.ipynb)
+
 ___________________________________________________________
 
 
@@ -839,8 +844,9 @@ ___________________________________________________________
       - `dual_RZD` [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb) | [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
       - `dual_LZS` [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
       - `Renner_Teller` [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
-
-  - `workflows`
+    - `Shin_Metiu`
+      - `polariton` [6.1.13.](6_dynamics/1_trajectory_based/13_polaritonic/tutorial.ipynb)
+  - `workflows` 
     - `nbra`
       - `compute_hprime`
         - `compute_hprime_dia`
