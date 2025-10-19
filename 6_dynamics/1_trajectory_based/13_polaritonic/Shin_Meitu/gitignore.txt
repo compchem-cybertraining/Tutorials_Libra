@@ -1,0 +1,3 @@
+.ipynb_checkpoints
+adiabatic_md/
+recipes/__pycache__
