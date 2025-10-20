@@ -855,8 +855,8 @@ ___________________________________________________________
       - `dual_LZS` [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
       - `Renner_Teller` [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
     - `Shin_Metiu`
-      - `electronic` [6.1.13.](6_dynamics/1_trajectory_based/13_polaritonic/Shin_Metiu/tutorial.ipynb)
-      - `polaritonic` [6.1.13.](6_dynamics/1_trajectory_based/13_polaritonic/polaritonic/tutorial.ipynb)
+      - `dump_dvr_to_hdf5` [6.1.13.](6_dynamics/1_trajectory_based/13_polaritonic/Shin_Metiu/tutorial.ipynb)
+      - `compute_model` [6.1.13.](6_dynamics/1_trajectory_based/13_polaritonic/polaritonic/tutorial.ipynb)
   - `workflows` 
     - `nbra`
       - `compute_hprime`
