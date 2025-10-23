@@ -173,6 +173,9 @@ Tutorials showcasing various capabilities of Libra
   * 14.1. [Libint2 wrappers and auxiliary functions](14_molecular_integrals/1_libint2)
   * 14.2. [Libra built-in molints](14_molecular_integrals/2_libra_molints)
 
+15. CI tools
+  * 15.1. [Slater Determinants and Configuration State Functions](15_citools/1_fundamentals)
+
 _______________________________
 
 ## Use cases
