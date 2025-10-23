@@ -45,7 +45,9 @@ Tutorials showcasing various capabilities of Libra
     * 6.1.10. [Ehrefest, FSSH, GFSH, BCSH, MSSH, DISH, SDM, IDA, MFSD, SSY, etc. with model Hamiltonians](6_dynamics/1_trajectory_based/10_model_many_methods)
     * 6.1.11. [Exact factorization methods with model Hamiltonians](6_dynamics/1_trajectory_based/11_model_xf)
     * 6.1.12. [NA-MD with Spin-boson/FMO Hamiltonians](6_dynamics/1_trajectory_based/12_model_spin_boson_fmo)
-    * 6.1.13. [NA-MD with Shin-Metiu Polaritonic Hamiltonians](6_dynamics/1_trajectory_based/13_polaritonic)
+    * 6.1.13. [NA-MD with Shin-Metiu model Hamiltonians](6_dynamics/1_trajectory_based/13_polaritonic)
+         * 6.1.13.1 [NA-MD with Shin-Metiu electronic Hamiltonians](6_dynamics/1_trajectory_based/13_polaritonic/1_shin_metiu)
+         * 6.1.13.2 [NA-MD with Shin-Metiu polaritonic Hamiltonians](6_dynamics/1_trajectory_based/13_polaritonic/2_polaritonic)
 
  * 6.2. [Quantum-classical, neglect-of-back-reaction trajectory workflows](6_dynamics/2_nbra_workflows)
     * 6.2.1. [step 1 with DFTB+](6_dynamics/2_nbra_workflows/1_step1_dftb)
@@ -104,6 +106,7 @@ Tutorials showcasing various capabilities of Libra
     * 6.4.6. [SOFT dynamics with PyTorch](6_dynamics/4_wavepackets/6_soft_with_pytorch)
       * 6.4.6.1. [Single-state (adiabatic) solver](6_dynamics/4_wavepackets/6_soft_with_pytorch/1_single_state)
       * 6.4.6.2. [Multiple states (nonadiabatic) solver](6_dynamics/4_wavepackets/6_soft_with_pytorch/2_multiple_states)
+      * 6.4.6.3. [A multiple-state and 2D case](6_dynamics/4_wavepackets/6_soft_with_pytorch/3_2d)
     * 6.4.7. [Local Diabatic Representation (LDR) dynamics with PyTorch solver](6_dynamics/4_wavepackets/7_ldr_with_pytorch)
 
  * 6.5. [Quantum Trajectories with Adaptive Gaussians, QTAG](6_dynamics/5_qtag)
@@ -285,6 +288,7 @@ _______________________________
   * [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
   * [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods/tutorial.ipynb)
   * [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf/tutorial.ipynb)
+  * [6.1.13.](6_dynamics/1_trajectory_based/13_polaritonic)
   * [6.4.7.](6_dynamics/4_wavepackets/7_ldr_with_pytorch/tutorial.ipynb)
 
 23. Plot diabatic-to-adiabatic transformaitons vs. coordinate in 1D
@@ -356,6 +360,7 @@ _______________________________
   * [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb)
   * [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb)
   * [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf)
+  * [6.1.13.](6_dynamics/1_trajectory_based/13_polaritonic/2_polaritonic)
   * [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
   * [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
   * [6.2.18.](6_dynamics/2_nbra_workflows/18_plotting_trpes/tutorial.ipynb)
@@ -393,6 +398,7 @@ _______________________________
   * [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf/tutorial.ipynb)
   * [6.4.6.1.](6_dynamics/4_wavepackets/6_soft_with_pytorch/1_single_state/tutorial.ipynb)
   * [6.4.6.2.](6_dynamics/4_wavepackets/6_soft_with_pytorch/2_multiple_states/tutorial.ipynb)
+  * [6.4.6.3.](6_dynamics/4_wavepackets/6_soft_with_pytorch/3_2d/tutorial.ipynb)
 
 47. DVR calculations
   * [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
@@ -405,12 +411,14 @@ _______________________________
   * [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf/tutorial.ipynb)
   * [6.4.6.1.](6_dynamics/4_wavepackets/6_soft_with_pytorch/1_single_state/tutorial.ipynb)
   * [6.4.6.2.](6_dynamics/4_wavepackets/6_soft_with_pytorch/2_multiple_states/tutorial.ipynb)
+  * [6.4.6.3.](6_dynamics/4_wavepackets/6_soft_with_pytorch/3_2d/tutorial.ipynb)
   * [6.4.7.](6_dynamics/4_wavepackets/7_ldr_with_pytorch/tutorial.ipynb)
 
 48. Making animated gifs
   * [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
   * [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf/tutorial.ipynb)
   * [6.4.7.](6_dynamics/4_wavepackets/7_ldr_with_pytorch/tutorial.ipynb)
+  * [6.4.6.3.](6_dynamics/4_wavepackets/6_soft_with_pytorch/3_2d/tutorial.ipynb)
 
 49. Integrating quantum Liouville's equation of motion
   * [2.2.](2_integrators/2_runge_kutta_4_for_Liouville/tutorial.ipynb)
@@ -595,20 +603,24 @@ _______________________________
 97. Save and load the PyTorch tensors to/from file
   * [6.4.6.1.](6_dynamics/4_wavepackets/6_soft_with_pytorch/1_single_state/tutorial.ipynb)
   * [6.4.6.2.](6_dynamics/4_wavepackets/6_soft_with_pytorch/2_multiple_states/tutorial.ipynb)
+  * [6.4.6.3.](6_dynamics/4_wavepackets/6_soft_with_pytorch/3_2d/tutorial.ipynb)
 
 98. Potential energy surfaces with PyTorch
   * [6.4.6.1.](6_dynamics/4_wavepackets/6_soft_with_pytorch/1_single_state/tutorial.ipynb)
   * [6.4.6.2.](6_dynamics/4_wavepackets/6_soft_with_pytorch/2_multiple_states/tutorial.ipynb)
+  * [6.4.6.3.](6_dynamics/4_wavepackets/6_soft_with_pytorch/3_2d/tutorial.ipynb)
 
 99. Numerically exact solution of the TD-SE using PyTorch
   * [6.4.6.1.](6_dynamics/4_wavepackets/6_soft_with_pytorch/1_single_state/tutorial.ipynb)
   * [6.4.6.2.](6_dynamics/4_wavepackets/6_soft_with_pytorch/2_multiple_states/tutorial.ipynb)
+  * [6.4.6.3.](6_dynamics/4_wavepackets/6_soft_with_pytorch/3_2d/tutorial.ipynb)
 
 100. LDR solution of the TD-SE using PyTorch
   * [6.4.7.](6_dynamics/4_wavepackets/7_ldr_with_pytorch/tutorial.ipynb)
 
 101. Polaritonic dynamics
-  * [6.1.13.](6_dynamics/1_trajectory_based/13_polaritonic/tutorial.ipynb)
+  * [6.1.13.1](6_dynamics/1_trajectory_based/13_polaritonic/1_shin_metiu/tutorial.ipynb)
+  * [6.1.13.2](6_dynamics/1_trajectory_based/13_polaritonic/2_polaritonic/tutorial.ipynb)
 
 ___________________________________________________________
 
@@ -724,6 +736,7 @@ ___________________________________________________________
         - `gaussian_wavepacket` [6.4.6.1.](6_dynamics/4_wavepackets/6_soft_with_pytorch/1_single_state/tutorial.ipynb)
         - `exact_tdse_solver` [6.4.6.1.](6_dynamics/4_wavepackets/6_soft_with_pytorch/1_single_state/tutorial.ipynb)
         - `exact_tdse_solver_multistate` [6.4.6.2.](6_dynamics/4_wavepackets/6_soft_with_pytorch/2_multiple_states/tutorial.ipynb)
+        - `exact_tdse_solver_multistate` [6.4.6.3.](6_dynamics/4_wavepackets/6_soft_with_pytorch/3_2d/tutorial.ipynb)
         - `tully_potential_matrix` [6.4.6.2.](6_dynamics/4_wavepackets/6_soft_with_pytorch/2_multiple_states/tutorial.ipynb)
     - `exact_ldr`
       - `compute`
@@ -845,7 +858,9 @@ ___________________________________________________________
       - `dual_LZS` [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
       - `Renner_Teller` [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
     - `Shin_Metiu`
-      - `polariton` [6.1.13.](6_dynamics/1_trajectory_based/13_polaritonic/tutorial.ipynb)
+      - `compute_model` [6.1.13.1](6_dynamics/1_trajectory_based/13_polaritonic/1_shin_metiu/tutorial.ipynb)
+      - `dump_dvr_to_hdf5` [6.1.13.2](6_dynamics/1_trajectory_based/13_polaritonic/2_polaritonic/tutorial.ipynb)
+      
   - `workflows` 
     - `nbra`
       - `compute_hprime`
