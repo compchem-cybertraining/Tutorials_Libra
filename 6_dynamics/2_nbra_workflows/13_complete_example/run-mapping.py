@@ -4,7 +4,7 @@ import time
 import numpy as np
 
 from liblibra_core import *
-from libra_py.workflows.nbra import mapping, mapping2, step3
+from libra_py.workflows.nbra import mapping, mapping2, mapping3, step3
 from libra_py import data_conv, data_outs, data_stat, units
 
 
@@ -120,7 +120,7 @@ dE = [0.0, 0.0, 0.0, 0.0]
 
 
 
-which_approach = 0 # 0 - old, 1 - new
+which_approach = 2 # 0 - old, 1 - new, 2 - even newer
 
 for i in range(0, 47):
 
@@ -143,6 +143,18 @@ for i in range(0, 47):
         # ============== New approach =============================
         st = mapping2.ovlp_mat_arb(basis2, basis2, St[0][i]) # reduce_det=True)
         s = mapping2.ovlp_mat_arb(basis2, basis2, S[0][i]) # reduce_det=True)
+
+    elif which_approach == 2:
+        # ============== New approach =============================
+        st = data_conv.MATRIX2nparray(St[0][i].real(), np.float64)
+        st = mapping3.ovlp_mat_arb(basis2, basis2, st) 
+
+        s = data_conv.MATRIX2nparray(S[0][i].real(), np.float64)
+        s = mapping3.ovlp_mat_arb(basis2, basis2, s) 
+
+        s = data_conv.nparray2CMATRIX( np.array(s, dtype=np.complex128))
+        st = data_conv.nparray2CMATRIX( np.array(st, dtype=np.complex128) )
+
 
     # =============== Printing to files =========================
     st.real().show_matrix(F"ham_sd/st_sd_{i}_re")
