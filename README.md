@@ -32,9 +32,9 @@ Tutorials showcasing various capabilities of Libra
 6. Dynamics with Libra
  * 6.1. [Quantum-classical, trajectory methods](6_dynamics/1_trajectory_based)
    * 6.1.1. [Model, adiabatic MD](6_dynamics/1_trajectory_based/1_model_adiabatic)
-        * 6.1.1.1. [NVE ensemble](6_dynamics/1_trajectory_based/1_model_adiabatic/1_nve)
-        * 6.1.1.2. [NVT ensemble](6_dynamics/1_trajectory_based/1_model_adiabatic/2_nvt)
-             * 6.1.1.2.1. [1 electronic state](6_dynamics/1_trajectory_based/1_model_adiabatic/2_nvt/1_1_state)
+      * 6.1.1.1. [NVE ensemble](6_dynamics/1_trajectory_based/1_model_adiabatic/1_nve)
+      * 6.1.1.2. [NVT ensemble](6_dynamics/1_trajectory_based/1_model_adiabatic/2_nvt)
+        * 6.1.1.2.1. [1 electronic state](6_dynamics/1_trajectory_based/1_model_adiabatic/2_nvt/1_1_state)
     * 6.1.2. [Model, common approach to adiabatic, Ehrenfest, and TSH](6_dynamics/1_trajectory_based/2_model_adiabatic)
     * 6.1.3. [Model, Ehrenfest recipes](6_dynamics/1_trajectory_based/3_model_ehrenfest_recipes)
     * 6.1.5. [Atomistic, adiabatic dynamics, ground/excited](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states)
@@ -46,8 +46,8 @@ Tutorials showcasing various capabilities of Libra
     * 6.1.11. [Exact factorization methods with model Hamiltonians](6_dynamics/1_trajectory_based/11_model_xf)
     * 6.1.12. [NA-MD with Spin-boson/FMO Hamiltonians](6_dynamics/1_trajectory_based/12_model_spin_boson_fmo)
     * 6.1.13. [NA-MD with Shin-Metiu model Hamiltonians](6_dynamics/1_trajectory_based/13_polaritonic)
-         * 6.1.13.1 [NA-MD with Shin-Metiu electronic Hamiltonians](6_dynamics/1_trajectory_based/13_polaritonic/1_shin_metiu)
-         * 6.1.13.2 [NA-MD with Shin-Metiu polaritonic Hamiltonians](6_dynamics/1_trajectory_based/13_polaritonic/2_polaritonic)
+      * 6.1.13.1. [NA-MD with Shin-Metiu electronic Hamiltonians](6_dynamics/1_trajectory_based/13_polaritonic/1_shin_metiu)
+      * 6.1.13.2. [NA-MD with Shin-Metiu polaritonic Hamiltonians](6_dynamics/1_trajectory_based/13_polaritonic/2_polaritonic)
 
  * 6.2. [Quantum-classical, neglect-of-back-reaction trajectory workflows](6_dynamics/2_nbra_workflows)
     * 6.2.1. [step 1 with DFTB+](6_dynamics/2_nbra_workflows/1_step1_dftb)
@@ -92,6 +92,7 @@ Tutorials showcasing various capabilities of Libra
     * 6.2.18. [Time-resolved spectra calculations and plotting](6_dynamics/2_nbra_workflows/18_plotting_trpes)
     * 6.2.19. [Running patch dynamics in the RPI approach](6_dynamics/2_nbra_workflows/19_step4_patch_rpi)
     * 6.2.20. [Summing patch dynamics in the RPI approach](6_dynamics/2_nbra_workflows/20_step5_sum_rpi)
+    * 6.2.21. [Recap on the overlap and time-overlap calculations](6_dynamics/2_nbra_workflows/21_overlap_calculation)
 
  * 6.3. [Hierarchical equations of motion, HEOM](6_dynamics/3_heom)
     * 6.3.1. [Computing population dynamics and lineshapes](6_dynamics/3_heom/1_dynamics_and_lineshapes)
@@ -172,9 +173,13 @@ Tutorials showcasing various capabilities of Libra
 14. Molecular integrals
   * 14.1. [Libint2 wrappers and auxiliary functions](14_molecular_integrals/1_libint2)
   * 14.2. [Libra built-in molints](14_molecular_integrals/2_libra_molints)
+  * 14.3. [Object-oriented molecular integrals](14_molecular_integrals/3_oop_molints)
 
 15. CI tools
   * 15.1. [Slater Determinants and Configuration State Functions](15_citools/1_fundamentals)
+
+16. [Miscellaneous tutorials, examples, and code snippets](16_misc)
+
 
 _______________________________
 
