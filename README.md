@@ -180,6 +180,9 @@ Tutorials showcasing various capabilities of Libra
 
 16. [Miscellaneous tutorials, examples, and code snippets](16_misc)
 
+17. MD Analysis
+  * 17.1. [Thermal Normal Modes](17_analysis_of_calculations/1_normal_modes_from_md)
+
 
 _______________________________
 
@@ -486,9 +489,11 @@ _______________________________
 64. Analyzing MD trajectories
   * [11.2.2.](11_program_specific_methods/2_qe_methods/2_md/1_co2/tutorial.ipynb)
   * [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
+  * [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
 
 65. Normal modes
   * [11.2.3.](11_program_specific_methods/2_qe_methods/3_normal_modes/tutorial.ipynb)
+  * [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
 
 66. Constructing quantum dots
   * [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
@@ -629,6 +634,27 @@ _______________________________
 101. Polaritonic dynamics
   * [6.1.13.1](6_dynamics/1_trajectory_based/13_polaritonic/1_shin_metiu/tutorial.ipynb)
   * [6.1.13.2](6_dynamics/1_trajectory_based/13_polaritonic/2_polaritonic/tutorial.ipynb)
+
+102. Reading the trajectory
+  * [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+
+103. Computing covariance matrices
+  * [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+
+104. Sorting frequencies and correspondingly the eigenvectors
+  * [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+
+105. Compute the Cartesian normal modes
+  * [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+
+106. Writing coordinates and normal mode vectors into XYZ files
+  * [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+
+107. Writing all normal modes into an ".nmd" file understood by VMD
+  * [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+
+108. Generating normal mode trajectories
+  * [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
 
 ___________________________________________________________
 
@@ -1081,8 +1107,17 @@ ___________________________________________________________
   - `LoadUFF`
     - `Load_UFF` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
 
+  - `md_align`
+    - `align_trajectory` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+    - `project_out_rigid` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+
   - `normal_modes`
     - `get_xyz2` [11.2.3.](11_program_specific_methods/2_qe_methods/3_normal_modes/tutorial.ipynb) 
+    - `compute_thermal_normal_modes` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+    - `covariance_matrix` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+    - `normal_modes_from_eigenvectors` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+    - `visualize_modes` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+    - `write_nmd` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
 
   - `nve_md`
     - `nve_md_init` [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
@@ -1113,6 +1148,7 @@ ___________________________________________________________
         - `make_dftb_input` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
     - `ergo`
     - `gaussian`
+    - `qe`
     - `lammps`
     - `mopac`
       - `methods`
@@ -1122,7 +1158,11 @@ ___________________________________________________________
         - `make_alpha_excitation` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
         - `read_mopac_orbital_info` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
         - ` mopac_compute_adi` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
-    - `qe`
+    - `xyz`
+      - `methods`
+        - `names_to_masses` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+        - `read_trajectory` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+        - `write_trajectory` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
     
   - `pdos`
     - `libra_pdos` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)

@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+all_nm.xyz
+coordinates_removed_rigid.xyz  
+*.nmd
+nm*
+qha_*
+r0.xyz
+*aligned*
+
