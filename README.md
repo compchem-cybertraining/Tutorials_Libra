@@ -982,9 +982,10 @@ ___________________________________________________________
       - `dump_dvr_to_hdf5` [6.1.13.2](6_dynamics/1_trajectory_based/13_polaritonic/2_polaritonic/tutorial.ipynb)
 
   - `normal_modes`
-    - `get_xyz2` [11.2.3.](11_program_specific_methods/2_qe_methods/3_normal_modes/tutorial.ipynb) 
     - `compute_thermal_normal_modes` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
     - `covariance_matrix` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+    - `normal2xyz` [11.2.3.](11_program_specific_methods/2_qe_methods/3_normal_modes/tutorial.ipynb) |
+                   [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
     - `normal_modes_from_eigenvectors` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
     - `visualize_modes` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
     - `write_nmd` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
@@ -1017,7 +1018,7 @@ ___________________________________________________________
            [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
         - `make_dftb_input` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
     - `ergo`
-	  - `methods`
+      - `methods`
         - `get_mtx_matrices` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
         - `read_mo_restricted` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
         - `read_mo_unrestricted` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
@@ -1026,8 +1027,9 @@ ___________________________________________________________
     - `gaussian`
     - `qe`
       - `methods`
-	    - `out2inp` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
-        - `read_md_data` [11.2.2.](11_program_specific_methods/2_qe_methods/2_md/1_co2/tutorial.ipynb)
+	- `out2inp` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
+        - `read_md_data` [11.2.2.](11_program_specific_methods/2_qe_methods/2_md/1_co2/tutorial.ipynb) | 
+                         [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
         - `read_md_data_cell` [11.2.2.](11_program_specific_methods/2_qe_methods/2_md/1_co2/tutorial.ipynb)
         - `get_QE_normal_modes` [11.2.3.](11_program_specific_methods/2_qe_methods/3_normal_modes/tutorial.ipynb)
     - `lammps`
@@ -1041,7 +1043,7 @@ ___________________________________________________________
         - ` mopac_compute_adi` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
 	- `psi4`
 	  - `methods`
-        - `run_psi4_adi` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
+            - `run_psi4_adi` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
     - `xyz`
       - `methods`
         - `names_to_masses` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
