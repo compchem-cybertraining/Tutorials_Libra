@@ -649,6 +649,7 @@ _______________________________
 
 106. Writing coordinates and normal mode vectors into XYZ files
   * [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+  * [11.2.3.](11_program_specific_methods/2_qe_methods/3_normal_modes/tutorial.ipynb)
 
 107. Writing all normal modes into an ".nmd" file understood by VMD
   * [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
@@ -750,10 +751,42 @@ ___________________________________________________________
     - `add_atom_to_system` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
     - `add_atoms_to_system` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
 
-  - `data_visualize`
-    - `colors` [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
-    - `clrs_index` [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
+  - `data_conv`
+    - `make_list` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
+    - `matrix2list` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
+    - `MATRIX2nparray` [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb) |
+                       [11.2.1.](11_program_specific_methods/2_qe_methods/1_pdos/tutorial.ipynb) | 
+                       [6.2.5.1.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb) |
+                       [6.2.15.](6_dynamics/2_nbra_workflows/15_step4_bllz/tutorial.ipynb)
+    - `nparray2CMATRIX` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb) |
+       [6.2.10.1.](6_dynamics/2_nbra_workflows/10_generic_step3_4/1_Example1/tutorial.ipynb) |
+       [6.2.10.2.](6_dynamics/2_nbra_workflows/10_generic_step3_4/2_Example2/tutorial.ipynb)
 
+  - `data_outs`
+    - `print_matrix` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) |
+        [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb) | [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb) |
+        [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
+
+  - `data_read`
+    - `get_data_sets` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
+    - `get_data_from_file2` [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb)
+    - `read_2D_grid` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+
+  - `data_stat`
+    - `cmat_stat2` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb) |
+         [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb) |
+         [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
+
+  - `data_visualize`
+    - `colors` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb) |
+	           [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
+    - `clrs_index` [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
+    - `plot_map` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb) | 
+      [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb) |
+      [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb) |
+      [9.3.](9_machine_learning/3_advanced_ann/tutorial.ipynb)
+    - `plot_map_nparray` [6.2.5.1](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data)
+	
   - `dynamics`
     - `exact`
       - `compute`
@@ -835,6 +868,59 @@ ___________________________________________________________
       - `recipes`
         - `adiabatic_md_interfaces_params` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
 
+  - `dynamics_plotting`
+    - `plot_pes_properties` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb) | [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
+    - `plot_surfaces` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb) | 
+            [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb) |
+            [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb) | 
+            [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb) |
+            [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb) |
+            [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods/tutorial.ipynb) |
+            [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf/tutorial.ipynb)
+            [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
+			
+  - `ft`
+    - `ft2`[6.3.1.](6_dynamics/3_heom/1_dynamics_and_lineshapes/tutorial.ipynb) |
+           [7.5.1.](7_special_functions/5_acf_and_ft/1_basic/tutorial.ipynb)
+
+  - `gaussian_kernel_algorithm`
+    - `compute_apriory_prob_densities_1D` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
+    - `compute_widths_1D` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
+    - `gaussian_density_estimator_1D` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
+    - `gaussian_kernel_algorithm_iteration_1D` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
+
+  - `hpc_utils`
+    - `distribute` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
+
+  - `influence_spectrum` 
+    - `recipe1` [7.5.2.](7_special_functions/5_acf_and_ft/2_advanced/tutorial.ipynb)
+
+  - `LoadGAFF`
+    - `Load_GAFF` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+
+  - `LoadGAFF`
+    - `Load_MMFF94` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+
+  - `LoadMolecule`
+    - `Load_Molecule` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb) | 
+                      [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
+                      [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
+   
+  - `LoadPT`
+    - `Load_PT` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb) | 
+                [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
+                [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
+
+  - `LoadTRIPOS`
+    - `Load_TRIPOS` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+
+  - `LoadUFF`
+    - `Load_UFF` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
+
+  - `md_align`
+    - `align_trajectory` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+    - `project_out_rigid` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+
   - `molden_methods`
     - `eigenvectors_molden`
     - `index_reorder`
@@ -894,7 +980,86 @@ ___________________________________________________________
     - `Shin_Metiu`
       - `compute_model` [6.1.13.1](6_dynamics/1_trajectory_based/13_polaritonic/1_shin_metiu/tutorial.ipynb)
       - `dump_dvr_to_hdf5` [6.1.13.2](6_dynamics/1_trajectory_based/13_polaritonic/2_polaritonic/tutorial.ipynb)
-      
+
+  - `normal_modes`
+    - `get_xyz2` [11.2.3.](11_program_specific_methods/2_qe_methods/3_normal_modes/tutorial.ipynb) 
+    - `compute_thermal_normal_modes` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+    - `covariance_matrix` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+    - `normal_modes_from_eigenvectors` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+    - `visualize_modes` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+    - `write_nmd` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+
+  - `nve_md`
+    - `nve_md_init` [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+    - `nve_md_step` [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
+    - `optimize_syst` [13.3.](13_force_fields_and_classical_md/3_mm_optimization/tutorial.ipynb)
+    - `syst2xyz` [13.3.](13_force_fields_and_classical_md/3_mm_optimization/tutorial.ipynb)
+
+  - `packages`
+    - `cp2k`
+      - `input`
+        - `generate` [11.3.1.](11_program_specific_methods/3_cp2k_methods/1_input_generator/tutorial.ipynb)
+      - `methods`
+        - `cp2k_find_excitation_energies` [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
+        - `cp2k_xtb_diag_inp` [6.2.7.1.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/1_desktop/tutorial.ipynb)
+        - `cp2k_xtb_ot_inp` [6.2.7.2.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/2_xTB/1_desktop/tutorial.ipynb)
+        - `distribute_cp2k_libint_jobs` [6.2.7.1.2.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/2_hpc/1_example_TiO2/tutorial.ipynb)
+        - `generate_translational_vectors` [6.2.7.1.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/1_desktop/tutorial.ipynb)
+        - `read_trajectory_xyz_file` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
+    - `dftbplus`
+      - `methods`
+        - `dftb_traj2xyz_traj` [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
+        - `generic_recipe` [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
+        - `get_dftb_matrices` [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
+        - `get_dftb_ks_energies` [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
+        - `read_dftb_output` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
+        - `run_dftb_adi` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb) | 
+           [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
+        - `make_dftb_input` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
+    - `ergo`
+	  - `methods`
+        - `get_mtx_matrices` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
+        - `read_mo_restricted` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
+        - `read_mo_unrestricted` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
+        - `read_spectrum_restricted` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
+        - `read_spectrum_unrestricted` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
+    - `gaussian`
+    - `qe`
+      - `methods`
+	    - `out2inp` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
+        - `read_md_data` [11.2.2.](11_program_specific_methods/2_qe_methods/2_md/1_co2/tutorial.ipynb)
+        - `read_md_data_cell` [11.2.2.](11_program_specific_methods/2_qe_methods/2_md/1_co2/tutorial.ipynb)
+        - `get_QE_normal_modes` [11.2.3.](11_program_specific_methods/2_qe_methods/3_normal_modes/tutorial.ipynb)
+    - `lammps`
+    - `mopac`
+      - `methods`
+        - `make_mopac_input` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
+        - `run_mopac` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
+        - `make_ref` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
+        - `make_alpha_excitation` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
+        - `read_mopac_orbital_info` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
+        - ` mopac_compute_adi` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
+	- `psi4`
+	  - `methods`
+        - `run_psi4_adi` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
+    - `xyz`
+      - `methods`
+        - `names_to_masses` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+        - `read_trajectory` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+        - `write_trajectory` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
+    
+  - `pdos`
+    - `libra_pdos` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
+    - `QE_pdos` [11.2.1.](11_program_specific_methods/2_qe_methods/1_pdos/tutorial.ipynb)
+        
+  - `scan`
+    - `coords2xyz` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
+    - `make_path_xyz2` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
+
+  - `trpes`
+    - `compute_trpes` [6.2.18.](/6_dynamics/2_nbra_workflows/18_plotting_trpes/tutorial.ipynb)
+    - `plot_trpes` [6.2.18.](/6_dynamics/2_nbra_workflows/18_plotting_trpes/tutorial.ipynb)
+
   - `workflows` 
     - `nbra`
       - `compute_hprime`
@@ -1016,174 +1181,6 @@ ___________________________________________________________
         - `traj_statistics2_fast`
         - `printout`
         - `run` [6.2.5.1.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb)
-
-  - `data_conv`
-    - `make_list` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
-    - `matrix2list` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
-    - `MATRIX2nparray` [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb) |
-                       [11.2.1.](11_program_specific_methods/2_qe_methods/1_pdos/tutorial.ipynb) | 
-                       [6.2.5.1.](/6_dynamics/2_nbra_workflows/5_step4/1_initialize_data/tutorial.ipynb) |
-                       [6.2.15.](6_dynamics/2_nbra_workflows/15_step4_bllz/tutorial.ipynb)
-    - `nparray2CMATRIX` [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb) |
-       [6.2.10.1.](6_dynamics/2_nbra_workflows/10_generic_step3_4/1_Example1/tutorial.ipynb) |
-       [6.2.10.2.](6_dynamics/2_nbra_workflows/10_generic_step3_4/2_Example2/tutorial.ipynb)
-
-  - `data_outs`
-    - `print_matrix` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) |
-        [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb) | [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb) |
-        [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
-
-  - `data_read`
-    - `get_data_sets` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
-    - `get_data_from_file2` [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb)
-    - `read_2D_grid` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
-
-  - `data_stat`
-    - `cmat_stat2` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb) |
-         [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb) |
-         [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
-
-  - `data_visualize`
-    - `colors` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
-    - `plot_map` [6.4.1.1.](6_dynamics/4_wavepackets/1_gaussian/1_matrix_elements/tutorial.ipynb) | 
-      [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb) |
-      [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb) |
-      [9.3.](9_machine_learning/3_advanced_ann/tutorial.ipynb)
-    - `plot_map_nparray` [6.2.5.1](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data)
-
-  - `dynamics_plotting`
-    - `plot_pes_properties` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb) | [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
-    - `plot_surfaces` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb) | 
-            [6.1.6.](6_dynamics/1_trajectory_based/6_model_nbra/tutorial.ipynb) |
-            [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb) | 
-            [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb) |
-            [6.1.9.](6_dynamics/1_trajectory_based/9_model_revised/tutorial.ipynb) |
-            [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods/tutorial.ipynb) |
-            [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf/tutorial.ipynb)
-            [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
-
-  - `ERGO_methods`
-    - `get_mtx_matrices` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
-    - `read_mo_restricted` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
-    - `read_mo_unrestricted` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
-    - `read_spectrum_restricted` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
-    - `read_spectrum_unrestricted` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
-
-  - `ft`
-    - `ft2`[6.3.1.](6_dynamics/3_heom/1_dynamics_and_lineshapes/tutorial.ipynb) |
-           [7.5.1.](7_special_functions/5_acf_and_ft/1_basic/tutorial.ipynb)
-
-  - `gaussian_kernel_algorithm`
-    - `compute_apriory_prob_densities_1D` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
-    - `compute_widths_1D` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
-    - `gaussian_density_estimator_1D` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
-    - `gaussian_kernel_algorithm_iteration_1D` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
-
-  - `hpc_utils`
-    - `distribute` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
-
-  - `influence_spectrum` 
-    - `recipe1` [7.5.2.](7_special_functions/5_acf_and_ft/2_advanced/tutorial.ipynb)
-
-  - `LoadGAFF`
-    - `Load_GAFF` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
-
-  - `LoadGAFF`
-    - `Load_MMFF94` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
-
-  - `LoadMolecule`
-    - `Load_Molecule` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb) | 
-                      [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
-                      [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-   
-  - `LoadPT`
-    - `Load_PT` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb) | 
-                [12.2.1.](12_molecular_builders/2_chemobjects/1_basic_construction_and_manipulation/tutorial.ipynb) |
-                [12.2.2.](12_molecular_builders/2_chemobjects/2_extended_rotation_and_translation/tutorial.ipynb)
-
-  - `LoadTRIPOS`
-    - `Load_TRIPOS` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
-
-  - `LoadUFF`
-    - `Load_UFF` [13.1.](13_force_fields_and_classical_md/1_force_field_basics/tutorial.ipynb)
-
-  - `md_align`
-    - `align_trajectory` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
-    - `project_out_rigid` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
-
-  - `normal_modes`
-    - `get_xyz2` [11.2.3.](11_program_specific_methods/2_qe_methods/3_normal_modes/tutorial.ipynb) 
-    - `compute_thermal_normal_modes` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
-    - `covariance_matrix` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
-    - `normal_modes_from_eigenvectors` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
-    - `visualize_modes` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
-    - `write_nmd` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
-
-  - `nve_md`
-    - `nve_md_init` [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
-    - `nve_md_step` [13.2.](13_force_fields_and_classical_md/2_atomistic_Hamiltonian/tutorial.ipynb)
-    - `optimize_syst` [13.3.](13_force_fields_and_classical_md/3_mm_optimization/tutorial.ipynb)
-    - `syst2xyz` [13.3.](13_force_fields_and_classical_md/3_mm_optimization/tutorial.ipynb)
-
-  - `packages`
-    - `cp2k`
-      - `input`
-        - `generate` [11.3.1.](11_program_specific_methods/3_cp2k_methods/1_input_generator/tutorial.ipynb)
-      - `methods`
-        - `cp2k_find_excitation_energies` [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
-        - `cp2k_xtb_diag_inp` [6.2.7.1.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/1_desktop/tutorial.ipynb)
-        - `cp2k_xtb_ot_inp` [6.2.7.2.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/2_xTB/1_desktop/tutorial.ipynb)
-        - `distribute_cp2k_libint_jobs` [6.2.7.1.2.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/2_hpc/1_example_TiO2/tutorial.ipynb)
-        - `generate_translational_vectors` [6.2.7.1.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/1_desktop/tutorial.ipynb)
-        - `read_trajectory_xyz_file` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
-    - `dftbplus`
-      - `methods`
-        - `dftb_traj2xyz_traj` [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
-        - `generic_recipe` [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
-        - `get_dftb_matrices` [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
-        - `get_dftb_ks_energies` [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
-        - `read_dftb_output` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
-        - `run_dftb_adi` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb) | 
-           [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
-        - `make_dftb_input` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
-    - `ergo`
-    - `gaussian`
-    - `qe`
-    - `lammps`
-    - `mopac`
-      - `methods`
-        - `make_mopac_input` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
-        - `run_mopac` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
-        - `make_ref` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
-        - `make_alpha_excitation` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
-        - `read_mopac_orbital_info` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
-        - ` mopac_compute_adi` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
-    - `xyz`
-      - `methods`
-        - `names_to_masses` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
-        - `read_trajectory` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
-        - `write_trajectory` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
-    
-  - `pdos`
-    - `libra_pdos` [5.1.1.](5_electronic_structure/1_eht/1_compact/tutorial.ipynb)
-    - `QE_pdos` [11.2.1.](11_program_specific_methods/2_qe_methods/1_pdos/tutorial.ipynb)
-
-  - `psi4_methods`
-    - `run_psi4_adi` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
-
-  - `QE_methods`
-    - `out2inp` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
-    - `read_md_data` [11.2.2.](11_program_specific_methods/2_qe_methods/2_md/1_co2/tutorial.ipynb)
-    - `read_md_data_cell` [11.2.2.](11_program_specific_methods/2_qe_methods/2_md/1_co2/tutorial.ipynb)
-    - `get_QE_normal_modes` [11.2.3.](11_program_specific_methods/2_qe_methods/3_normal_modes/tutorial.ipynb) 
-        
-  - `scan`
-    - `coords2xyz` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
-    - `make_path_xyz2` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
-
-  - `trpes`
-    - `compute_trpes` [6.2.18.](/6_dynamics/2_nbra_workflows/18_plotting_trpes/tutorial.ipynb)
-    - `plot_trpes` [6.2.18.](/6_dynamics/2_nbra_workflows/18_plotting_trpes/tutorial.ipynb)
 
   - `units`
     - `au2wavn` [7.5.1.](7_special_functions/5_acf_and_ft/1_basic/tutorial.ipynb)
