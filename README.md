@@ -117,6 +117,9 @@ Tutorials showcasing various capabilities of Libra
 
  * 6.7. [ETHD](6_dynamics/7_ethd)
 
+ * 6.8. [Algorithms and components of dynamical workflows]
+    * 6.8.1. [Local diabatization](6_dynamics/8_components/1_local_diabatization)
+
 7. Special functions
  * 7.1. [Sorting, matrix statistics](7_special_functions/1_sorting_matrix_statistics)
  * 7.2. [Fitting distributions to a superposition of Gaussians](7_special_functions/2_gaussian_kernel_algorithm)
@@ -657,6 +660,16 @@ _______________________________
 108. Generating normal mode trajectories
   * [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
 
+109. Local diabatization 
+  * [6.8.1.](6_dynamics/8_components/1_local_diabatization/tutorial.ipynb)
+
+110. Reduced subspace construction
+  * [6.8.1.](6_dynamics/8_components/1_local_diabatization/tutorial.ipynb) 
+
+111. Polar decomposition
+  * [6.8.1.](6_dynamics/8_components/1_local_diabatization/tutorial.ipynb)
+
+
 ___________________________________________________________
 
 
@@ -786,7 +799,12 @@ ___________________________________________________________
       [9.2.](9_machine_learning/2_ann_derivatives/tutorial.ipynb) |
       [9.3.](9_machine_learning/3_advanced_ann/tutorial.ipynb)
     - `plot_map_nparray` [6.2.5.1](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data)
-	
+
+  - `dyn`
+    - `control_params`
+    - `local_diabatization`
+      - `orthogonalize_T` [6.8.1.](6_dynamics/8_components/1_local_diabatization/tutorial.ipynb)	
+
   - `dynamics`
     - `exact`
       - `compute`
