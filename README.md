@@ -180,6 +180,7 @@ Tutorials showcasing various capabilities of Libra
 
 15. CI tools
   * 15.1. [Slater Determinants and Configuration State Functions](15_citools/1_fundamentals)
+  * 15.2. [SD to CSF transformation matrix and mapped CSF basis](15_citools/2_slatdet_and_interfaces)
 
 16. [Miscellaneous tutorials, examples, and code snippets](16_misc)
 
@@ -250,11 +251,14 @@ _______________________________
   * [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
 
 12. Manually construct a Slater Determinant basis
+  * [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
+  * [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
   * [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb)
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
   * [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
 
 13. Auto-generate a Slater Determinant basis
+  * [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
   * [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
   * [6.2.8.2.](6_dynamics/2_nbra_workflows/8_step3_cp2k/2_xTB/tutorial.ipynb)
@@ -669,6 +673,11 @@ _______________________________
 111. Polar decomposition
   * [6.8.1.](6_dynamics/8_components/1_local_diabatization/tutorial.ipynb)
 
+112. Constructing configuration spin functions
+  * [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
+
+113. Spin-adaptation of Slater determinants
+  * [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
 
 ___________________________________________________________
 
@@ -763,6 +772,16 @@ ___________________________________________________________
     - `crop_sphere_xyz3` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
     - `add_atom_to_system` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
     - `add_atoms_to_system` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
+
+  - `citools`
+    - `interfaces`
+      - `configs_and_T_matrix` [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
+      - `configs_and_T_matrix_singlet` [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
+    - `slatdet`
+      - `build_minimal_csf_basis` [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
+      - `build_minimal_csf_basis_singlet` [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
+      - `generate_single_excitations` [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
+      - `generate_determinants_with_parity` [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
 
   - `data_conv`
     - `make_list` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
