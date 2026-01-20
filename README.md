@@ -674,10 +674,15 @@ _______________________________
   * [6.8.1.](6_dynamics/8_components/1_local_diabatization/tutorial.ipynb)
 
 112. Constructing configuration spin functions
+  * [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
   * [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
 
 113. Spin-adaptation of Slater determinants
+  * [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
   * [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
+
+114. Compute Clebsch-Gordan coefficients
+  * [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
 
 ___________________________________________________________
 
@@ -774,14 +779,25 @@ ___________________________________________________________
     - `add_atoms_to_system` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
 
   - `citools`
+    - `clebsch_gordan`
+      - `clebsch_gordan` [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
+      - `recursive_couple_spins_int` [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
+    - `csf`
+      - `build_unpaired_spinlist` [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
+      - `generate_CSFs_grouped` [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
+      - `group_key_from_det` [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
+      - `print_csfs` [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
     - `interfaces`
       - `configs_and_T_matrix` [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
       - `configs_and_T_matrix_singlet` [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
     - `slatdet`
+      - `canonical_sort_key` [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
       - `build_minimal_csf_basis` [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
       - `build_minimal_csf_basis_singlet` [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
       - `generate_single_excitations` [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
-      - `generate_determinants_with_parity` [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
+      - `generate_determinants_with_parity` [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb) |
+                                            [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
+      - `permutation_parity` [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
 
   - `data_conv`
     - `make_list` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
