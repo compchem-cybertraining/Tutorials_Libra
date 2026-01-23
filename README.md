@@ -182,6 +182,7 @@ Tutorials showcasing various capabilities of Libra
   * 15.1. [Slater Determinants and Configuration State Functions](15_citools/1_fundamentals)
   * 15.2. [SD to CSF transformation matrix and mapped CSF basis](15_citools/2_slatdet_and_interfaces)
   * 15.3. [CI overlaps from CP2K TD-DFT calculations](15_citools/3_computing_time_overlaps)
+  * 15.4. [User-friendlier functions for CI time-overlap calculations](15_citools/4_on_the_fly_time_overlaps)
 
 16. [Miscellaneous tutorials, examples, and code snippets](16_misc)
 
@@ -266,7 +267,8 @@ _______________________________
   * [6.2.8.2.](6_dynamics/2_nbra_workflows/8_step3_cp2k/2_xTB/tutorial.ipynb)
   * [6.2.8.3.](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new/tutorial.ipynb)
 
-14. Compute the energies and nonadiabatic couplings in the SD basis
+14. Compute the energies, time-overlaps, and nonadiabatic couplings in the SD basis
+  * [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb)
   * [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb)
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
@@ -523,8 +525,9 @@ _______________________________
   * [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
   * [6.2.11.](6_dynamics/2_nbra_workflows/11_step2_dftb/tutorial.ipynb)
 
-71. Computing NACs using CP2K/Libra
+71. Computing NACs and/or time-overlaps using CP2K/Libra
   * [15.3.](15_citools/3_computing_time_overlaps/tutorial.ipynb)
+  * [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb)
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SP_basis/tutorial.ipynb)
   * [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
   * [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
@@ -540,11 +543,12 @@ _______________________________
   * [6.2.11.](6_dynamics/2_nbra_workflows/11_step2_dftb/tutorial.ipynb)
   * [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
 
-73. Computing many-body (TD-DFT, TD-DFTB, CI) NACs 
+73. Computing many-body (TD-DFT, TD-DFTB, CI) NACs and/or time-overlaps 
   * [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
   * [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
   * [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
   * [15.3.](15_citools/3_computing_time_overlaps/tutorial.ipynb)
+  * [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb)
 
 74. Saving ANNs to files and creating ANNs from XML files
   * [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
@@ -789,6 +793,8 @@ ___________________________________________________________
     - `add_atoms_to_system` [12.1.](12_molecular_builders/1_crystal_and_qd_builder/tutorial.ipynb)
 
   - `citools`
+    - `ci`
+      - `overlap` [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb)
     - `clebsch_gordan`
       - `clebsch_gordan` [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
       - `recursive_couple_spins_int` [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
@@ -798,9 +804,12 @@ ___________________________________________________________
       - `group_key_from_det` [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
       - `print_csfs` [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
     - `interfaces`
+      - `ci_amplitudes_mtx` [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb)
       - `configs_and_T_matrix` [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
       - `configs_and_T_matrix_singlet` [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb) | 
                                        [15.3.](15_citools/3_computing_time_overlaps/tutorial.ipynb)
+      - `sd_and_csf_overlaps_singlet` [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb)
+      - `unique_confs` [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb)
     - `slatdet`
       - `canonical_sort_key` [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
       - `build_minimal_csf_basis` [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
@@ -808,6 +817,8 @@ ___________________________________________________________
       - `generate_single_excitations` [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
       - `generate_determinants_with_parity` [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb) |
                                             [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
+      - `make_excitation` [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb)
+      - `make_ref_det` [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb)
       - `permutation_parity` [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
       - `slater_overlap_matrix` [15.3.](15_citools/3_computing_time_overlaps/tutorial.ipynb)
 
@@ -1071,8 +1082,10 @@ ___________________________________________________________
         - `cp2k_xtb_ot_inp` [6.2.7.2.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/2_xTB/1_desktop/tutorial.ipynb)
         - `distribute_cp2k_libint_jobs` [6.2.7.1.2.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/2_hpc/1_example_TiO2/tutorial.ipynb)
         - `generate_translational_vectors` [6.2.7.1.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/1_desktop/tutorial.ipynb)
-        - `read_cp2k_tddfpt_log_file` [15.3.](15_citools/3_computing_time_overlaps/tutorial.ipynb)
-        - `read_homo_index` [15.3.](15_citools/3_computing_time_overlaps/tutorial.ipynb)
+        - `read_cp2k_tddfpt_log_file` [15.3.](15_citools/3_computing_time_overlaps/tutorial.ipynb) |
+                                      [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb)
+        - `read_homo_index` [15.3.](15_citools/3_computing_time_overlaps/tutorial.ipynb) |
+                            [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb)
         - `read_trajectory_xyz_file` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
     - `dftbplus`
       - `methods`
