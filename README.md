@@ -794,7 +794,8 @@ ___________________________________________________________
 
   - `citools`
     - `ci`
-      - `overlap` [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb)
+      - `overlap` [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb) |
+                  [11.5.1.](11_program_specific_methods/5_mopac_methods/1_initial_tutorial/tutorial.ipynb)
     - `clebsch_gordan`
       - `clebsch_gordan` [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
       - `recursive_couple_spins_int` [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
@@ -1176,8 +1177,7 @@ ___________________________________________________________
         - `num_of_perms` [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb)
         - `reduce_determinants` [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb)
         - `ovlp_arb` [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb)
-        - `ovlp_mat_arb` [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb) | 
-                         [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
+        - `ovlp_mat_arb` [6.2.12.](6_dynamics/2_nbra_workflows/12_generic_mapping/tutorial.ipynb) 
       - `ml_map`
         - `compute_properties` [6.2.16.1.2](6_dynamics/2_nbra_workflows/16_ml_hamiltonian_mapping/1_benzene/2_ml_step2)
 	- `load_models` [6.2.16.1.2](6_dynamics/2_nbra_workflows/16_ml_hamiltonian_mapping/1_benzene/2_ml_step2)
