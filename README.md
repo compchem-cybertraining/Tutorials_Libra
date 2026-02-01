@@ -160,6 +160,7 @@ Tutorials showcasing various capabilities of Libra
  * 11.4. [DFTB+ methods](11_program_specific_methods/4_dftbplus_methods)
    * 11.4.1. [Input generator](11_program_specific_methods/4_dftbplus_methods/1_basics)
  * 11.5. [MOPAC methods](11_program_specific_methods/5_mopac_methods)
+   * 11.5.1. [Fundamentals of Libra/MOPAC workflow](11_program_specific_methods/5_mopac_methods/1_initial_tutorial)
 
 12. Molecular builders
  * 12.1. [Crystal and QD builders](12_molecular_builders/1_crystal_and_qd_builder)
@@ -546,7 +547,7 @@ _______________________________
 73. Computing many-body (TD-DFT, TD-DFTB, CI) NACs and/or time-overlaps 
   * [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
   * [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
-  * [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
+  * [11.5.1.](11_program_specific_methods/5_mopac_methods/1_initial_tutorial/tutorial.ipynb)
   * [15.3.](15_citools/3_computing_time_overlaps/tutorial.ipynb)
   * [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb)
 
@@ -614,10 +615,10 @@ _______________________________
   * [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
 
 92. Computing CI wavefunction time-overlaps with MOPAC
-  * [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
+  * [11.5.1.](11_program_specific_methods/5_mopac_methods/1_initial_tutorial/tutorial.ipynb)
 
 93. Define Libra/MOPAC interface Hamiltonian
-  * [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
+  * [11.5.1.](11_program_specific_methods/5_mopac_methods/1_initial_tutorial/tutorial.ipynb)
 
 94. Compute time-resolved spectra
   * [6.2.18.](6_dynamics/2_nbra_workflows/18_plotting_trpes/tutorial.ipynb)
@@ -1116,15 +1117,15 @@ ___________________________________________________________
     - `lammps`
     - `mopac`
       - `methods`
-        - `make_mopac_input` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
-        - `run_mopac` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
-        - `make_ref` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
-        - `make_alpha_excitation` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
-        - `read_mopac_orbital_info` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
-        - ` mopac_compute_adi` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
-	- `psi4`
-	  - `methods`
-            - `run_psi4_adi` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
+        - `make_mopac_input` [11.5.1.](11_program_specific_methods/5_mopac_methods/1_initial_tutorial/tutorial.ipynb)
+        - `run_mopac` [11.5.1.](11_program_specific_methods/5_mopac_methods/1_initial_tutorial/tutorial.ipynb)
+        - `make_ref` [11.5.1.](11_program_specific_methods/5_mopac_methods/1_initial_tutorial/tutorial.ipynb)
+        - `make_alpha_excitation` [11.5.1.](11_program_specific_methods/5_mopac_methods/1_initial_tutorial/tutorial.ipynb)
+        - `read_mopac_orbital_info` [11.5.1.](11_program_specific_methods/5_mopac_methods/1_initial_tutorial/tutorial.ipynb)
+        - ` mopac_compute_adi` [11.5.1.](11_program_specific_methods/5_mopac_methods/1_initial_tutorial/tutorial.ipynb)
+    - `psi4`
+        - `methods`
+          - `run_psi4_adi` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
     - `xyz`
       - `methods`
         - `names_to_masses` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
