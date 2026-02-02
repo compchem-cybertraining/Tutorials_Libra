@@ -159,6 +159,7 @@ Tutorials showcasing various capabilities of Libra
    * 11.3.4. [Excitation analysis](11_program_specific_methods/3_cp2k_methods/4_excitation_analysis)
  * 11.4. [DFTB+ methods](11_program_specific_methods/4_dftbplus_methods)
    * 11.4.1. [Input generator](11_program_specific_methods/4_dftbplus_methods/1_basics)
+   * 11.4.2. [Extracting information needed for NAMD from DFTB+ output](11_program_specific_methods/4_dftbplus_methods/2_reading_excited_states)
  * 11.5. [MOPAC methods](11_program_specific_methods/5_mopac_methods)
    * 11.5.1. [Fundamentals of Libra/MOPAC workflow](11_program_specific_methods/5_mopac_methods/1_initial_tutorial)
    * 11.5.2. [Using active spaces in Libra/MOPAC workflow](11_program_specific_methods/5_mopac_methods/2_using_active_spaces)
@@ -251,7 +252,8 @@ _______________________________
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis/tutorial.ipynb)
   * [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
   * [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
-  * [6.2.8.3.](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new/tutorial.ipynb)
+  * [6.2.8.3.](6_dynamics/2_nbra_workflows/8_step3_cp2k/3_DFT_new/tutorial.ipynb
+)
   * [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
 
 12. Manually construct a Slater Determinant basis
@@ -702,6 +704,20 @@ _______________________________
 115. Working with sparse NumPy matrices
   * [15.3.](15_citools/3_computing_time_overlaps/tutorial.ipynb)
 
+116. Extracting NAVs from output of electronic structure calculations
+  * [11.4.2.](11_program_specific_methods/4_dftbplus_methods/2_reading_excited_states/tutorial.ipynb)
+
+117. Extracting MOs from output of electronic structure calculations
+  * [11.4.2.](11_program_specific_methods/4_dftbplus_methods/2_reading_excited_states/tutorial.ipynb)
+
+118. Extracting CI amplitudes from output of electronic structure calculations
+  * [11.4.2.](11_program_specific_methods/4_dftbplus_methods/2_reading_excited_states/tutorial.ipynb)
+
+119. Extracting energies and forces from output of electronic structue claculations 
+  * [11.4.2.](11_program_specific_methods/4_dftbplus_methods/2_reading_excited_states/tutorial.ipynb)
+
+120. Extracting information on configurations present in CI calculations 
+  * [11.4.2.](11_program_specific_methods/4_dftbplus_methods/2_reading_excited_states/tutorial.ipynb)
 
 ___________________________________________________________
 
@@ -1100,10 +1116,17 @@ ___________________________________________________________
         - `generic_recipe` [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
         - `get_dftb_matrices` [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
         - `get_dftb_ks_energies` [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
+        - `make_dftb_input` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
         - `read_dftb_output` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
+        - `read_mo_matrix` [11.4.2.](11_program_specific_methods/4_dftbplus_methods/2_reading_excited_states/tutorial.ipynb)
+        - `read_nacv` [11.4.2.](11_program_specific_methods/4_dftbplus_methods/2_reading_excited_states/tutorial.ipynb)
+        - `read_overlap_matrix` [11.4.2.](11_program_specific_methods/4_dftbplus_methods/2_reading_excited_states/tutorial.ipynb)
+        - `read_spx_mappings` [11.4.2.](11_program_specific_methods/4_dftbplus_methods/2_reading_excited_states/tutorial.ipynb)
+        - `read_xplusy_ascii` [11.4.2.](11_program_specific_methods/4_dftbplus_methods/2_reading_excited_states/tutorial.ipynb)
         - `run_dftb_adi` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb) | 
            [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
-        - `make_dftb_input` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
+        - `parse_tagged_file` [11.4.2.](11_program_specific_methods/4_dftbplus_methods/2_reading_excited_states/tutorial.ipynb)
+        - `read_mo_matrix` [11.4.2.](11_program_specific_methods/4_dftbplus_methods/2_reading_excited_states/tutorial.ipynb)
     - `ergo`
       - `methods`
         - `get_mtx_matrices` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
