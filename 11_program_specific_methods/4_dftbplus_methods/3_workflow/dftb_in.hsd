@@ -1,0 +1,42 @@
+Geometry = GenFormat {  
+  <<< "x1.gen"
+}
+Driver = {}
+
+Hamiltonian = DFTB {
+    SCC = Yes
+    SCCTolerance = 1.0E-10
+    MaxAngularMomentum = { C = "p"
+                                H = "s"
+                     }
+                     
+    SlaterKosterFiles = Type2FileNames {
+        Prefix = "../mio/FinalSK/"
+        Separator = "-"
+        Suffix = ".skf"
+    }
+    Filling = Fermi { Temperature [K] = 0.5 }
+                
+}
+
+ExcitedState {
+    Casida {
+       Symmetry = Singlet
+       NrOfExcitations = 5
+       StateOfInterest = 1
+       WriteSPTransitions = Yes
+       WriteXplusY = Yes
+       #WriteXplusYAscii = Yes
+       StateCouplings = {0 3}
+       Diagonaliser = Stratmann{}
+    }
+}
+Options {
+  WriteAutotestTag = Yes
+  WriteHS = No
+}
+Analysis {
+  WriteEigenvectors = Yes
+  EigenvectorsAsText = Yes
+  PrintForces = Yes
+}
