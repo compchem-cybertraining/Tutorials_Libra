@@ -193,6 +193,9 @@ Tutorials showcasing various capabilities of Libra
 17. MD Analysis
   * 17.1. [Thermal Normal Modes](17_analysis_of_calculations/1_normal_modes_from_md)
 
+18. Libra py
+  * 18.1. [Grids](18_libra_py/1_grids)
+
 
 _______________________________
 
@@ -994,6 +997,9 @@ ___________________________________________________________
     - `compute_widths_1D` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
     - `gaussian_density_estimator_1D` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
     - `gaussian_kernel_algorithm_iteration_1D` [7.2.](7_special_functions/2_gaussian_kernel_algorithm/tutorial.ipynb)
+
+  - `grids`
+    - `construct_grid_qrg_fast` [18.1.](18_libra_py/1_grids/tutorial.ipynb)
 
   - `hpc_utils`
     - `distribute` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
