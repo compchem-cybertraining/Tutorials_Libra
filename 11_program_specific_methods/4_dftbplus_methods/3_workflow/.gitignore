@@ -6,4 +6,6 @@ water.gen
 coord-*
 dftb_results*
 dftb_workflow*
-
+results*
+wd_itraj*
+*.hsd

@@ -1,4 +1,4 @@
-Geometry = GenFormat {  
+Geometry = GenFormat {
   <<< "x1.gen"
 }
 Driver = {}
@@ -6,8 +6,8 @@ Driver = {}
 Hamiltonian = DFTB {
     SCC = Yes
     SCCTolerance = 1.0E-10
-    MaxAngularMomentum = { C = "p"
-                                H = "s"
+    MaxAngularMomentum = { O = "p" 
+                          H = "s" 
                      }
                      
     SlaterKosterFiles = Type2FileNames {
@@ -15,25 +15,15 @@ Hamiltonian = DFTB {
         Separator = "-"
         Suffix = ".skf"
     }
-    Filling = Fermi { Temperature [K] = 0.5 }
-                
+    Filling = Fermi {
+                         Temperature [K] = 40    
+                         }
+                         
 }
 
-ExcitedState {
-    Casida {
-       Symmetry = Singlet
-       NrOfExcitations = 5
-       StateOfInterest = 1
-       WriteSPTransitions = Yes
-       WriteXplusY = Yes
-       #WriteXplusYAscii = Yes
-       StateCouplings = {0 3}
-       Diagonaliser = Stratmann{}
-    }
-}
 Options {
   WriteAutotestTag = Yes
-  WriteHS = No
+  WriteHS = Yes
 }
 Analysis {
   WriteEigenvectors = Yes
