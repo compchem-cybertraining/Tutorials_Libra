@@ -161,6 +161,7 @@ Tutorials showcasing various capabilities of Libra
    * 11.4.1. [Input generator](11_program_specific_methods/4_dftbplus_methods/1_basics)
    * 11.4.2. [Extracting information needed for NAMD from DFTB+ output](11_program_specific_methods/4_dftbplus_methods/2_reading_excited_states)
    * 11.4.3. [TD-DFTB-based NBRA workflow with DFTB+](11_program_specific_methods/4_dftbplus_methods/3_workflow)
+   * 11.4.4. [NBRA and non-NBRA workflow with DFTB+](11_program_specific_methods/4_dftbplus_methods/4_non_nbra_workflow) 
  * 11.5. [MOPAC methods](11_program_specific_methods/5_mopac_methods)
    * 11.5.1. [Fundamentals of Libra/MOPAC workflow](11_program_specific_methods/5_mopac_methods/1_initial_tutorial)
    * 11.5.2. [Using active spaces in Libra/MOPAC workflow](11_program_specific_methods/5_mopac_methods/2_using_active_spaces)
@@ -338,6 +339,7 @@ _______________________________
   * [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
   * [6.2.11.](6_dynamics/2_nbra_workflows/11_step2_dftb/tutorial.ipynb)
   * [11.4.3.](11_program_specific_methods/4_dftbplus_methods/3_workflow/tutorial.ipynb)
+  * [11.4.4.](11_program_specific_methods/4_dftbplus_methods/4_non_nbra_workflow/tutorial.ipynb)
 
 27. Plot the PES of LiH at the EOM-CCSD/sto-3G level computed via interface of Libra with Psi4
   * [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
@@ -534,6 +536,7 @@ _______________________________
   * [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
   * [6.2.11.](6_dynamics/2_nbra_workflows/11_step2_dftb/tutorial.ipynb)
   * [11.4.3.](11_program_specific_methods/4_dftbplus_methods/3_workflow/tutorial.ipynb)
+  * [11.4.4.](11_program_specific_methods/4_dftbplus_methods/4_non_nbra_workflow/tutorial.ipynb)
 
 71. Computing NACs and/or time-overlaps using CP2K/Libra
   * [15.3.](15_citools/3_computing_time_overlaps/tutorial.ipynb)
@@ -1126,7 +1129,8 @@ ___________________________________________________________
     - `dftbplus`
       - `methods`
         - `create_odin_inp` [11.4.3.](11_program_specific_methods/4_dftbplus_methods/3_workflow/tutorial.ipynb)
-        - `dftb_compute_adi` [11.4.3.](11_program_specific_methods/4_dftbplus_methods/3_workflow/tutorial.ipynb)
+        - `dftb_compute_adi` [11.4.3.](11_program_specific_methods/4_dftbplus_methods/3_workflow/tutorial.ipynb) |
+                             [11.4.4.](11_program_specific_methods/4_dftbplus_methods/4_non_nbra_workflow/tutorial.ipynb)
         - `dftb_traj2xyz_traj` [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
         - `generic_recipe` [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
         - `get_dftb_matrices` [11.4.1.](11_program_specific_methods/4_dftbplus_methods/1_basics/tutorial.ipynb)
