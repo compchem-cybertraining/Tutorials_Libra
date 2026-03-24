@@ -157,6 +157,7 @@ Tutorials showcasing various capabilities of Libra
    * 11.3.2. [PDOS calculations](11_program_specific_methods/3_cp2k_methods/2_pdos_calculations)
    * 11.3.3. [Time-resolved energies](11_program_specific_methods/3_cp2k_methods/3_time_resolved_energies)
    * 11.3.4. [Excitation analysis](11_program_specific_methods/3_cp2k_methods/4_excitation_analysis)
+   * 11.3.5. [TD-DFT-based NBRA workflow with CP2K](11_program_specific_methods/3_cp2k_methods/5_namd_workflow)
  * 11.4. [DFTB+ methods](11_program_specific_methods/4_dftbplus_methods)
    * 11.4.1. [Input generator](11_program_specific_methods/4_dftbplus_methods/1_basics)
    * 11.4.2. [Extracting information needed for NAMD from DFTB+ output](11_program_specific_methods/4_dftbplus_methods/2_reading_excited_states)
@@ -539,6 +540,7 @@ _______________________________
   * [11.4.4.](11_program_specific_methods/4_dftbplus_methods/4_non_nbra_workflow/tutorial.ipynb)
 
 71. Computing NACs and/or time-overlaps using CP2K/Libra
+  * [11.3.5.](11_program_specific_methods/3_cp2k_methods/5_namd_workflow/tutorial.ipynb)
   * [15.3.](15_citools/3_computing_time_overlaps/tutorial.ipynb)
   * [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb)
   * [6.2.4.1.](6_dynamics/2_nbra_workflows/4_step3/1_build_SP_basis/tutorial.ipynb)
@@ -557,6 +559,7 @@ _______________________________
   * [11.5.1.](11_program_specific_methods/5_mopac_methods/1_initial_tutorial/tutorial.ipynb)
 
 73. Computing many-body (TD-DFT, TD-DFTB, CI) NACs and/or time-overlaps 
+  * [11.3.5.](11_program_specific_methods/3_cp2k_methods/5_namd_workflow/tutorial.ipynb)
   * [6.2.4.2.](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis/tutorial.ipynb)
   * [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
   * [11.5.1.](11_program_specific_methods/5_mopac_methods/1_initial_tutorial/tutorial.ipynb)
@@ -722,13 +725,16 @@ _______________________________
   * [11.4.3.](11_program_specific_methods/4_dftbplus_methods/3_workflow/tutorial.ipynb)
 
 118. Extracting CI amplitudes from output of electronic structure calculations
+  * [11.3.5.](11_program_specific_methods/3_cp2k_methods/5_namd_workflow/tutorial.ipynb)
   * [11.4.2.](11_program_specific_methods/4_dftbplus_methods/2_reading_excited_states/tutorial.ipynb)
   * [11.4.3.](11_program_specific_methods/4_dftbplus_methods/3_workflow/tutorial.ipynb)
 
 119. Extracting energies and forces from output of electronic structue claculations 
+  * [11.3.5.](11_program_specific_methods/3_cp2k_methods/5_namd_workflow/tutoral.ipynb)
   * [11.4.2.](11_program_specific_methods/4_dftbplus_methods/2_reading_excited_states/tutorial.ipynb)
 
 120. Extracting information on configurations present in CI calculations 
+  * [11.3.5.](11_program_specific_methods/3_cp2k_methods/5_namd_workflow/tutorial.ipynb)
   * [11.4.2.](11_program_specific_methods/4_dftbplus_methods/2_reading_excited_states/tutorial.ipynb)
   * [11.4.3.](11_program_specific_methods/4_dftbplus_methods/3_workflow/tutorial.ipynb)
 
@@ -830,7 +836,8 @@ ___________________________________________________________
     - `ci`
       - `overlap` [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb) |
                   [11.5.1.](11_program_specific_methods/5_mopac_methods/1_initial_tutorial/tutorial.ipynb) |
-                  [11.5.2.](11_program_specific_methods/5_mopac_methods/2_using_active_spaces/tutorial.ipynb)
+                  [11.5.2.](11_program_specific_methods/5_mopac_methods/2_using_active_spaces/tutorial.ipynb) | 
+                  [11.3.5.](11_program_specific_methods/3_cp2k_methods/5_namd_workflow/tutorial.ipynb)
     - `clebsch_gordan`
       - `clebsch_gordan` [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
       - `recursive_couple_spins_int` [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
@@ -1116,13 +1123,15 @@ ___________________________________________________________
       - `input`
         - `generate` [11.3.1.](11_program_specific_methods/3_cp2k_methods/1_input_generator/tutorial.ipynb)
       - `methods`
+        - `cp2k_compute_adi` [11.3.5.](11_program_specific_methods/3_cp2k_methods/5_namd_workflow/tutorial.ipynb)
         - `cp2k_find_excitation_energies` [6.2.8.1.](6_dynamics/2_nbra_workflows/8_step3_cp2k/1_DFT/tutorial.ipynb)
         - `cp2k_xtb_diag_inp` [6.2.7.1.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/1_desktop/tutorial.ipynb)
         - `cp2k_xtb_ot_inp` [6.2.7.2.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/2_xTB/1_desktop/tutorial.ipynb)
         - `distribute_cp2k_libint_jobs` [6.2.7.1.2.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/2_hpc/1_example_TiO2/tutorial.ipynb)
         - `generate_translational_vectors` [6.2.7.1.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/1_desktop/tutorial.ipynb)
         - `read_cp2k_tddfpt_log_file` [15.3.](15_citools/3_computing_time_overlaps/tutorial.ipynb) |
-                                      [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb)
+                                      [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb) |
+                                      [11.3.5.](11_program_specific_methods/3_cp2k_methods/5_namd_workflow/tutorial.ipynb)
         - `read_homo_index` [15.3.](15_citools/3_computing_time_overlaps/tutorial.ipynb) |
                             [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb)
         - `read_trajectory_xyz_file` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
