@@ -166,6 +166,8 @@ Tutorials showcasing various capabilities of Libra
  * 11.5. [MOPAC methods](11_program_specific_methods/5_mopac_methods)
    * 11.5.1. [Fundamentals of Libra/MOPAC workflow](11_program_specific_methods/5_mopac_methods/1_initial_tutorial)
    * 11.5.2. [Using active spaces in Libra/MOPAC workflow](11_program_specific_methods/5_mopac_methods/2_using_active_spaces)
+ * 11.6. [PySCF methods](11_program_specific_methods/6_pyscf_methods)
+   * 11.6.1. [Fundamental of Libra/PySCF](11_program_specific_methods/6_pyscf_methods/1_basics)
 
 12. Molecular builders
  * 12.1. [Crystal and QD builders](12_molecular_builders/1_crystal_and_qd_builder)
@@ -567,6 +569,7 @@ _______________________________
   * [15.3.](15_citools/3_computing_time_overlaps/tutorial.ipynb)
   * [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb)
   * [11.4.3.](11_program_specific_methods/4_dftbplus_methods/3_workflow/tutorial.ipynb)
+  * [11.6.1.](11_program_specific_methods/6_pyscf_methods/1_basics/tutorial.ipynb)
 
 74. Saving ANNs to files and creating ANNs from XML files
   * [9.1.](9_machine_learning/1_basics_of_mlp/tutorial.ipynb)
@@ -732,11 +735,15 @@ _______________________________
 119. Extracting energies and forces from output of electronic structue claculations 
   * [11.3.5.](11_program_specific_methods/3_cp2k_methods/5_namd_workflow/tutoral.ipynb)
   * [11.4.2.](11_program_specific_methods/4_dftbplus_methods/2_reading_excited_states/tutorial.ipynb)
+  * [11.6.1.](11_program_specific_methods/6_pyscf_methods/1_basics/tutorial.ipynb)
 
 120. Extracting information on configurations present in CI calculations 
   * [11.3.5.](11_program_specific_methods/3_cp2k_methods/5_namd_workflow/tutorial.ipynb)
   * [11.4.2.](11_program_specific_methods/4_dftbplus_methods/2_reading_excited_states/tutorial.ipynb)
   * [11.4.3.](11_program_specific_methods/4_dftbplus_methods/3_workflow/tutorial.ipynb)
+
+121. Computing NACs and/or time-overlaps using PySCF/Libra
+  * [11.6.1.](11_program_specific_methods/6_pyscf_methods/1_basics/tutorial.ipynb)
 
 ___________________________________________________________
 
@@ -1186,11 +1193,27 @@ ___________________________________________________________
         - `make_alpha_excitation` [11.5.1.](11_program_specific_methods/5_mopac_methods/1_initial_tutorial/tutorial.ipynb)
         - `read_mopac_orbital_info` [11.5.1.](11_program_specific_methods/5_mopac_methods/1_initial_tutorial/tutorial.ipynb) |
                                     [11.5.2.](11_program_specific_methods/5_mopac_methods/2_using_active_spaces/tutorial.ipynb)
-        - ` mopac_compute_adi` [11.5.1.](11_program_specific_methods/5_mopac_methods/1_initial_tutorial/tutorial.ipynb) |
-                               [11.5.2.](11_program_specific_methods/5_mopac_methods/2_using_active_spaces/tutorial.ipynb)
+        - `mopac_compute_adi` [11.5.1.](11_program_specific_methods/5_mopac_methods/1_initial_tutorial/tutorial.ipynb) |
+                              [11.5.2.](11_program_specific_methods/5_mopac_methods/2_using_active_spaces/tutorial.ipynb)
     - `psi4`
         - `methods`
           - `run_psi4_adi` [8.2.](8_model_hamiltonians/2_interfaces_with_qchem_codes/tutorial.ipynb)
+    - `pyscf`
+      - `implementations`
+        - `casscf`
+          - `CASSCF` [11.6.1.](11_program_specific_methods/6_pyscf_methods/1_basics/tutorial.ipynb)
+          - `compute_energy` [11.6.1.](11_program_specific_methods/6_pyscf_methods/1_basics/tutorial.ipynb)
+          - `compute_gradient` [11.6.1.](11_program_specific_methods/6_pyscf_methods/1_basics/tutorial.ipynb)
+          - `set_geom_and_run_hf` [11.6.1.](11_program_specific_methods/6_pyscf_methods/1_basics/tutorial.ipynb)
+          - `time_overlap_matrix` [11.6.1.](11_program_specific_methods/6_pyscf_methods/1_basics/tutorial.ipynb)      
+        - `cisd`
+          - `CISD` [11.6.1.](11_program_specific_methods/6_pyscf_methods/1_basics/tutorial.ipynb)
+          - `compute_energy` [11.6.1.](11_program_specific_methods/6_pyscf_methods/1_basics/tutorial.ipynb)
+          - `compute_gradient` [11.6.1.](11_program_specific_methods/6_pyscf_methods/1_basics/tutorial.ipynb)
+          - `set_geom_and_run_hf` [11.6.1.](11_program_specific_methods/6_pyscf_methods/1_basics/tutorial.ipynb)
+          - `time_overlap_matrix` [11.6.1.](11_program_specific_methods/6_pyscf_methods/1_basics/tutorial.ipynb)
+      - `interfaces`
+        - `MolecularGeometry` [11.6.1.](11_program_specific_methods/6_pyscf_methods/1_basics/tutorial.ipynb)
     - `xyz`
       - `methods`
         - `names_to_masses` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)

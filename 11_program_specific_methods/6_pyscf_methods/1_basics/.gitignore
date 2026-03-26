@@ -1,0 +1,3 @@
+*.gen
+calc*
+.ipynb_checkpoints
