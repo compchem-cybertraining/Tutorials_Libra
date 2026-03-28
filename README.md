@@ -861,9 +861,10 @@ ___________________________________________________________
       - `sd_and_csf_overlaps_singlet` [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb)
       - `unique_confs` [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb)
     - `slatdet`
-      - `canonical_sort_key` [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
       - `build_minimal_csf_basis` [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
       - `build_minimal_csf_basis_singlet` [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
+      - `canonical_sort_key` [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
+      - `excitation_phase_from_mapping` [15.3.](15_citools/3_computing_time_overlaps/tutorial.ipynb)
       - `generate_single_excitations` [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb)
       - `generate_determinants_with_parity` [15.2.](15_citools/2_slatdet_and_interfaces/tutorial.ipynb) |
                                             [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
