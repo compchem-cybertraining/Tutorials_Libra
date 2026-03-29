@@ -56,9 +56,7 @@ Tutorials showcasing various capabilities of Libra
     * 6.2.4. [step 3](6_dynamics/2_nbra_workflows/4_step3)
       * 6.2.4.1. [Compute single-particle NACs](6_dynamics/2_nbra_workflows/4_step3/1_build_SD_basis)
       * 6.2.4.2. [Compute many-body NACs](6_dynamics/2_nbra_workflows/4_step3/2_build_MB_basis)
-    * 6.2.5. [step 4](6_dynamics/2_nbra_workflows/5_step4)
-      * 6.2.5.1. [Initialze_data](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data)
-      * 6.2.5.2. [Dynamics](6_dynamics/2_nbra_workflows/5_step4/2_dynamics)
+    * 6.2.5. [LEGACY]
     * 6.2.6. [step 1 with CP2K](6_dynamics/2_nbra_workflows/6_step1_cp2k)
       * 6.2.6.1. [Molecular dynamics with DFT](6_dynamics/2_nbra_workflows/6_step1_cp2k/1_DFT)
         * 6.2.6.1.1. [TiO2](6_dynamics/2_nbra_workflows/6_step1_cp2k/1_DFT/1_example_TiO2)
@@ -81,9 +79,9 @@ Tutorials showcasing various capabilities of Libra
     * 6.2.10. [NBRA steps 3 and 4, tsh_revision](6_dynamics/2_nbra_workflows/10_generic_step3_4)
       * 6.2.10.1. [Example 1: simple example by Alexey Akimov](6_dynamics/2_nbra_workflows/10_generic_step3_4/1_Example1)
       * 6.2.10.2. [Example 2: extended example by Mohammad Shakiba](6_dynamics/2_nbra_workflows/10_generic_step3_4/2_Example2)
-    * 6.2.11. [step 2 with DFTB+](6_dynamics/2_nbra_workflows/11_step2_dftb)
-    * 6.2.12. [step 3: generic mapping](6_dynamics/2_nbra_workflows/12_generic_mapping)
-    * 6.2.13. [complete example with DFTB+](6_dynamics/2_nbra_workflows/13_complete_example)
+    * 6.2.11. [LEGACY]
+    * 6.2.12. [LEGACY]
+    * 6.2.13. [LEGACY]
     * 6.2.14. [step 4: many recipes](6_dynamics/2_nbra_workflows/14_many_recipes)
     * 6.2.15. [step 4 with BLLZ method](6_dynamics/2_nbra_workflows/15_step4_bllz)
     * 6.2.16. [Kohn-Sham Hamiltonian mapping with machine-learning](6_dynamics/2_nbra_workflows/16_ml_hamiltonian_mapping)
@@ -199,6 +197,31 @@ Tutorials showcasing various capabilities of Libra
 
 18. Libra py
   * 18.1. [Grids](18_libra_py/1_grids)
+
+
+-------------------------------
+
+## LEGACY examples
+
+These examples are likely not working anymore (or not current/recommended) due to changes in
+the code, but we keep them for examples of potentially-useful scripts (in hope they can be
+found useful for some purposes). In fact, some of the code blocks may indeed be useful, but they
+will be also shown elsewhere - so this is an attempt to reduce the overall duplication of examples.
+Keep in mind, the process is slow - it is very likely some of the examples above are already 
+obsolete but maigh not have moved to LEGACY folder yet - so excercise critical thinking. 
+The structure of Legacy examples will be preserved as in the above TOC - so it is possible some 
+duplication of indexing over time will be gained (when the same number gets outdated several times). 
+Some (still-relevant) content of the obsolete tutorials may be re-used in current tutorials. 
+
+
+6. Dynamics with Libra
+ * 6.2. [Quantum-classical, neglect-of-back-reaction trajectory workflows](6_dynamics/2_nbra_workflows)
+    * 6.2.5. [step 4](6_dynamics/2_nbra_workflows/5_step4)
+      * 6.2.5.1. [Initialze_data](6_dynamics/2_nbra_workflows/5_step4/1_initialize_data)
+      * 6.2.5.2. [Dynamics](6_dynamics/2_nbra_workflows/5_step4/2_dynamics)
+    * 6.2.11. [step 2 with DFTB+](6_dynamics/2_nbra_workflows/11_step2_dftb)
+    * 6.2.12. [step 3: generic mapping](6_dynamics/2_nbra_workflows/12_generic_mapping)
+    * 6.2.13. [complete example with DFTB+](6_dynamics/2_nbra_workflows/13_complete_example)
 
 
 _______________________________
