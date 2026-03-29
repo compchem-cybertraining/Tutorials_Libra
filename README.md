@@ -90,7 +90,7 @@ Tutorials showcasing various capabilities of Libra
     * 6.2.18. [Time-resolved spectra calculations and plotting](6_dynamics/2_nbra_workflows/18_plotting_trpes)
     * 6.2.19. [Running patch dynamics in the RPI approach](6_dynamics/2_nbra_workflows/19_step4_patch_rpi)
     * 6.2.20. [Summing patch dynamics in the RPI approach](6_dynamics/2_nbra_workflows/20_step5_sum_rpi)
-    * 6.2.21. [Recap on the overlap and time-overlap calculations](6_dynamics/2_nbra_workflows/21_overlap_calculation)
+    * 6.2.21. [LEGACY]
 
  * 6.3. [Hierarchical equations of motion, HEOM](6_dynamics/3_heom)
     * 6.3.1. [Computing population dynamics and lineshapes](6_dynamics/3_heom/1_dynamics_and_lineshapes)
@@ -183,6 +183,7 @@ Tutorials showcasing various capabilities of Libra
   * 14.1. [Libint2 wrappers and auxiliary functions](14_molecular_integrals/1_libint2)
   * 14.2. [Libra built-in molints](14_molecular_integrals/2_libra_molints)
   * 14.3. [Object-oriented molecular integrals](14_molecular_integrals/3_oop_molints)
+  * 14.4. [Working with cube and molden files, using Libint2 functions](14_molecular_integrals/4_libint2_advanced)
 
 15. CI tools
   * 15.1. [Slater Determinants and Configuration State Functions](15_citools/1_fundamentals)
@@ -222,7 +223,7 @@ Some (still-relevant) content of the obsolete tutorials may be re-used in curren
     * 6.2.11. [step 2 with DFTB+](6_dynamics/2_nbra_workflows/11_step2_dftb)
     * 6.2.12. [step 3: generic mapping](6_dynamics/2_nbra_workflows/12_generic_mapping)
     * 6.2.13. [complete example with DFTB+](6_dynamics/2_nbra_workflows/13_complete_example)
-
+    * 6.2.21. [Recap on the overlap and time-overlap calculations](6_dynamics/2_nbra_workflows/21_overlap_calculation)
 
 _______________________________
 
@@ -896,6 +897,11 @@ ___________________________________________________________
       - `permutation_parity` [15.1.](15_citools/1_fundamentals/tutorial.ipynb)
       - `slater_overlap_matrix` [15.3.](15_citools/3_computing_time_overlaps/tutorial.ipynb)
 
+  - `cube_file_methods`
+    - `grid_volume` [14.4.](14_molecular_integrals/4_libint2_advanced/tutorial.ipynb)
+    - `integrate_cube` [14.4.](14_molecular_integrals/4_libint2_advanced/tutorial.ipynb)
+    - `read_cube` [14.4.](14_molecular_integrals/4_libint2_advanced/tutorial.ipynb)
+
   - `data_conv`
     - `make_list` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
     - `matrix2list` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
@@ -916,6 +922,13 @@ ___________________________________________________________
     - `get_data_sets` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
     - `get_data_from_file2` [6.1.8.](6_dynamics/1_trajectory_based/8_model_nonadiabatic/tutorial.ipynb)
     - `read_2D_grid` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+
+  - `data_savers`
+    - `hdf5_saver`
+      - `set_compression_level` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
+      - `add_dataset` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
+      - `save_matrix` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
+      - `hdf5_saver` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
 
   - `data_stat`
     - `cmat_stat2` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb) |
@@ -1075,9 +1088,9 @@ ___________________________________________________________
     - `project_out_rigid` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
 
   - `molden_methods`
-    - `eigenvectors_molden`
+    - `eigenvectors_molden` [14.4.](14_molecular_integrals/4_libint2_advanced/tutorial.ipynb)
     - `index_reorder`
-    - `molden_file_to_libint_shell`
+    - `molden_file_to_libint_shell` [14.4.](14_molecular_integrals/4_libint2_advanced/tutorial.ipynb)
     - `resort_eigenvectors`
 
   - `models`
@@ -1159,13 +1172,15 @@ ___________________________________________________________
         - `cp2k_xtb_diag_inp` [6.2.7.1.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/1_desktop/tutorial.ipynb)
         - `cp2k_xtb_ot_inp` [6.2.7.2.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/2_xTB/1_desktop/tutorial.ipynb)
         - `distribute_cp2k_libint_jobs` [6.2.7.1.2.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/2_hpc/1_example_TiO2/tutorial.ipynb)
-        - `generate_translational_vectors` [6.2.7.1.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/1_desktop/tutorial.ipynb)
+        - `generate_translational_vectors` [6.2.7.1.1.](6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/1_desktop/tutorial.ipynb) |
+                                           [14.4.](14_molecular_integrals/4_libint2_advanced/tutorial.ipynb)
         - `read_cp2k_tddfpt_log_file` [15.3.](15_citools/3_computing_time_overlaps/tutorial.ipynb) |
                                       [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb) |
                                       [11.3.5.](11_program_specific_methods/3_cp2k_methods/5_namd_workflow/tutorial.ipynb)
         - `read_homo_index` [15.3.](15_citools/3_computing_time_overlaps/tutorial.ipynb) |
                             [15.4.](15_citools/4_on_the_fly_time_overlaps/tutorial.ipynb)
         - `read_trajectory_xyz_file` [11.5.](11_program_specific_methods/5_mopac_methods/tutorial.ipynb)
+        - `resort_molog_eigenvectors` [14.4.](14_molecular_integrals/4_libint2_advanced/tutorial.ipynb)
     - `dftbplus`
       - `methods`
         - `create_odin_inp` [11.4.3.](11_program_specific_methods/4_dftbplus_methods/3_workflow/tutorial.ipynb)
@@ -1300,6 +1315,7 @@ ___________________________________________________________
         - `compute_qs_Hvib`
         - `run`
       - `step2`
+        - `component_to_index` [14.4.](14_molecular_integrals/4_libint2_advanced/tutorial.ipynb)
         - `run` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
         - `run_cp2k_libint_step2` [6.2.7.](6_dynamics/2_nbra_workflows/7_step2_cp2k)
       - `step2_analysis`
@@ -1383,6 +1399,14 @@ ___________________________________________________________
               [7.5.2.](7_special_functions/5_acf_and_ft/2_advanced/tutorial.ipynb)
     - `inv_cm2Ha` [7.5.1.](7_special_functions/5_acf_and_ft/1_basic/tutorial.ipynb) |
                   [7.5.2.](7_special_functions/5_acf_and_ft/2_advanced/tutorial.ipynb)
+
+- `liblibra::liblibint2_wrappers`
+  - `add_to_shell` [14.4.](14_molecular_integrals/4_libint2_advanced/tutorial.ipynb)
+  - `compute_emultipole3` [14.4.](14_molecular_integrals/4_libint2_advanced/tutorial.ipynb)
+  - `compute_overlaps` [14.4.](14_molecular_integrals/4_libint2_advanced/tutorial.ipynb)
+  - `initialize_shell` [14.4.](14_molecular_integrals/4_libint2_advanced/tutorial.ipynb)
+  - `nbasis` [14.4.](14_molecular_integrals/4_libint2_advanced/tutorial.ipynb)
+  - `print_shell` [14.4.](14_molecular_integrals/4_libint2_advanced/tutorial.ipynb)
 
 - `liblibra::libutil`
   - `allocate_1D` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
@@ -1548,6 +1572,49 @@ _______________________________
     - `NuclearList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `libthermostat`
     - `ThermostatList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
+  - `libwfcgrid2`
+    - `Wfcgrid2` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `nstates` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `ndof` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `Npts` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `npts` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `rmin` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `rmax` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `dr` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `kmin` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `dk` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `gmap` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `imap` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `PSI_dia` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `reciPSI_dia` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `PSI_adi` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `reciPSI_adi` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `Hdia` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `U` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `add_wfc_Gau` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `add_wfc_HO` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `add_wfc_ARB` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `norm` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `e_kin` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `e_pot` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `e_tot` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `get_pow_q` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `get_pow_p` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `get_den_mat` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `get_pops` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb) | [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+      - `update_propagator_H` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `update_propagator_K` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `SOFT_propagate` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `update_real` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+      - `update_reciprocal` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `normalize` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `update_Hamiltonian` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `update_adiabatic` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
+      - `update_diabatic` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+      - `print_wfc_1D` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+      - `print_reci_wfc_1D` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+      - `print_wfc_2D` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
+      - `print_reci_wfc_2D` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
 
 - `liblibra::libforcefield`
   - `Angle_Record`
@@ -1710,57 +1777,4 @@ _______________________________
   - `QUATERNIONMap` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `VECTORList` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
   - `VECTORMap` [10.1.](10_auxiliary_functions/1_util_functions/tutorial.ipynb)
-
-- `libra_py`
-  - `data_savers`
-    - `hdf5_saver`
-      - `set_compression_level` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
-      - `add_dataset` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
-      - `save_matrix` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
-      - `hdf5_saver` [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
-
-- `liblibra::libdyn::libwfcgrid2`
-  - `Wfcgrid2` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `nstates` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `ndof` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `Npts` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `npts` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `rmin` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `rmax` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `dr` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `kmin` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `dk` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `gmap` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `imap` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `PSI_dia` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `reciPSI_dia` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `PSI_adi` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `reciPSI_adi` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `Hdia` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `U` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `add_wfc_Gau` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `add_wfc_HO` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `add_wfc_ARB` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `norm` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `e_kin` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `e_pot` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `e_tot` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `get_pow_q` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `get_pow_p` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `get_den_mat` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `get_pops` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb) | [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
-    - `update_propagator_H` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `update_propagator_K` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `SOFT_propagate` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `update_real` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
-    - `update_reciprocal` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `normalize` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `update_Hamiltonian` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `update_adiabatic` [6.4.2.](6_dynamics/4_wavepackets/2_dvr_basics/tutorial.ipynb)
-    - `update_diabatic` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
-    - `print_wfc_1D` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
-    - `print_reci_wfc_1D` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
-    - `print_wfc_2D` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
-    - `print_reci_wfc_2D` [6.4.3.](6_dynamics/4_wavepackets/3_soft_propagation/tutorial.ipynb)
-
-    
+ 

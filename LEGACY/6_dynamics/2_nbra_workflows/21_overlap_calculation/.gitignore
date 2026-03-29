@@ -1,0 +1,5 @@
+.ipynb_checkpoints/
+*.cube
+St_ks_1200.npz
+TiO2_unit_cell.molden
+all_logfiles/
