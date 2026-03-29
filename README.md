@@ -769,6 +769,21 @@ _______________________________
 121. Computing NACs and/or time-overlaps using PySCF/Libra
   * [11.6.1.](11_program_specific_methods/6_pyscf_methods/1_basics/tutorial.ipynb)
 
+122. Working with `cube` files
+  * [14.4.](14_molecular_integrals/4_libint2_advanced/tutorial.ipynb)
+
+123. Working with `molden` files
+  * [14.4.](14_molecular_integrals/4_libint2_advanced/tutorial.ipynb)
+
+124. Computing overlaps of `cube` files
+  * [14.4.](14_molecular_integrals/4_libint2_advanced/tutorial.ipynb)
+
+125. Working with Libint2 functions
+  * [14.4.](14_molecular_integrals/4_libint2_advanced/tutorial.ipynb)
+
+126. Computing molecular integrals in atomic orbital basis
+  * [14.4.](14_molecular_integrals/4_libint2_advanced/tutorial.ipynb)
+
 ___________________________________________________________
 
 
