@@ -2,4 +2,8 @@
 res-*
 namd_regular
 *.txt
-*_NBRA_*
+*_icond_*
+recipes/__pycache__
+data1
+data2
+
