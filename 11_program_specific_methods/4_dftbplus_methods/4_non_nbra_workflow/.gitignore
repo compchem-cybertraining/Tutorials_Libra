@@ -5,3 +5,4 @@ non_nbra_*
 recipes/__pycache__
 results
 wd_*
+trajectories/
