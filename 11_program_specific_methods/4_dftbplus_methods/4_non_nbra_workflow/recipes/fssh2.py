@@ -40,14 +40,14 @@ def load(dyn_general):
     #  - [-1]: don't, e.g. we use NACs from somewhere else [ default ]
     #  -  0: use HST formula (if nac_update_method==2)
     #  -  1: use NPI of Meek and Levine (if nac_update_method==2)
-    dyn_general.update({"nac_algo":-1})    
+    dyn_general.update({"nac_algo":0})    
 
 
     #============== How to update vibronic Hamiltonian ==============
     # Options:
     #  - 0: don't update them (e.g. if it is read externally, maybe because we read it from files)
     #  - 1: update according to regular formula: Hvib = Ham - i * hbar * NAC [ default ]
-    dyn_general.update( {"hvib_update_method":0 })
+    dyn_general.update( {"hvib_update_method":1 })
 
 
     #=========== Phase correction of SSY =================
@@ -306,7 +306,7 @@ def load(dyn_general):
     #     1              -  Zhu Liouvillian
     #
     #    10              -  same as 0, but with rotations
-    dyn_general.update({"rep_tdse":1, "electronic_integrator":2 })   # ld, original, with exp_
+    dyn_general.update({"rep_tdse":1, "electronic_integrator":5 })   # ld, original, with exp_
 
     #=========== Disable state tracking and phase corrections explicitly for the LD integrators ===============
     #State tracking algorithm:
@@ -319,7 +319,9 @@ def load(dyn_general):
     #  - 32: experimental stochastic algorithms with all permutations (too expensive)
     #  - 33: the improved stochastic algorithm with good scaling and performance, on par with the mincost
     #  - 4: new, experimental force-based tracking
-    dyn_general.update({"state_tracking_algo":-1 })
+    dyn_general.update({"state_tracking_algo":21 })
+    
+    #dyn_general.update({"MK_alpha":1100.0, "MK_scaling_function":2 })
 
     #The algorithm to correct phases on adiabatic states
     #
@@ -327,7 +329,7 @@ def load(dyn_general):
     #  - 0: no phase correction
     #  - 1: according to our phase correction algorithm [ default ]
     # phase correction doesn't matter, if we use the LD integrator
-    dyn_general.update({"do_phase_correction":0 })
+    dyn_general.update({"do_phase_correction":1 })
 
     #New phase correction, directly applied to NACs. Intended to be used mostly with state_tracking_algo == 4,
     #although can be useful with other state treacking algorithms. Should not be used together with 
