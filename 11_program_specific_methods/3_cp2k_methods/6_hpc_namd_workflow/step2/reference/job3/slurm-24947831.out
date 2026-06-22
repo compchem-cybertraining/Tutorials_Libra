@@ -1,0 +1,1008 @@
+[H[2J[3JSLURM_JOBID=24947831
+SLURM_JOB_NODELIST=cpn-d03-07
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/24947831
+working directory=/projects/academic/cyberwksp21/Students/alexeyak/libra_examples/Tutorials_Libra/6_dynamics/2_nbra_workflows/7_step2_cp2k/1_DFT/2_hpc/3_example_TiO2_June_2026/job3
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) ccrenv   2) gentoo/2023.01   3) ccrsoft/2023.01
+[H[2J[3J<frozen importlib._bootstrap>:241: RuntimeWarning: to-Python converter for std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > already registered; second conversion method ignored.
+<frozen importlib._bootstrap>:241: RuntimeWarning: to-Python converter for boost::python::detail::container_element<std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >, unsigned long, boost::python::detail::final_vector_derived_policies<std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >, false> > already registered; second conversion method ignored.
+<frozen importlib._bootstrap>:241: RuntimeWarning: to-Python converter for std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > already registered; second conversion method ignored.
+<frozen importlib._bootstrap>:241: RuntimeWarning: to-Python converter for boost::python::detail::container_element<std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >, unsigned long, boost::python::detail::final_vector_derived_policies<std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >, false> > already registered; second conversion method ignored.
+<frozen importlib._bootstrap>:241: RuntimeWarning: to-Python converter for std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > > already registered; second conversion method ignored.
+<frozen importlib._bootstrap>:241: RuntimeWarning: to-Python converter for boost::python::detail::container_element<std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >, unsigned long, boost::python::detail::final_vector_derived_policies<std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >, false> > already registered; second conversion method ignored.
+<frozen importlib._bootstrap>:241: RuntimeWarning: to-Python converter for std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > >, std::allocator<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > > already registered; second conversion method ignored.
+<frozen importlib._bootstrap>:241: RuntimeWarning: to-Python converter for boost::python::detail::container_element<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > >, std::allocator<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >, unsigned long, boost::python::detail::final_vector_derived_policies<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > >, std::allocator<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >, false> > already registered; second conversion method ignored.
+cp: cannot stat 'True': No such file or directory
+SIRIUS 7.7.1, git hash: https://api.github.com/repos/electronic-structure/SIRIUS/git/ref/tags/v7.7.1
+cp: cannot stat 'True': No such file or directory
+SIRIUS 7.7.1, git hash: https://api.github.com/repos/electronic-structure/SIRIUS/git/ref/tags/v7.7.1
+cp: cannot stat 'True': No such file or directory
+SIRIUS 7.7.1, git hash: https://api.github.com/repos/electronic-structure/SIRIUS/git/ref/tags/v7.7.1
+cp: cannot stat 'True': No such file or directory
+SIRIUS 7.7.1, git hash: https://api.github.com/repos/electronic-structure/SIRIUS/git/ref/tags/v7.7.1
+cp: cannot stat 'True': No such file or directory
+SIRIUS 7.7.1, git hash: https://api.github.com/repos/electronic-structure/SIRIUS/git/ref/tags/v7.7.1
+cp: cannot stat 'True': No such file or directory
+SIRIUS 7.7.1, git hash: https://api.github.com/repos/electronic-structure/SIRIUS/git/ref/tags/v7.7.1
+mv: cannot stat '*bmp': No such file or directory
+rm: cannot remove '*.cube': No such file or directory
+The translational vectors for the current periodic system are:
+
+[[-2 -2 -2]
+ [-2 -2 -1]
+ [-2 -2  0]
+ [-2 -2  1]
+ [-2 -2  2]
+ [-2 -1 -2]
+ [-2 -1 -1]
+ [-2 -1  0]
+ [-2 -1  1]
+ [-2 -1  2]
+ [-2  0 -2]
+ [-2  0 -1]
+ [-2  0  0]
+ [-2  0  1]
+ [-2  0  2]
+ [-2  1 -2]
+ [-2  1 -1]
+ [-2  1  0]
+ [-2  1  1]
+ [-2  1  2]
+ [-2  2 -2]
+ [-2  2 -1]
+ [-2  2  0]
+ [-2  2  1]
+ [-2  2  2]
+ [-1 -2 -2]
+ [-1 -2 -1]
+ [-1 -2  0]
+ [-1 -2  1]
+ [-1 -2  2]
+ [-1 -1 -2]
+ [-1 -1 -1]
+ [-1 -1  0]
+ [-1 -1  1]
+ [-1 -1  2]
+ [-1  0 -2]
+ [-1  0 -1]
+ [-1  0  0]
+ [-1  0  1]
+ [-1  0  2]
+ [-1  1 -2]
+ [-1  1 -1]
+ [-1  1  0]
+ [-1  1  1]
+ [-1  1  2]
+ [-1  2 -2]
+ [-1  2 -1]
+ [-1  2  0]
+ [-1  2  1]
+ [-1  2  2]
+ [ 0 -2 -2]
+ [ 0 -2 -1]
+ [ 0 -2  0]
+ [ 0 -2  1]
+ [ 0 -2  2]
+ [ 0 -1 -2]
+ [ 0 -1 -1]
+ [ 0 -1  0]
+ [ 0 -1  1]
+ [ 0 -1  2]
+ [ 0  0 -2]
+ [ 0  0 -1]
+ [ 0  0  1]
+ [ 0  0  2]
+ [ 0  1 -2]
+ [ 0  1 -1]
+ [ 0  1  0]
+ [ 0  1  1]
+ [ 0  1  2]
+ [ 0  2 -2]
+ [ 0  2 -1]
+ [ 0  2  0]
+ [ 0  2  1]
+ [ 0  2  2]
+ [ 1 -2 -2]
+ [ 1 -2 -1]
+ [ 1 -2  0]
+ [ 1 -2  1]
+ [ 1 -2  2]
+ [ 1 -1 -2]
+ [ 1 -1 -1]
+ [ 1 -1  0]
+ [ 1 -1  1]
+ [ 1 -1  2]
+ [ 1  0 -2]
+ [ 1  0 -1]
+ [ 1  0  0]
+ [ 1  0  1]
+ [ 1  0  2]
+ [ 1  1 -2]
+ [ 1  1 -1]
+ [ 1  1  0]
+ [ 1  1  1]
+ [ 1  1  2]
+ [ 1  2 -2]
+ [ 1  2 -1]
+ [ 1  2  0]
+ [ 1  2  1]
+ [ 1  2  2]
+ [ 2 -2 -2]
+ [ 2 -2 -1]
+ [ 2 -2  0]
+ [ 2 -2  1]
+ [ 2 -2  2]
+ [ 2 -1 -2]
+ [ 2 -1 -1]
+ [ 2 -1  0]
+ [ 2 -1  1]
+ [ 2 -1  2]
+ [ 2  0 -2]
+ [ 2  0 -1]
+ [ 2  0  0]
+ [ 2  0  1]
+ [ 2  0  2]
+ [ 2  1 -2]
+ [ 2  1 -1]
+ [ 2  1  0]
+ [ 2  1  1]
+ [ 2  1  2]
+ [ 2  2 -2]
+ [ 2  2 -1]
+ [ 2  2  0]
+ [ 2  2  1]
+ [ 2  2  2]]
+Will compute the S^AO between R(0,0,0) and 125 translational vectors
+-----------------------Start-----------------------
+-----------------------Step 10-----------------------
+Done with step 10 Elapsed time: 45.64533090591431
+Creating shell...
+Done with creating shell. Elapsed time: 0.009644031524658203
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.03716731071472168
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-2,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,2) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(0,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,0,1) and R(0,0,0)
+Computing the AO overlaps between R(0,0,2) and R(0,0,0)
+Computing the AO overlaps between R(0,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,1) and R(0,0,0)
+Computing the AO overlaps between R(0,1,2) and R(0,0,0)
+Computing the AO overlaps between R(0,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,2,0) and R(0,0,0)
+Computing the AO overlaps between R(0,2,1) and R(0,0,0)
+Computing the AO overlaps between R(0,2,2) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(1,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,1) and R(0,0,0)
+Computing the AO overlaps between R(1,0,2) and R(0,0,0)
+Computing the AO overlaps between R(1,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,1) and R(0,0,0)
+Computing the AO overlaps between R(1,1,2) and R(0,0,0)
+Computing the AO overlaps between R(1,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,2,0) and R(0,0,0)
+Computing the AO overlaps between R(1,2,1) and R(0,0,0)
+Computing the AO overlaps between R(1,2,2) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(2,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,0,0) and R(0,0,0)
+Computing the AO overlaps between R(2,0,1) and R(0,0,0)
+Computing the AO overlaps between R(2,0,2) and R(0,0,0)
+Computing the AO overlaps between R(2,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,1,0) and R(0,0,0)
+Computing the AO overlaps between R(2,1,1) and R(0,0,0)
+Computing the AO overlaps between R(2,1,2) and R(0,0,0)
+Computing the AO overlaps between R(2,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,2,0) and R(0,0,0)
+Computing the AO overlaps between R(2,2,1) and R(0,0,0)
+Computing the AO overlaps between R(2,2,2) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.49130725860595703
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.0034482479095458984
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.0004513263702392578
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.028050661087036133
+Done with step 10. Elapsed time: 46.215479135513306
+-----------------------Step 11-----------------------
+Done with step 11 Elapsed time: 37.77518582344055
+Creating shell...
+Done with creating shell. Elapsed time: 0.00433659553527832
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.013859987258911133
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-2,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,2) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(0,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,0,1) and R(0,0,0)
+Computing the AO overlaps between R(0,0,2) and R(0,0,0)
+Computing the AO overlaps between R(0,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,1) and R(0,0,0)
+Computing the AO overlaps between R(0,1,2) and R(0,0,0)
+Computing the AO overlaps between R(0,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,2,0) and R(0,0,0)
+Computing the AO overlaps between R(0,2,1) and R(0,0,0)
+Computing the AO overlaps between R(0,2,2) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(1,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,1) and R(0,0,0)
+Computing the AO overlaps between R(1,0,2) and R(0,0,0)
+Computing the AO overlaps between R(1,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,1) and R(0,0,0)
+Computing the AO overlaps between R(1,1,2) and R(0,0,0)
+Computing the AO overlaps between R(1,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,2,0) and R(0,0,0)
+Computing the AO overlaps between R(1,2,1) and R(0,0,0)
+Computing the AO overlaps between R(1,2,2) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(2,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,0,0) and R(0,0,0)
+Computing the AO overlaps between R(2,0,1) and R(0,0,0)
+Computing the AO overlaps between R(2,0,2) and R(0,0,0)
+Computing the AO overlaps between R(2,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,1,0) and R(0,0,0)
+Computing the AO overlaps between R(2,1,1) and R(0,0,0)
+Computing the AO overlaps between R(2,1,2) and R(0,0,0)
+Computing the AO overlaps between R(2,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,2,0) and R(0,0,0)
+Computing the AO overlaps between R(2,2,1) and R(0,0,0)
+Computing the AO overlaps between R(2,2,2) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.45171356201171875
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.006861448287963867
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.00045680999755859375
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.01754283905029297
+Done with step 11. Elapsed time: 38.28488802909851
+-----------------------Step 12-----------------------
+Done with step 12 Elapsed time: 41.767027854919434
+Creating shell...
+Done with creating shell. Elapsed time: 0.004635334014892578
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.014670848846435547
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-2,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,2) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(0,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,0,1) and R(0,0,0)
+Computing the AO overlaps between R(0,0,2) and R(0,0,0)
+Computing the AO overlaps between R(0,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,1) and R(0,0,0)
+Computing the AO overlaps between R(0,1,2) and R(0,0,0)
+Computing the AO overlaps between R(0,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,2,0) and R(0,0,0)
+Computing the AO overlaps between R(0,2,1) and R(0,0,0)
+Computing the AO overlaps between R(0,2,2) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(1,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,1) and R(0,0,0)
+Computing the AO overlaps between R(1,0,2) and R(0,0,0)
+Computing the AO overlaps between R(1,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,1) and R(0,0,0)
+Computing the AO overlaps between R(1,1,2) and R(0,0,0)
+Computing the AO overlaps between R(1,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,2,0) and R(0,0,0)
+Computing the AO overlaps between R(1,2,1) and R(0,0,0)
+Computing the AO overlaps between R(1,2,2) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(2,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,0,0) and R(0,0,0)
+Computing the AO overlaps between R(2,0,1) and R(0,0,0)
+Computing the AO overlaps between R(2,0,2) and R(0,0,0)
+Computing the AO overlaps between R(2,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,1,0) and R(0,0,0)
+Computing the AO overlaps between R(2,1,1) and R(0,0,0)
+Computing the AO overlaps between R(2,1,2) and R(0,0,0)
+Computing the AO overlaps between R(2,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,2,0) and R(0,0,0)
+Computing the AO overlaps between R(2,2,1) and R(0,0,0)
+Computing the AO overlaps between R(2,2,2) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.4671032428741455
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.006942033767700195
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.0005502700805664062
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.017121076583862305
+Done with step 12. Elapsed time: 42.297791719436646
+-----------------------Step 13-----------------------
+Done with step 13 Elapsed time: 45.99290728569031
+Creating shell...
+Done with creating shell. Elapsed time: 0.0041217803955078125
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.01178884506225586
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-2,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,2) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(0,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,0,1) and R(0,0,0)
+Computing the AO overlaps between R(0,0,2) and R(0,0,0)
+Computing the AO overlaps between R(0,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,1) and R(0,0,0)
+Computing the AO overlaps between R(0,1,2) and R(0,0,0)
+Computing the AO overlaps between R(0,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,2,0) and R(0,0,0)
+Computing the AO overlaps between R(0,2,1) and R(0,0,0)
+Computing the AO overlaps between R(0,2,2) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(1,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,1) and R(0,0,0)
+Computing the AO overlaps between R(1,0,2) and R(0,0,0)
+Computing the AO overlaps between R(1,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,1) and R(0,0,0)
+Computing the AO overlaps between R(1,1,2) and R(0,0,0)
+Computing the AO overlaps between R(1,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,2,0) and R(0,0,0)
+Computing the AO overlaps between R(1,2,1) and R(0,0,0)
+Computing the AO overlaps between R(1,2,2) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(2,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,0,0) and R(0,0,0)
+Computing the AO overlaps between R(2,0,1) and R(0,0,0)
+Computing the AO overlaps between R(2,0,2) and R(0,0,0)
+Computing the AO overlaps between R(2,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,1,0) and R(0,0,0)
+Computing the AO overlaps between R(2,1,1) and R(0,0,0)
+Computing the AO overlaps between R(2,1,2) and R(0,0,0)
+Computing the AO overlaps between R(2,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,2,0) and R(0,0,0)
+Computing the AO overlaps between R(2,2,1) and R(0,0,0)
+Computing the AO overlaps between R(2,2,2) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.4554479122161865
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.0067746639251708984
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.00048542022705078125
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.01711297035217285
+Done with step 13. Elapsed time: 46.5134813785553
+-----------------------Step 14-----------------------
+Done with step 14 Elapsed time: 41.96978211402893
+Creating shell...
+Done with creating shell. Elapsed time: 0.0046312808990478516
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.015346765518188477
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-2,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,2) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(0,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,0,1) and R(0,0,0)
+Computing the AO overlaps between R(0,0,2) and R(0,0,0)
+Computing the AO overlaps between R(0,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,1) and R(0,0,0)
+Computing the AO overlaps between R(0,1,2) and R(0,0,0)
+Computing the AO overlaps between R(0,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,2,0) and R(0,0,0)
+Computing the AO overlaps between R(0,2,1) and R(0,0,0)
+Computing the AO overlaps between R(0,2,2) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(1,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,1) and R(0,0,0)
+Computing the AO overlaps between R(1,0,2) and R(0,0,0)
+Computing the AO overlaps between R(1,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,1) and R(0,0,0)
+Computing the AO overlaps between R(1,1,2) and R(0,0,0)
+Computing the AO overlaps between R(1,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,2,0) and R(0,0,0)
+Computing the AO overlaps between R(1,2,1) and R(0,0,0)
+Computing the AO overlaps between R(1,2,2) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(2,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,0,0) and R(0,0,0)
+Computing the AO overlaps between R(2,0,1) and R(0,0,0)
+Computing the AO overlaps between R(2,0,2) and R(0,0,0)
+Computing the AO overlaps between R(2,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,1,0) and R(0,0,0)
+Computing the AO overlaps between R(2,1,1) and R(0,0,0)
+Computing the AO overlaps between R(2,1,2) and R(0,0,0)
+Computing the AO overlaps between R(2,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,2,0) and R(0,0,0)
+Computing the AO overlaps between R(2,2,1) and R(0,0,0)
+Computing the AO overlaps between R(2,2,2) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.5231552124023438
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.007303714752197266
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.0005433559417724609
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.017955303192138672
+Done with step 14. Elapsed time: 42.5634446144104
+-----------------------Step 15-----------------------
+Done with step 15 Elapsed time: 37.19303774833679
+Creating shell...
+Done with creating shell. Elapsed time: 0.0037946701049804688
+Reading energies and eigenvectors....
+Done with reading energies and eigenvectors. Elapsed time: 0.011826515197753906
+Computing atomic orbital overlap matrix...
+Computing the AO overlaps between R(-2,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,0,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,1,2) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,0) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,1) and R(0,0,0)
+Computing the AO overlaps between R(-2,2,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,0,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,1,2) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,0) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,1) and R(0,0,0)
+Computing the AO overlaps between R(-1,2,2) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(0,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(0,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(0,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,0,1) and R(0,0,0)
+Computing the AO overlaps between R(0,0,2) and R(0,0,0)
+Computing the AO overlaps between R(0,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,1,0) and R(0,0,0)
+Computing the AO overlaps between R(0,1,1) and R(0,0,0)
+Computing the AO overlaps between R(0,1,2) and R(0,0,0)
+Computing the AO overlaps between R(0,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(0,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(0,2,0) and R(0,0,0)
+Computing the AO overlaps between R(0,2,1) and R(0,0,0)
+Computing the AO overlaps between R(0,2,2) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(1,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(1,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(1,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,0,0) and R(0,0,0)
+Computing the AO overlaps between R(1,0,1) and R(0,0,0)
+Computing the AO overlaps between R(1,0,2) and R(0,0,0)
+Computing the AO overlaps between R(1,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,1,0) and R(0,0,0)
+Computing the AO overlaps between R(1,1,1) and R(0,0,0)
+Computing the AO overlaps between R(1,1,2) and R(0,0,0)
+Computing the AO overlaps between R(1,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(1,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(1,2,0) and R(0,0,0)
+Computing the AO overlaps between R(1,2,1) and R(0,0,0)
+Computing the AO overlaps between R(1,2,2) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,0) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,1) and R(0,0,0)
+Computing the AO overlaps between R(2,-2,2) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,0) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,1) and R(0,0,0)
+Computing the AO overlaps between R(2,-1,2) and R(0,0,0)
+Computing the AO overlaps between R(2,0,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,0,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,0,0) and R(0,0,0)
+Computing the AO overlaps between R(2,0,1) and R(0,0,0)
+Computing the AO overlaps between R(2,0,2) and R(0,0,0)
+Computing the AO overlaps between R(2,1,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,1,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,1,0) and R(0,0,0)
+Computing the AO overlaps between R(2,1,1) and R(0,0,0)
+Computing the AO overlaps between R(2,1,2) and R(0,0,0)
+Computing the AO overlaps between R(2,2,-2) and R(0,0,0)
+Computing the AO overlaps between R(2,2,-1) and R(0,0,0)
+Computing the AO overlaps between R(2,2,0) and R(0,0,0)
+Computing the AO overlaps between R(2,2,1) and R(0,0,0)
+Computing the AO overlaps between R(2,2,2) and R(0,0,0)
+Done with computing atomic orbital overlaps. Elapsed time: 0.45499300956726074
+Turning the MATRIX to numpy array...
+Done with transforming MATRIX 2 numpy array. Elapsed time: 0.006783008575439453
+Resorting eigenvectors elements...
+Done with resorting eigenvectors elements. Elapsed time: 0.0004601478576660156
+Computing and saving molecular orbital overlaps...
+Done with computing molecular orbital overlaps. Elapsed time: 0.06430244445800781
+Done with step 15. Elapsed time: 37.755422592163086
+Done with the job!!!
+WARNING: Parameter all_images is not defined! in the input parametersUse the default value 
+WARNING: Parameter image_format is not defined! in the input parametersUse the default value 
+WARNING: Parameter isXTB is not defined! in the input parametersUse the default value 
+WARNING: Parameter vmd_input_template is not defined! in the input parametersUse the default value 
+WARNING: Parameter states_to_plot is not defined! in the input parametersUse the default value 
+WARNING: Parameter plot_phase_corrected is not defined! in the input parametersUse the default value 
+WARNING: Parameter vmd_exe is not defined! in the input parametersUse the default value 
+WARNING: Parameter tachyon_exe is not defined! in the input parametersUse the default value 
+WARNING: Parameter x_pixels is not defined! in the input parametersUse the default value 
+WARNING: Parameter y_pixels is not defined! in the input parametersUse the default value 
+WARNING: Parameter remove_cube is not defined! in the input parametersUse the default value 
+WARNING: Parameter together_mode is not defined! in the input parametersUse the default value 
+WARNING: Parameter use_emultipole is not defined! in the input parametersUse the default value 
+WARNING: Parameter emultipole_components is not defined! in the input parametersUse the default value 

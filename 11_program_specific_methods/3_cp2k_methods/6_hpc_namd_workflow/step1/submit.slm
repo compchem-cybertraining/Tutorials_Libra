@@ -1,0 +1,31 @@
+#!/bin/bash -l
+#SBATCH --account=cyberwksp21
+#SBATCH --partition=general-compute  --qos=general-compute
+#SBATCH --clusters=ub-hpc
+#SBATCH --time=2:00:00
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=6
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=120000   
+#SBATCH --job-name=cp2k_run
+echo "SLURM_JOBID="$SLURM_JOBID
+echo "SLURM_JOB_NODELIST="$SLURM_JOB_NODELIST
+echo "SLURM_NNODES="$SLURM_NNODES
+echo "SLURMTMPDIR="$SLURMTMPDIR
+echo "working directory="$SLURM_SUBMIT_DIR
+
+# Here load whatever which is needed for running CP2K
+# Load VMD if cube visualization flag is turned on
+load vmd
+module use /projects/academic/cyberwksp21/MODULES
+module purge
+module load libra/devel3 # load the devel version for alignment
+
+# For slurm environments
+
+export OMP_NUM_THREADS=4
+export I_MPI_PMI_LIBRARY=/usr/lib64/libpmi.so
+module load cp2k/v25/local
+
+srun --mpi=pmi2 -n 6 cp2k.psmp -i md.inp -o out_md_tio2_dft.log
+

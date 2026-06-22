@@ -1,0 +1,11 @@
+[H[2J[3JSLURM_JOBID=24946008
+SLURM_JOB_NODELIST=cpn-b01-35-01
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/24946008
+working directory=/projects/academic/cyberwksp21/Students/alexeyak/libra_examples/Tutorials_Libra/6_dynamics/2_nbra_workflows/6_step1_cp2k/1_DFT/3_example_TiO2_June_2026
+/var/spool/slurmd/job24946008/slurm_script: line 19: load: command not found
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) ccrenv   2) gentoo/2023.01   3) ccrsoft/2023.01
+[H[2J[3JSIRIUS 7.7.1, git hash: https://api.github.com/repos/electronic-structure/SIRIUS/git/ref/tags/v7.7.1
