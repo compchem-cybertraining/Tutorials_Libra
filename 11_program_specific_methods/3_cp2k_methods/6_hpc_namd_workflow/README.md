@@ -8,6 +8,3 @@
 ## Step 3 - TD-DFT time-overlaps
 
 
-## Step 4 - run NBRA-NAMD
-
-
