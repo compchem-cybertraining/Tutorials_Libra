@@ -171,6 +171,8 @@ Tutorials showcasing various capabilities of Libra
    * 11.5.2. [Using active spaces in Libra/MOPAC workflow](11_program_specific_methods/5_mopac_methods/2_using_active_spaces)
  * 11.6. [PySCF methods](11_program_specific_methods/6_pyscf_methods)
    * 11.6.1. [Fundamental of Libra/PySCF](11_program_specific_methods/6_pyscf_methods/1_basics)
+ * 11.7. [hippynn methods](11_program_specific_methods/7_hippynn_methods)
+   * 11.7.1. [NA-MD with a machine-learned Hamiltonian](11_program_specific_methods/7_hippynn_methods/1_basics)
 
 12. Molecular builders
  * 12.1. [Crystal and QD builders](12_molecular_builders/1_crystal_and_qd_builder)
@@ -330,6 +332,7 @@ _______________________________
 
 19. Define diabatic abstract model Hamiltonian 
   * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
+  * [11.7.1.](11_program_specific_methods/7_hippynn_methods/1_basics/tutorial.ipynb)
   * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
   * [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
 
