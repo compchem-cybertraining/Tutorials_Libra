@@ -171,6 +171,8 @@ Tutorials showcasing various capabilities of Libra
    * 11.5.2. [Using active spaces in Libra/MOPAC workflow](11_program_specific_methods/5_mopac_methods/2_using_active_spaces)
  * 11.6. [PySCF methods](11_program_specific_methods/6_pyscf_methods)
    * 11.6.1. [Fundamental of Libra/PySCF](11_program_specific_methods/6_pyscf_methods/1_basics)
+ * 11.7. [hippynn methods](11_program_specific_methods/7_hippynn_methods)
+   * 11.7.1. [NA-MD with a machine-learned Hamiltonian](11_program_specific_methods/7_hippynn_methods/1_basics)
 
 12. Molecular builders
  * 12.1. [Crystal and QD builders](12_molecular_builders/1_crystal_and_qd_builder)
@@ -330,6 +332,7 @@ _______________________________
 
 19. Define diabatic abstract model Hamiltonian 
   * [8.1.](8_model_hamiltonians/1_pes_plotting/tutorial.ipynb)
+  * [11.7.1.](11_program_specific_methods/7_hippynn_methods/1_basics/tutorial.ipynb)
   * [6.1.7.](6_dynamics/1_trajectory_based/7_model_nonadiabatic_system_bath/tutorial.ipynb)
   * [6.5.1.](6_dynamics/5_qtag/1_basics/tutorial.ipynb)
 
@@ -1019,7 +1022,8 @@ ___________________________________________________________
             [6.1.11.](6_dynamics/1_trajectory_based/11_model_xf/tutorial.ipynb) |
             [6.1.12.](6_dynamics/1_trajectory_based/12_model_spin_boson_fmo/tutorial.ipynb) |
             [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) | 
-            [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb)
+            [6.2.14.](6_dynamics/2_nbra_workflows/14_many_recipes/tutorial.ipynb) |
+            [11.7.1.](11_program_specific_methods/7_hippynn_methods/1_basics/tutorial.ipynb)
         - `init_electronic_dyn_var` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) |
             [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb)
         - `init_nuclear_dyn_var` [6.1.5.](6_dynamics/1_trajectory_based/5_atomistic_adiabatic_excited_states/tutorial.ipynb) |
@@ -1146,6 +1150,10 @@ ___________________________________________________________
     - `Morse`
       - `general` [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods/tutorial.ipynb)
       - `set_Coronado_Xing_Miller_params` [6.1.10.](6_dynamics/1_trajectory_based/10_model_many_methods/tutorial.ipynb)
+    - `NQDH_heterodimer`
+      - `compute_model` [11.7.1.](11_program_specific_methods/7_hippynn_methods/1_basics/tutorial.ipynb)
+      - `get_atomic_numbers` [11.7.1.](11_program_specific_methods/7_hippynn_methods/1_basics/tutorial.ipynb)
+      - `get_initial_conditions` [11.7.1.](11_program_specific_methods/7_hippynn_methods/1_basics/tutorial.ipynb)
     - `SSY`
       - `SSY` [8.3.](8_model_hamiltonian/3_models/tutorial.ipynb)
     - `Subotnik`
@@ -1236,6 +1244,9 @@ ___________________________________________________________
         - `read_spectrum_restricted` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
         - `read_spectrum_unrestricted` [11.1.1.](11_program_specific_methods/1_ergoscf_methods/1_basics/tutorial.ipynb)
     - `gaussian`
+    - `hippynn`
+      - `methods`
+        - `hippynn_model` [11.7.1.](11_program_specific_methods/7_hippynn_methods/1_basics/tutorial.ipynb)
     - `qe`
       - `methods`
 	- `out2inp` [6.2.3.](6_dynamics/2_nbra_workflows/3_step2_qe/tutorial.ipynb)
