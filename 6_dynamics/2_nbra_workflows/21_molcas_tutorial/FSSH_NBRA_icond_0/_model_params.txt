@@ -1,0 +1,1 @@
+{'timestep': 0, 'icond': 0, 'model0': 0, 'nstates': 4}
