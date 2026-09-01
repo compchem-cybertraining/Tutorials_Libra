@@ -173,7 +173,8 @@ Tutorials showcasing various capabilities of Libra
    * 11.6.1. [Fundamental of Libra/PySCF](11_program_specific_methods/6_pyscf_methods/1_basics)
  * 11.7. [hippynn methods](11_program_specific_methods/7_hippynn_methods)
    * 11.7.1. [NA-MD with a machine-learned Hamiltonian](11_program_specific_methods/7_hippynn_methods/1_basics)
-
+ * 11.8.  [OpenMolcas methods](11_program_specific_methods/8_openmolcas_methods)
+   * 11.8.1. [non-NBRA workflow with OpenMolcas](11_program_specific_methods/8_openmolcas_methods/1_non_nbra_workflow)
 12. Molecular builders
  * 12.1. [Crystal and QD builders](12_molecular_builders/1_crystal_and_qd_builder)
  * 12.2. [Chemobjects](12_molecular_builders/2_chemobjects)
@@ -792,6 +793,9 @@ _______________________________
 126. Computing molecular integrals in atomic orbital basis
   * [14.4.](14_molecular_integrals/4_libint2_advanced/tutorial.ipynb)
 
+127. Computing NACs and/or time-overlaps using OpenMolcas/Libra
+  * [11.8.1.](11_program_specific_methods/8_openmolcas_methods/1_nonNBRA_workflow/tutorial.ipynb)
+
 ___________________________________________________________
 
 
@@ -1284,6 +1288,13 @@ ___________________________________________________________
           - `time_overlap_matrix` [11.6.1.](11_program_specific_methods/6_pyscf_methods/1_basics/tutorial.ipynb)
       - `interfaces`
         - `MolecularGeometry` [11.6.1.](11_program_specific_methods/6_pyscf_methods/1_basics/tutorial.ipynb)
+    - `openmolcas`
+      - `methods`
+        - `make_molcas_input` [11.8.1.](11_program_specific_methods/8_openmolcas_methods/1_nonNBRA_workflow/tutorial.ipynb)
+        - `run_molcas` [11.8.1.](11_program_specific_methods/8_openmolcas_methods/1_nonNBRA_workflow/tutorial.ipynb)
+        - `read_rasscf_energies` [11.8.1.](11_program_specific_methods/8_openmolcas_methods/1_nonNBRA_workflow/tutorial.ipynb)
+        - `read_molcas_orbital_info` [11.8.1.](11_program_specific_methods/8_openmolcas_methods/1_nonNBRA_workflow/tutorial.ipynb)
+        - `molcas_compute_adi` [11.8.1.](11_program_specific_methods/8_openmolcas_methods/1_nonNBRA_workflow/tutorial.ipynb) 
     - `xyz`
       - `methods`
         - `names_to_masses` [17.1.](17_analysis_of_calculations/1_normal_modes_from_md/tutorial.ipynb)
